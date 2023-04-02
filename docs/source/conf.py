@@ -17,9 +17,11 @@ release = 'v1.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
-pip install myst-parser
+
 extensions = [
-    'myst_parser'
+
+    'recommonmark',
+    'sphinx_markdown_tables'
 ]
 
 templates_path = ['_templates']
@@ -37,6 +39,5 @@ html_search_language = 'en'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'
-
 html_static_path = ['_static']
 html_logo = '_static/web_logo/logo_mosiwi.png'
