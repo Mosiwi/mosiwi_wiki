@@ -42,3 +42,10 @@ html_logo = '_static/web_logo/logo_mosiwi.png'
 
 # -- Options for EPUB output
 #epub_show_urls = 'footnote'
+
+# -- Options for PDF output
+latex_engine = 'xelatex'
+latex_use_xindy = False
+latex_elements = {
+    'preamble': '\\usepackage[UTF8]{ctex}\n',
+}
