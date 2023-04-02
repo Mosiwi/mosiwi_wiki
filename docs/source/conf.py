@@ -41,4 +41,4 @@ html_static_path = ['_static']
 html_logo = '_static/web_logo/logo_mosiwi.png'
 
 # -- Options for EPUB output
-epub_show_urls = 'footnote'
+#epub_show_urls = 'footnote'
