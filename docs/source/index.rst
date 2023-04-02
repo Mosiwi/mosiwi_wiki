@@ -30,7 +30,7 @@ Welcome to Mosiwi Wiki's documentation!
    :maxdepth: 1
    :caption: Contents:
    
-   Arduino <arduino/test>
+   Arduino <arduino/test.md>
    Raspberry <raspberry/test>
    Micro:bit <microbit/test>
 
