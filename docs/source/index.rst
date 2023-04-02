@@ -17,7 +17,7 @@ Welcome to Mosiwi Wiki's documentation!
 ==========  ============  ===========
 
 .. |Arduino| image:: _static/web_logo/arduino_logo.png
-.. _Arduino: arduino/test.html
+.. _Arduino: arduino/test.md
 
 .. |Raspberry| image:: _static/web_logo/raspberry_logo.png
 .. _Raspberry: raspberry/test.html
