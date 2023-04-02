@@ -39,3 +39,6 @@ html_search_language = 'en'
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 html_logo = '_static/web_logo/logo_mosiwi.png'
+
+# -- Options for EPUB output
+epub_show_urls = 'footnote'
