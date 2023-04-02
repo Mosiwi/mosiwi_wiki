@@ -19,7 +19,7 @@ release = 'v1.0'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'myst_parser',
+    # 'myst_parser',
 ]
 
 templates_path = ['_templates']
