@@ -17,8 +17,7 @@ release = 'v1.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
-
-import myst_parser
+pip install myst-parser
 extensions = [
     'myst_parser'
 ]
