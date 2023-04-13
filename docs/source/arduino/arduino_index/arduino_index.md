@@ -16,7 +16,6 @@ updating ...
 | [![img](../../_static/arduino/A1E0000_basic_learning_shield/1img.png)](../A1E0000_basic_learing_shield/A1E0000_basic_learing_shield.md) | updating ... | updating ... |
 
 ## Resource
-Arduino IDE: [Link](../../arduino/arduino_ide/arduino_ide.md)
-
-Ch340 driver: [Link](../../common_resource/ch340_driver/ch340_driver.md)
+Arduino IDE: [Link](../../arduino/arduino_ide/arduino_ide.md) 
+Ch340 driver: [Link](../../common_resource/ch340_driver/ch340_driver.md) 
 
