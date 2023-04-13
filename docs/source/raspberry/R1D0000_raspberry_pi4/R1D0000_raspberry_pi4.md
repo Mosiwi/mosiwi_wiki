@@ -85,8 +85,9 @@ or
 ping -6 raspberrypi.local
 ```
 | ipv4 | ipv6 |
-| -- | -- |
+| :--: | :--: |
 | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/28img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/29img.png) |  
+
 <span style="color: rgb(255, 76, 65);">Note: The above method only applies to windows10 or later.</span>  
 
 &emsp; 

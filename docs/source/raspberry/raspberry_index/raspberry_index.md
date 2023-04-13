@@ -17,4 +17,4 @@ updating ...
 
 ## Resource
 Official website: <https://www.raspberrypi.org>  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <https://www.raspberrypi.com>  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <https://www.raspberrypi.com>  
