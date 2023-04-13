@@ -17,20 +17,20 @@ Welcome to Mosiwi Wiki's documentation!
 ==========  ============  ===========
 
 .. |Arduino| image:: _static/web_logo/arduino_logo.png
-.. _Arduino: arduino/test.html
+.. _Arduino: arduino/arduino_index/arduino_index.html
 
 .. |Raspberry| image:: _static/web_logo/raspberry_logo.png
-.. _Raspberry: raspberry/test.html
+.. _Raspberry: raspberry/raspberry_index/raspberry_index.html
 
 .. |Microbit| image:: _static/web_logo/microbit_logo.png
-.. _Microbit: microbit/test.html
+.. _Microbit: microbit/microbit_index/microbit_index.html
 
 
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
    
-   Arduino <arduino/test.md>
-   Raspberry <raspberry/test>
-   Micro:bit <microbit/test>
+   Arduino <arduino/arduino_index/arduino_index.md>
+   Raspberry <raspberry/raspberry_index/raspberry_index.md>
+   Micro:bit <microbit/microbit_index/microbit_index.md>
 
