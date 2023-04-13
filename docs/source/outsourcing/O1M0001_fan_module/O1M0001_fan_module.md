@@ -1,20 +1,20 @@
 # O1M0001_fan_module
 
 ## Overview
-![Img](../../_static/outsourcing/O1M0001_fan_module/1img.png)
+![Img](../../_static/outsourcing/O1M0001_fan_module/1img.png)  
 
 
 ## Specification
-1. Operating Voltage: 3 to 5V
-2. Operating Current: Max 45mA
-3. Rotate speed: Max 8300
-9. Dimensions: 35\*27.1mm
+1. Operating Voltage: 3 to 5V  
+2. Operating Current: Max 45mA  
+3. Rotate speed: Max 8300  
+9. Dimensions: 35\*27.1mm  
 
 ## Dimensional drawing
-![Img](../../_static/outsourcing/O1M0001_fan_module/2img.png)
+![Img](../../_static/outsourcing/O1M0001_fan_module/2img.png)  
 
 ## Schematic diagram
-![Img](../../_static/outsourcing/O1M0001_fan_module/3img.png)
+![Img](../../_static/outsourcing/O1M0001_fan_module/3img.png)  
 
 ## Logical table
 |Input Pin|Input Pin|Output Pin|Output Pin| Motor |
@@ -25,13 +25,13 @@
 |    H    |    L    |    H     |    L     |Reverse/positive turn |
 |    H    |    H    |    H     |    H     |Brake |
 ## Example Code
-**Arduino IDE:**
-Please refer to the link to use Arduino IDE: [Link](../../arduino/arduino_ide/arduino_ide.md)
+**Arduino IDE:**  
+Please refer to the link to use Arduino IDE: [Link](../../arduino/arduino_ide/arduino_ide.md)  
 
-**wiring diagram**
-![Img](../../_static/outsourcing/O1M0001_fan_module/4img.png)
+**wiring diagram**  
+![Img](../../_static/outsourcing/O1M0001_fan_module/4img.png)  
 
-**Digital pin code:**
+**Digital pin code:**  
 ```c++
 const int ina = 9;            
 const int inb = 10;             

@@ -1,6 +1,6 @@
 # Arduino index
-![Img](../../_static/arduino/arduino_index/1img.png)
-Arduino designs, manufactures, and supports electronic devices and software, allowing people around the world to easily access advanced technologies that interact with the physical world. Our products are straightforward, simple, and powerful, ready to satisfy users’ needs from students to makers and all the way to professional developers.
+![Img](../../_static/arduino/arduino_index/1img.png) 
+Arduino designs, manufactures, and supports electronic devices and software, allowing people around the world to easily access advanced technologies that interact with the physical world. Our products are straightforward, simple, and powerful, ready to satisfy users’ needs from students to makers and all the way to professional developers.  
 
 ## Kit
 updating ...
@@ -16,6 +16,6 @@ updating ...
 | [![img](../../_static/arduino/A1E0000_basic_learning_shield/1img.png)](../A1E0000_basic_learing_shield/A1E0000_basic_learing_shield.md) | updating ... | updating ... |
 
 ## Resource
-Arduino IDE: [Link](../../arduino/arduino_ide/arduino_ide.md) 
-Ch340 driver: [Link](../../common_resource/ch340_driver/ch340_driver.md) 
+Arduino IDE: [Link](../../arduino/arduino_ide/arduino_ide.md)   
+Ch340 driver: [Link](../../common_resource/ch340_driver/ch340_driver.md)   
 
