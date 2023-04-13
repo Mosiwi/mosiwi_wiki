@@ -17,5 +17,6 @@ updating ...
 
 ## Resource
 Arduino IDE: [Link](../../arduino/arduino_ide/arduino_ide.md)
+
 Ch340 driver: [Link](../../common_resource/ch340_driver/ch340_driver.md)
 
