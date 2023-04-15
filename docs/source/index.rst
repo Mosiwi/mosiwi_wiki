@@ -27,7 +27,7 @@ Welcome to Mosiwi Wiki's documentation!
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 5
    :caption: Contents:
    
    Arduino <arduino/arduino_index/arduino_index.md>
