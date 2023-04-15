@@ -11,9 +11,9 @@ updating ...
 | [![img](../../_static/arduino/A1D0000_uno_r3/8img.jpg)](../A1D0000_uno_r3/A1D0000_uno_r3.md) | [![img](../../_static/arduino/A1D0001_m328_pro/1img.jpg)](../A1D0001_m328_pro/A1D0001_m328_pro.md) | updating ... |
 
 ## Expansion board
-| [A1E0000 basic learning shield](../A1E0000_basic_learing_shield/A1E0000_basic_learing_shield.md) | updating ... | updating ... |
+| [A1E0000 basic learning shield](../A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md) | updating ... | updating ... |
 | :--: | :--: | :--: |
-| [![img](../../_static/arduino/A1E0000_basic_learning_shield/1img.png)](../A1E0000_basic_learing_shield/A1E0000_basic_learing_shield.md) | updating ... | updating ... |
+| [![img](../../_static/arduino/A1E0000_basic_learning_shield/1img.png)](../A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md) | updating ... | updating ... |
 
 ## Resource
 Arduino IDE: [Link](../../arduino/arduino_ide/arduino_ide.md)   

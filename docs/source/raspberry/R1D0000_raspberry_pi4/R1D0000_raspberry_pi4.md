@@ -48,7 +48,7 @@ Download [Raspberry Pi Imager](https://www.raspberrypi.com/software/) and instal
 
 Insert the MicroSD card into the MicroSD card reader and insert the MicroSD card reader into the USB port on your computer, then run Raspberry Pi Imager to install raspberry pi OS.  
 | 1 | 2 | 3 | 4 |
-| :--: | :--: | :--: | :--: |
+|:---:|:---:|:---:|:---:|
 | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/11img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/12img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/13img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/14img.png) |
 | 5 | 6 | 7 | 8 |
 | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/15img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/16img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/17img.png )| ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/18img.png) |
