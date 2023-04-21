@@ -30,7 +30,14 @@ Note: A good quality 2.5A power supply can be used if downstream USB peripherals
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/5img.png)  
 
 ## GPIO Diagram
-![Img](../../_static/raspberry/R1D0000_raspberry_pi4/3img.png)  
+![Img](../../_static/raspberry/R1D0000_raspberry_pi4/3img.png)   
+For more details on the advanced capabilities of the GPIO pins see gadgetoid’s [interactive pinout diagram](http://pinout.xyz/).  
+
+**GPIO in C**  
+Use [WiringPi](../wiringpi/wiringpi.md) library to control Raspberry PI GPIO.  
+
+**GPIO in Python**  
+Using the [GPIO Zero](https://gpiozero.readthedocs.io/) library makes it easy to get started with controlling GPIO devices with Python. The library is comprehensively documented at [gpiozero.readthedocs.io](https://gpiozero.readthedocs.io/).  
 
 ## Dimensional drawing
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/4img.png)  
