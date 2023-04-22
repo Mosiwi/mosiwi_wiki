@@ -18,7 +18,6 @@ Motherboard
    :maxdepth: 2
    :caption: Contents:
    
-   Arduino_index <arduino_index/arduino_index.md>
    Arduino_uno_r3 <A1D0000_uno_r3/A1D0000_uno_r3.md>
    Arduino_m328_pro <A1D0001_m328_pro/A1D0001_m328_pro.md>
 
