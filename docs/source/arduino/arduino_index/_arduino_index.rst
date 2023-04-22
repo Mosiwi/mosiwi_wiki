@@ -10,11 +10,49 @@ Kit
 ===
 updating …
 
+===========
+Motherboard
+===========
+
+=================  ===================  ============
+|A1D0000 Uno r3|_  |A1D0001 M328 pro|_  updating ...
+-----------------  -------------------  ------------
+`A1D0000 Uno r3`_  `A1D0001 M328 pro`_  updating ...
+=================  ===================  ============
+
+.. |A1D0000 Uno r3| image:: ../../_static/arduino/A1D0000_uno_r3/8img.jpg
+.. _A1D0000 Uno r3: ../A1D0000_uno_r3/A1D0000_uno_r3.html
+
+.. |A1D0001 M328 pro| image:: _static/web_logo/raspberry_logo.png
+.. _A1D0001 M328 pro: ../A1D0001_m328_pro/A1D0001_m328_pro.html
+
+===============
+Expansion board
+===============
+
+================================  ============  ============
+|A1E0000 basic learning shield|_  updating ...  updating ...
+--------------------------------  ------------  ------------
+`A1E0000 basic learning shield`_  updating ...  updating ...
+================================  ============  ============
+
+.. |A1E0000 basic learning shield| image:: ../../_static/arduino/A1E0000_basic_learning_shield/1img.png
+.. _A1E0000 basic learning shield: ../A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.html
+
+========
+Resource
+========
+Arduino IDE: Link1_
+Ch340 driver: Link2_
+
+.. _Link1: ../../arduino/arduino_ide/arduino_ide.md
+.. _Link2: ../../common_resource/ch340_driver/ch340_driver.md
+
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
    
-   Arduino_uno_r3 <../A1D0000_uno_r3/A1D0000_uno_r3.md>
-   Arduino_m328_pro <../A1D0001_m328_pro/A1D0001_m328_pro.md>
-
+   A1D0000 Uno r3 <../A1D0000_uno_r3/A1D0000_uno_r3.md>
+   A1D0001 M328 pro <../A1D0001_m328_pro/A1D0001_m328_pro.md>
+   A1E0000 basic learning shield <../A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md>
