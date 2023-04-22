@@ -42,17 +42,16 @@ Expansion board
 ========
 Resource
 ========
-Arduino IDE: Link1_   
- 
-Ch340 driver: Link2_    
+| Arduino IDE: Link1_    
+| Ch340 driver: Link2_    
 
 .. _Link1: ../../arduino/arduino_ide/arduino_ide.html
 .. _Link2: ../../common_resource/ch340_driver/ch340_driver.html
 
 
-========
-catalogue
-========
+============
+General list
+============
 
 .. toctree::
    :maxdepth: 2
