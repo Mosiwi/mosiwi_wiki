@@ -22,11 +22,11 @@ Welcome to Mosiwi Wiki's documentation!
 .. |Raspberry| image:: _static/web_logo/raspberry_logo.png
 .. _Raspberry: raspberry/raspberry_index/raspberry_index.html
 
-===========  ============
+===========  =========
 |Microbit|_  |Commom|_ 
------------  ------------  
+-----------  --------- 
 `Microbit`_  `Commom`_  
-===========  ============  
+===========  =========  
 
 .. |Microbit| image:: _static/web_logo/microbit_logo.png
 .. _Microbit: microbit/microbit_index/microbit_index.html
