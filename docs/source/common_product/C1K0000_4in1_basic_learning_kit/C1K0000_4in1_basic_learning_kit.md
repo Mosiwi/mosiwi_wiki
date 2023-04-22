@@ -1,7 +1,7 @@
 # C1K0000_4in1_basic_learing_kit
 
 ## Overview
-![Img](../../_static/arduino/A1E0000_basic_learning_shield/img.png)
+
 This kit is suitable for teaching and learning programming, providing tutorial materials for four development boards, including graphical, Python, and C/C++programming languages.  
 
 ## Detailed list
