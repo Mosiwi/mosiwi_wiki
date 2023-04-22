@@ -12,7 +12,8 @@ This kit is suitable for teaching and learning programming, providing tutorial m
 | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/4img.png) | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/5img.png) | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/6img.png) |
 | 7: 4 cell battery box| 8: Micro USB cable |  |
 | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/7img.png) | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/8img.png) |  |  
-<span style="color: rgb(255, 76, 65);">Note: The Arduino Uno, Microbit, and Rasoberry pi 4 motherboards are not included in this kit.</span> 
+  
+<span style="color: rgb(255, 76, 65);">Note: The Arduino Uno, Microbit, and Rasoberry pi 4 motherboards are not included in this kit.</span>  
 
 ## Course
 | Level: | 1 | 2 | 3 | 4 |
