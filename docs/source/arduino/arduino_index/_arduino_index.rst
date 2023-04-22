@@ -23,7 +23,7 @@ Motherboard
 .. |A1D0000 Uno r3| image:: ../../_static/arduino/A1D0000_uno_r3/8img.jpg
 .. _A1D0000 Uno r3: ../A1D0000_uno_r3/A1D0000_uno_r3.html
 
-.. |A1D0001 M328 pro| image:: _static/web_logo/raspberry_logo.png
+.. |A1D0001 M328 pro| image:: ../../_static/arduino/A1D0001_m328_pro/1img.jpg
 .. _A1D0001 M328 pro: ../A1D0001_m328_pro/A1D0001_m328_pro.html
 
 ===============
@@ -43,11 +43,16 @@ Expansion board
 Resource
 ========
 Arduino IDE: Link1_  
+
 Ch340 driver: Link2_  
 
-.. _Link1: ../../arduino/arduino_ide/arduino_ide.md
-.. _Link2: ../../common_resource/ch340_driver/ch340_driver.md
+.. _Link1: ../../arduino/arduino_ide/arduino_ide.html
+.. _Link2: ../../common_resource/ch340_driver/ch340_driver.html
 
+
+=========
+Catalogue
+=========
 
 .. toctree::
    :maxdepth: 2
