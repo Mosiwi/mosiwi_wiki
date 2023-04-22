@@ -42,20 +42,21 @@ Expansion board
 ========
 Resource
 ========
-Arduino IDE: Link1_  
+Arduino IDE: Link1_    
+Ch340 driver: Link2_    
 
-Ch340 driver: Link2_  
-
-.. _Link1: ../../arduino/arduino_ide/arduino_ide.html
-.. _Link2: ../../common_resource/ch340_driver/ch340_driver.html
+.. _Link1: ../../arduino/arduino_ide/arduino_ide.md
+.. _Link2: ../../common_resource/ch340_driver/ch340_driver.md
 
 
-=========
-Catalogue
-=========
+========
+catalogue
+========
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
    
-
+   A1D0000 Uno r3 <../A1D0000_uno_r3/A1D0000_uno_r3.md>
+   A1D0001 M328 pro <../A1D0001_m328_pro/A1D0001_m328_pro.md>
+   A1E0000 basic learning shield <../A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md>
