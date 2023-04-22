@@ -31,7 +31,7 @@ Welcome to Mosiwi Wiki's documentation!
 .. |Microbit| image:: _static/web_logo/microbit_logo.png
 .. _Microbit: microbit/microbit_index/microbit_index.html
 
-.. |Commom| image:: _static/web_logo/common.png
+.. |Commom| image:: _static/web_logo/common_logo.png
 .. _Commom: common_product/common_product_index/common_product_index.html
 
 .. toctree::
