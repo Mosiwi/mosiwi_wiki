@@ -7,9 +7,9 @@ This kit is suitable for teaching and learning programming, providing tutorial m
 ## Detailed list
 | 1: [Raspberry pico](../../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md) | 2: [3in1_basic learing shield](../../common_product/C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md)  | 3: [basic learning shield](../../arduino/A1E0000_basic_learing_shield/A1E0000_basic_learing_shield.md) |
 | :--: | :--: | :--: |
-| ![Img](../../_static/raspberry/R1D0001_raspberry_pico/1img.png)  | ![Img](../../_static/common_product/C1E0000_3in1_basic_learning_shield/1img.png) | ![Img](../../_static/arduino/A1E0000_basic_learning_shield/1img.png) |  
+| ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/5img.png)  | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/6img.png) | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/7img.png) |  
 | 4: [Ultrasonic module](../../outsourcing/O1M0000_ultrasonic_module/O1M0000_ultrasonic_module.md) | 5: [Fan module](../../outsourcing/O1M0001_fan_module/O1M0001_fan_module.md) | 6: IR remote control |
-| ![Img](../../_static/outsourcing/O1M0000_ultrasonic_module/1img.png) | ![Img](../../_static/outsourcing/O1M0001_fan_module/1img.png) | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/1img.png) |
+| ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/4img.png) | ![Img](../../_static/outsourcing/O1M0001_fan_module/1img.png) | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/1img.png) |
 | 7: 4 cell battery box| 8: Micro USB cable |  |
 | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/2img.png) | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/3img.png) |  |  
 <span style="color: rgb(255, 76, 65);">Note: The Arduino Uno, Microbit, and Rasoberry pi 4 motherboards are not included in this kit.</span> 

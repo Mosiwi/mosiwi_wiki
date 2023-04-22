@@ -10,11 +10,11 @@ updating …
 Motherboard
 ===========
 
-==================================  ===============  ============
-|C1K0000_4in1_basic_learning_kit|_  |updating ...|_  updating ...
-----------------------------------  ---------------  ------------
-`C1K0000_4in1_basic_learning_kit`_  `updating ...`_  updating ...
-==================================  ===============  ============
+==================================  ============  ============
+|C1K0000_4in1_basic_learning_kit|_  updating ...  updating ...
+----------------------------------  ------------  ------------
+`C1K0000_4in1_basic_learning_kit`_  updating ...  updating ...
+==================================  ============  ============
 
 .. |C1K0000_4in1_basic_learning_kit| image:: ../../_static/common_product/C1K0000_4in1_basic_learning_kit/img.png
 .. _C1K0000_4in1_basic_learning_kit: ../C1K0000_4in1_basic_learning_kit/C1K0000_4in1_basic_learning_kit.html
