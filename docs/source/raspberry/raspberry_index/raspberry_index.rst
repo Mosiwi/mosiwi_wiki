@@ -54,5 +54,5 @@ General list
    :maxdepth: 2
    :caption: Contents:
    
-   Raspberry pi 4 <../R1D0000_raspberry_pi4/R1D0000_raspberry_pi4.rst>
-   Rapberry pico <../R1D0001_raspberry_pico/R1D0001_raspberry_pico.rst>
+   Raspberry pi 4 <../R1D0000_raspberry_pi4/R1D0000_raspberry_pi4.md>
+   Rapberry pico <../R1D0001_raspberry_pico/R1D0001_raspberry_pico.md>

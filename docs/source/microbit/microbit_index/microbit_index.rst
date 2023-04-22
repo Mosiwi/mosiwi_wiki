@@ -57,4 +57,4 @@ General list
    :maxdepth: 2
    :caption: Contents:
    
-   Microbit <../../microbit/M1D0000_microbit_mainboard/M1D0000_microbit_mainboard.rst>
+   Microbit <../../microbit/M1D0000_microbit_mainboard/M1D0000_microbit_mainboard.md>

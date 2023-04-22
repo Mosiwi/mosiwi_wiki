@@ -56,7 +56,7 @@ General list
    :maxdepth: 2
    :caption: Contents:
    
-   C1K0000_4in1_basic_learning_kit <../C1K0000_4in1_basic_learning_kit/C1K0000_4in1_basic_learning_kit.rst>
-   C1E0000_3in1_basic_learning_shield <../C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.rst>
-   O1M0000_ultrasonic_module <../../outsourcing/O1M0000_ultrasonic_module/O1M0000_ultrasonic_module.rst>
-   O1M0001_fan_module <../../outsourcing/O1M0001_fan_module/O1M0001_fan_module.rst>
+   C1K0000_4in1_basic_learning_kit <../C1K0000_4in1_basic_learning_kit/C1K0000_4in1_basic_learning_kit.md>
+   C1E0000_3in1_basic_learning_shield <../C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md>
+   O1M0000_ultrasonic_module <../../outsourcing/O1M0000_ultrasonic_module/O1M0000_ultrasonic_module.md>
+   O1M0001_fan_module <../../outsourcing/O1M0001_fan_module/O1M0001_fan_module.md>
