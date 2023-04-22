@@ -30,7 +30,8 @@ Welcome to Mosiwi Wiki's documentation!
    :maxdepth: 2
    :caption: Contents:
    
-   Arduino <arduino/arduino_index/arduino_index.rst>
+   test <arduino/arduino_index/arduino_index.rst>
+   Arduino <arduino/arduino_index/arduino_index.md>
    Raspberry <raspberry/raspberry_index/raspberry_index.md>
    Micro:bit <microbit/microbit_index/microbit_index.md>
 
