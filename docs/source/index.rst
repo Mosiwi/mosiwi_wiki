@@ -13,12 +13,8 @@ Welcome to Mosiwi Wiki's documentation!
 ===========  ============ 
 |Arduino|_   |Raspberry|_  
 -----------  ------------  
-`Arduino`_   `Raspberry`_  
------------  ------------  
-|Microbit|_  |Commom|_ 
------------  ------------  
-`Microbit`_  `Commom`_  
-===========  ============  
+`Arduino`_   `Raspberry`_ 
+===========  ============ 
 
 .. |Arduino| image:: _static/web_logo/arduino_logo.png
 .. _Arduino: arduino/arduino_index/arduino_index.html
@@ -26,11 +22,17 @@ Welcome to Mosiwi Wiki's documentation!
 .. |Raspberry| image:: _static/web_logo/raspberry_logo.png
 .. _Raspberry: raspberry/raspberry_index/raspberry_index.html
 
+===========  ============
+|Microbit|_  |Commom|_ 
+-----------  ------------  
+`Microbit`_  `Commom`_  
+===========  ============  
+
 .. |Microbit| image:: _static/web_logo/microbit_logo.png
 .. _Microbit: microbit/microbit_index/microbit_index.html
 
 .. |Microbit| image:: _static/web_logo/common.png
-.. _Microbit: common_product/common_product_index/common_product.html
+.. _Microbit: common_product/common_product_index/common_product_index.html
 
 .. toctree::
    :maxdepth: 2
@@ -39,5 +41,5 @@ Welcome to Mosiwi Wiki's documentation!
    Arduino <arduino/arduino_index/arduino_index.rst>
    Raspberry <raspberry/raspberry_index/raspberry_index.rst>
    Micro:bit <microbit/microbit_index/microbit_index.rst>
-   Common <common_product/common_product_index/common_product.rst>
+   Common <common_product/common_product_index/common_product_index.rst>
 
