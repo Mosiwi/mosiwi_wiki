@@ -10,11 +10,15 @@ Welcome to Mosiwi Wiki's documentation!
  | Welcome to the Mosiwi Wiki.  We benefit from technology and we are fascinated by it.  We want to present our findings to the world and be recognized by the world.  We are planning, thinking, implementation, is to share with you the convenience and happiness brought by science and technology!
  | E-mail: 354568001@qq.com 
 
-==========  ============  ===========
-|Arduino|_  |Raspberry|_  |Microbit|_
-----------  ------------  -----------
-`Arduino`_  `Raspberry`_  `Microbit`_
-==========  ============  ===========
+===========  ============ 
+|Arduino|_   |Raspberry|_  
+-----------  ------------  
+`Arduino`_   `Raspberry`_  
+-----------  ------------  
+|Microbit|_  |Commom|_ 
+-----------  ------------  
+`Microbit`_  `Commom`_  
+===========  ============  
 
 .. |Arduino| image:: _static/web_logo/arduino_logo.png
 .. _Arduino: arduino/arduino_index/arduino_index.html
@@ -25,6 +29,8 @@ Welcome to Mosiwi Wiki's documentation!
 .. |Microbit| image:: _static/web_logo/microbit_logo.png
 .. _Microbit: microbit/microbit_index/microbit_index.html
 
+.. |Microbit| image:: _static/web_logo/common.png
+.. _Microbit: common_product/common_product_index/common_product.html
 
 .. toctree::
    :maxdepth: 2
@@ -33,4 +39,5 @@ Welcome to Mosiwi Wiki's documentation!
    Arduino <arduino/arduino_index/arduino_index.rst>
    Raspberry <raspberry/raspberry_index/raspberry_index.rst>
    Micro:bit <microbit/microbit_index/microbit_index.rst>
+   Common <common_product/common_product_index/common_product.rst>
 

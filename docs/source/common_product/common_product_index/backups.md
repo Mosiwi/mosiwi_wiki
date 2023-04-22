@@ -1,5 +1,4 @@
 # Common product index
-Arduino is an open-source electronics platform based on easy-to-use hardware and software.  It's intended for anyone making interactive projects.  
 
 ## Kit
 | [C1K0000_4in1_basic_learning_kit](../C1K0000_4in1_basic_learning_kit/C1K0000_4in1_basic_learning_kit.md) | updating ... | updating ... |
