@@ -29,12 +29,13 @@ The arduino basic learning shield is based on Uno r3 mainboard design, board set
 
 ## Integration library
 **Arduino IDE 2.0.x**  
-Open up the IDE，with the editor open, let's take a look at the left column. Here, we can see a couple of icons.   
+Open up the IDE，with the editor open, let's take a look at the left column. Here, we can see a couple of icons.       
 ![Img](../../_static/arduino/A1E0000_basic_learning_shield/3img.png)  
 1. Let's click the on the **"library"** icon.  
 2. Enter **"Mosiwi Basic Learning Kit"** in the search box.  
-3. It is recommended to select the highest version of the library in the down menu.  
+3. <span style="color: rgb(255, 76, 65);">It is recommended to select the highest version of the library in the **down menu**.</span>    
 4. Select **"INSTALL"** to install the library.    
+
 
 **Arduino IDE 1.8.x**  
 Open up the IDE, choose "Sketch" > "Include Library" > "Manage Libraries", fill in "Mosiwi Basic Learning Kit" in the search bar, Then select "Install" to Install the library.  

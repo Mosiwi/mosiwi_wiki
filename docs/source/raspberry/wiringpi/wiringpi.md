@@ -36,7 +36,7 @@ sudo dpkg -i wiringpi-latest.deb
 ```
 
 ## Example
-Create a new **Blink.c** file：
+Create a new **"blink.c"** file：
 ```c
 #include <wiringPi.h>
 int main (void)

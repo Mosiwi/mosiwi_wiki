@@ -16,8 +16,8 @@ This kit is suitable for teaching and learning programming, providing tutorial m
 <span style="color: rgb(255, 76, 65);">Note: The Arduino Uno, Microbit, and Rasoberry pi 4 motherboards are not included in this kit.</span>  
 
 ## Course
-| Level: | 1 | 2 | 3 | 4 |
-| :--: | :--: | :--: | :--: | :--: |
-| Category: | Microbit | Raspberry pico | Arduino | Raspberry pi 4 |
+| Microbit | Raspberry pico | Arduino | Raspberry pi 4 |
+| :--: | :--: | :--: | :--: |
+| updating ... | updating ... | [Zero-based](./Arduino_tutorial/Zero-based%20tutorial.md) | updating ... |
 
 
