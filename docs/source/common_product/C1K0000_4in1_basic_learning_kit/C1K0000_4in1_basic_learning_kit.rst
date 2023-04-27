@@ -1,23 +1,23 @@
-Common product index
-====================
+C1K0000_4in1_basic_learing_kit
+==============================
 
-===
-Kit
-===
-updating …
+========
+Overview
+========
+This kit is suitable for teaching and learning programming, providing tutorial materials for four development boards, including graphical, Python, and C/C++programming languages.
 
-===========
-Motherboard
-===========
+=============
+Detailed list
+=============
 
-==================================  ============  ============
-|C1K0000_4in1_basic_learning_kit|_  updating ...  updating ...
-----------------------------------  ------------  ------------
-`C1K0000_4in1_basic_learning_kit`_  updating ...  updating ...
-==================================  ============  ============
++------------------------------------------------+------------------------------------------------+-----------------------------------------------+
+|                |Raspberry pico|_               |           |3in1 basic learing shield|_         |            |basic learning shield|_           |
++================================================+================================================+===============================================+
+|                `Raspberry pico`_               |           `3in1 basic learing shield`_         |            `basic learning shield`_           |
++------------------------------------------------+------------------------------------------------+-----------------------------------------------+
 
-.. |C1K0000_4in1_basic_learning_kit| image:: ../../_static/common_product/C1K0000_4in1_basic_learning_kit/img.png
-.. _C1K0000_4in1_basic_learning_kit: ../C1K0000_4in1_basic_learning_kit/C1K0000_4in1_basic_learning_kit.html
+.. |Raspberry pico| image:: ../../_static/common_product/C1K0000_4in1_basic_learning_kit/img.png
+.. _Raspberry pico: ../C1K0000_4in1_basic_learning_kit/C1K0000_4in1_basic_learning_kit.html
 
 ===============
 Expansion board
@@ -56,7 +56,8 @@ General list
    :maxdepth: 2
    :caption: Contents:
    
-   C1K0000_4in1_basic_learning_kit <../C1K0000_4in1_basic_learning_kit/C1K0000_4in1_basic_learning_kit.rst>
+   C1K0000_4in1_basic_learning_kit <../C1K0000_4in1_basic_learning_kit/C1K0000_4in1_basic_learning_kit.md>
    C1E0000_3in1_basic_learning_shield <../C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md>
    O1M0000_ultrasonic_module <../../outsourcing/O1M0000_ultrasonic_module/O1M0000_ultrasonic_module.md>
    O1M0001_fan_module <../../outsourcing/O1M0001_fan_module/O1M0001_fan_module.md>
+   Zero-based <./Arduino_tutorial/Zero-based tutorial.md>
