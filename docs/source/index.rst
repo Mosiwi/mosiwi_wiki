@@ -42,4 +42,5 @@ Welcome to Mosiwi Wiki's documentation!
    Raspberry <raspberry/raspberry_index/raspberry_index.rst>
    Micro:bit <microbit/microbit_index/microbit_index.rst>
    Common <common_product/common_product_index/common_product_index.rst>
+   All <all/all.rst>
 
