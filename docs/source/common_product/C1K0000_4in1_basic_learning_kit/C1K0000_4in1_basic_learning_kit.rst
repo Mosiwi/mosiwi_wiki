@@ -16,8 +16,8 @@ Detailed list
 |                `Raspberry pico`_               |           `3in1 basic learing shield`_         |            `basic learning shield`_           |
 +------------------------------------------------+------------------------------------------------+-----------------------------------------------+
 
-.. |Raspberry pico| image:: ../../_static/common_product/C1K0000_4in1_basic_learning_kit/img.png
-.. _Raspberry pico: ../C1K0000_4in1_basic_learning_kit/C1K0000_4in1_basic_learning_kit.html
+.. |Raspberry pico| image:: ../../_static/common_product/C1K0000_4in1_basic_learning_kit/1img.png
+.. _Raspberry pico: ../../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.html
 
 ===============
 Expansion board
@@ -56,8 +56,4 @@ General list
    :maxdepth: 2
    :caption: Contents:
    
-   C1K0000_4in1_basic_learning_kit <../C1K0000_4in1_basic_learning_kit/C1K0000_4in1_basic_learning_kit.md>
-   C1E0000_3in1_basic_learning_shield <../C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md>
-   O1M0000_ultrasonic_module <../../outsourcing/O1M0000_ultrasonic_module/O1M0000_ultrasonic_module.md>
-   O1M0001_fan_module <../../outsourcing/O1M0001_fan_module/O1M0001_fan_module.md>
-   Zero-based <./Arduino_tutorial/Zero-based tutorial.md>
+   Zero-based <Arduino_tutorial/Zero-based tutorial.md>
