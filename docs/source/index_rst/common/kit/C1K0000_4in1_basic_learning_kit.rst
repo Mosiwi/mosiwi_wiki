@@ -6,12 +6,12 @@
 C1K0000_4in1_basic_learning_kit
 ===============================
 
-Return to the listing page: Go back_
+Return to the listing page: `Go back`_
 
-.. _go_back: ../../../common_product/C1K0000_4in1_basic_learning_kit/C1K0000_4in1_basic_learning_kit.md
+.. _go_back: ../../../common_product/C1K0000_4in1_basic_learning_kit/C1K0000_4in1_basic_learning_kit.html
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    Arduino_Zero-based_tutorial <../../../common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Zero-based tutorial.md>
