@@ -10,7 +10,7 @@ C1K0000_4in1_basic_learning_kit
    :maxdepth: 1
    :caption: Contents:
 
-   _Arduino_Zero-based_tutorial <Arduino_tutorial/Zero-based tutorial.md>
+   Arduino_Zero-based_tutorial <../../../common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Zero-based tutorial.md>
     
    
    

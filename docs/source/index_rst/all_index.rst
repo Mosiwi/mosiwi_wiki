@@ -23,7 +23,7 @@ All
    _R1D0001_raspberry_pico <../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md>
    
    _C1E0000_3in1_basic_learning_shield <../common_product/C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md>
-   _C1K0000_4in1_basic_learning_kit <../common_product/C1K0000_4in1_basic_learning_kit/C1K0000_index.rst>
+   _C1K0000_4in1_basic_learning_kit <common/kit/C1K0000_4in1_basic_learning_kit.rst>
     
    
    
