@@ -36,6 +36,7 @@ The 3in1 basic learing shield is integrated with an IO expansion chip, which is 
 
 **I2C Communication protocol:**  
 ![Img](../../_static/common_product/C1E0000_3in1_basic_learning_shield/6img.png)  
+<span style="color: rgb(255, 76, 65);">Maximum clock speed: 100K</span> 
 
 |  Slave address  |  IO address  |  Data  |
 | :--: | :--: | :--: |
@@ -49,6 +50,8 @@ The 2-channel analog input is a 10-bit analog-to-digital converter corresponding
 | IO address: | 0x00 | 0x02 |
 
 **Infrared receive sensor communication port:**  
-This interface is used to connect external infrared receiving sensors and supports only the [NEC infrared communication protocol](../../common_resource/nec_communication_protocol/nec_communication_protocol.md). The IO address is **0x04**.  
+1\. This interface is used to connect external infrared receiving sensors and supports only the [NEC infrared communication protocol](../../common_resource/nec_communication_protocol/nec_communication_protocol.md). The IO address is **0x04**.   
+
+2\. Through the above I2C protocol, 2 bytes of data will be obtained, the first byte is the reverse code of the infrared remote control device, the second byte is the command code of the infrared remote control.  
 
 

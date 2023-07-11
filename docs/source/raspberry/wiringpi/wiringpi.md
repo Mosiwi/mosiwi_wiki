@@ -36,7 +36,11 @@ sudo dpkg -i wiringpi-latest.deb
 ```
 
 ## Example
-Create a new **"blink.c"** file：
+Run the following command on the terminal to create the **"blin.c"** file:  
+```terminal
+sudo nano blink.c
+```
+Enter the following code in the file:  
 ```c
 #include <wiringPi.h>
 int main (void)
@@ -53,12 +57,17 @@ int main (void)
   return 0 ;
 }
 ```
-then to compile and run, you would enter:
+When the editing is complete, save the file by typing the following command on the keyboard and exit the nano editor:  
+```terminal
+Ctrl+O
+Ctrl+C
+```
+then to compile and run, you would enter:  
 ```terminal
 gcc -Wall -o blink blink.c -lwiringPi
 sudo ./blink
 ```
-To see the output of this, you would need to connect a single LED to the GPIO connector of the Raspberry Pi as follows:  
+To see the output of this, you would need to connect a single LED to the GPIO connector of the Raspberry Pi as follows:   
 ![Img](../../_static/raspberry/wiringpi/3img.png)
 
 and if all goes well, you should see the LED flashing once a second.

@@ -42,8 +42,7 @@ Note: all dimensions in mm
 1. Download the correct MicroPython [UF2](https://micropython.org/download/rp2-pico/rp2-pico-latest.uf2) file for Raspberry Pi Pico.  
 <img src="../../_static/raspberry/R1D0001_raspberry_pico/4img.png" style="zoom:100%">  
 2. Push and hold the BOOTSEL button and plug your Pico into the USB port of your computer. Release the BOOTSEL button after your Pico is connected.  
-<img src="../../_static/raspberry/R1D0001_raspberry_pico/5img.png" style="zoom:100%">  
-img.png" style="zoom:100%">  
+<img src="../../_static/raspberry/R1D0001_raspberry_pico/5img.png" style="zoom:100%">    
 3. It will mount as a Mass Storage Device called RPI-RP2.  
 ![Img](../../_static/raspberry/R1D0001_raspberry_pico/6img.png)  
 4. Drag and drop the MicroPython UF2 file onto the RPI-RP2 volume. Your Pico will reboot. You are now running MicroPython.  
