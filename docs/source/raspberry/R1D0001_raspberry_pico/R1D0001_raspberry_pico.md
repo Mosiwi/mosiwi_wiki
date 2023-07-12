@@ -81,6 +81,10 @@ def tick(timer):
 
 tim.init(freq=2.5, mode=Timer.PERIODIC, callback=tick)  
 ```
+Run the code online: (The code is not saved in pico and is not executed after repowering.)      
+![Img](../../_static/raspberry/R1D0001_raspberry_pico/16img.png)
+
+Run the code offline: (The code is stored in pico, and the code in pico is automatically executed after being powered on.)     
 Enter the code in the main panel, then click on the "**Save**" button. Thonny will present you with a popup, click on "**Raspberry Pi Pico**" and enter "**main\.py**" to save the code to the **Raspberry Pi Pico**.  
 ![Img](../../_static/raspberry/R1D0001_raspberry_pico/12img.png)  
 ![Img](../../_static/raspberry/R1D0001_raspberry_pico/13img.png)  
