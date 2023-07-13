@@ -130,8 +130,8 @@ Fill in the link to the right of the chain and search for: <https://github.com/M
 ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/16img.png)      
 ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/17img.png)    
 
-**Block code parsing:**      
-1. Initialize and enable
+**Block code parsing:**         
+1. Initialize and enable   
 ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/18img.png)    
 Initializes the total number of concatenated cubes. A maximum of 3 cubes can be concatenated.     
 ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/19img.png)      
