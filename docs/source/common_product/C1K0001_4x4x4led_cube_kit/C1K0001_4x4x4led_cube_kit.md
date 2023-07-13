@@ -31,7 +31,7 @@ If you have multiple cubes, you can string them together as follows.
 
 ## Download library file
 This library package is available for Arduino: UNO and NANO, Raspberry pi 4B, and Raspberry pi pico.  
-Download resource: https://github.com/mosiwi/Mosiwi-4x4x4cube  
+Download resource: <https://github.com/mosiwi/Mosiwi-4x4x4cube>  
 ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/5img.png)  
 For Arduino UNO and NANO: C  
 For Raspberry pi4: C  
@@ -96,13 +96,13 @@ Run the code offline. (The code is stored in pico, and the code in pico is autom
 If you don't have Pi4 basics, you can follow the link to learn the basics: [Click Me](../../raspberry/R1D0000_raspberry_pi4/R1D0000_raspberry_pi4.md)  
  
 **Wiring diagram:**   
-|      pi4      |   Cube   |  
-|      :--:     |   :--:   |   
-|   5V or 3V3   |   VCC    |  
-|      GND      |   GND    |  
-|      x       |   SH_C   |  
-|      x       |   ST_C   |  
-|      x       |   DIN    |  
+| pi4(Wiringpi) |   pi4(BCM)    |   Cube   |  
+|     :--:      |      :--:     |   :--:   |    
+|   5V or 3V3   |   5V or 3V3   |    VCC   |  
+|      GND      |    GND        |    GND   |  
+|      14       |    GPIO 11    |    SH_C  |  
+|      10       |    GPIO 8     |    ST_C  |  
+|      12       |    GPIO 10    |    DIN   |  
 
 
 
@@ -118,6 +118,48 @@ If you don't have microbit basics, you can follow the link to learn the basics: 
 |      13       |   SH_C   |  
 |      16       |   ST_C   |  
 |      15       |   DIN    | 
+
+**Create a new project:**    
+Open the link to create a new online project: <https://makecode.microbit.org>     
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/14img.png)  
+
+**Load extension library:** 
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/15img.png)  
+
+Fill in the link to the right of the chain and search for: <https://github.com/Mosiwi/Mosiwi-4x4x4Cube-for-microbit>     
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/16img.png)      
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/17img.png)    
+
+**Block code parsing:**      
+1. Initialize and enable
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/18img.png)    
+Initializes the total number of concatenated cubes. A maximum of 3 cubes can be concatenated.     
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/19img.png)      
+Enable all cubes to be concatenated.     
+Usage:  
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/20img.png)     
+
+2. Light up some leds in the cube by converting a base-2 number to a base-10 number.    
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/21img.png)        
+Cube: Select a cube in all concatenations. The value can be 0 to 3.     
+Layer: Select a layer in the cube. The value can be 0 to 3.   
+LED0-LED15: The 16 leds in one layer are mapped to a 16-bit binary number: 0bxxxxxxxxxxxxxxxx. Convert to a decimal number from 0 to 65535.
+
+3. Light a layer of leds through images.   
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/22img.png)
+Cube: Select a cube in all concatenations. The value can be 0 to 3.      
+Layer: Select a layer in the cube. The value can be 0 to 3.   
+LED0-LED15: A 5\*5 lattice image uses only its 4\*4 lattice.   
+Usage:  
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/23img.png)    
+"x": invalid    
+
+4. Light an LED in the cube through the coordinates.   
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/24img.png)   
+Cube: Select a cube in all concatenations. The value can be 0 to 3.      
+X, Y, Z: 0 to 3.   
+ 
+
 
 ## Internal operating principle    
 **schematic diagram**      
