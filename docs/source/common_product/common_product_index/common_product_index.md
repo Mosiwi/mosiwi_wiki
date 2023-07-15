@@ -3,7 +3,7 @@
 ## Kit
 | [C1K0000_4in1_basic_learning_kit](../C1K0000_4in1_basic_learning_kit/C1K0000_4in1_basic_learning_kit.md) | [C1K0001_4x4x4led_cube_kit](../C1K0001_4x4x4led_cube_kit/C1K0001_4x4x4led_cube_kit.md) | updating ... |
 | :--: | :--: | :--: |
-| [![img](../../_static/common_product/C1E0000_3in1_basic_learning_shield/img.png)](../C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md) | updating ... | updating ... |
+| [![img](../../_static/common_product/C1E0000_3in1_basic_learning_shield/img.png)](../C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/4img.png) | updating ... |
 
 ## Expansion board
 | [C1E0000_3in1_basic_learning_shield](../C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md) | updating ... | updating ... |
