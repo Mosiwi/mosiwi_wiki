@@ -104,6 +104,35 @@ If you don't have Pi4 basics, you can follow the link to learn the basics: [Clic
 |      10       |    GPIO 8     |    ST_C  |  
 |      12       |    GPIO 10    |    DIN   |  
 
+**Get source code:**    
+Method 1.   
+Use **WinSCP** to upload the downloaded library file to Raspberry Pi4: [Link](../../raspberry/R1D0000_raspberry_pi4/R1D0000_raspberry_pi4.md#transfer-files-from-your-pc-to-raspberry-pi-4)     
+
+Method 2.     
+Open the terminal and run the following command to download it from github.     
+```    
+ git clone https://github.com/mosiwi/Mosiwi-4x4x4cube    
+```   
+
+**Run code:**     
+Example 1.      
+```   
+cd Mosiwi_4x4x4cube\Pi4\c\examples\3wire    
+
+sudo ./cube   
+```   
+
+Example 2.     
+```   
+cd Mosiwi_4x4x4cube\Pi4\c\examples\spi   
+
+sudo ./cube   
+```   
+
+If you want to update the execution file or modify the source code, you need to recompile the code.     
+```   
+sudo make    
+```   
 
 
 ## For Microbit   
@@ -137,13 +166,13 @@ Initializes the total number of concatenated cubes. A maximum of 3 cubes can be 
 ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/19img.png)      
 Enable all cubes to be concatenated.     
 Usage:  
-![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/20img.png)     
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/20img.png)         
 
 2. Light up some leds in the cube by converting a base-2 number to a base-10 number.    
 ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/21img.png)        
 Cube: Select a cube in all concatenations. The value can be 0 to 3.     
 Layer: Select a layer in the cube. The value can be 0 to 3.   
-LED0-LED15: The 16 leds in one layer are mapped to a 16-bit binary number: 0bxxxxxxxxxxxxxxxx. Convert to a decimal number from 0 to 65535.
+LED0-LED15: The 16 leds in one layer are mapped to a 16-bit binary number: 0bxxxxxxxxxxxxxxxx. Convert to a decimal number from 0 to 65535.    
 
 3. Light a layer of leds through images.   
 ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/22img.png)
@@ -151,12 +180,12 @@ Cube: Select a cube in all concatenations. The value can be 0 to 3.
 Layer: Select a layer in the cube. The value can be 0 to 3.   
 LED0-LED15: A 5\*5 lattice image uses only its 4\*4 lattice.   
 Usage:  
-![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/23img.png)    
-"x": invalid    
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/23img.png)        
+"x": invalid      
 
 4. Light an LED in the cube through the coordinates.   
-![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/24img.png)   
-Cube: Select a cube in all concatenations. The value can be 0 to 3.      
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/24img.png)      
+Cube: Select a cube in all concatenations. The value can be 0 to 3.        
 X, Y, Z: 0 to 3.   
  
 
