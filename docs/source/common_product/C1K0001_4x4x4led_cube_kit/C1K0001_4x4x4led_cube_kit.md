@@ -156,7 +156,8 @@ Open the link to create a new online project: <https://makecode.microbit.org>
 ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/15img.png)  
 
 Fill in the link to the right of the chain and search for: <https://github.com/Mosiwi/Mosiwi-4x4x4Cube-for-microbit>     
-![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/16img.png)      
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/16img.png)    
+Wait for the loading of the library. After the loading is successful, the following figure is shown:   
 ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/17img.png)    
 
 **Block code parsing:**         
