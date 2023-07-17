@@ -78,9 +78,9 @@ If you don't have Pico basics, you can follow the link to learn the basics: [Cli
 
 **Use the pico example code in the library file:**    
 Open one of the sample code as follows.  
-| 1 | 2 |
-|:---:|:---:|
-| ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/8img.png) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/9img.png) |
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/8img.png)   
+   
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/9img.png)   
 
 Run the code online. (The code is not saved in pico and is not executed after repowering.)    
 ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/10img.png)
