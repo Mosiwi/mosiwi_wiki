@@ -34,8 +34,8 @@ Because the P11 is also mapped to the microbit Buttom B, the keyboard value of t
 Read the keyboard values on the expansion board.     
 Usage:   
 Press any key on the expansion board, and the microbit dot matrix displays the key value.       
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutotial/11img.png)
-Key value: U = 16 --- D = 8 --- L = 4 --- R = 2 --- OK = 1   
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutotial/11img.png)      
+Key value: U = 16, D = 8, L = 4, R = 2, OK = 1   
 
 ▶ 3: ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutotial/12img.png)     
 Clear the display on the 4-digit nixtube of the expansion board.   
@@ -115,15 +115,21 @@ Microphone
 Sliding resistor   
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutotial/36img.png)    
 
-▶ 16: ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutotial/37img.png)     
+▶ 16: ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutotial/44img.png)      
+When the ultrasonic module is connected to the fan port on the expansion board, it is used to control the steering and speed of the fan module.    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutotial/45img.png)     
+Parameter 1: CW = clockwise rotation.     
+Parameter 2: CCW = counterclockwise rotation.    
+
+▶ 17: ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutotial/37img.png)     
 Read the key value on the expansion board, return 0 when the key is pressed, otherwise return 1. This key is connected to the P5 pin of the microbit.   
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutotial/38img.png)     
 
-▶ 17: ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutotial/41img.png)      
+▶ 18: ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutotial/41img.png)      
 Reads a byte of data from the memory of the expansion board.    
 Parameter: 0 to 16, Address of the memory.     
 
-▶ 18: ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutotial/42img.png)    
+▶ 19: ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutotial/42img.png)    
 Write a byte of data to the memory of the expansion board.   
 Parameter 1: 0 to 16, Address of the memory.      
 Parameter 2: 0 to 255, Data to be stored in memory.  
