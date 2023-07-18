@@ -169,9 +169,7 @@ sudo ./arithmetic_operation
 **Code:**   
 ```  
 /*
- Web: http://mosiwi.com
- Wiki: https://mosiwi-wiki.readthedocs.io
- Date：2023-5-16
+ This is comment text and is not executed at compile time.
 */
 #include<wiringPi.h>
 
