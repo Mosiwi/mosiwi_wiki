@@ -1,8 +1,11 @@
-# MicroPython for Raspberry pi pico    
+# MicroPython for Raspberry pi pico   
+This tutorial is based on the [C1K0001 4in1 basic learning kit](../../C1K0000_4in1_basic_learning_kit/C1K0000_4in1_basic_learning_kit.md).     
+
+## Prepared knowledge      
 **Pico and Thonny basics**     
 If you don't have Pico and Thonny basics, you can follow the link to learn the basics: [Click Me](../../../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md)    
 
- **Download sample code** 
+**Download sample code** 
 Please download the sample code on Github: <https://github.com/Mosiwi/Mosiwi-basic-learning-kit-for-arduino> 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/1img.png)    
 Unzip the file downloaded above, and the file in the "**pico->python**" folder is the sample code.       
@@ -11,7 +14,7 @@ Unzip the file downloaded above, and the file in the "**pico->python**" folder i
 ## Basic Example: Open a sample code and light an LED      
 **Objective:**     
 1. How to open the sample code.    
-2.  Verify that the pico motherboard works.      
+2. Verify that the pico motherboard works.      
 
 **Demonstration:**       
 Open the "**blink\.py**" file as follows:     
@@ -19,8 +22,11 @@ Open the "**blink\.py**" file as follows:
 After running the code, the LED on the pico board lights up every 1 second:      
 
 ## Example 1:       
-**Learning focus:**     
+**Objective:**     
 1. xxx.    
+
+**Schematic diagram:**     
+
 
 **Demonstration:**       
 Open the "**xxx\.py**" file as follows:     
@@ -28,8 +34,11 @@ Open the "**xxx\.py**" file as follows:
 xxx:      
 
 ## Example 2:       
-**Learning focus:**     
+**Objective:**     
 1. xxx.    
+
+**Schematic diagram:**     
+
 
 **Demonstration:**       
 Open the "**xxx\.py**" file as follows:     
