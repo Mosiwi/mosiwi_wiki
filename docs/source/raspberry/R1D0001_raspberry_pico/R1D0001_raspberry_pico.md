@@ -68,8 +68,11 @@ Hello Pico!
 >>>
 ```
 
-**Blinking the LED from Thonny**  
-code：  
+**Blinking the LED from Thonny**    
+Create a new file:   
+![Img](../../_static/raspberry/R1D0001_raspberry_pico/17img.png)      
+
+Fill the file with the following code:      
 ```MicroPython
 from machine import Pin, Timer
 
@@ -85,7 +88,7 @@ Run the code online: (The code is not saved in pico and is not executed after re
 ![Img](../../_static/raspberry/R1D0001_raspberry_pico/16img.png)
 
 Run the code offline: (The code is stored in pico, and the code in pico is automatically executed after being powered on.)     
-Enter the code in the main panel, then click on the "**Save**" button. Thonny will present you with a popup, click on "**Raspberry Pi Pico**" and enter "**main\.py**" to save the code to the **Raspberry Pi Pico**.  
+Enter the code in the main panel, then click on the "**Save**" or "**File->Save as ...**" menu. Thonny will present you with a popup, click on "**Raspberry Pi Pico**" and enter "**main\.py**" to save the code to the **Raspberry Pi Pico**.  
 ![Img](../../_static/raspberry/R1D0001_raspberry_pico/12img.png)  
 ![Img](../../_static/raspberry/R1D0001_raspberry_pico/13img.png)  
 | <span style="color: rgb(255, 76, 65);">Note</span>|  

@@ -43,7 +43,7 @@ Using the [GPIO Zero](https://gpiozero.readthedocs.io/) library makes it easy to
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/4img.png)  
 Note: all dimensions in mm  
 
-## Run raspberry pi 4
+## Set up raspberry pi4
 Accessories to be prepared in advance:  
 | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/6img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/7img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/8img.png) |
 | :--: | :--: | :--: |
@@ -71,7 +71,7 @@ Insert the MicroSD card into the MicroSD card reader and insert the MicroSD card
 | :--: | :--: | :--: | :--: |
 | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/22img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/23img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/24img.png) | Wait for the system to start successfully! |
 
-**Step3**: Remote Access (SSH)  
+## Remote Access      
 Download [Putty.exe](https://www.putty.be/latest.html).  
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/25img.png)  
 
@@ -124,7 +124,7 @@ Log in to raspberry pi 4 using WinSCP.
 Drag and drop a file on your PC to raspberry pi 4.  
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/34img.png)  
 
-## Installing VNC on Raspberry Pi
+## Installing VNC on Raspberry Pi --> (Option)
 VNC is already installed on the full Raspberry Pi OS image, and can be installed via **Recommended Software** from the **Preferences** menu on other versions.  
 If you are not using a desktop you can install it from the command line as follows:  
 ```command line

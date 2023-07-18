@@ -18,6 +18,6 @@ This kit provides tutorials based on 4 types of motherboards, but only pico moth
 
 | Microbit | Raspberry pico | Arduino UNO | Raspberry pi 4 |
 | :--: | :--: | :--: | :--: |
-| [Makecode](./Microbit_tutorial/Makecode_tutorial.md) | [Python](./Pico_tutorial/python_tutorial.md) | [Zero-based (C and C++)](./Arduino_tutorial/Zero-based_tutorial.md) | [C language](./Rpi4_tutorial/C_tutorial.md) |
-
-
+| [Makecode](./Microbit_tutorial/Makecode_tutorial.md) | [MicroPython](./Pico_tutorial/python_tutorial.md) | [Zero-based (C and C++)](./Arduino_tutorial/Zero-based_tutorial.md) | [C language](./Rpi4_tutorial/C_tutorial.md) |
+| xxx | xxx | Intermediate (C and C++) | xxx |
+| xxx | xxx | Advance (C and C++) | xxx |

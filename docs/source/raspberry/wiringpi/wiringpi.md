@@ -36,7 +36,7 @@ sudo dpkg -i wiringpi-latest.deb
 ```
 
 ## Example
-Run the following command on the terminal to create the **"blin.c"** file:  
+Use the [nano tool](https://www.nano-editor.org) that comes with the Raspberry PI system to create a new **"blick.c"** file:     
 ```terminal
 sudo nano blink.c
 ```
