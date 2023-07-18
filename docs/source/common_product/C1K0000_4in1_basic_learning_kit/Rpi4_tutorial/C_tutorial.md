@@ -10,7 +10,7 @@ If you don't have Raspberry pi4 basics, you can follow the link to learn the bas
 2. Install the [BCM2835](../../../raspberry/bcm2835/bcm2835.md)      
 
 **Download sample code**   
-[Login to Raspberry pi4 using PUTTY](../../../raspberry/R1D0000_raspberry_pi4/R1D0000_raspberry_pi4.md#Remote-Access), then use the following command to download the sample code:      
+[Login to Raspberry pi4 using PUTTY](../../../raspberry/R1D0000_raspberry_pi4/R1D0000_raspberry_pi4.md#remote-access), then use the following command to download the sample code:      
 ```   
 git clone https://github.com/Mosiwi/Mosiwi-basic-learning-kit-for-arduino     
 ```    
