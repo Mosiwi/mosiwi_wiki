@@ -33,9 +33,9 @@ If you have multiple cubes, you can string them together as follows.
 This library package is available for Arduino: UNO and NANO, Raspberry pi 4B, and Raspberry pi pico.  
 Download resource: <https://github.com/mosiwi/Mosiwi-4x4x4cube>  
 ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/5img.png)  
-For Arduino UNO and NANO: C  
-For Raspberry pi4: C  
-For Raspberry pi pico: Python  
+For Arduino UNO and NANO: C++ && C_language  
+For Raspberry pi4: C_language    
+For Raspberry pi pico: Python    
 
 ## For Arduino    
 **Arduino basics:**  
@@ -51,7 +51,7 @@ If you don't have Arduino basics, you can follow the link to learn the basics: [
 |      11       |   DIN    |  
 
 **Install the Arduino library file:**  
-Extract the "Mosiwi-4x4x4cube.zip" file downloaded above into the arduino IDE in the following two ways:    
+Load the "Mosiwi-4x4x4cube.zip" file downloaded above into the arduino IDE in the following two ways:    
 1. Importing a .zip Library  
 2. Manual Installation    
 

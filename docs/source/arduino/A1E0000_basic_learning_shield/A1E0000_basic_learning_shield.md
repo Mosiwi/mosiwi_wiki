@@ -27,19 +27,26 @@ The arduino basic learning shield is based on Uno r3 mainboard design, board set
 | 12. I2C interface (A5, A4 V, G). |
 | 13. Standby interface (G, 6, 5, V, G) |
 
-## Integration library
-**Arduino IDE 2.0.x**  
-Open up the IDE，with the editor open, let's take a look at the left column. Here, we can see a couple of icons.       
+## Integration library     
+This library package is available for Arduino: UNO and NANO, Raspberry pi 4B, and Raspberry pi pico.  
+Download resource: <https://github.com/Mosiwi/Mosiwi-basic-learning-kit>  
 ![Img](../../_static/arduino/A1E0000_basic_learning_shield/3img.png)  
-1. Let's click the on the **"library"** icon.  
-2. Enter **"Mosiwi Basic Learning Kit"** in the search box.  
-3. <span style="color: rgb(255, 76, 65);">It is recommended to select the highest version of the library in the **down menu**.</span>    
-4. Select **"INSTALL"** to install the library.    
+For Arduino UNO and NANO: C++ && C_language  
+For Raspberry pi4: C_language    
+For Raspberry pi pico: Python 
 
+Load the "Mosiwi-basic-learning-kit-main.zip" file downloaded above into the arduino IDE in the following two ways:   
+**(1) Importing a .zip Library**  
+![Img](../../_static/arduino/A1E0000_basic_learning_shield/4img.png)     
+Select the compressed library file to load:    
+![Img](../../_static/arduino/A1E0000_basic_learning_shield/5img.png)    
 
-**Arduino IDE 1.8.x**  
-Open up the IDE, choose "Sketch" > "Include Library" > "Manage Libraries", fill in "Mosiwi Basic Learning Kit" in the search bar, Then select "Install" to Install the library.  
-![Img](../../_static/arduino/A1E0000_basic_learning_shield/4img.png)  
+**(2) Manual Installation**    
+Unzip the "Mosiwi-basic-learning-kit-main.zip" file into the "C:\Users\Administrator\Documents\Arduino\libraries" folder on your PC:     
+![Img](../../_static/arduino/A1E0000_basic_learning_shield/6img.png)      
+
+**Open the sample code in the library file:**    
+![Img](../../_static/arduino/A1E0000_basic_learning_shield/7img.png)     
 
 ## Download
 |      |      |      |      |

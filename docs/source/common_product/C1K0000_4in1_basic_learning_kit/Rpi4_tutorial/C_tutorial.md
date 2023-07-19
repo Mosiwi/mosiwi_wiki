@@ -12,13 +12,13 @@ If you don't have Raspberry pi4 basics, you can follow the link to learn the bas
 **Download sample code**   
 [Login to Raspberry pi4 using PUTTY](../../../raspberry/R1D0000_raspberry_pi4/R1D0000_raspberry_pi4.md#remote-access), then use the following command to download the sample code:      
 ```   
-git clone https://github.com/Mosiwi/Mosiwi-basic-learning-kit-for-arduino     
+git clone https://github.com/Mosiwi/Mosiwi-basic-learning-kit     
 ```    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/1img.png)    
 
 The file in the "**Mosiwi-basic-learning-kit-for-arduino -> pi4 -> c**" folder is the sample code：           
 ```
-cd Mosiwi-basic-learning-kit-for-arduino/pi4/c
+cd Mosiwi-basic-learning-kit/pi4/c
 
 ls
 ```
@@ -50,7 +50,7 @@ Resource: [GNU Make](https://www.gnu.org/software/make/)(Makefile)
 **Objective_1:**       
 Terminal into the **"1.0.0_Terminal"** folder:    
 ```
-cd ~/Mosiwi-basic-learning-kit-for-arduino/pi4/c/examples/1.0.0_Terminal/    
+cd ~/Mosiwi-basic-learning-kit/pi4/c/examples/1.0.0_Terminal/    
 ```
 Permission to view execution files:   
 ```
@@ -148,7 +148,7 @@ int main(void) {
 **Demonstration:**       
 Run the following command on the terminal:       
 ```
-cd ~/Mosiwi-basic-learning-kit-for-arduino/pi4/c/examples/1.0.1_Arithmetic_operation/     
+cd ~/Mosiwi-basic-learning-kit/pi4/c/examples/1.0.1_Arithmetic_operation/     
 chmod 777 arithmetic_operation     
 sudo ./arithmetic_operation
 ```

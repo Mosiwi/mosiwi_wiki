@@ -6,7 +6,7 @@ The purpose of this tutorial is for beginners to quickly use the Arduino IDE, so
 The following steps are performed on a windows PC. It is recommended that beginners use the same device.  
 
 ### Download the installation file
-Download link：https://www.arduino.cc/en/software  
+Download link：<https://www.arduino.cc/en/software>  
 ![Img](../../_static/arduino/arduino_ide/1img.png)  
 
 ### Installation

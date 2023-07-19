@@ -6,7 +6,7 @@ This tutorial is based on the [C1K0001 4in1 basic learning kit](../../C1K0000_4i
 If you don't have Pico and Thonny basics, you can follow the link to learn the basics: [Click Me](../../../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md)    
 
 **Download sample code** 
-Please download the sample code on Github: <https://github.com/Mosiwi/Mosiwi-basic-learning-kit-for-arduino> 
+Please download the sample code on Github: <https://github.com/Mosiwi/Mosiwi-basic-learning-kit> 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/1img.png)    
 Unzip the file downloaded above, and the file in the "**pico->python**" folder is the sample code.       
 

@@ -1,5 +1,5 @@
-# Zero-based tutorial   
-This tutorial only focuses on practical operation, without the need to understand the principles, and understands the simplest Arduino programming operation, so that learners can get a sense of achievement and arouse their interest.    
+# Intermediate tutorial   
+Learn common programming syntax based on "UNO board + expansion board + peripheral module", and learn the most comprehensive arduino syntax and application with the lowest cost.     
 
 ## Previous preparation   
 1. Install the [**Arduino IDE**](../../../arduino/arduino_ide/arduino_ide.md).  
