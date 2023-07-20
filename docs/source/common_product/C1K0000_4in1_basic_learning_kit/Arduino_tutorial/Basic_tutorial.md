@@ -5,6 +5,7 @@ Learn simple programming syntax based on the UNO board, and learn the most compr
 1. Install the [**Arduino IDE**](../../../arduino/arduino_ide/arduino_ide.md).     
 2. Basic operation of the [**Arduino UNO R3**](../../../arduino/A1D0000_uno_r3/A1D0000_uno_r3.md) motherboard.    
 3. Learn about [**3in1 basic learning shield**](../../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md).  
+4. Install the [**Mosiwi basic learning kit**](../../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md#integration-library) library.    
 
 ## Chapter_1 Blink    
 
@@ -106,7 +107,7 @@ Text content to be commented
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/5img.png)     
 
 **Open the example code: "1.1.0_Button"**     
-1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter_1-blink)"**.     
+1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.     
 2. Upload the code to the UNO board.      
 
 **Example code phenomena:**   
@@ -217,7 +218,7 @@ digitalWrite(ledPin, LOW);
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/11img.png)     
 
 **Open the example code: "1.1.1_Button"**     
-1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter_1-blink)"**.      
+1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.      
 2. Upload the code to the UNO board.       
 
 **Example code phenomena:**   
@@ -284,7 +285,7 @@ In the sample code:
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/18img.png)     
 
 **Open the example code: "1.2.0_Serial_monitor"**     
-1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter_1-blink)"**.   
+1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
 2. Upload the code to the UNO board.   
 
 **Example code phenomena:**       
@@ -396,7 +397,7 @@ More information please refer to: <https://www.arduino.cc/reference/en/language/
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/20img.png)     
 
 **Open the example code: "1.2.1_Arithmetic_operation"**     
-1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter_1-blink)"**.   
+1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
 2. Upload the code to the UNO board.   
 
 **Example code phenomena:**     
@@ -492,7 +493,7 @@ The result is 1.
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/22img.png)     
 
 **Open the example code: "1.3.0_Analog_read"**     
-1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter_1-blink)"**.   
+1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
 2. Upload the code to the UNO board.   
 
 **Example code phenomena:**     
@@ -577,7 +578,7 @@ float voltageValue = 0;
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/26img.png)     
 
 **Open the example code: "1.4.0_External_interrupt"**     
-1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter_1-blink)"**.   
+1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
 2. Upload the code to the UNO board.   
 
 **Example code phenomena:**     
@@ -692,7 +693,7 @@ state = ! state;
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/33img.png)     
 
 **Open the example code: "1.4.1_External_interrupt"**     
-1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter_1-blink)"**.   
+1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
 2. Upload the code to the UNO board.   
 
 **Example code phenomena:**     
@@ -733,7 +734,7 @@ digitalWrite(ledPin, LOW);
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/35img.png)     
 
 **Open the example code: "1.5.0_PWM_output"**     
-1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter_1-blink)"**.   
+1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
 2. Upload the code to the UNO board.   
 
 **Example code phenomena:**     
@@ -889,173 +890,91 @@ for(pwmValue = 0; pwmValue < 256; pwmValue ++){ ... }
 More information: <https://www.arduino.cc/reference/en/language/structure/comparison-operators/lessthan/>      
 
 
-## Chapter_6 PWM            
+## Chapter_6 Timer1            
 
 **Curriculum question:**     
-1. What is PWM output?     
-2. How to use the for statement?   
-3. How to use operators: ++, --   
-4. How to use comparison operators: >, <, >=, <=                      
+1. How to use library files?   
+2. What is a timer?   
+3. How to use variable: bool                    
 
 **Program flow diagram:**   
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/35img.png)     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/41img.png)     
 
-**Open the example code: "1.5.0_PWM_output"**     
-1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter_1-blink)"**.   
+**Open the example code: "1.6.0_Timer1"**     
+1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
 2. Upload the code to the UNO board.   
 
 **Example code phenomena:**     
-Open the serial port monitor, the current output PWM value of pin 5 will be printed, the value from small to large, and then large to small;
-
-The brightness of the red LED on the expansion board is also from small to large, and then large to small, so the cycle.      
+The red LED on the expansion board shines once every 0.5 seconds.
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/36img.png)     
 
 **FAQ:**     
-(1) What is PWM output?     
-PWM, called pulse width modulation signal, is a square wave signal with fixed frequency and variable duty cycle time. In the figure below, T is the cycle time, which is fixed; A is high level (UNO high level is 5V); B is low level (UNO high level is 0V); The level width of A and B in the period T time is changeable, the longer the pulse time of the high level, the larger the average voltage value, and the smaller the vice versa.        
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/37img.png)     
+(1) How to use library files?   
+See How to install library files: [Click Me](../../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md#integration-library)        
 
-There are 6 PWM output pins on the UNO board, which are 3, 5, 6, 9, 10 and 11 pins:    
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/img.png)     
-
+After loading the library file, if you want to call the library file in another file, you need to include the library file with the "include<xxx.h>" statement in the beginning line of the file, then you can use the library file. 
+The operation is as follows:    
 ```
 Syntax:
-analogWrite(pin, value);
+include<filename.h>
 
 Parameters:
-pin: The pin number on the motherboard, the UNO is 3, 5, 6, 9, 10, 11.
-value: high duty cycle. The value ranges from 0 to 255. The value is an int type.
+filename: Name of the header file in the library file.
 
 In the sample code:
-const byte pwmOutPin = 5;
-int pwmValue = 0;
-analogWrite(pwmOutPin, pwmValue);
+// Include timer1, which has been integrated into the Mosiwi_Basic_Learning_Kit library file.
+#include <MswTimer1.h>
 ```
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/39img.png)     
-<span style="color: rgb(255, 76, 65);">Note: Because pin 5 and 6 use timer 0 to generate PWM signal, pin 9 and 10 use timer 1 to generate PWM signal, pin 3 and 11 use timer 2 to generate PWM signal; Therefore, when using PWM signal output, it will interfere with the use of relevant timers.</span>      
-More information: <https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/>	
 
-(2) How to use the for statement?      
-A for loop statement is a conditional loop increment statement that loops the program inside braces {} if the increment condition is satisfied until the condition is not.    
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/40img.png)     
+(2) What is a timer?       
+A timer is equivalent to an alarm clock, which can set a time, generate a signal (equivalent to an interrupt) at every set time, and perform another thing when the signal is generated.     
 
+Initialize timer1:   
 ```
 Syntax:
-for (initialization; condition; increment) {
-// statement(s);
+Timer1.initialize(ms);
+
+Parameters:
+ms: Time, in microseconds.
+
+In the sample code: 
+Timer1.initialize(500000); // Initializes timer 1. The timer is set to 0.5 seconds
+```
+
+Set the timed interrupt function:   
+```
+Syntax:
+Timer1.attachInterrupt(name);
+
+Parameters:
+name: function name.
+
+In the sample code:
+const byte ledPin = 5;
+bool output = HIGH;
+
+void flash(void) {
+digitalWrite(ledPin, output);
+output = ! output;
 }
 
-Parameters:
-initialization: This parameter is performed only once in initial condition.
-condition: The loop determines the condition. If true, execute the program inside curly braces {}. If not, the loop terminates.
-increment: If the condition condition is true, this statement is executed once after executing the program inside curly braces {}.
-
-In the sample code:
-const byte pwmOutPin = 5;
-int pwmValue = 0;
-
-for(pwmValue = 0; pwmValue <= 255; pwmValue ++){
-analogWrite(pwmOutPin, pwmValue);
-delay(20);
-}
+Timer1.attachInterrupt(flash);
 ```
+<span style="color: rgb(255, 76, 65);">Note: UNO has three timers, namely timer0, timer1 and timer2, among which timer1 and timer2 are often used, while time0 is used by delay(), micros(), millis() functions, so timer0 is generally not used.</span>  
 
-(3) How to use operators: ++, --       
-Self-adding operation: ++   
-```
-Description: Increments the value of a variable by 1.
-
-Syntax:
-x++; // Return x value, x plus 1.
-++x; // x incremented by 1, returns the value of x incremented by 1.
-
-Parameters:
-x: variable, allowed data type :int, long.
-
-In the sample code:
-int pwmValue = 0;
-for(pwmValue = 0; pwmValue <= 255; pwmValue ++){ ... }
-```
-More information: <https://www.arduino.cc/reference/en/language/structure/compound-operators/increment/>      
-
-Self-decrement operation: --
-```
-Description: Reduces the value of a variable by 1.
-
-Syntax:
-x--; // Return x value, x minus 1.
---x; // Subtract 1 from x first, and return the value of x minus 1.
-
-Parameters:
-x: variable, allowed data type :int, long.
-
-In the sample code:
-int pwmValue = 0;
-for(pwmValue = 255; pwmValue >= 0; pwmValue --){ ... }
-```
-More information: <https://www.arduino.cc/reference/en/language/structure/compound-operators/decrement/>     
-
-(4) How to use comparison operators: >, <, >=, <=        
-Greater-than-equal operator: >=    
+(3) How to use variable: bool            
+The bool type has two values: true or false. (Each bool variable takes up one byte of memory.)   
 ```
 Syntax:
-x >= y; // true if x is greater than or equal to y, false if not.
+bool var = val;
 
 Parameters:
-x: variable or constant. Data types: int, float, double, byte, short, long are allowed.
-y: variable or constant. Data types: int, float, double, byte, short, long are allowed.
+var: variable name.
+val: The value assigned to a variable.
 
 In the sample code:
-int pwmValue = 0;
-for(pwmValue = 255; pwmValue >= 0; pwmValue --){ ... }
+bool output = true;
 ```
-More information: <https://www.arduino.cc/reference/en/language/structure/comparison-operators/greaterthanorequalto/>   
-
-Less-than-equal operator: <=  
-```  
-Syntax:
-x < y; // true if x is less than or equal to y, false if not.
-
-Parameters:
-x: variable or constant. Data types: int, float, double, byte, short, long are allowed.
-y: variable or constant. Data types: int, float, double, byte, short, long are allowed.
-
-In the sample code:
-int pwmValue = 0;
-for(pwmValue = 0; pwmValue <= 256; pwmValue ++){ ... }
-```
-More information: <https://www.arduino.cc/reference/en/language/structure/comparison-operators/lessthanorequalto/>     
-
-Greater-than operator: >    
-```
-Syntax:
-x > y; // true if x is greater than y, false if not.
-
-Parameters:
-x: variable or constant. Data types: int, float, double, byte, short, long are allowed.
-y: variable or constant. Data types: int, float, double, byte, short, long are allowed.
-
-In the sample code:
-int pwmValue = 0;
-for(pwmValue = 255; pwmValue > -0; pwmValue --){ ... }
-```
-More information: <https://www.arduino.cc/reference/en/language/structure/comparison-operators/greaterthan/>    
-
-Less-than operator: <    
-```
-Syntax:
-x < y; // true if x is less than y, false if not.
-
-Parameters:
-x: variable or constant. Data types: int, float, double, byte, short, long are allowed.
-y: variable or constant. Data types: int, float, double, byte, short, long are allowed.
-
-In the sample code:
-int pwmValue = 0;
-for(pwmValue = 0; pwmValue < 256; pwmValue ++){ ... }
-```
-More information: <https://www.arduino.cc/reference/en/language/structure/comparison-operators/lessthan/>      
-
 
 
 **End!**    
