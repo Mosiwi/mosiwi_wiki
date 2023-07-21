@@ -905,8 +905,8 @@ More information: <https://www.arduino.cc/reference/en/language/structure/compar
 2. Upload the code to the UNO board.   
 
 **Example code phenomena:**     
-The red LED on the expansion board shines once every 0.5 seconds.
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/36img.png)     
+The red LED on the expansion board shines once every 0.5 seconds.       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/4img.png)     
 
 **FAQ:**     
 (1) How to use library files?   
@@ -932,10 +932,10 @@ A timer is equivalent to an alarm clock, which can set a time, generate a signal
 Initialize timer1:   
 ```
 Syntax:
-Timer1.initialize(ms);
+Timer1.initialize(us);
 
 Parameters:
-ms: Time, in microseconds.
+us: Time, in microseconds.
 
 In the sample code: 
 Timer1.initialize(500000); // Initializes timer 1. The timer is set to 0.5 seconds
@@ -974,6 +974,319 @@ val: The value assigned to a variable.
 
 In the sample code:
 bool output = true;
+```
+
+**Knowledge expansion:**
+1. How to use the timer2?
+2. How to use the variable modifier: static
+
+**Program flow diagram:**   
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/33img.png)     
+
+**Open the example code: "1.6.1_Timer2"**     
+1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
+2. Upload the code to the UNO board.   
+
+**Example code phenomena:**     
+The red LED on the expansion board shines once every 1 seconds.    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/4img.png)     
+
+**FAQ:**   
+(1) How to use the timer2?    
+Include the timer2 header file integrated in the "**Mosiwi_basic_learning_kit**" library file:    
+```
+#include <MswTimer2.h>
+```
+
+Initializes timer2 and timer interrupt function:          
+```
+Syntax:
+MsTimer2::set(ms, function);   // Set the interrupt time and interrupt function.   
+MsTimer2::start();             // Start timer2
+MsTimer2::stop();              // Stop timer2
+
+Parameters:
+ms: Interrupt time, In milliseconds.    
+function: The name of the interrupt function.      
+
+```
+
+(2) How to use the variable modifier: static       
+The static keyword is used to create static variables that are visible to only one function. They are created and initialized only the first time a function is called, and they remain after the function is called and take up memory.      
+```
+Syntax:
+static dataType var = val;
+
+Parameters:
+dataType: Data type, such as bool, char, and int.
+var: variable name.
+val: The value assigned to a variable.
+
+In the sample code:
+void flash(void) {
+static bool output = HIGH;
+digitalWrite(ledPin, output);
+output = ! output;
+}
+```
+More information: <https://www.arduino.cc/reference/en/language/variables/variable-scope-qualifiers/static/>    
+
+
+## Chapter_7 Humiture_I2C           
+
+**Curriculum question:**     
+1. What is I2C communication?      
+2. What is an array?                         
+
+**Program flow diagram:**   
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/42img.png)     
+
+**Open the example code: "1.7.0_Humiture_i2c"**     
+1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
+2. Upload the code to the UNO board.   
+
+**Example code phenomena:**     
+Start the serial port monitor and set the baud rate to 9600. The serial port monitor prints the temperature and humidity of the current environment every 1 second.      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/43img.png)     
+
+**FAQ:**     
+(1) What is I2C communication?     
+The I²C (Inter-Integrated Circuit) bus is a two-wire serial synchronous communication interface developed by PHILIPS, which can realize serial synchronous communication between a master device and multiple slave devices. I²C only needs two lines, namely SDA (serial data line) and SCL (serial clock line), both of which are two-way I/O lines.    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/44img.png)     
+
+The advantages of the I²C bus are as follows:     
+1. No matter how many I²C devices are on the bus, the two lines can communicate.    
+2. True multi-host support, but only one host at a time.   
+3. The I2C bus has the advantages of low power consumption, strong anti-interference and long transmission distance.   
+4. Serial 8-bit bidirectional data, transmission bit rate can reach 100kbit/s in standard mode, 400kbit/s in fast mode, and 3.4Mbit/s in high-speed mode.   
+
+The A4 pin of the UNO board is also the SDA pin, and the A5 pin is the SCL pin, which can be used to communicate with other I2C devices.    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/45img.png)     
+
+"Basic learning shield" has an I2C interface, but also integrated a temperature and humidity sensor, it and UNO board communication is through the I2C, directly plugged in the UNO board can be used.    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/46img.png)     
+
+(2)  What is an array?               
+Array is in the program design, in order to deal with convenience, a number of elements with the same type in order to organize a form.     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/47img.png)     
+
+```
+Syntax:
+Type Name [Num];
+Type Name [Num] = {e1,e2,e3,... eN};
+
+Parameters:
+Type: The data type such as char, int, float, etc.
+Name: The name of the array
+Num: the length of the array, e.g., 1,2,3,...
+e1,e2,e3,... eN: Array element
+
+In the sample code:
+float HT_data[2];
+```
+
+Get the array value:    
+```
+Syntax:
+var = array-name[index];
+
+Parameters:
+var: The variable name
+Array-name: The name of the array
+index: Array index
+```
+
+Assign to an array:   
+```
+Syntax:
+array-name[index] = val;
+
+Parameters:
+val: The variable name or number
+Array-name: The name of the array
+index: Array index
+```
+More information: <https://www.arduino.cc/reference/en/language/variables/data-types/array/>   
+
+
+## Chapter_8 Pointer and Array           
+
+**Curriculum question:**     
+1. What is a pointer?   
+2. How are Pointers related to arrays?                            
+
+**Program flow diagram:**   
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/48img.png)     
+
+**Open the example code: "1.7.1_Pointer_Array"**     
+1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
+2. Upload the code to the UNO board.   
+
+**Example code phenomena:**     
+Open the serial port monitor, set the baud rate to 9600, and the serial port monitor prints the array name, array index, pointer name and the data of the index every 2 seconds.    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/49img.png)     
+
+**FAQ:**     
+(1) What is a pointer?       
+A pointer is a type of variable that is assigned a random address when it is defined, and then the pointer can be used to point to the address of the variable and the value of the variable can be obtained from the address of the variable.    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/50img.png)     
+As shown in the figure above, define a variable "var", the system assigns an address of 1001 (equivalent to the house number of a room), and the value stored in the address is 50 (equivalent to the value of 50 stored in the room); then a pointer "ptr" is defined, and the system assigns it an address of 2047 (also equivalent to the door number of a room); the value stored in the address is the address 1001 of the variable "var" (equivalent to the house number stored in the room); then you can use "ptr" (2047) --> "var" ( 1001) --> 50, find the value 50 of the "var" variable.     
+
+Define the pointer:   
+```
+Syntax:
+type *point-name;
+type *point-name = NULL;
+
+Parameters:
+type: The data type such as char, int, float, etc.
+point-name: The name of the pointer
+
+In the sample code:
+char *p1 = NULL;
+byte *p2 = NULL;
+```
+
+The pointer reference operator: &    
+```
+Syntax:
+point-name = &var-name;   //& denotes the address to fetch the variable
+
+Parameters:
+point-name: The name of the pointer
+var-name: The variable name
+```
+
+Take the value of the address pointed to by the pointer: *   
+```
+Syntax:
+var-name = *point-name; 
+
+Parameters:
+var-name: The name of the variable.
+point-name: The name of the pointer.
+
+Examples:
+int *p;         // Declare a pointer to the integer data type
+int i = 5;
+int result = 0;
+p = &i;         // Now 'p' points to the address of 'i'
+result = *p;    // result = 5, 'result' gets 5 of the address pointed to by 'p'.  
+```
+More information: <https://www.arduino.cc/reference/en/language/structure/pointer-access-operators/dereference/>     
+
+(2) How are Pointers related to arrays?                   
+The addresses of the array in the system memory are continuous, as shown in the following figure:    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/51img.png)     
+The array is named x and has four elements: x[0], x[1], x[2], and x[3]. The array name x is also a pointer variable, and &x[0] has the same address as x because the pointer variable x points to the first element of the array.      
+So:    
+```
+&x[0] = x，  x[0] = *(x)
+&x[1] = x+1，x[1] = *(x+1)
+...
+&x[i] = x+i，x[i] = *(x+i)
+```
+The name of an array is also a pointer variable, so you can assign the name of an array to a pointer variable, like this:   
+```
+char *p1 = NULL;                  // Define a character pointer
+byte *p2 = NULL;                  // Define a byte pointer
+
+char str1[3] ={'1', '2', '3'};    // Define a character array
+byte num[3]  ={4, 5, 6};          // Define a byte array
+
+p1 = str1;
+p2 = num;
+```
+
+
+## Chapter_9 Digital_tube-Button-SPI           
+
+**Curriculum question:**     
+1. What is SPI communication?
+2. What is a 4-bit 8-segment digital tube?                           
+
+**Program flow diagram:**   
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/52img.png)     
+
+**Open the example code: "1.8.0_Digital_tube_Button_spi"**     
+1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
+2. Upload the code to the UNO board.   
+
+**Example code phenomena:**     
+The 4-bit digital display tube displays "16.0" when the "U" key is pressed; "8.0" is displayed when the "D" key is pressed; "4.0" is displayed when the "L" key is pressed; "2.0" is displayed when the "R" key is pressed. Displays "1.0" when the "OK" key is pressed.    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/img.png)     
+
+**FAQ:**     
+(1) What is SPI communication?          
+
+
+
+Define the pointer:   
+```
+Syntax:
+type *point-name;
+type *point-name = NULL;
+
+Parameters:
+type: The data type such as char, int, float, etc.
+point-name: The name of the pointer
+
+In the sample code:
+char *p1 = NULL;
+byte *p2 = NULL;
+```
+
+The pointer reference operator: &    
+```
+Syntax:
+point-name = &var-name;   //& denotes the address to fetch the variable
+
+Parameters:
+point-name: The name of the pointer
+var-name: The variable name
+```
+
+Take the value of the address pointed to by the pointer: *   
+```
+Syntax:
+var-name = *point-name; 
+
+Parameters:
+var-name: The name of the variable.
+point-name: The name of the pointer.
+
+Examples:
+int *p;         // Declare a pointer to the integer data type
+int i = 5;
+int result = 0;
+p = &i;         // Now 'p' points to the address of 'i'
+result = *p;    // result = 5, 'result' gets 5 of the address pointed to by 'p'.  
+```
+More information: <https://www.arduino.cc/reference/en/language/structure/pointer-access-operators/dereference/>     
+
+(2) What is a 4-bit 8-segment digital tube?     
+Digital can be divided into common cathode or common anode digital, all LED cathodes are connected together called common cathode digital tube, all internal LED anodes are connected together is called common anode digital tube.                  
+
+The addresses of the array in the system memory are continuous, as shown in the following figure:    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/51img.png)     
+The array is named x and has four elements: x[0], x[1], x[2], and x[3]. The array name x is also a pointer variable, and &x[0] has the same address as x because the pointer variable x points to the first element of the array.      
+So:    
+```
+&x[0] = x，  x[0] = *(x)
+&x[1] = x+1，x[1] = *(x+1)
+...
+&x[i] = x+i，x[i] = *(x+i)
+```
+The name of an array is also a pointer variable, so you can assign the name of an array to a pointer variable, like this:   
+```
+char *p1 = NULL;                  // Define a character pointer
+byte *p2 = NULL;                  // Define a byte pointer
+
+char str1[3] ={'1', '2', '3'};    // Define a character array
+byte num[3]  ={4, 5, 6};          // Define a byte array
+
+p1 = str1;
+p2 = num;
 ```
 
 
