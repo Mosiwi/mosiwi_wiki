@@ -1202,8 +1202,8 @@ p2 = num;
 ## Chapter_9 Digital_tube-Button-SPI           
 
 **Curriculum question:**     
-1. What is SPI communication?
-2. What is a 4-bit 8-segment digital tube?                           
+1. What is a 4-bit 8-segment digital tube?  
+2. What is SPI communication?
 
 **Program flow diagram:**   
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/52img.png)     
@@ -1214,93 +1214,70 @@ p2 = num;
 
 **Example code phenomena:**     
 The 4-bit digital display tube displays "16.0" when the "U" key is pressed; "8.0" is displayed when the "D" key is pressed; "4.0" is displayed when the "L" key is pressed; "2.0" is displayed when the "R" key is pressed. Displays "1.0" when the "OK" key is pressed.    
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/img.png)     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/53img.png)     
 
 **FAQ:**     
-(1) What is SPI communication?          
+(1) What is a 4-bit 8-segment digital tube?     
+Digital can be divided into common cathode or common anode digital, all LED cathodes are connected together called common cathode digital tube, all internal LED anodes are connected together is called common anode digital tube.                  
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/54img.png)     
 
+The 4-bit 8-segment digital tube is internally composed of four 1-bit 8-segment digital tubes. We used a 4-bit 8-segment cocathode digital tube, as shown below:    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/55img.png)     
 
+(2) What is SPI communication?     
+SPI(Serial Peripheral interface) is a synchronous serial communication interface specification for short distance communication, which is mainly used in embedded systems. It can realize serial synchronous communication between a master device and multiple slave devices.     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/56img.png)     
+SCLK: Serial clock (host generated)  
+MOSI: The master outputs data and the slave inputs data   
+MISO: The master inputs data and the slave outputs data   
+CS /SS: Chip/slave selection (usually low level valid, output by the master)    
 
-Define the pointer:   
+The UNO board has a hardware SPI interface with pins 10 (CS), 11 (MOSI), 12 (MISO), 13 (CLK).
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/57img.png)     
+
+The "Basic learning shield" is integrated with a 4-bit 8-segment display digital tube and five keys. They are controlled by the BC7278 chip, which has a slave SPI interface and a key trigger signal output. The extension board is directly inserted into the UNO board, you can control the display of the digital tube and read the key value of the 4-bit key.     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/58img.png)     
+| U | D | L | R | OK |
+| :--: | :--: | :--: | :--: | :--: |
+| 16 | 8 | 4 | 2 | 1 |
+<span style="color: rgb(255, 76, 65);">Note: The 4-bit 8-segment digital tube and 4 keys on the "Basic learning shield" occupy pins 3 (key trigger signal output), 11 (MOSI), 12 (MISO) and 13 (CLK) of the UNO board, and the CS control pin is not required.</span>     
+
+**Knowledge expansion:**
+1. What is coercion of a variable?    
+2. How do you use "while(1)"?   
+
+**Program flow diagram:**   
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/59img.png)     
+
+**Open the example code: "1.8.1_Forced_variable_conversion"**     
+1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
+2. Upload the code to the UNO board.   
+
+**Example code phenomena:**     
+Turn on the serial port monitor, adjust the baud rate to 9600, and the serial port monitor prints the data information after forced conversion every 2 seconds.     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/60img.png)     
+
+**FAQ:**   
+(1) What is coercion of a variable?      
+In C or C++ language, data or variables of different types cannot be assigned to each other. Coercion is to convert data or variables of the current type into data or variables of other types.     
 ```
 Syntax:
-type *point-name;
-type *point-name = NULL;
+type(expression)
+(type)expression
 
 Parameters:
-type: The data type such as char, int, float, etc.
-point-name: The name of the pointer
+type: The cast data type (char, int, float, etc.)
+expression: The data, variable, or arithmetic expression that is coerced.
 
 In the sample code:
-char *p1 = NULL;
-byte *p2 = NULL;
+Serial. Println (int (97.3));
 ```
 
-The pointer reference operator: &    
+(2) How do you use "while(1)"?         
+This is an infinite empty loop instruction. When the program executes to this statement, the program will always do an infinite empty loop here.     
 ```
-Syntax:
-point-name = &var-name;   //& denotes the address to fetch the variable
-
-Parameters:
-point-name: The name of the pointer
-var-name: The variable name
+while(1){} = while(1);
 ```
-
-Take the value of the address pointed to by the pointer: *   
-```
-Syntax:
-var-name = *point-name; 
-
-Parameters:
-var-name: The name of the variable.
-point-name: The name of the pointer.
-
-Examples:
-int *p;         // Declare a pointer to the integer data type
-int i = 5;
-int result = 0;
-p = &i;         // Now 'p' points to the address of 'i'
-result = *p;    // result = 5, 'result' gets 5 of the address pointed to by 'p'.  
-```
-More information: <https://www.arduino.cc/reference/en/language/structure/pointer-access-operators/dereference/>     
-
-(2) What is a 4-bit 8-segment digital tube?     
-Digital can be divided into common cathode or common anode digital, all LED cathodes are connected together called common cathode digital tube, all internal LED anodes are connected together is called common anode digital tube.                  
-
-The addresses of the array in the system memory are continuous, as shown in the following figure:    
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/51img.png)     
-The array is named x and has four elements: x[0], x[1], x[2], and x[3]. The array name x is also a pointer variable, and &x[0] has the same address as x because the pointer variable x points to the first element of the array.      
-So:    
-```
-&x[0] = x，  x[0] = *(x)
-&x[1] = x+1，x[1] = *(x+1)
-...
-&x[i] = x+i，x[i] = *(x+i)
-```
-The name of an array is also a pointer variable, so you can assign the name of an array to a pointer variable, like this:   
-```
-char *p1 = NULL;                  // Define a character pointer
-byte *p2 = NULL;                  // Define a byte pointer
-
-char str1[3] ={'1', '2', '3'};    // Define a character array
-byte num[3]  ={4, 5, 6};          // Define a byte array
-
-p1 = str1;
-p2 = num;
-```
-
 
 **End!**    
 For more exciting tutorials, check out the [intermediate tutorial](./Intermediate_tutorial.md)!    
-
-
-
-
-
-
-
-
-
-
-
-
