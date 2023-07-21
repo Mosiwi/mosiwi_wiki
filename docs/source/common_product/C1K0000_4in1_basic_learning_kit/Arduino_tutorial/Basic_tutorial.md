@@ -22,7 +22,7 @@ Learn simple programming syntax based on the UNO board, and learn the most compr
 
 **Open the example code: "1.0.0_Blink"**     
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/1img.png)    
-Upload the code to the UNO board.   
+Upload the code to the UNO board.       
 <span style="color: rgb(255, 76, 65);">Note: All the sample code in the following sections is opened in the same way as in the figure above.</span>     
 
 **Example code phenomena:**    
@@ -385,7 +385,7 @@ val: Sring.
 In the sample code:
 String Str1=" ASCII-encoded decimal: ";  
 ```
-More information please refer to: <https://www.arduino.cc/reference/en/language/variables/data-types/stringobject/>    
+More information: <https://www.arduino.cc/reference/en/language/variables/data-types/stringobject/>    
 
 
 ## Chapter_4 Arithmetic operation            
