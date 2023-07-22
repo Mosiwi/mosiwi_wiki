@@ -200,7 +200,7 @@ if (condition) {
 Parameters:
 condition: A boolean expression (true or false).
 
-Example:
+In the sample code:
 if (buttonState == LOW) {
 digitalWrite(ledPin, HIGH);
 }

@@ -19,7 +19,7 @@ Return to the listing page: `Go back`_
    Arduino_Zero-based_tutorial <../../../common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Zero-based_tutorial.md>
    Arduino_Basic_tutorial <../../../common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial.md>
    Arduino_Intermediate_tutorial <../../../common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial.md>
-   Arduino_Advance_tutorial <../../../common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Advanced_tutorial.md>
+   Arduino_Advanced_tutorial <../../../common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Advanced_tutorial.md>
    Raspberry-Pi4_C-language_tutorial <../../../common_product/C1K0000_4in1_basic_learning_kit/Rpi4_tutorial/C_tutorial.md>
     
    
