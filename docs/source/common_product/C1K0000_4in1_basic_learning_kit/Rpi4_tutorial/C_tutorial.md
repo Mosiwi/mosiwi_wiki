@@ -72,7 +72,7 @@ sudo ./terminal
 ```
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/6img.png)      
 
-**Objective_2:** 
+**Objective_2:**       
 Delete the latest executable file and then view the files in the folder:     
 ```
 rm terminal   
@@ -113,7 +113,7 @@ Then restart Raspberry PI and TUTTY.
 ## Example1: Arithmetic operator       
 **Objective:**     
 1. Arithmetic operator:    
-| + | - | \* | / | % |    
+| \+ | \- | \* | / | % |    
 | :--: | :--: | :--: | :--: | :--: |    
 | Addition operation | Subtraction operation | Multiplication operation | Division operation | Remainder operation |      
      
