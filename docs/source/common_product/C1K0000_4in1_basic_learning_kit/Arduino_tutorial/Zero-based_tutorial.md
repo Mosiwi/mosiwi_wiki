@@ -77,9 +77,9 @@ When you sing into a microphone or play music on your device, LED lights pulsate
 3. Upload code:    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Zero-based_tutorial/19img.png)     
 
-4. Experimental result:     
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Zero-based_tutorial/20img.png)      
+4. Experimental result:      
 Use the infrared remote control to repeatedly press the "OK" key in front of the infrared receiver on the expansion board to turn on and off the red LED light on the expansion board.     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Zero-based_tutorial/20img.png)      
 <span style="color: rgb(255, 76, 65);">Note: Button batteries must be installed when using the infrared remote control. If the infrared remote control has been allocated with button batteries, the separator at the bottom of the remote control must be pulled out.</span>      
 
 ## Chapter6 button   

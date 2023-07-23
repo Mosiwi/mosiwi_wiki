@@ -604,264 +604,755 @@ When powered on, the microphone will always obtain the sound data of the current
 
 **FAQ:**
 (1) What is a microphone?  
+Microphone is an energy conversion device that converts sound signals into electrical signals. It is classified as capacitive and electret. An electret microphone is used on the expansion board and a preamplifier circuit is integrated; when the expansion board is directly plugged into the UNO board, the A2 pin is used to receive the analog signal from the microphone.      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/32img.png)    
+The microphone on the expansion board integrates a preamplifier circuit, which reads the analog voltage value of pin A2 as 2.5V when there is no sound, and fluctuates the voltage value on pin A2 up and down at 2.5V when there is sound.       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/33img.png)    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/34img.png)    
 
-## Chapterxx xxxx   
+An example of reading an analog value for a sound:      
+```
+Example：
+int voiceAnalogValue; 
+voiceAnalogValue = analogRead(A6);
+```
+
+## Chapter10 Music LED   
 
 **Curriculum question:** 
-1. How to control the 8 blue leds on the expansion board?    
+1. What is logical and: &&    
+2. What is a jump statement: goto   
+3. How do you use the max() and min() functions?    
 
 **Program flow diagram:** 
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/img.png)    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/35img.png)    
 
-
-**Open the example code: "2.1.0_Waterfall_light"**      
+**Open the example code: "2.3.1_Music_LED"**      
 1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
 2. Upload the code to the UNO board.
 
 **Example code phenomena:**  
-   
+Speaking into the microphone on the extension or playing music (at a higher volume), eight yellow leds on the extension board will light up a different number of leds depending on the volume of the sound.     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/36img.png)    
+
 **FAQ:**
+(1) What is logical and: &&    
+When two numbers "&&" operation, the result is true only if both operands are true; Otherwise, it is false.     
+```
+Syntax:
+operand1 && operand2 ...
 
+Parameters:
+operand1, operand2: Operands
 
-## Chapterxx xxxx   
+In the sample code: 
+if((up_512 <= voiceAnalogValue) && (voiceAnalogValue <= dow_1023)){
+ledNum = map(voiceAnalogValue, up_512, dow_1023, 0, 7);
+}
+```
+More info: <https://www.arduino.cc/reference/en/language/structure/boolean-operators/logicaland/>     
 
+(2) What is a jump statement: goto   
+Jump the program flow to a marked point in the program.      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/37img.png)    
+
+```
+Syntax:
+goto label; // Program flow jumps to "lable"
+//segment
+label:
+
+Examples:
+for (byte r = 0; r < 255; r++){
+    if (analogRead(A0) > 250) {
+    goto label;
+    }
+    // more statements ...
+}
+
+label:
+// more statements ...
+```
+More info: <https://www.arduino.cc/reference/en/language/structure/control-structure/goto/>     
+
+(3) How do you use the max() and min() functions?   
+max(x,y): Gets the largest of the two numbers.    
+```
+Syntax:
+max(x, y);
+
+Parameters:
+x: The first numeric value, allowing any type of data
+y: This is the second numeric value that allows any type of data
+
+Return value:
+The largest of the two numbers.
+
+Examples:
+int value;
+value = max(255,200); //value is 255
+```
+More info: <https://www.arduino.cc/reference/en/language/functions/math/max/>    
+
+min(x,y): Gets the minimum of two numbers.     
+```
+Syntax:
+min(x, y);
+
+Parameters:
+x: The first numeric value, allowing any type of data
+y: This is the second numeric value that allows any type of data
+
+Return value:
+The smallest of two numbers.
+
+Examples:
+int value;
+value = min(255,200); //value equals 200
+```
+More info: <https://www.arduino.cc/reference/en/language/functions/math/min/>    
+
+## Chapter11 EEPROM   
 **Curriculum question:** 
-1. How to control the 8 blue leds on the expansion board?    
+1. EEPROM (Electrically Erasable Programmable Read-Only Memory)
+2. 1-Wire protocol
+3. variable: word
+4. class   
 
 **Program flow diagram:** 
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/img.png)    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/38img.png)    
 
 
-**Open the example code: "2.1.0_Waterfall_light"**      
+**Open the example code: "2.4.0_EEPROM_ReadWriteSkip"**      
 1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
 2. Upload the code to the UNO board.
 
 **Example code phenomena:**  
-   
+1. Read 128 bytes of EEPROM data.        
+2. Write 8 bytes of data to EEPROM.
+3. Read 128 bytes of EEPROM data.       
+4. The 8-byte data written to EEPROM is read back and converted to the character: \<Mosiwi\>     
+
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/40img.png)    
+
 **FAQ:**
+(1) EEPROM (Electrically Erasable Programmable Read-Only Memory)
+It is a kind of memory chip that does not lose data after power failure.    
+
+The board integrates a 128-byte EEPROM chip using the 1-wire protocol, and when plugged directly into the UNO board, the EEPROM is controlled by pin 7 of the UNO board.     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/39img.png)    
+
+(2) 1-Wire protocol     
+1-Wire technology is a serial protocol that uses one data wire and one ground wire to communicate. The 1-Wire master can initialize and control one or more 1-Wire slaves on the 1-Wire. Each 1-Wire slave device has a unique, immutable, factory programmed 64-bit ID as the device address on the 1-Wire. Eight bits of the 64-bit ID are family codes that identify the device type and function. Generally, the operating voltage range of the 1-Wire slave machine is 2.8V (min) to 5.25V (max). Most 1-Wire devices are not pin-powered and they harvest energy from 1-wire (parasitic power supply).     
+
+If you are interested in learning more about 1-wire, take a look at this example code: "**2.4.1_EEPROM_ReadWrite**" 
+
+(3) variable: word   
+A word can store an unsigned number of at least 16 bits (from 0 to 65535).    
+```
+Syntax
+word var = val;
+Parameters
+
+var: variable name.
+val: the value to assign to that variable.
+
+```
+
+(4) Class
+Class is an important part of C++ programming language, which combines data representation and methods to manipulate data into a concise package. The data and functions in the class are called class members.      
+Defining a class:   
+```
+Syntax:
+class name {
+    public:
+    member1;
+    member2;
+    ...
+    private: 
+    member3;  
+    ... 
+};
+
+Parameters:
+name -The name of the class
+Member1, member2... : A member of a class that can be a variable, function, array, and so on.
+```
+We can think of the class as a custom data type, such as char, int... Define a variable, also called a class implementation, as follows:     
+```
+Syntax:
+className varName;
+
+Parameters:
+className: This is the name of the class
+varName: This is the implementation name of the class.It can be thought of as a variable of type className.
+```
+For example, all cars have wheels, engines, seats, etc. We can define a class to call a car. But the car is divided into BMW, Volkswagen, Benz and so on, these are the object of the car. They may differ in wheel size, engine power, and number of seats. After defining the object, you can assign different values to the member functions and variables of the object to distinguish their differences. Objects of each class do not affect each other, which is a good way to protect their own data.     
+Define a car class:    
+```
+class car{
+  public:
+    int wheelSize;
+    int power;
+    int seat;
+}
+```
+Create an object of class car:    
+```
+car Benz;
+car VW;
+car BMW
+```
+Give the object different parameters:    
+```
+Benz.wheelSize = 10;
+Benz.power = 150;
+Benz.seat = 4;
+
+VW.wheelSize = 9;
+VW.power = 140;
+VW.seat = 5;
+
+BMW.wheelSize = 12;
+BMW.power = 160;
+BMW.seat = 2;
+```
+After the class has been created and the members have been assigned values, we can also read their values.For example, we can read the power of the BMW:    
+```
+int Power = BMW.power;
+```
 
 
-## Chapterxx xxxx   
+## Chapter12 Thermohygrometer  
 
 **Curriculum question:** 
-1. How to control the 8 blue leds on the expansion board?    
+1. What is a Thermohygrometer?   
+2. How to use variables: long, unsigned long   
+3. How to use the functions: millis(), abs()   
+4. What are function arguments?    
 
 **Program flow diagram:** 
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/img.png)    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/42img.png)    
 
-
-**Open the example code: "2.1.0_Waterfall_light"**      
+**Open the example code: "2.5.0_Thermohygrometer"**      
 1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
 2. Upload the code to the UNO board.
 
 **Example code phenomena:**  
-   
+The 4-bit digital tube on the expansion board displays the current ambient temperature for 5 seconds, then the current ambient humidity for 5 seconds, and so on.    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/43img.png)    
+
 **FAQ:**
+(1) What is a Thermohygrometer?   
+A thermohygrometer is a tool that can accurately measure the current ambient temperature and humidity. In the example we used AHT20 temperature and humidity sensor and 4 digital control made a temperature and humidity meter, 4 digital tube can display temperature and humidity values.     
+specification parameter: 
+| Name | Measuring range | Resolution | Error range |   
+| :-- | :-- | :-- | :-- |     
+| Temperature | 0 to 85℃ | 0.01℃ | +/-3% |     
+| Humidity | 0% to 100% | 0.024% | +/-2% |   
+
+(2) How to use variables: long, unsigned long   
+Signed long integer variable: **long**    
+Long variables are extended size variables for number storage, and store 32 bits (4 bytes), from -2,147,483,648 to 2,147,483,647.     
+```
+Syntax:
+signed long var = val;
+
+Parameters:
+signed: Can be omitted.
+var: The variable name
+val -The value assigned to the variable
+```
+
+unsigned long integer variable: **unsigned long**   
+Unsigned long variables are extended size variables for number storage, and store 32 bits (4 bytes). Unlike standard longs unsigned longs won’t store negative numbers, making their range from 0 to 4,294,967,295 (2^32 - 1).    
+```
+Syntax:
+unsigned long var = val;
+
+Parameters:
+var: The variable name
+val -The value assigned to the variable
+
+In the sample code:    
+unsigned long oldTime = 0;
+```
+
+(3) How to use the functions: millis(), abs()   
+mills():    
+Returns the number of milliseconds passed since the Arduino board began running the current program. This number will overflow (go back to zero), after approximately 50 days.    
+```
+Syntax:
+time = millis()
+Parameters
+
+None
+Returns
+
+Number of milliseconds passed since the program started. Data type: unsigned long.
+```
+abs(): 
+Calculates the absolute value of a number.       
+```
+Syntax:
+abs(x)
+Parameters
+
+x: the number
+Returns
+
+x: if x is greater than or equal to 0.
+-x: if x is less than 0.
+```
+
+(4) What are function arguments?   
+When we need to transfer some data to the function, we need to use the function parameters. Function parameters are the bridge between the outside and the inside of the function, and it is one-way, that is, from the outside to the inside of the function.    
+Defined function:      
+```
+Syntax:
+Type function(type val1, type val2 ...) {
+    // statement(s)
+}
+
+Parameters:
+Type: The data type (char, int, float, etc.) or "void" if no value is returned.
+type: The data type, such as char, int, float, etc., or "void" when there are no arguments.
+function: The name of the function
+val1, val2... : parameter name; Empty when type is "void".
+
+In the sample code:  
+void displayHumidity(float H){
+    int temp = int(H*10);
+    //...
+}
+```
 
 
-## Chapterxx xxxx   
+## Chapter13 IR receiver   
 
 **Curriculum question:** 
-1. How to control the 8 blue leds on the expansion board?    
+1. What is an infrared receiving sensor?      
 
 **Program flow diagram:** 
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/img.png)    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/44img.png)    
 
 
-**Open the example code: "2.1.0_Waterfall_light"**      
+**Open the example code: "2.6.0_IRrecvDemo"**      
 1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
 2. Upload the code to the UNO board.
 
 **Example code phenomena:**  
-   
+Open the serial port monitor, adjust the baud rate to 9600, press "OK" on the infrared remote control against the infrared receiver, and the serial port will print "FF38C7".     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/48img.png)    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/45img.png)    
+<span style="color: rgb(255, 76, 65);">Note: If you keep pressing the button, the serial port will always print "FFFFFFFF".</span>     
+
+Please refer to the table below for other keys:      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/46img.png)    
+
 **FAQ:**
+(1) What is an infrared receiving sensor?    
+The internal circuit of the infrared receiver includes infrared monitoring diode, amplifier, limiter, band pass filter, integral circuit, comparator and so on. The infrared monitoring diode detects the infrared signal and sends it to the amplifier and limiter, which controls the pulse amplitude at a certain level regardless of the distance between the infrared transmitter and the receiver. The AC signal enters the bandpass filter, which can pass through the negative carrier of 30khz to 60khz and enter the comparator through the demodulation circuit and the integral circuit, and the comparator outputs high and low levels to restore the signal waveform of the transmitter. Note that the high and low levels of the output signal and the transmitter are reversed in order to improve the sensitivity of the reception.     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/47img.png)    
 
+An infrared receiving sensor is integrated on the extension board, and pin 4 can receive data from the infrared receiving sensor when directly plugged into the UNO board.    
 
-## Chapterxx xxxx   
+For ease of use, we have integrated the related programs used in infrared receiver into the "Mosiwi_Basic_Learning_Kit" library. To use the relevant infrared receiver function, you must first select the timer and then include the relevant header file.     
+Select the timer:    
+```
+Syntax:
+#define timer
 
-**Curriculum question:** 
-1. How to control the 8 blue leds on the expansion board?    
+Parameters:
+timer: IR_USE_TIMER1 or IR_USE_TIMER2.
+
+In the sample code:
+#define IR_USE_TIMER2
+```
+
+Include the infrared receiver header file:
+```
+Syntax:
+#include <xxx.h>
+
+Parameters:
+xxx: Header name
+
+In practice:
+#include <MswIR.h>
+```
+
+Create the object:    
+```
+Syntax:
+MswIR IR(pin);
+
+Parameters:
+pin: The pin number on the M328 PRO motherboard.
+
+In the sample code:
+byte RECV_PIN = 4;
+MswIR IR(RECV_PIN);
+```
+
+Enable infrared reception:    
+```
+IR.enable();
+```
+
+Infrared decoding:   
+```
+Usage:
+int var = IR.decode();
+
+Parameters:
+var: The parameter name
+
+Return value:
+0 or 1. 0 is a failed decoding and 1 is a successful decoding.
+
+In the sample code:
+if (IR.decode()) {  
+  Serial.println(IR.value, HEX);
+}
+```
+
+Decoding result:  
+If the decoding is successful, the decoding result is stored in the "ir.value" member of the IR receiver object.   
+```
+In the sample code:
+Serial.println(IR.value, HEX);  
+```
+
+**Extended chapter:**   
+1. How to realize infrared remote control?     
 
 **Program flow diagram:** 
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/img.png)    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/49img.png)    
 
-
-**Open the example code: "2.1.0_Waterfall_light"**      
+**Open the example code: "2.6.1_IRremote"**      
 1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
 2. Upload the code to the UNO board.
 
 **Example code phenomena:**  
-   
+Use the infrared remote control to repeatedly press the "OK" key in front of the infrared receiver on the expansion board to turn on and off the red LED light on the expansion board.     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/50img.png)    
+<span style="color: rgb(255, 76, 65);">Note: Button batteries must be installed when using the infrared remote control. If the infrared remote control has been allocated with button batteries, the separator at the bottom of the remote control must be pulled out.</span>      
+
 **FAQ:**
+(1) How to realize infrared remote control?    
+Infrared remote control to send control data through the infrared transmitter to the infrared receiving sensor, and then the UNO board reads the data of the infrared receiving sensor, and then performs different functions according to different data.    
+For example, we can program the UNO board to turn on the LED when it receives the value of key 1 on the remote control, and turn off the LED when the value of key 2 is received. The buzzer beeps when the value of key 3 is received, stops beeping when the value of key 4 is received, and so on. If we extend some other sensors, then we can implement more functions. For a more advanced idea, we can also make our own smart home system.    
 
-
-## Chapterxx xxxx   
+## Chapter14 Ultrasonic   
 
 **Curriculum question:** 
-1. How to control the 8 blue leds on the expansion board?    
+1. What is ultrasound?    
+2. What is pulse?     
+3. How do you use the pulseIn() function?     
+
+**Wiring diagram**
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/51img.png)    
 
 **Program flow diagram:** 
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/img.png)    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/52img.png)    
 
-
-**Open the example code: "2.1.0_Waterfall_light"**      
+**Open the example code: "2.7.0_Ultrasonic"**      
 1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
 2. Upload the code to the UNO board.
 
 **Example code phenomena:**  
-   
+Turn on the serial port monitor, adjust the baud rate to 9600, put the obstacle in front of the ultrasonic sensor, and the serial port monitor prints the distance measured by the ultrasonic sensor every 0.5 seconds.     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/53img.png)    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/54img.png)    
+
 **FAQ:**
+(1) What is ultrasound?    
+Ultrasonic wave is a part of sound wave, it is a kind of human ear can not hear, the frequency is higher than 20KHZ sound wave, it and sound wave have in common, that is, are generated by material vibration, and can only propagate in the medium; It is also widespread in nature, and many animals can emit and receive ultrasonic waves, the most prominent of which is bats, which can use weak ultrasonic echoes to fly in the dark and catch prey.     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/55img.png)    
+There is an ultrasonic module in the kit, which has a probe (T) that can emit sound waves at 40KHz, and another probe (R) that can receive sound waves at 40KHz, which can be used for testing distance after the module is inserted into the interface of the expansion board as required.    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/56img.png)    
+| Ultrasonic module interface | Interface on the Extend board | Pins of UNO board|   
+| :--: | :--: | :--: |
+| Vcc | V | 5V |
+| Trig | S1 | 5 |
+| Echo | S2 | 6 |
+| Gnd | GND | GND |
 
+Ultrasonic module parameters:     
+1. VCC: power supply positive, 3--5V    
+2. Trig: Receive a 10 microsecond pulse signal and trigger the module to emit a 40KHz acoustic wave   
+3. Echo: Outputs a high level pulse signal proportional to the test distance (distance/sound speed)    
+4. GND: negative terminal of power supply     
+5. Operating current: 15mA    
+6. Measuring maximum current: 4m  
+7. Minimum distance measured: 2cm    
+8. Measurement accuracy: 3mm      
+9. Measuring Angle: 15 degrees    
 
-## Chapterxx xxxx   
+Working principle of ultrasonic module:    
+The Trig pin of the ultrasonic module receives a 10us high level pulse signal output from the pin 5 of the UNO board. The transmitting probe of the ultrasonic module emits 8 40KHz ultrasonic waves. The receiving probe of the ultrasonic module captures the ultrasonic waves reflected back after hitting the obstacles. The Echo pin of the ultrasonic module outputs a high level signal related to the distance.     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/57img.png)    
+The Echo pin outputs a high level signal that is captured by pin 6 of the UNO board. The distance between the ultrasonic module and the obstacle can be known by calculation. The calculation method is as follows:    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/58img.png)    
+Note: t is the high level time of the ultrasonic Echo pin output, D is the emission distance plus the reflection distance, so D=s+s.    
+
+(2) What is pulse?   
+A pulse is an electrical impulse (voltage or current) that usually rises and falls like a pulse in electronics. The main features are waveform, amplitude, width and repetition rate. The pulses occur for a short time over the whole signal period relative to the continuous signal, and there is no signal during most of the signal period.    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/59img.png)    
+
+(3) How do you use the pulseIn() function?   
+Reads a pulse (either HIGH or LOW) on a pin. 
+```
+Syntax: 
+pulseIn(pin, value)
+pulseIn(pin, value, timeout)
+
+Parameters
+pin: the number of the Arduino pin on which you want to read the pulse. Allowed data types: int.
+value: type of pulse to read: either HIGH or LOW. Allowed data types: int.
+timeout (optional): the number of microseconds to wait for the pulse to start; default is one second. Allowed data types: unsigned long.
+
+Returns
+The length of the pulse (in microseconds) or 0 if no pulse started before the timeout. Data type: unsigned long.
+```
+More info: <https://www.arduino.cc/reference/en/language/functions/advanced-io/pulsein/>     
+
+## Chapter15 Ultrasonic testing instrument  
 
 **Curriculum question:** 
-1. How to control the 8 blue leds on the expansion board?    
+1. What is a function that returns a value?      
+2. how to use the logic statements: ||       
+
+**Wiring diagram**
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/51img.png)    
 
 **Program flow diagram:** 
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/img.png)    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/60img.png)    
 
-
-**Open the example code: "2.1.0_Waterfall_light"**      
+**Open the example code: "2.7.1_Range-measurement"**      
 1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
 2. Upload the code to the UNO board.
 
 **Example code phenomena:**  
-   
+After uploads the code, unplug the USB, and then connect the battery box, press any of the U, D, L, R and OK keys on the expansion board to start the ultrasonic ranging; Pressing any of them will turn off ultrasonic ranging. After turning on ultrasonic ranging, the 4-digit digital tube will display the distance measured by ultrasonic in real time.    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/61img.png)    
+
 **FAQ:**
+(1) What is a function that returns a value?    
+When a function is executed, the function returns a value, called a function with a return value.    
+Define a function:   
+```
+Syntax: 
+Type function(type val1, type val2 ...) {
+    // statement(s)
+}
+
+Parameters:
+Type: The data type (char, int, float, etc.) or "void" if no value is returned.
+type: The data type, such as char, int, float, etc., or "void" when there are no arguments.
+function: The name of the function
+val1, val2... : parameter name; Empty when type is "void".
+```
+Call the function and return a value:   
+```
+Syntax: 
+Type var = Type function(type val1, type val2 ...) ;
+
+Parameters:
+Type: The data type such as char, int, float, etc.
+type: The data type, such as char, int, float, etc., or "void" when there are no arguments.
+function: The name of the function
+val1, val2... : parameter name; Empty when type is "void".
+
+In the sample code:
+float distance;
+distance = Measuring_distance();
+```
+
+(2) how to use the logic statements: ||   
+The result is true if either of the two operands is true.   
+```
+Syntax:
+operand1 || operand2 ...
+
+Parameters:
+operand1, operand1: Operands
+
+In the sample code:
+byte keyValue = 0;
+bool OnOff = false;
+if(keyValue == 8 || keyValue == 4 || keyValue == 2 || keyValue == 1){
+    OnOff = ! OnOff;
+}
+```
+More info: <https://www.arduino.cc/reference/en/language/structure/boolean-operators/logicalor/>    
 
 
-## Chapterxx xxxx   
-
+## Chapter16 Fan-PWM   
 **Curriculum question:** 
-1. How to control the 8 blue leds on the expansion board?    
+1. What is a fan?    
+2. How to control the fan?      
+
+**Wiring diagram**
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/62img.png)    
 
 **Program flow diagram:** 
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/img.png)    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/63img.png)    
 
-
-**Open the example code: "2.1.0_Waterfall_light"**      
+**Open the example code: "2.8.0_Fan_PWM"**      
 1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
 2. Upload the code to the UNO board.
 
 **Example code phenomena:**  
-   
+After uploading the code, the fan speed will change from small to large forward rotation, and then from large to small reverse, and so on.    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/64img.png)    
+
 **FAQ:**
+(1) What is a fan?    
+The electric fan is a device that electrically drives the motor to generate air flow. After the internal motor is energized, it drives the blade to rotate and converts the electric energy into wind energy.     
 
-## Chapterxx xxxx   
+There is a fan module in the kit, with two directional control pins, can control the fan forward and reverse, directly into the interface on the expansion board can be used.     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/65img.png)    
+| Fan module interface | Interface on the Extend board | Pins of UNO board|   
+| :--: | :--: | :--: |
+| GND | G | GND |
+| VCC | V | VCC |
+| INA | S2 | 6 |
+| INB | S1 | 5 |
 
-**Curriculum question:** 
-1. How to control the 8 blue leds on the expansion board?    
+Fan module parameters:     
+1. Supply voltage: 3---5V
+2. Operating current: less than 100mA
+3. Maximum speed: 8300 RPM
+4. Blade length: 75mm
+
+(2) How to control the fan? 
+Control the rotation direction of the fan:     
+| INA | INB | Direction |
+| :--: | :--: | :--: |
+| 0 | 0 | Stop |
+| 0 | 1 | CW |
+| 1 | 0 | CCW |
+| 1 | 1 | Stop |
+
+Control fan speed:    
+| INA | INB | Direction |
+| :--: | :--: | :--: |
+| 0 | PWM | CW |
+| PWM | 0 | CCW |
+
+**Extended chapter1:**   
+You can also control the fan using the fan driver function from the "Mosiwi_Basic_Learning_Kit" library. When using the fan driver function in the library, you must select the timer and then include the associated header file.
+
+Timer 1 or timer 2 is needed to drive the fan in the integration library, and the desired timer can be selected according to the requirements.    
+Select the timer: 
+```
+Syntax:
+#define timer
+
+Parameters:
+timer: FAN_USE_TIMER1 or FAN_USE_TIMER2.
+
+In the sample code:
+#define FAN_USE_TIMER1
+```
+Include the fan header file:   
+```
+#include <MswFan.h>
+```
+Initialize the pins that control the motor:   
+```
+MswFan::init(5, 6);
+```
+Control the direction of the fan:    
+```
+Syntax:
+MswFan::direction(direction);
+
+Parameters:
+direction: Forward or reverse direction, CW or CCW (0 or 1).
+
+In the sample code:
+MswFan::direction(CW);
+MswFan::direction(CCW);
+```
+Control the speed of the fan:    
+```
+Syntax:
+MswFan::speed(S);
+
+Parameters:
+S: The speed of the fan, allowing values from 0 to 255.
+```
+Start the fan:   
+```
+MswFan::run();
+```
+Turn off the fan:   
+```
+MswFan::stop();
+```
+
+**Open the example code: "2.8.1_Fan_timer"**      
+1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
+2. Upload the code to the UNO board.
+
+**Extended chapter2:**   
+We also have an example of controlling a fan through a sliding resistor.    
 
 **Program flow diagram:** 
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/img.png)    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/66img.png)    
+
+**Open the example code: "2.8.1_Fan_timer"**      
+1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
+2. Upload the code to the UNO board. 
+
+**Example code phenomena:** 
+After power on, the more up push the potentiometer on the expansion board, the faster the fan turns, the more down push, the slower the fan turns.   
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/67img.png)    
 
 
-**Open the example code: "2.1.0_Waterfall_light"**      
+## Chapter17 Smart fan   
+
+**Curriculum question:** 
+1. How to Improve your programming skills?   
+
+**Program flow diagram:** 
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/68img.png)    
+
+**Open the example code: "2.8.3_Intelligent_fan"**      
 1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
 2. Upload the code to the UNO board.
 
 **Example code phenomena:**  
-   
+This is an intelligent fan with temperature control mode and remote control mode.    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/69img.png)    
+
+Function of infrared remote control button:    
+| 2 | ▲ | ▼ | OK |  
+| :--: | :--: | :--: | :--: |   
+| Turn on and off temperature control mode | Fan speed plus | Fan speed minus | Turn on and off fan |    
+
+RGB LED function Tips:   
+| Red LED | Green LED |
+| :--: | :--: |
+| If the light is red, the fan is turned on; otherwise, the fan is turned off | If the light is green, the fan is turned on; otherwise, the fan is turned off |
+
+Special Notes:
+1. When the temperature mode is opened, the fan will start automatically when the temperature is higher than 35 degrees; It will automatically turn off when it is below 16 degrees. If the temperature returns to 16-35 degrees, you can turn on or off the fan through the remote control.   
+2. The fan speed can be controlled by remote control in both temperature control mode and remote control mode.    
+
 **FAQ:**
-
-## Chapterxx xxxx   
-
-**Curriculum question:** 
-1. How to control the 8 blue leds on the expansion board?    
-
-**Program flow diagram:** 
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/img.png)    
-
-
-**Open the example code: "2.1.0_Waterfall_light"**      
-1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
-2. Upload the code to the UNO board.
-
-**Example code phenomena:**  
-   
-**FAQ:**
-
-## Chapterxx xxxx   
-
-**Curriculum question:** 
-1. How to control the 8 blue leds on the expansion board?    
-
-**Program flow diagram:** 
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/img.png)    
-
-
-**Open the example code: "2.1.0_Waterfall_light"**      
-1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
-2. Upload the code to the UNO board.
-
-**Example code phenomena:**  
-   
-**FAQ:**
-
-## Chapterxx xxxx   
-
-**Curriculum question:** 
-1. How to control the 8 blue leds on the expansion board?    
-
-**Program flow diagram:** 
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/img.png)    
-
-
-**Open the example code: "2.1.0_Waterfall_light"**      
-1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
-2. Upload the code to the UNO board.
-
-**Example code phenomena:**  
-   
-**FAQ:**
-
-## Chapterxx xxxx   
-
-**Curriculum question:** 
-1. How to control the 8 blue leds on the expansion board?    
-
-**Program flow diagram:** 
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/img.png)    
-
-
-**Open the example code: "2.1.0_Waterfall_light"**      
-1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
-2. Upload the code to the UNO board.
-
-**Example code phenomena:**  
-   
-**FAQ:**
-
-## Chapterxx xxxx   
-
-**Curriculum question:** 
-1. How to control the 8 blue leds on the expansion board?    
-
-**Program flow diagram:** 
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/img.png)    
-
-
-**Open the example code: "2.1.0_Waterfall_light"**      
-1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
-2. Upload the code to the UNO board.
-
-**Example code phenomena:**  
-   
-**FAQ:**
+(1) How to Improve your programming skills?   
+1. Follow the steps of the tutorial to see the experimental phenomenon.    
+2. Look at the FQA of each section to understand the function and usage of the code.    
+3. Go over the C and C++ programming language tutorials.   
+4. Refer to each chapter to write a similar function of the program.   
+5. Look at other people's code, learn other people's programming style and ideas.   
+6. Do more programming projects, think more, and express your ideas in code.    
+7. Keep learning.
 
 
 **End!**    
 For more exciting tutorials, check out the [advance tutorial](./Advanced_tutorial.md)!    
-
-
-
-
-
-
-
-
-
-
-
-
