@@ -38,7 +38,7 @@ Eight white LED lights turn on and off in a cycle.
 
 ## Chapter3 Led bar   
 
-1. Open "2.1.1_Led_bar" Example:   
+1. Open "2.1.1_Led_strip" Example:   
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Zero-based_tutorial/9img.png)   
 
 2. Select motherboard with COM port:    

@@ -131,7 +131,7 @@ delay(500);
 **Program flow diagram:** 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/8img.png)    
 
-**Open the example code: "2.1.1_Led_bar"**      
+**Open the example code: "2.1.1_Led_strip"**      
 1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
 2. Upload the code to the UNO board.
 
