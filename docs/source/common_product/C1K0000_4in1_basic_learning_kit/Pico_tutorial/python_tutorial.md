@@ -17,7 +17,7 @@ Unzip the file downloaded above, and the file in the "**pico->python**" folder i
 ## Wiring diagram      
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/img.png)    
 
-## Basic Example: Open a sample code and light a LED      
+## Basic Example: Blink      
 **Objective:**     
 1. Open the example code.     
 2. Upload and run code.   
@@ -45,7 +45,7 @@ Enter the code in the main panel, then click on the "**Save**" or "**File->Save 
 |If you "save a file to the device" and give it the special name **main\.py**, then MicroPython starts running that script as soon as power is supplied to Raspberry Pi Pico in the future. |    
 <span style="color: rgb(255, 76, 65);">This method is not recommended when practicing programming.</span>      
 
-## Example 1:       
+## Example 1: Button      
 **Objective:**     
 1. Set the pins of the Pico to digital output mode or digital input mode.            
 
@@ -56,7 +56,7 @@ Enter the code in the main panel, then click on the "**Save**" or "**File->Save 
 | ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/9img.png) | ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/10img.png) |
 
 **Open the example code: "button.py"**     
-1. Open the sample code using the methods in **"[Basic Example](./python_tutorial.md#Basic-Example:-Open-a-sample-code-and-light-a-LED)"**.     
+1. Open the sample code using the methods in **"[Basic Example](./python_tutorial.md#Basic-Example:-Blink)"**.     
 2. Run the example code online.      
 
 **Example code phenomena:**         
