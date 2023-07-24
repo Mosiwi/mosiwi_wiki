@@ -57,7 +57,7 @@ Note: all dimensions in mm
 1. Launch the Thonny  
 When opening Thonny for the first time select "Standard Mode." For some versions this choice will be made via a popup when you first open Thonny.  
 ![Img](../../_static/raspberry/R1D0001_raspberry_pico/9img.png)  
-2. Make sure your Raspberry Pi Pico is plugged into your computer and, click on the word ‘Python’ followed by a version number at the bottom-right of the Thonny window, then select "**MicroPython (Raspberry Pi Pico) . COMx**" from the list.  
+2. Make sure your Raspberry PI Pico's USB is plugged into your computer's USB via a usb cable, then click on "Python" and the version number in the bottom right corner of the Thonny window, then select "**MicroPython(Raspberry PI Pico)". COMx** ".       
 ![Img](../../_static/raspberry/R1D0001_raspberry_pico/10img.png)  
 <span style="color: rgb(255, 76, 65);">Note: If there is no port selection, see the troubleshooting section below.</span>   
 3. You can now access the REPL from the Shell panel.  
