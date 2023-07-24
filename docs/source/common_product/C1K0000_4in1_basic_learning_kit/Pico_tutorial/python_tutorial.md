@@ -52,7 +52,7 @@ Enter the code in the main panel, then click on the "**Save**" or "**File->Save 
 **Pin control table:**     
 | GP21 | GP25 |
 | :--: | :--: |
-| Expand the Button of the board | The LED of the Pico |
+| Buttons on the expansion board | LED on the Pico |
 | ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/9img.png) | ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/10img.png) |
 
 **Open the example code: "button.py"**     

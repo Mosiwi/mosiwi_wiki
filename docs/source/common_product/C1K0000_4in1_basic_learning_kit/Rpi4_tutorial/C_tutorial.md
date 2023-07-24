@@ -114,42 +114,7 @@ Turn off the Raspberry PI and connect the Raspberry PI to the expansion board wi
 ![Img]()
 Then restart Raspberry PI and TUTTY.     
 
-## Example1: Arithmetic operator       
-**Objective:**     
-1. Arithmetic operator:    
-| \+ | \- | \* | \/ | \% |    
-| :--: | :--: | :--: | :--: | :--: |    
-| Addition operation | Subtraction operation | Multiplication operation | Division operation | Remainder operation |      
-     
-**Code:**   
-```  
-#include <wiringPi.h>
-#include <stdio.h>
-
-char num = 0;
-
-int main(void) {
-	num = 10+1;
-	printf("10+1 = %d \n", num);
-
-	num = 10-1;
-	printf("10-1 = %d \n", num);
-
-	num = 2*5;
-	printf("2*5 = %d \n", num);
-
-	num = 5/2;
-	printf("5/2 = %d \n", num);
-
-	num = 5%2;
-	printf("5%%2 = %d \n", num);
-
-	printf("\n");
-	return 0;
-}
-```   
-
-**Demonstration:**       
+## Example1: Arithmetic operator             
 Run the following command on the terminal:       
 ```
 cd ~/Mosiwi-basic-learning-kit/pi4/c/examples/1.0.1_Arithmetic_operation/     
@@ -159,43 +124,20 @@ sudo ./arithmetic_operation
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/9img.png)     
 
 ## Example2:      
-**Objective:**     
-1. LED   
-2. What is a programming statement ?   
-3. Loop statement: while   
-4. Digital pin output Settings   
-5. Use of the delay() function   
-6. Annotation symbols: //, /\*...*/    
-
-**Schematic diagram:**
-
-
-**Code:**   
-```  
-/*
- This is comment text and is not executed at compile time.
-*/
-#include<wiringPi.h>
-
-int main(void){
-	wiringPiSetup();
-	pinMode(23, OUTPUT);
-
-	while(1){
-		digitalWrite(23, HIGH);    // turn the LED on (HIGH is the voltage level)
-		delay(1000);               // wait for a second (1000ms = 1s)
-		digitalWrite(23, LOW);     // turn the LED off by making the voltage LOW
-		delay(1000);               // wait for a second (1000ms = 1s) 
-	}
-}
-```   
+**Pin control table:**     
+| The pin of Pi4 | LED on the expansion board |
+| :--: | :--: |
+| 23(Wiringpi) or 13(BCM) | Red LED |
 
 **Demonstration:**       
 Run the following command on the terminal:       
 ```
-
+cd ~/Mosiwi-basic-learning-kit/pi4/c/examples/1.1.0_Blink/     
+chmod 777 blink     
+sudo ./blink
 ```
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/img.png)     
+The red LED lights on the expansion board are lit at one-second intervals.    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/10img.png)     
 
 ...   
 
