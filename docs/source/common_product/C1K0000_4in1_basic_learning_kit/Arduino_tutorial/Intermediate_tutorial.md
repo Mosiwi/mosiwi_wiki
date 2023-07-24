@@ -4,7 +4,7 @@ Learn common programming syntax based on "UNO board + expansion board + peripher
 ## Previous preparation   
 1. Install the [**Arduino IDE**](../../../arduino/arduino_ide/arduino_ide.md).     
 2. Basic operation of the [**Arduino UNO R3**](../../../arduino/A1D0000_uno_r3/A1D0000_uno_r3.md) motherboard.    
-3. Learn about [**3in1 basic learning shield**](../../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md).  
+3. Learn about [**Basic learning shield**](../../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md).  
 4. Install the [**Mosiwi basic learning kit**](../../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md#integration-library) library.    
 
 ## Chapter1 RGB LED    
@@ -557,13 +557,13 @@ More info: <https://www.arduino.cc/reference/en/language/variables/utilities/pro
 The buzzer on the extension board emits 50Hz sound all the time.     
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/15img.png)    
 
-**FAQ:**
+**FAQ:**      
 (1) How do you use a timer to make a buzzer sound?     
 Instead of using the tone() function to set the buzzer to different frequencies, you can also use a timer interrupt to accomplish this. We have seen how to use timer1 and timer2 in the previous chapter, and now we can use them to generate square waves with different frequencies.      
 Frequency calculation formula:      
-$$f = 1/T$$
-f: Frequency in Hertz   
-T: Period in seconds
+$$f = 1/T$$           
+f: Frequency in Hertz     
+T: Period in seconds    
 
 For example, if we want to generate a square wave with a frequency of 500Hz, the formula is: T=1/500=0.002 seconds =2 milliseconds      
 In this case, we only need to execute the interrupt function once every 1 millisecond, and then change the level of the buzzer driver pin in the interrupt function, so that the following square wave can be generated:    
@@ -635,7 +635,7 @@ voiceAnalogValue = analogRead(A6);
 Speaking into the microphone on the extension or playing music (at a higher volume), eight yellow leds on the extension board will light up a different number of leds depending on the volume of the sound.     
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/36img.png)    
 
-**FAQ:**
+**FAQ:**          
 (1) What is logical and: &&    
 When two numbers "&&" operation, the result is true only if both operands are true; Otherwise, it is false.     
 ```
@@ -719,9 +719,8 @@ More info: <https://www.arduino.cc/reference/en/language/functions/math/min/>
 3. variable: word
 4. class   
 
-**Program flow diagram:** 
+**Program flow diagram:**          
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/38img.png)    
-
 
 **Open the example code: "2.4.0_EEPROM_ReadWriteSkip"**      
 1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
@@ -735,7 +734,7 @@ More info: <https://www.arduino.cc/reference/en/language/functions/math/min/>
 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/40img.png)    
 
-**FAQ:**
+**FAQ:**          
 (1) EEPROM (Electrically Erasable Programmable Read-Only Memory)
 It is a kind of memory chip that does not lose data after power failure.    
 
@@ -831,7 +830,7 @@ int Power = BMW.power;
 3. How to use the functions: millis(), abs()   
 4. What are function arguments?    
 
-**Program flow diagram:** 
+**Program flow diagram:**         
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/42img.png)    
 
 **Open the example code: "2.5.0_Thermohygrometer"**      
@@ -842,7 +841,7 @@ int Power = BMW.power;
 The 4-bit digital tube on the expansion board displays the current ambient temperature for 5 seconds, then the current ambient humidity for 5 seconds, and so on.    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/43img.png)    
 
-**FAQ:**
+**FAQ:**         
 (1) What is a Thermohygrometer?   
 A thermohygrometer is a tool that can accurately measure the current ambient temperature and humidity. In the example we used AHT20 temperature and humidity sensor and 4 digital control made a temperature and humidity meter, 4 digital tube can display temperature and humidity values.     
 specification parameter: 
@@ -933,7 +932,7 @@ void displayHumidity(float H){
 **Curriculum question:** 
 1. What is an infrared receiving sensor?      
 
-**Program flow diagram:** 
+**Program flow diagram:**      
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/44img.png)    
 
 
@@ -950,7 +949,7 @@ Open the serial port monitor, adjust the baud rate to 9600, press "OK" on the in
 Please refer to the table below for other keys:      
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/46img.png)    
 
-**FAQ:**
+**FAQ:**              
 (1) What is an infrared receiving sensor?    
 The internal circuit of the infrared receiver includes infrared monitoring diode, amplifier, limiter, band pass filter, integral circuit, comparator and so on. The infrared monitoring diode detects the infrared signal and sends it to the amplifier and limiter, which controls the pulse amplitude at a certain level regardless of the distance between the infrared transmitter and the receiver. The AC signal enters the bandpass filter, which can pass through the negative carrier of 30khz to 60khz and enter the comparator through the demodulation circuit and the integral circuit, and the comparator outputs high and low levels to restore the signal waveform of the transmitter. Note that the high and low levels of the output signal and the transmitter are reversed in order to improve the sensitivity of the reception.     
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/47img.png)    
@@ -1027,7 +1026,7 @@ Serial.println(IR.value, HEX);
 **Extended chapter:**   
 1. How to realize infrared remote control?     
 
-**Program flow diagram:** 
+**Program flow diagram:**        
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/49img.png)    
 
 **Open the example code: "2.6.1_IRremote"**      
@@ -1039,7 +1038,7 @@ Use the infrared remote control to repeatedly press the "OK" key in front of the
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/50img.png)    
 <span style="color: rgb(255, 76, 65);">Note: Button batteries must be installed when using the infrared remote control. If the infrared remote control has been allocated with button batteries, the separator at the bottom of the remote control must be pulled out.</span>      
 
-**FAQ:**
+**FAQ:**          
 (1) How to realize infrared remote control?    
 Infrared remote control to send control data through the infrared transmitter to the infrared receiving sensor, and then the UNO board reads the data of the infrared receiving sensor, and then performs different functions according to different data.    
 For example, we can program the UNO board to turn on the LED when it receives the value of key 1 on the remote control, and turn off the LED when the value of key 2 is received. The buzzer beeps when the value of key 3 is received, stops beeping when the value of key 4 is received, and so on. If we extend some other sensors, then we can implement more functions. For a more advanced idea, we can also make our own smart home system.    
@@ -1054,7 +1053,7 @@ For example, we can program the UNO board to turn on the LED when it receives th
 **Wiring diagram**
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/51img.png)    
 
-**Program flow diagram:** 
+**Program flow diagram:**         
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/52img.png)    
 
 **Open the example code: "2.7.0_Ultrasonic"**      
@@ -1066,7 +1065,7 @@ Turn on the serial port monitor, adjust the baud rate to 9600, put the obstacle 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/53img.png)    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/54img.png)    
 
-**FAQ:**
+**FAQ:**                
 (1) What is ultrasound?    
 Ultrasonic wave is a part of sound wave, it is a kind of human ear can not hear, the frequency is higher than 20KHZ sound wave, it and sound wave have in common, that is, are generated by material vibration, and can only propagate in the medium; It is also widespread in nature, and many animals can emit and receive ultrasonic waves, the most prominent of which is bats, which can use weak ultrasonic echoes to fly in the dark and catch prey.     
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/55img.png)    
@@ -1120,25 +1119,25 @@ More info: <https://www.arduino.cc/reference/en/language/functions/advanced-io/p
 
 ## Chapter15 Ultrasonic testing instrument  
 
-**Curriculum question:** 
+**Curriculum question:**      
 1. What is a function that returns a value?      
 2. how to use the logic statements: ||       
 
-**Wiring diagram**
+**Wiring diagram**      
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/51img.png)    
 
-**Program flow diagram:** 
+**Program flow diagram:**      
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/60img.png)    
 
 **Open the example code: "2.7.1_Range-measurement"**      
 1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
 2. Upload the code to the UNO board.
 
-**Example code phenomena:**  
+**Example code phenomena:**     
 After uploads the code, unplug the USB, and then connect the battery box, press any of the U, D, L, R and OK keys on the expansion board to start the ultrasonic ranging; Pressing any of them will turn off ultrasonic ranging. After turning on ultrasonic ranging, the 4-digit digital tube will display the distance measured by ultrasonic in real time.    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/61img.png)    
 
-**FAQ:**
+**FAQ:**            
 (1) What is a function that returns a value?    
 When a function is executed, the function returns a value, called a function with a return value.    
 Define a function:   
@@ -1190,25 +1189,25 @@ More info: <https://www.arduino.cc/reference/en/language/structure/boolean-opera
 
 
 ## Chapter16 Fan-PWM   
-**Curriculum question:** 
+**Curriculum question:**      
 1. What is a fan?    
 2. How to control the fan?      
 
-**Wiring diagram**
+**Wiring diagram**      
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/62img.png)    
 
-**Program flow diagram:** 
+**Program flow diagram:**     
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/63img.png)    
 
 **Open the example code: "2.8.0_Fan_PWM"**      
 1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
 2. Upload the code to the UNO board.
 
-**Example code phenomena:**  
+**Example code phenomena:**     
 After uploading the code, the fan speed will change from small to large forward rotation, and then from large to small reverse, and so on.    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/64img.png)    
 
-**FAQ:**
+**FAQ:**             
 (1) What is a fan?    
 The electric fan is a device that electrically drives the motor to generate air flow. After the internal motor is energized, it drives the blade to rotate and converts the electric energy into wind energy.     
 
@@ -1242,7 +1241,7 @@ Control fan speed:
 | 0 | PWM | CW |
 | PWM | 0 | CCW |
 
-**Extended chapter1:**   
+**Extended chapter1:**      
 You can also control the fan using the fan driver function from the "Mosiwi_Basic_Learning_Kit" library. When using the fan driver function in the library, you must select the timer and then include the associated header file.
 
 Timer 1 or timer 2 is needed to drive the fan in the integration library, and the desired timer can be selected according to the requirements.    
@@ -1294,38 +1293,37 @@ Turn off the fan:
 MswFan::stop();
 ```
 
-**Open the example code: "2.8.1_Fan_timer"**      
+**Open the example code: "2.8.1_Fan_timer"**        
 1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
 2. Upload the code to the UNO board.
 
-**Extended chapter2:**   
+**Extended chapter2:**     
 We also have an example of controlling a fan through a sliding resistor.    
 
-**Program flow diagram:** 
+**Program flow diagram:**     
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/66img.png)    
 
-**Open the example code: "2.8.1_Fan_timer"**      
+**Open the example code: "2.8.1_Fan_timer"**        
 1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
 2. Upload the code to the UNO board. 
 
-**Example code phenomena:** 
+**Example code phenomena:**      
 After power on, the more up push the potentiometer on the expansion board, the faster the fan turns, the more down push, the slower the fan turns.   
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/67img.png)    
 
 
-## Chapter17 Smart fan   
-
-**Curriculum question:** 
+## Chapter17 Smart fan     
+**Curriculum question:**     
 1. How to Improve your programming skills?   
 
-**Program flow diagram:** 
+**Program flow diagram:**     
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/68img.png)    
 
-**Open the example code: "2.8.3_Intelligent_fan"**      
+**Open the example code: "2.8.3_Intelligent_fan"**        
 1. Open the sample code using the methods in **"[Chapter_1](./Basic_tutorial.md#chapter-1-blink)"**.   
 2. Upload the code to the UNO board.
 
-**Example code phenomena:**  
+**Example code phenomena:**     
 This is an intelligent fan with temperature control mode and remote control mode.    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/69img.png)    
 
@@ -1343,7 +1341,7 @@ Special Notes:
 1. When the temperature mode is opened, the fan will start automatically when the temperature is higher than 35 degrees; It will automatically turn off when it is below 16 degrees. If the temperature returns to 16-35 degrees, you can turn on or off the fan through the remote control.   
 2. The fan speed can be controlled by remote control in both temperature control mode and remote control mode.    
 
-**FAQ:**
+**FAQ:**        
 (1) How to Improve your programming skills?   
 1. Follow the steps of the tutorial to see the experimental phenomenon.    
 2. Look at the FQA of each section to understand the function and usage of the code.    
@@ -1354,5 +1352,5 @@ Special Notes:
 7. Keep learning.
 
 
-**End!**    
+**End!**      
 For more exciting tutorials, check out the [advance tutorial](./Advanced_tutorial.md)!    

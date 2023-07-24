@@ -4,7 +4,7 @@ Learn simple programming syntax based on the UNO board, and learn the most compr
 ## Previous preparation   
 1. Install the [**Arduino IDE**](../../../arduino/arduino_ide/arduino_ide.md).     
 2. Basic operation of the [**Arduino UNO R3**](../../../arduino/A1D0000_uno_r3/A1D0000_uno_r3.md) motherboard.    
-3. Learn about [**3in1 basic learning shield**](../../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md).  
+3. Learn about [**Basic learning shield**](../../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md).  
 4. Install the [**Mosiwi basic learning kit**](../../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md#integration-library) library.    
 
 ## Chapter_1 Blink    

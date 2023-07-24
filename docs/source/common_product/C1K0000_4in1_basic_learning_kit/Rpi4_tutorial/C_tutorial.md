@@ -1,7 +1,11 @@
 # C-language for Raspberry pi4    
 This tutorial is based on the [C1K0001 4in1 basic learning kit](../../C1K0000_4in1_basic_learning_kit/C1K0000_4in1_basic_learning_kit.md).     
 
-## Prepared knowledge    
+## Prepared knowledge     
+**Learn about** [**Basic learning shield**](../../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md).  
+
+**Learn about** [**3in1 basic learning shield**](../../../common_product/C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md).  
+
 **Raspberry pi4 basics**     
 If you don't have Raspberry pi4 basics, you can follow the link to learn the basics: [Click Me](../../../raspberry/R1D0000_raspberry_pi4/R1D0000_raspberry_pi4.md)      
 
@@ -113,7 +117,7 @@ Then restart Raspberry PI and TUTTY.
 ## Example1: Arithmetic operator       
 **Objective:**     
 1. Arithmetic operator:    
-| \+ | \- | \* | / | % |    
+| \+ | \- | \* | \/ | \% |    
 | :--: | :--: | :--: | :--: | :--: |    
 | Addition operation | Subtraction operation | Multiplication operation | Division operation | Remainder operation |      
      
