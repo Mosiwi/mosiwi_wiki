@@ -1126,7 +1126,7 @@ More info: <https://www.arduino.cc/reference/en/language/functions/advanced-io/p
 1. What is a function that returns a value?      
 2. how to use the logic statements: ||       
 
-**Wiring diagram**      
+**Wiring diagram:**      
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/51img.png)    
 
 **Program flow diagram:**      

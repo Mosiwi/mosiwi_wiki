@@ -22,7 +22,7 @@ Please download the sample code on Github: <https://github.com/Mosiwi/Mosiwi-bas
 Unzip the file downloaded above, and the file in the "**pico->python**" folder is the sample code.       
 
 ## Wiring diagram      
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/img.png)    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/13img.png)    
 
 ## Basic_example Blink      
 **Objective:**     
@@ -81,7 +81,7 @@ See: [Button](../Arduino_tutorial/Basic_tutorial.md#Chapter-2-button)
 1. What is PWM output?      
 2. What is buzzer?    
 
-**Pin control table:**   
+**Pins to be used:**   
 1. Buzzer: GP6  
 
 **Open the example code: "buzzer.py"**     
@@ -105,7 +105,7 @@ See: [Buzzer](../Arduino_tutorial/Intermediate_tutorial.md#chapter5-buzzer)
 **Objective:**     
 1. What is RGB LED?         
 
-**Pin control table:**   
+**Pins to be used:**   
 1. Red RGB LED: GP8    
 2. Green RGB LED: GP9
 3. Bule REG LED: GP7
@@ -128,22 +128,48 @@ See: [RGB LED](../Arduino_tutorial/Intermediate_tutorial.md#chapter1-rgb-led)
 1. What is fan module?         
 
 **Pin control table:**   
-1. Red RGB LED: GP8    
-2. Green RGB LED: GP9
-3. Bule REG LED: GP7
+1. S1(INB): GP8    
+2. S2(INA): GP9
+
+**Wiring diagram:** 
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/12img.png)    
 
 **Open the example code: "fan_pwm.py"**     
 1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
 2. Run the example code online. 
 
 **Example code phenomena:**         
-The RGB LED light cycle emits red, green and blue lights.     
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/img.png)    
+The fan rotates clockwise and counterclockwise, and the speed changes from small to large, and then from large to small.       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/14img.png)    
 
 **FQA:**   
 (1) What is fan module?       
 See: [Fan module](../Arduino_tutorial/Intermediate_tutorial.md#chapter16-fan-pwm)     
 
+
+## Example_5 Potentiometer   
+**Objective:**     
+1. What is potentiometer?         
+2. What is ADC?   
+
+**Pins to be used:**   
+1. Potentiometer: GP28_A2    
+
+**Open the example code: "potentiometer.py"**     
+1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
+2. Run the example code online. 
+
+**Example code phenomena:**         
+Push the potentiometer up and down, and the terminal prints the corresponding analog value and voltage value.          
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/15img.png)    
+
+**FQA:**   
+(1) What is potentiometer?    
+Sliding potentiometer is a resistance element with adjustable resistance value and three leading ends. It usually consists of a resistive body and a removable brush. When the brush moves along the resistance body, the resistance value or voltage that is related to the displacement can be obtained at the output end.      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/16img.png)    
+
+(2) What is ADC? 
+See: [ADC](https://docs.micropython.org/en/latest/rp2/quickref.html#adc-analog-to-digital-conversion)       
 
 
 **End!**    

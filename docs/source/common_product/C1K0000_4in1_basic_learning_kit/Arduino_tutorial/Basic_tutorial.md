@@ -497,7 +497,7 @@ The result is 1.
 2. Upload the code to the UNO board.   
 
 **Example code phenomena:**     
-Turn on the serial port monitor and set the baud rate to 9600. The serial port monitor prints calculation information every 0.2 seconds.      
+Turn on the serial port monitor and set the baud rate to 9600. Push the potentiometer up and down, and the serial port monitor prints out the corresponding analog value and voltage value.        
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/23img.png)     
 
 **FAQ:**     
