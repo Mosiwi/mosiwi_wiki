@@ -36,7 +36,10 @@ $$R=U/I$$
 Color ring resistor uses different colors to show the resistance and accuracy, as shown below:    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/4img.png)    
 
-(2) How to control R, G, B LED?    
+(2) How to control R, G, B LED?      
+RGB LED is a combination of red, green and blue LEDs. By controlling the intensity of the light emitted by the LEDs of 3 colors and fusing the 3 lights together, various light sources can be produced.     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/70img.png)    
+
 When the expansion board is directly inserted into the UNO board, the R, G, and B leds on the expansion board are controlled by the 5, 6, and 9 pins of the UNO board. These three pins can be set to digital output mode, by output high or low level to control the LED on and off.             
 Set pin mode:    
 ```
