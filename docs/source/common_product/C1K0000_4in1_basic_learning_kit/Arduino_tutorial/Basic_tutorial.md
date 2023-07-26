@@ -1240,7 +1240,7 @@ The "Basic learning shield" is integrated with a 4-bit 8-segment display digital
 | U | D | L | R | OK |
 | :--: | :--: | :--: | :--: | :--: |
 | 16 | 8 | 4 | 2 | 1 |
-<span style="color: rgb(255, 76, 65);">Note: The 4-bit 8-segment digital tube and 4 keys on the "Basic learning shield" occupy pins 3 (key trigger signal output), 11 (MOSI), 12 (MISO) and 13 (CLK) of the UNO board, and the CS control pin is not required.</span>     
+<span style="color: rgb(255, 76, 65);">Note: The 4-bit 8-segment digital tube and 5 keys on the "Basic learning shield" occupy pins 3 (key trigger signal output), 11 (MOSI), 12 (MISO) and 13 (CLK) of the UNO board, and the CS control pin is not required.</span>     
 
 **Knowledge expansion:**
 1. What is coercion of a variable?    

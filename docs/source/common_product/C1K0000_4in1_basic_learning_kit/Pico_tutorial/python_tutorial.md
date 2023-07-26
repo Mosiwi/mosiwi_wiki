@@ -61,7 +61,7 @@ Enter the code in the main panel, then click on the "**Save**" or "**File->Save 
 1. Button: GP21 
 2. Red RGB LED: GP25
 
-**Open the example code: "button.py"**     
+**Open the example code: "button\.py"**     
 1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
 2. Run the example code online.      
 
@@ -84,7 +84,7 @@ See: [Button](../Arduino_tutorial/Basic_tutorial.md#Chapter-2-button)
 **Pins to be used:**   
 1. Buzzer: GP6  
 
-**Open the example code: "buzzer.py"**     
+**Open the example code: "buzzer\.py"**     
 1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
 2. Run the example code online. 
 
@@ -110,7 +110,7 @@ See: [Buzzer](../Arduino_tutorial/Intermediate_tutorial.md#chapter5-buzzer)
 2. Green RGB LED: GP9
 3. Bule REG LED: GP7
 
-**Open the example code: "rgb-led_pwm.py"**     
+**Open the example code: "rgb-led_pwm\.py"**     
 1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
 2. Run the example code online. 
 
@@ -134,7 +134,7 @@ See: [RGB LED](../Arduino_tutorial/Intermediate_tutorial.md#chapter1-rgb-led)
 **Wiring diagram:** 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/12img.png)    
 
-**Open the example code: "fan_pwm.py"**     
+**Open the example code: "fan_pwm\.py"**     
 1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
 2. Run the example code online. 
 
@@ -155,7 +155,7 @@ See: [Fan module](../Arduino_tutorial/Intermediate_tutorial.md#chapter16-fan-pwm
 **Pins to be used:**   
 1. Potentiometer: GP28_A2    
 
-**Open the example code: "potentiometer.py"**     
+**Open the example code: "potentiometer\.py"**     
 1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
 2. Run the example code online. 
 
@@ -170,6 +170,222 @@ Sliding potentiometer is a resistance element with adjustable resistance value a
 
 (2) What is ADC? 
 See: [ADC](https://docs.micropython.org/en/latest/rp2/quickref.html#adc-analog-to-digital-conversion)       
+
+
+## Example_6 Microphone   
+**Objective:**     
+1. What is microphone?           
+
+**Pins to be used:**   
+1. Microphone: GP27_A1          
+
+**Open the example code: "microphone\.py"**     
+1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
+2. Run the example code online. 
+
+**Example code phenomena:**         
+After running the code, the terminal prints the analog value of the amplified sound and the voltage value.        
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/17img.png)    
+
+**FQA:**   
+(1) What is microphone?    
+See: [Microphone](../Arduino_tutorial/Intermediate_tutorial.md#chapter9-microphone)       
+<span style="color: rgb(255, 76, 65);">Note: When the microphone on the expansion board is used with the Pico board, the operating voltage is 3.3V instead of 5V.</span>      
+
+
+## Example_7 Ultrasonic       
+**Objective:**     
+1. What is ultrasonic?           
+
+**Pins to be used:**   
+1. S1(echo of ultrasonic): GP8    
+2. S2(trig of ultrasonic): GP9         
+
+**Wiring diagram:** 
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/23img.png)    
+
+**Open the example code: "ultrasonic\.py"**     
+1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
+2. Run the example code online. 
+
+**Example code phenomena:**         
+After the code is uploaded, the obstacle is placed in front of the ultrasonic sensor, and the distance measured by the ultrasonic sensor is printed at the terminal.         
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/18img.png)    
+
+**FQA:**   
+(1) What is ultrasonic?    
+See: [Ultrasonic](../Arduino_tutorial/Intermediate_tutorial.md#chapter14-ultrasonic)       
+<span style="color: rgb(255, 76, 65);">Note: When the ultrasonic on the expansion board is used with the Pico board, the operating voltage is 3.3V instead of 5V.</span>      
+
+
+## Example_9 Led-strip      
+**Objective:**     
+1. What is led-strip?           
+
+**Pins to be used:**   
+1. DS: GP15    
+2. SH_CP: GP14      
+3. ST_CP: GP13   
+
+**Open the example code: "led-strip_tw\.py"**     
+1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
+2. Run the example code online. 
+
+**Example code phenomena:**         
+The LED strip on the expansion board turns on and off in cycles.       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/19img.png)    
+
+**FQA:**   
+(1) What is led-strip?    
+There is one LED strip on the expansion board, which is controlled by the 74HC595 chip on the expansion board. 74HC595 is a widely used serial input and parallel output chip.      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/20img.png)    
+
+
+## Example_9 Timer   
+**Objective:**     
+1. What is timer?           
+
+**Pins to be used:**   
+1. Red RGB LED: GP8             
+
+**Open the example code: "timer\.py"**     
+1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
+2. Run the example code online. 
+
+**Example code phenomena:**         
+The red LED on the expansion board shines once every 1 seconds.    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/11img.png)    
+
+**FQA:**   
+(1) What is timer?  
+See: [Timer](../Arduino_tutorial/Basic_tutorial.md#chapter-6-timer1)  
+See: [Timer of Pico](https://docs.micropython.org/en/latest/rp2/quickref.html#timers)       
+
+
+## Example_10 keyboard       
+**Objective:**     
+1. What is keyboard?           
+2. What is SPI communication protocol?   
+
+**Pins to be used:**   
+1. MISO: GP16    
+2. MOSI: GP19     
+3. CLK: GP18      
+4. KEY-INT: GP20     
+<span style="color: rgb(255, 76, 65);">Note: The 5 keys on the "Basic learning shield" occupy GP20 (key trigger signal output), GP19 (MOSI), GP16 (MISO) and GP18 (CLK) of the Pico board, and the CS control pin is not required.</span>     
+
+**Open the example code: "keyboard_spi\.py"**     
+1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
+2. Run the example code online. 
+
+**Example code phenomena:**         
+Press the keyboard on the expansion board, and the terminal will print the value of the keyboard.           
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/21img.png)    
+| U | D | L | R | OK |
+| :--: | :--: | :--: | :--: | :--: |
+| 16 | 8 | 4 | 2 | 1 |
+
+**FQA:**   
+(1) What is Keyboard and SPI communication?    
+See: [Keyboard and SPI communication protocol](../Arduino_tutorial/Basic_tutorial.md#chapter-9-digital-tube-button-spi)       
+See: [Pico use SPI](https://docs.micropython.org/en/latest/rp2/quickref.html#hardware-spi-bus)    
+ 
+## Example_11 4-bit 8-segment digital tube       
+**Objective:**     
+1. What is 4-bit 8-segment digital tube?             
+
+**Pins to be used:**   
+1. MISO: GP16    
+2. MOSI: GP19     
+3. CLK: GP18           
+<span style="color: rgb(255, 76, 65);">Note: The 4-bit 8-segment digital tube on the "Basic learning shield" occupy GP19 (MOSI), GP16 (MISO) and GP18 (CLK) of the Pico board, and the CS control pin is not required.</span>     
+
+**Open the example code: "tube_spi\.py"**     
+1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
+2. Run the example code online. 
+
+**Example code phenomena:**         
+The 4-bit 8-segment nixie shows 0-9999, then 999.9, and so on.       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/22img.png)    
+
+**FQA:**   
+(1) What is 4-bit 8-segment digital tube?    
+See: [4-bit 8-segment digital tube](../Arduino_tutorial/Basic_tutorial.md#chapter-9-digital-tube-button-spi)       
+
+
+## Example_12 Ir-receiver       
+**Objective:**     
+1. What is Ir-receiver?      
+2. What is NEC infrared communication protocol? 
+3. What is I2C communication protocol? 
+
+**Pins to be used:**   
+1. SDA: GP4    
+2. SCL: GP5              
+
+**Open the example code: "ir-receiver_iic\.py"**     
+1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
+2. Run the example code online. 
+
+**Example code phenomena:**         
+When the infrared remote controller presses the button, point to the infrared receiver on the expansion board, and the terminal will print the button value.       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/24img.png)    
+Pico will get 2 bytes of data, the first byte is the inverse code of the address of the infrared remote control device, and the second byte is the command code of the infrared remote control device.      
+
+
+**FQA:**   
+(1) What is Ir-receiver?    
+See: [Ir-receiver](../Arduino_tutorial/Intermediate_tutorial.md#chapter13-ir-receiver)       
+
+(2) What is NEC infrared communication protocol?       
+See: [NEC infrared communication protocol](../../../common_resource/nec_communication_protocol/nec_communication_protocol.md)
+
+(3) What is I2C communication?    
+There is an I2C slave chip on the [3in1_basic_shield](../../C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md#io-expand), which integrates the NEC infrared communication protocol, and Pico communicates with it through the I2C protocol to read the data of the infrared receiver.     
+See: [Pico use I2C](https://docs.micropython.org/en/latest/rp2/quickref.html#hardware-i2c-bus)     
+
+## Example_13 Uart       
+**Objective:**     
+1. What is uart?             
+
+**Pins to be used:**   
+1. TX: GP0    
+2. RX: GP1     
+
+**Wiring diagram:** 
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/25img.png)    
+Connect these two pins through a jumper wire or a metal wire.     
+
+**Open the example code: "uart\.py"**     
+1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
+2. Run the example code online. 
+
+**Example code phenomena:**         
+Pico's serial port TX pin keeps sending data to Pico's RX pin, and the terminal prints the data received by the RX pin: **"Mosiwi!"**          
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/26img.png)    
+
+**FQA:**   
+(1) What is uart?    
+See: [Pico use uart](https://docs.micropython.org/en/latest/rp2/quickref.html#uart-serial-bus)       
+
+
+## Example_14 Watchdog      
+**Objective:**     
+1. What is Watchdog?             
+
+**Open the example code: "wdt\.py"**     
+1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
+2. Run the example code online. 
+
+**Example code phenomena:**         
+At the beginning of the program, let the LED on the Pico board blink once, and then set the dog feeding time of the watchdog to within 30 seconds, so that the program will always loop empty. Because the dog was not fed in time, the Pico reset every 30 seconds, and the LED on the Pico class flickered every time it was reset.             
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/5img.png)      
+<span style="color: rgb(255, 76, 65);">Note: When practicing, don't set the dog feed time so short that the Pico keeps resetting and can't communicate with Thonny. At this point you have to [re-burn the UF2 file](../../../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md#using-uicropython-in-thonny).</span>    
+
+**FQA:**   
+(1) What is Watchdog?    
+The watchdog is also a timer, and the set time must be refreshed within the set time, otherwise it will cause the chip to reset. Use this function to prevent the program from running incorrectly or out of control.      
+See: [Pico use WDT](https://docs.micropython.org/en/latest/rp2/quickref.html#wdt-watchdog-timer)           
 
 
 **End!**    

@@ -601,9 +601,8 @@ void loop() {
 2. Upload the code to the UNO board.
 
 **Example code phenomena:**  
-When powered on, the microphone will always obtain the sound data of the current environment. Open the serial port monitor and adjust the baud rate to 9600. The serial port monitor has been printing the analog value of the amplified sound and the voltage value calculated by the program.     
+When powered on, the microphone will always obtain the sound data of the current environment. Open the serial port monitor and adjust the baud rate to 9600. The serial port monitor has been printing the analog value of the amplified sound and the voltage value calculated by the program.             
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/31img.png)    
-
 
 **FAQ:**
 (1) What is a microphone?  
@@ -620,8 +619,7 @@ int voiceAnalogValue;
 voiceAnalogValue = analogRead(A6);
 ```
 
-## Chapter10 Music LED   
-
+## Chapter10 Music LED     
 **Curriculum question:** 
 1. What is logical and: &&    
 2. What is a jump statement: goto   
