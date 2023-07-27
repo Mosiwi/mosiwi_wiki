@@ -221,6 +221,7 @@ See: [Ultrasonic](../Arduino_tutorial/Intermediate_tutorial.md#chapter14-ultraso
 ## Example_9 Led-strip      
 **Objective:**     
 1. What is led-strip?           
+2. What is 74HC595?     
 
 **Pins to be used:**   
 1. DS: GP15    
@@ -240,6 +241,8 @@ The LED strip on the expansion board turns on and off in cycles.
 There is one LED strip on the expansion board, which is controlled by the 74HC595 chip on the expansion board. 74HC595 is a widely used serial input and parallel output chip.      
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/20img.png)    
 
+(2) What is 74HC595? 
+See: [74HC595](../Arduino_tutorial/Advanced_tutorial.md#chapter6-3-wire-communication)         
 
 ## Example_9 Timer   
 **Objective:**     
@@ -287,9 +290,11 @@ Press the keyboard on the expansion board, and the terminal will print the value
 
 **FQA:**   
 (1) What is Keyboard and SPI communication?    
-See: [Keyboard and SPI communication protocol](../Arduino_tutorial/Basic_tutorial.md#chapter-9-digital-tube-button-spi)       
+See: [Keyboard](../Arduino_tutorial/Basic_tutorial.md#chapter-9-digital-tube-button-spi)       
+See: [SPI communication protocol](../Arduino_tutorial/Advanced_tutorial.md#chapter5-spi-communication-protocol)       
 See: [Pico use SPI](https://docs.micropython.org/en/latest/rp2/quickref.html#hardware-spi-bus)    
- 
+
+
 ## Example_11 4-bit 8-segment digital tube       
 **Objective:**     
 1. What is 4-bit 8-segment digital tube?             
@@ -342,6 +347,7 @@ See: [NEC infrared communication protocol](../../../common_resource/nec_communic
 
 (3) What is I2C communication?    
 There is an I2C slave chip on the [3in1_basic_shield](../../C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md#io-expand), which integrates the NEC infrared communication protocol, and Pico communicates with it through the I2C protocol to read the data of the infrared receiver.     
+See: [I2C](../Arduino_tutorial/Advanced_tutorial.md#chapter4-i2c-communication-protocol)     
 See: [Pico use I2C](https://docs.micropython.org/en/latest/rp2/quickref.html#hardware-i2c-bus)     
 
 ## Example_13 Uart       
@@ -366,6 +372,7 @@ Pico's serial port TX pin keeps sending data to Pico's RX pin, and the terminal 
 
 **FQA:**   
 (1) What is uart?    
+See: [Uart](../Arduino_tutorial/Advanced_tutorial.md#chapter3-serial-port)    
 See: [Pico use uart](https://docs.micropython.org/en/latest/rp2/quickref.html#uart-serial-bus)       
 
 
