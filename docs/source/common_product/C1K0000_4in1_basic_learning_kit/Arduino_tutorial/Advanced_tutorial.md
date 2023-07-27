@@ -400,7 +400,9 @@ $$bit_time = (1/speed)/(1/F_CPU )$$
 
 Then the bit time is divided into four parts, which is convenient for subsequent calculation of various bit delays:    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Advanced_tutorial/49img.png)        
-$$bit_delay = (F_CPU / speed) / 4$$
+$$  
+bit_delay = (F_CPU / speed) / 4   
+$$   
 
 In order to obtain the accurate delay of various transmitting bits and receiving bits, it is necessary to consider the influence of different versions of GCC compiler on the running speed of the program. See the source code for the calculation.    
 
@@ -457,7 +459,9 @@ A 64-byte receive cache number is set and two Pointers, the receive cache header
 int SoftwareSerial::available(){ ... }
 ```
 Algorithm:   
-$$Num = (tail + 64 - head) \% 64$$
+$$    
+Num = (tail + 64 - head) \% 64    
+$$   
 The above algorithm can count the number of received data in the receive cache array in both cases tail > head and tail < head.     
 
 10\. Reads all data in the receive buffer array byte by byte.     
