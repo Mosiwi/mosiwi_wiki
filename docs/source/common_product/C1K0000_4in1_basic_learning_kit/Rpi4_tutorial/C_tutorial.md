@@ -111,7 +111,7 @@ ls
 
 ## Wiring diagram   
 Turn off the Raspberry PI and connect the Raspberry PI to the expansion board with a 40P color cable:    
-![Img]()
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/0img.png)      
 Then restart Raspberry PI and TUTTY.     
 
 ## Example1: Arithmetic operator             
@@ -123,11 +123,9 @@ sudo ./arithmetic_operation
 ```
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/9img.png)     
 
-## Example2:      
-**Pin control table:**     
-| The pin of Pi4 | LED on the expansion board |
-| :--: | :--: |
-| 23(Wiringpi) or 13(BCM) | Red LED |
+## Example2 Blink     
+**Pins to be used:**   
+1. Red RGB LED: 23(Wiringpi) or 13(BCM)  
 
 **Demonstration:**       
 Run the following command on the terminal:       
@@ -139,8 +137,106 @@ sudo ./blink
 The red LED lights on the expansion board are lit at one-second intervals.    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/10img.png)     
 
-## Example3: 
-...   
+## Example3 Button   
+**Pins to be used:**   
+1. Red RGB LED: 23(Wiringpi) or 13(BCM) 
+2. Button: 22(Wiringpi) or 6(BCM)  
+
+**Demonstration:**       
+Run the following command on the terminal:       
+```
+cd ~/Mosiwi-basic-learning-kit/pi4/c/examples/1.2.0_Button/     
+chmod 777 button     
+sudo ./button
+```
+After uploads the code, the green RGB led on the expansion board is always off, and if the "Button" on the extension board is pressed, the LED is turned on.     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/11img.png)     
+
+
+## Example4 Buzzer   
+**Pins to be used:**   
+1. Buzzer: 1(Wiringpi) or 18(BCM) 
+
+**Demonstration:**       
+Run the following command on the terminal:       
+```
+cd ~/Mosiwi-basic-learning-kit/pi4/c/examples/2.2.0_Buzzer/     
+chmod 777 buzzer     
+sudo ./buzzer
+```
+After uploading the code, the buzzer on the expansion board will keep beeping with a fixed frequency and different volumes.       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/12img.png)     
+
+
+## Example5 RGB LED   
+**Pins to be used:**   
+1. Red RGB LED: 23(Wiringpi) or 13(BCM)  
+2. Green RGB LED: 24(Wiringpi) or 19(BCM)  
+3. Blue RGB LED: 26(Wiringpi) or 12(BCM)  
+
+**Demonstration:**       
+Run the following command on the terminal:       
+```
+cd ~/Mosiwi-basic-learning-kit/pi4/c/examples/2.2.0_Buzzer/     
+chmod 777 buzzer     
+sudo ./buzzer
+```
+After uploading the code, the buzzer on the expansion board will keep beeping with a fixed frequency and different volumes.       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/12img.png)     
+
+
+## Example6 Fan   
+**Pins to be used:**   
+1. S1(INB): 23(Wiringpi) or 13(BCM)  
+2. S2(INA): 24(Wiringpi) or 19(BCM)  
+
+**Wiring diagram:**   
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/13img.png)     
+
+**Demonstration:**       
+Run the following command on the terminal:       
+```
+cd ~/Mosiwi-basic-learning-kit/pi4/c/examples/2.8.0_Fan_PWM/     
+chmod 777 fan_pwm     
+sudo ./fan_pwm
+```
+The fan rotates clockwise and counterclockwise, and the speed changes from small to large, and then from large to small.       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/14img.png)     
+
+
+## Example7 Potentiometer      
+**Pins to be used:**   
+1. SDA: 8(Wiringpi) or 2(BCM)  
+2. SCL: 9(Wiringpi) or 3(BCM)   
+
+**Demonstration:**       
+Run the following command on the terminal:       
+```
+cd ~/Mosiwi-basic-learning-kit/pi4/c/examples/1.3.0_Analog_sr/     
+chmod 777 analog_sr     
+sudo ./analog_sr
+```
+Push the potentiometer up and down, and the terminal prints the corresponding analog value and voltage value.          
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/15img.png)     
+Note: Raspberry Pi4 reads the analog value of the potentiometer through the I2C expansion chip on the "3in1_basic_learning_shield".     
+
+## Example8 Microphone      
+**Pins to be used:**   
+1. SDA: 8(Wiringpi) or 2(BCM)  
+2. SCL: 9(Wiringpi) or 3(BCM)   
+
+**Demonstration:**       
+Run the following command on the terminal:       
+```
+cd ~/Mosiwi-basic-learning-kit/pi4/c/examples/2.3.0_Microphone/     
+chmod 777 microphone     
+sudo ./microphone
+```
+After running the code, the terminal prints the analog value of the amplified sound and the voltage value.        
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/16img.png)     
+Note: Raspberry Pi4 reads the analog value of the microphone through the I2C expansion chip on the "3in1_basic_learning_shield".     
+
+
 
 **End!**    
   
