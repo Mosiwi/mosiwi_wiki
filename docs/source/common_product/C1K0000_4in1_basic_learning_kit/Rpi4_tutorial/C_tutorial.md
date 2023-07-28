@@ -218,7 +218,7 @@ sudo ./analog_sr
 ```
 Push the potentiometer up and down, and the terminal prints the corresponding analog value and voltage value.          
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/15img.png)     
-Note: Raspberry Pi4 reads the analog value of the potentiometer through the I2C expansion chip on the "3in1_basic_learning_shield".     
+<span style="color: rgb(255, 76, 65);">Note: Raspberry Pi4 reads the analog value of the potentiometer through the I2C expansion chip on the "3in1_basic_learning_shield".</span>         
 
 ## Example8 Microphone      
 **Pins to be used:**   
@@ -234,8 +234,162 @@ sudo ./microphone
 ```
 After running the code, the terminal prints the analog value of the amplified sound and the voltage value.        
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/16img.png)     
-Note: Raspberry Pi4 reads the analog value of the microphone through the I2C expansion chip on the "3in1_basic_learning_shield".     
+<span style="color: rgb(255, 76, 65);">Note: Raspberry Pi4 reads the analog value of the microphone through the I2C expansion chip on the "3in1_basic_learning_shield".</span>        
 
+
+## Example9 Ultrasonic     
+**Pins to be used:**   
+1. S1(echo of ultrasonic): 23(Wiringpi) or 13(BCM)  
+2. S2(trig of ultrasonic): 24(Wiringpi) or 19(BCM)  
+
+**Wiring diagram:**   
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/17img.png)     
+
+**Demonstration:**       
+Run the following command on the terminal:       
+```
+cd ~/Mosiwi-basic-learning-kit/pi4/c/examples/2.7.0_Ultrasonic/     
+chmod 777 ultrasonic     
+sudo ./ultrasonic
+```
+After the code is uploaded, the obstacle is placed in front of the ultrasonic sensor, and the distance measured by the ultrasonic sensor is printed at the terminal.         
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/18img.png)     
+
+
+## Example10 Led-strip      
+**Pins to be used:**   
+1. SDA: 8(Wiringpi) or 2(BCM)  
+2. SCL: 9(Wiringpi) or 3(BCM)   
+
+**Demonstration:**       
+Run the following command on the terminal:       
+```
+cd ~/Mosiwi-basic-learning-kit/pi4/c/examples/2.1.2_Led_strip/     
+chmod 777 led_strip     
+sudo ./led_strip
+```
+The more you push the slide resistor up, the more LEDs are turned on; the more you push the slide resistor down, the more LEDs are turned off.    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/19img.png)     
+
+
+## Example11 Thread    
+**Pins to be used:**   
+1. Red RGB LED: 23(Wiringpi) or 13(BCM)    
+
+**Demonstration:**       
+Run the following command on the terminal:       
+```
+cd ~/Mosiwi-basic-learning-kit/pi4/c/examples/1.6.0_Thread/     
+chmod 777 thread     
+sudo ./thread
+```
+The red LED lights on the expansion board are lit at one-second intervals.      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/10img.png)     
+
+
+## Example12 Digital_tube_Keyboard       
+**Pins to be used:**         
+1. MISO: 13(Wiringpi) or 9(BCM)  
+2. MOSI: 12(Wiringpi) or 10(BCM)
+3. CLK: 14(Wiringpi) or 11(BCM)  
+4. KEY-INT: 21(Wiringpi) or 5(BCM)
+
+
+**Demonstration:**       
+Run the following command on the terminal:       
+```
+cd ~/Mosiwi-basic-learning-kit/pi4/c/examples/1.8.0_Digital_tube_Button_spi/     
+chmod 777 digital_tube_button_spi     
+sudo ./ldigital_tube_button_spi
+```
+The 4-bit digital display tube displays "16.0" when the "U" key is pressed; "8.0" is displayed when the "D" key is pressed; "4.0" is displayed when the "L" key is pressed; "2.0" is displayed when the "R" key is pressed. Displays "1.0" when the "OK" key is pressed.    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/20img.png)     
+
+| U | D | L | R | OK |
+| :--: | :--: | :--: | :--: | :--: |
+| 16 | 8 | 4 | 2 | 1 |
+<span style="color: rgb(255, 76, 65);">Note: The 4-bit 8-segment digital tube and 5 keys on the "Basic learning shield" occupy pins 5(key trigger signal output), 10(MOSI), 9(MISO) and 11(CLK) of the Pi4, and the CS control pin is not required.</span>     
+
+
+## Example13 Ir-receiver      
+**Pins to be used:**   
+1. SDA: 8(Wiringpi) or 2(BCM)  
+2. SCL: 9(Wiringpi) or 3(BCM)   
+
+**Demonstration:**       
+Run the following command on the terminal:       
+```
+cd ~/Mosiwi-basic-learning-kit/pi4/c/examples/2.6.0_IRrecvDemo/     
+chmod 777 ir_recvDemo     
+sudo ./ir_recvDemo
+```
+When the infrared remote controller presses the button, point to the infrared receiver on the expansion board, and the terminal will print the button value.        
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/21img.png)     
+Pi4 will get 2 bytes of data, the first byte is the inverse code of the address of the infrared remote control device, and the second byte is the command code of the infrared remote control device.      
+<span style="color: rgb(255, 76, 65);">Note: Raspberry Pi4 reads the value of the Ir-receiver through the I2C expansion chip on the "3in1_basic_learning_shield".</span>        
+
+
+## Example14 Thermohygrometer      
+**Pins to be used:**   
+1. SDA: 8(Wiringpi) or 2(BCM)  
+2. SCL: 9(Wiringpi) or 3(BCM)   
+
+**Demonstration:**       
+Run the following command on the terminal:       
+```
+cd ~/Mosiwi-basic-learning-kit/pi4/c/examples/2.5.0_Thermohygrometer/     
+chmod 777 thermohygrometer     
+sudo ./thermohygrometer
+```
+The 4-digit digital tube displays the temperature and humidity in a cycle with a period of 10 seconds.      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/22img.png)     
+
+
+
+## Example15 EEPROM      
+**Pins to be used:**   
+1. EEPROM: 27(Wiringpi) or 16(BCM)   
+
+**Demonstration:**       
+Run the following command on the terminal:       
+```
+cd ~/Mosiwi-basic-learning-kit/pi4/c/examples/2.4.0_EEPROM_ReadWriteSkip/     
+chmod 777 eeprom_ReadWriteSkip     
+sudo ./eeprom_ReadWriteSkip
+```
+1. Read 128 bytes of EEPROM data.        
+2. Write 8 bytes of data to EEPROM.
+3. Read 128 bytes of EEPROM data.       
+4. The 8-byte data written to EEPROM is read back and converted to the character: \<Mosiwi\>     
+
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/23img.png)     
+
+
+
+## Example14 Smart fan      
+**Demonstration:**       
+Run the following command on the terminal:       
+```
+cd ~/Mosiwi-basic-learning-kit/pi4/c/examples/2.8.2_Intelligent_fan/     
+chmod 777 intelligent_fan     
+sudo ./intelligent_fan
+```
+This is an intelligent fan with temperature control mode and remote control mode.    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/24img.png)     
+
+Function of infrared remote control button:    
+| 2 | ▲ | ▼ | OK |  
+| :--: | :--: | :--: | :--: |   
+| Turn on and off temperature control mode | Fan speed plus | Fan speed minus | Turn on and off fan |    
+
+RGB LED function Tips:   
+| Red LED | Green LED |
+| :--: | :--: |
+| If the light is red, the fan is turned on; otherwise, the fan is turned off | If the light is green, the fan is turned on; otherwise, the fan is turned off |
+
+Special Notes:
+1. When the temperature mode is opened, the fan will start automatically when the temperature is higher than 35 degrees; It will automatically turn off when it is below 16 degrees. If the temperature returns to 16-35 degrees, you can turn on or off the fan through the remote control.   
+2. The fan speed can be controlled by remote control in both temperature control mode and remote control mode.    
 
 
 **End!**    

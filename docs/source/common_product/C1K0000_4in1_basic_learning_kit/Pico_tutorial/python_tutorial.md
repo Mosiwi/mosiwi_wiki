@@ -350,7 +350,29 @@ There is an I2C slave chip on the [3in1_basic_shield](../../C1E0000_3in1_basic_l
 See: [I2C](../Arduino_tutorial/Advanced_tutorial.md#chapter4-i2c-communication-protocol)     
 See: [Pico use I2C](https://docs.micropython.org/en/latest/rp2/quickref.html#hardware-i2c-bus)     
 
-## Example_13 Uart       
+
+## Example_13 Thermohygrometer       
+**Objective:**     
+1. What is Thermohygrometer?             
+
+**Pins to be used:**   
+1. SDA: GP4      
+2. SCL: GP5       
+
+**Open the example code: "humiture_i2c\.py"**     
+1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
+2. Run the example code online. 
+
+**Example code phenomena:**         
+The terminal will print the temperature and humidity values of the current environment.       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/27img.png)    
+
+**FQA:**   
+(1) What is Thermohygrometer?    
+See: [Thermohygrometer](../Arduino_tutorial/Intermediate_tutorial.md#chapter12-thermohygrometer)    
+
+
+## Example_14 Uart       
 **Objective:**     
 1. What is uart?             
 
@@ -376,7 +398,7 @@ See: [Uart](../Arduino_tutorial/Advanced_tutorial.md#chapter3-serial-port)
 See: [Pico use uart](https://docs.micropython.org/en/latest/rp2/quickref.html#uart-serial-bus)       
 
 
-## Example_14 Watchdog      
+## Example_15 Watchdog      
 **Objective:**     
 1. What is Watchdog?             
 
