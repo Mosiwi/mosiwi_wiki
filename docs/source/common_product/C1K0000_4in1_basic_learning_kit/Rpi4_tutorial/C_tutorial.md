@@ -307,7 +307,8 @@ The 4-bit digital display tube displays "16.0" when the "U" key is pressed; "8.0
 
 | U | D | L | R | OK |
 | :--: | :--: | :--: | :--: | :--: |
-| 16 | 8 | 4 | 2 | 1 |
+| 16 | 8 | 4 | 2 | 1 |      
+
 <span style="color: rgb(255, 76, 65);">Note: The 4-bit 8-segment digital tube and 5 keys on the "Basic learning shield" occupy pins 5(key trigger signal output), 10(MOSI), 9(MISO) and 11(CLK) of the Pi4, and the CS control pin is not required.</span>     
 
 
@@ -366,7 +367,7 @@ sudo ./eeprom_ReadWriteSkip
 
 
 
-## Example14 Smart fan      
+## Example16 Smart fan      
 **Demonstration:**       
 Run the following command on the terminal:       
 ```
@@ -378,14 +379,14 @@ This is an intelligent fan with temperature control mode and remote control mode
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/24img.png)     
 
 Function of infrared remote control button:    
-| 2 | ▲ | ▼ | OK |  
-| :--: | :--: | :--: | :--: |   
-| Turn on and off temperature control mode | Fan speed plus | Fan speed minus | Turn on and off fan |    
+1. 2: Turn on and off temperature control mode    
+2. ▲: Fan speed plus   
+3. ▼: Fan speed minus    
+4. OK: Turn on and off fan      
 
 RGB LED function Tips:   
-| Red LED | Green LED |
-| :--: | :--: |
-| If the light is red, the fan is turned on; otherwise, the fan is turned off | If the light is green, the fan is turned on; otherwise, the fan is turned off |
+1. If the light is red, the fan is turned on; otherwise, the fan is turned off.          
+2. If the light is green, the fan is turned on; otherwise, the fan is turned off.            
 
 Special Notes:
 1. When the temperature mode is opened, the fan will start automatically when the temperature is higher than 35 degrees; It will automatically turn off when it is below 16 degrees. If the temperature returns to 16-35 degrees, you can turn on or off the fan through the remote control.   
