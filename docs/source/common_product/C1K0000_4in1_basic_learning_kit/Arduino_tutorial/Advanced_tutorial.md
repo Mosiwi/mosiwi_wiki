@@ -58,7 +58,9 @@ I do not recommend using this method. This is for noobs who have no C/C++ progra
 
 But the official made it clear that this mechanism for automatically inserting function declarations is not perfect! So I also suggest that you develop the habit of manually declaring functions.     
 ```
-Also, this generation isn't perfect: it won't create prototypes for functions that have default argument values, or which are declared within a namespace or class.  
+Also, this generation isn't perfect: 
+it won't create prototypes for functions that have default argument values, 
+or which are declared within a namespace or class.  
 ```
 
 ■ Use traditional C/C++ separate files     
@@ -396,13 +398,11 @@ SoftwareSerial::SoftwareSerial(uint8_t receivePin, uint8_t transmitPin) : ...{
 void SoftwareSerial::begin(long speed){ ... }
 ```
 The baud rate is used to calculate the time it takes to transfer a data bit:   
-$$bit_time = (1/speed)/(1/F_CPU )$$
+<center>bit_time = (1/speed)/(1/F_CPU )</center>
 
 Then the bit time is divided into four parts, which is convenient for subsequent calculation of various bit delays:    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Advanced_tutorial/49img.png)        
-$$  
-bit_delay = (F_CPU / speed) / 4   
-$$   
+<center>bit_delay = (F_CPU / speed) / 4</center>  
 
 In order to obtain the accurate delay of various transmitting bits and receiving bits, it is necessary to consider the influence of different versions of GCC compiler on the running speed of the program. See the source code for the calculation.    
 
