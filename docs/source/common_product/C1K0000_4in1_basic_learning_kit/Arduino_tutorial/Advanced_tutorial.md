@@ -459,9 +459,8 @@ A 64-byte receive cache number is set and two Pointers, the receive cache header
 int SoftwareSerial::available(){ ... }
 ```
 Algorithm:   
-$$    
-Num = (tail + 64 - head) \% 64    
-$$   
+<center>Num = (tail + 64 - head) \% 64</center>        
+  
 The above algorithm can count the number of received data in the receive cache array in both cases tail > head and tail < head.     
 
 10\. Reads all data in the receive buffer array byte by byte.     
