@@ -2,7 +2,7 @@
 
 ## Overview
 ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/4img.png)  
-This is a very interesting light cube that can be used for learning programming or as an ambient light. When used for learning programming, we provide rich sample code such as Arduino, Raspberry pi 4B, and Raspberry pi pico. This light cube also has an excellent feature, which is that multiple light cubes can be connected together in series, and they can be controlled simultaneously or independently using the MCU.    
+This is a very interesting light cube that can be used for learning programming or as an ambient light. When used for learning programming, <span style="color: rgb(255, 76, 65);">we provide rich sample code such as Arduino, Raspberry pi 4B, and Raspberry pi pico</span>. This light cube also has an excellent feature, which is that multiple light cubes can be connected together in series, and they can be controlled simultaneously or independently using the MCU.    
 <span style="color: rgb(255, 76, 65);">(No welding, can be assembled in 10 minutes.)</span>   
 
 ## Specification  
@@ -229,7 +229,4 @@ Series multiple cubes:
 T: The MCU timer displays the time of a cube, T = (t\*4).  
 Cube display frequency: It must be ≥ 50Hz, f = 1s/(T \* N)   
 
-End!  
-
-
-
+**End!**    

@@ -144,7 +144,7 @@ The fan rotates clockwise and counterclockwise, and the speed changes from small
 
 **FQA:**   
 (1) What is fan module?       
-See: [Fan module](../Arduino_tutorial/Intermediate_tutorial.md#chapter16-fan-pwm)     
+See: [Fan module](../../../outsourcing/O1M0001_fan_module/O1M0001_fan_module.md)     
 
 
 ## Example_5 Potentiometer   
@@ -195,7 +195,7 @@ See: [Microphone](../Arduino_tutorial/Intermediate_tutorial.md#chapter9-micropho
 
 ## Example_7 Ultrasonic       
 **Objective:**     
-1. What is ultrasonic?           
+1. What is ultrasonic module?           
 
 **Pins to be used:**   
 1. S1(echo of ultrasonic): GP8    
@@ -213,10 +213,8 @@ After the code is uploaded, the obstacle is placed in front of the ultrasonic se
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/18img.png)    
 
 **FQA:**   
-(1) What is ultrasonic?    
-See: [Ultrasonic](../Arduino_tutorial/Intermediate_tutorial.md#chapter14-ultrasonic)       
-<span style="color: rgb(255, 76, 65);">Note: When the ultrasonic on the expansion board is used with the Pico board, the operating voltage is 3.3V instead of 5V.</span>      
-
+(1) What is ultrasonic module?    
+See: [Ultrasonic module](../../../outsourcing/O1M0000_ultrasonic_module/O1M0000_ultrasonic_module.md)           
 
 ## Example_9 Led-strip      
 **Objective:**     

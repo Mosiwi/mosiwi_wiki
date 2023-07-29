@@ -1,12 +1,12 @@
 # O1M0001_fan_module
 
-## Overview
+## Overview   
 ![Img](../../_static/outsourcing/O1M0001_fan_module/1img.png)  
-
+The electric fan is a device that electrically drives the motor to generate air flow. After the internal motor is energized, it drives the blade to rotate and converts the electric energy into wind energy.     
 
 ## Specification
 1. Operating Voltage: 3 to 5V  
-2. Operating Current: Max 45mA  
+2. Operating Current: less than 100mA      
 3. Rotate speed: Max 8300  
 9. Dimensions: 35\*27.1mm  
 
@@ -21,9 +21,16 @@
 |  :--:   |  :--:   |   :--:   |   :--:   |  :--: |
 |   IBA   |   INB   |    OA    |    OB    | State |
 |    L    |    L    |    L     |    L     | Brake |
-|    L    |    H    |    L     |    H     |Positive turn/reverse |
-|    H    |    L    |    H     |    L     |Reverse/positive turn |
-|    H    |    H    |    H     |    H     |Brake |
+|    L    |    H    |    L     |    H     | Positive/reverse turn |
+|    H    |    L    |    H     |    L     | Reverse/positive turn |
+|    H    |    H    |    H     |    H     | Brake |         
+
+Control fan speed:    
+| INA | INB | Direction |
+| :--: | :--: | :--: |
+| 0 | PWM | Positive/reverse turn |
+| PWM | 0 | Reverse/positive turn |
+
 ## Example Code
 **Arduino IDE:**  
 Please refer to the link to use Arduino IDE: [Link](../../arduino/arduino_ide/arduino_ide.md)  
@@ -76,3 +83,5 @@ void loop() {
    }
 }
 ```
+
+**End!**     

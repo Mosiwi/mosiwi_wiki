@@ -202,7 +202,7 @@ sudo ./fan_pwm
 ```
 The fan rotates clockwise and counterclockwise, and the speed changes from small to large, and then from large to small.       
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/14img.png)     
-
+More info: [Fan module](../../../outsourcing/O1M0001_fan_module/O1M0001_fan_module.md)    
 
 ## Example7 Potentiometer      
 **Pins to be used:**   
@@ -254,6 +254,7 @@ sudo ./ultrasonic
 ```
 After the code is uploaded, the obstacle is placed in front of the ultrasonic sensor, and the distance measured by the ultrasonic sensor is printed at the terminal.         
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/18img.png)     
+More info: [Ultrasonic sensor](../../../outsourcing/O1M0000_ultrasonic_module/O1M0000_ultrasonic_module.md)      
 
 
 ## Example10 Led-strip      
@@ -395,15 +396,3 @@ Special Notes:
 
 **End!**    
   
-
-
-
-
-
-
-
-
-
-
-
-
