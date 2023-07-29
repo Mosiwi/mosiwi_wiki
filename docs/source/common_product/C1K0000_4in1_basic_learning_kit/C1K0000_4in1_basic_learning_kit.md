@@ -3,7 +3,7 @@
 This kit is suitable for teaching and learning programming, providing tutorial materials for four development boards, including graphical, Python, and C/C++programming languages.     
 
 ## Detailed list
-| 1: [Raspberry pico](../../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md) | 2: [3in1_basic learing shield](../../common_product/C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md)  | 3: [basic learning shield](../../arduino/A1E0000_basic_learing_shield/A1E0000_basic_learing_shield.md) |
+| 1: [Raspberry pico](../../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md) | 2: [3in1_basic learing shield](../../common_product/C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md)  | 3: [Basic learning shield](../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md) |
 | :--: | :--: | :--: |
 | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/1img.png)  | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/2img.png) | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/3img.png) |  
 | 4: [Ultrasonic module](../../outsourcing/O1M0000_ultrasonic_module/O1M0000_ultrasonic_module.md) | 5: [Fan module](../../outsourcing/O1M0001_fan_module/O1M0001_fan_module.md) | 6: IR remote control |

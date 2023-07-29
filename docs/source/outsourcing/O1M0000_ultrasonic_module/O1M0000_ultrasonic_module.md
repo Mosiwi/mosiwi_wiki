@@ -34,7 +34,8 @@ The ultrasonic distance measurement module is developed using the above principl
 
 ## Working principle
 The ultrasonic frequency propagated in the air is about 20~200KHz, and its attenuation is proportional to the frequency (that is, the higher the frequency, the shorter the propagation distance). In the environment of room temperature 20°C, the transmission speed of sound wave is about 344m/s. Therefore, the distance can be calculated by the function:  
-<center>Distance = (344(m/s)*T(s))/2</center>  
+<center>Distance = (344(m/s)*T(s))/2</center>   
+
 ![Img](../../_static/outsourcing/O1M0000_ultrasonic_module/4img.png)    
 The Trig pin of the ultrasonic module receives a 10us high level pulse signal. The transmitting probe of the ultrasonic module emits 8 of 40KHz ultrasonic waves. The receiving probe of the ultrasonic module captures the ultrasonic waves reflected back after hitting the obstacles. The Echo pin of the ultrasonic module outputs a high level signal related to the distance.     
 
