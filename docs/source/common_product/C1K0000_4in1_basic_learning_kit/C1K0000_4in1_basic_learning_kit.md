@@ -6,7 +6,7 @@ This kit is suitable for teaching and learning programming, providing tutorial m
 | 1: [Raspberry pico](../../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md) | 2: [3in1_basic learing shield](../../common_product/C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md)  | 3: [Basic learning shield](../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md) |
 | :--: | :--: | :--: |
 | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/1img.png)  | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/2img.png) | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/3img.png) |  
-| 4: [Ultrasonic module](../../outsourcing/O1M0000_ultrasonic_module/O1M0000_ultrasonic_module.md) | 5: [Fan module](../../outsourcing/O1M0001_fan_module/O1M0001_fan_module.md) | 6: IR remote control |
+| 4: [Ultrasonic module](../../outsourcing/O1M0000_ultrasonic_module/O1M0000_ultrasonic_module.md) | 5: [Fan module](../../outsourcing/O1M0001_fan_module/O1M0001_fan_module.md) | 6: [IR remote control](../../outsourcing/nec_ir_remote_control/nec_ir_remote_control.md) |
 | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/4img.png) | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/5img.png) | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/6img.png) |
 | 7: 4 cell battery box| 8: Micro USB cable | 9: 40P cables |
 | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/7img.png) | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/8img.png) | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/10img.png) |  

@@ -1,43 +1,84 @@
-# R1E0000_solar_charging_shield_for_pico
+# C1S0000_Light_sensor
 
 ## Overview
-Based on the [Raspberry pi Pico](../R1D0001_raspberry_pico/R1D0001_raspberry_pico.md) design, this expansion board is very convenient for external connection of various sensors, integrated solar energy, USB charging function and 28BYJ-48 stepper motor drive function, and the power output is more powerful.         
+This sensor detects the intensity of the light and the relative angle of the light source.      
 
 ## Specification    
-• Output voltage and current: 3.3V/Max 0.8A and 5.0V/Max 1.5A   
-• Solar panel input voltage and current: 2-6V/Max 1A (Sum of port charging current of two solar panels)    
-• Micro-USB B port input voltage and current: 5V/Max 1A 
-• Size: 84\*72.5\*23.14mm   
+• Operating voltage: 3.0V-5.0V   
+• Operating current: < 15mA 
+• Light angle value: 0°-337.5°, 0xffff(Directly above)   
+• Light angle accuracy: +/- 22.5°
+• Light intensity value: Just the relative analog voltage value of the light intensity.
+• Communication: IIC 
+• Connector: XH2.54-4P  
+• Size: 64\*64\*10mm    
 
-## Recommended battery specifications     
-• Model: 18650 lithium battery    
-• Capacity: >1000mAh, recommended 2000mAh    
-• Maximum charging voltage: 4.2V    
-• Nominal voltage: 3.7V   
-• End-off voltage: 2.75V    
-• Minimum charging current: >1A     
-• Minimum discharge current: >4A     
-![Img](../../_static/raspberry/R1E0000_solar_charging_shield_for_pico/1img.png)     
+## IIC communication   
+Protocol:    
+![Img](../../_static/common_product/C1S0000_Light_sensor/2img.png)
+<span style="color: rgb(255, 76, 65);">Maximum clock speed: 100K</span> 
 
-## Function diagram
-![Img](../../_static/raspberry/R1E0000_solar_charging_shield_for_pico/2img.png)    
-1. Single-cell 18650 lithium battery holder     
-2. Two solar panels connect ports(XH2.54-2P), they are connected in parallel.      
-3. Charging indicator, charging bright red, full charge bright green.    
-4. Micro USB charging port.    
-5. Power switch.       
-6. Passive buzzer, controlled by the GP11 of the PICO, high level on, level off.       
-7. 2.54mm pin headers, red pin headers are 3.3V, black pin headers are GND, white pin headers are PICO GPIO ports.     
-8. 2.54mm pin headers, red pin headers are 5V, black pin headers are GND, white pin headers are PICO GPIO ports.     
-9. TTL serial port, 2.54mm-4P female header(GND-3V3-GP1-GP0).     
-10. F3 white LED, controlled by the GP12 of the PICO, high level off, low level lit.     
-11. 5V switching interface, controlled by GP10 of the PICO, high level off, low level on.             
-12. XH2.54-5P 28BYJ-48 5V stepper motor interface(5V-GP6-GP7-GP8-GP9).        
-13. XH2.54-4P I2C Interface(GND-3V3-GP4-GP5).        
-14. XH2.54-3P IO ports(GND-3V3-GP2 and GND-3V3-GP3).     
-15. (Not identified) Battery voltage read pin: GP28, the analog value of the voltage read by the pin is 1/2 of the battery.     
+| Slave address | 1: 0 | ... | 8: 315 | 9: Centre | 10: H_Angle | 11: L_Angle |    
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: |    
+| 0x2c | 0-255 | ... | 0-255 | 0-255 | 0-255 | 0-255 |    
+Light angle value: H_angle*256 + L_angle, if it is 0xffff, the light source is directly above.   
 
-## Resource
-[SCH](../../_static/pdf/R1E0000_solar_charging_shield_for_pico/Sch.PDF)  
-[Sample code]()
+The standard I2C communication protocol can be referred to: [Link](../../_static/pdf/communication_protocol/UM10204%28I2C_Bus_Specification_and_User_Manual_%29.pdf)  
+
+
+## Function diagram   
+For [Raspberry pi Pico](../../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md) (MicroPython)     
+```microPython
+# https://docs.micropython.org/en/latest/rp2/quickref.html
+import time
+from machine import Pin, I2C 
+
+"""
+Wiring: 
+Pico         Sensor
+GND          GND
+VCC          3V3 
+GP4          SDA 
+GP5          SCL 
+"""
+
+class Ph_iic:
+    address = 0x2c
+    data = [0,0,0,0,0,0,0,0,0,0,0]
+    
+    def __init__(self, scl=5, sda=4):
+        self.i2c = I2C(0, scl=Pin(5), sda=Pin(4), freq=100_000)
+    
+    def read(self):
+        buf = bytearray(11)
+        self.i2c.readfrom_into(self.address, buf)
+        for i in range(11):
+            self.data[i] = buf[i]
+    
+    # Read the directional value of the light.
+    # resolution ratio: 22.5degree
+    # return: 22.5*i, i=0--15
+    def readDegree(self):
+        self.read();
+        return self.data[9]*256+self.data[10]
+    
+    # index: 0--8, Map to 9 light-sensitive sensors on the module.
+    def readPh(self, index):
+        self.read();
+        return self.data[index]
+
+if __name__ == '__main__':
+    ph = Ph_iic()
+
+    while True:
+        ph.read()
+        print(ph.data)
+        # print(ph.readPh(8))
+        # print(ph.readDegree())
+        time.sleep_ms(200)
+```
+
+
+## Application example    
+[R1K0000_space_station_kit_for_pico](../../raspberry/R1K0000_space_station_kit/R1K0000_space_station_kit.md)     
 
