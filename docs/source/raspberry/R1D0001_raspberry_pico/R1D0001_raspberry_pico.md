@@ -93,7 +93,7 @@ Enter the code in the main panel, then click on the "**Save**" or "**File->Save 
 ![Img](../../_static/raspberry/R1D0001_raspberry_pico/13img.png)  
 | <span style="color: rgb(255, 76, 65);">Note</span>|  
 |  :-- |
-|If you "save a file to the device" and give it the special name **main\.py**, then MicroPython starts running that script as soon as power is supplied to Raspberry Pi Pico in the future. |  
+|If you save a file to the Pico and give it the special name **main\.py**, then MicroPython starts running that script as soon as power is supplied to Raspberry Pi Pico in the future. |  
 The program should uploaded to the Raspberry Pi Pico using the REPL, and automatically start running. You should see the on-board LED start blinking.  
 
 End!  

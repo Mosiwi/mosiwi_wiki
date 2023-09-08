@@ -19,7 +19,7 @@ If you don't have Pico and Thonny basics, you can follow the link to learn the b
 **Download sample code:**    
 Please download the sample code on Github: <https://github.com/Mosiwi/Mosiwi-basic-learning-kit> 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/1img.png)    
-Unzip the file downloaded above, and the file in the "**pico->python**" folder is the sample code.       
+Unzip the file downloaded above, and the file in the "**pico->microPython**" folder is the sample code.       
 
 ## Wiring diagram      
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/13img.png)    

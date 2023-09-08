@@ -33,7 +33,7 @@ Download resource: <https://github.com/Mosiwi/Mosiwi-basic-learning-kit>
 ![Img](../../_static/arduino/A1E0000_basic_learning_shield/3img.png)  
 For Arduino UNO and NANO: C++ && C_language  
 For Raspberry pi4: C_language    
-For Raspberry pi pico: Python 
+For Raspberry pi pico: MicroPython 
 
 Load the "Mosiwi-basic-learning-kit-main.zip" file downloaded above into the arduino IDE in the following two ways:   
 **(1) Importing a .zip Library**  

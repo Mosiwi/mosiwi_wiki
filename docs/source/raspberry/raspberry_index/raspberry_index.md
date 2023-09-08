@@ -3,17 +3,20 @@
 The Raspberry Pi Foundation is a UK-based charity with the mission to enable young people to realise their full potential through the power of computing and digital technologies  
 
 ## Kit
-updating ...  
+| [R1K0000_space_station_kit](../R1D0000_spberry_pi4.md) | updating ... | updating ... |
+| :--: | :--: | :--: |
+| [![Img](../../_static/raspberry/R1K0000_space_station_kit/0img.png)](../R1K0000_space_station_kit/R1K0000_space_station_kit.md) | updating ... | updating ... |
 
 ## Motherboard
 | [Raspberry pi 4](../R1D0000_raspberry_pi4/R1D0000_raspberry_pi4.md) | [Rapberry pico](../R1D0001_raspberry_pico/R1D0001_raspberry_pico.md) | updating ... |
 | :--: | :--: | :--: |
 | [![img](../../_static/raspberry/R1D0000_raspberry_pi4/1img.png)](../R1D0000_raspberry_pi4/R1D0000_raspberry_pi4.md) | [![img](../../_static/raspberry/R1D0001_raspberry_pico/1img.png)](../R1D0001_raspberry_pico/R1D0001_raspberry_pico.md) | updating ... |
 
+
 ## Expansion board
-| updating ... | updating ... | updating ... |
+| [R1E0000_Solar_charging_shield](../R1E0000_solar_charging_shield_for_pico/R1E0000_solar_charging_shield_for_pico.md) | updating ... | updating ... |
 | :--: | :--: | :--: |
-| updating ... | updating ... | updating ... |
+| ![Img](../../_static/raspberry/R1E0000_solar_charging_shield_for_pico/3img.png) | updating ... | updating ... |
 
 ## Resource
 Official website: <https://www.raspberrypi.org>  
