@@ -3,7 +3,7 @@
 The Raspberry Pi Foundation is a UK-based charity with the mission to enable young people to realise their full potential through the power of computing and digital technologies  
 
 ## Kit
-| [R1K0000_space_station_kit](../R1D0000_spberry_pi4.md) | updating ... | updating ... |
+| [R1K0000_space_station_kit](../R1K0000_space_station_kit/R1K0000_space_station_kit.md) | updating ... | updating ... |
 | :--: | :--: | :--: |
 | [![Img](../../_static/raspberry/R1K0000_space_station_kit/0img.png)](../R1K0000_space_station_kit/R1K0000_space_station_kit.md) | updating ... | updating ... |
 
