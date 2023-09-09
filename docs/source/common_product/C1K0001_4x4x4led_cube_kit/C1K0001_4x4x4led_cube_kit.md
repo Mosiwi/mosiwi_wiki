@@ -19,10 +19,8 @@ This is a very interesting light cube that can be used for learning programming 
 |      |      |      |      |
 
 
-
-## Assemble  
-**Arduino IDE 2.0.x**  
-
+## Installation steps        
+Please refer to: [Link]()  
 
 ## Series method  
 If you have multiple cubes, you can string them together as follows.    
@@ -140,7 +138,7 @@ sudo make
 If you don't have microbit basics, you can follow the link to learn the basics: [Click Me](../../microbit/M1D0000_microbit_mainboard/M1D0000_microbit_mainboard.md)  
 
 **Wiring diagram:**  
-|      pi4      |   Cube   |  
+|    Microbit   |   Cube   |  
 |      :--:     |   :--:   |   
 |      3V       |   VCC    |  
 |      GND      |   GND    |  

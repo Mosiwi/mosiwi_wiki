@@ -15,16 +15,16 @@ If you don't have Pico and Thonny basics, you can follow the link to learn the b
 **Learn about:**      
 [**MicroPython for Pico**](https://docs.micropython.org/en/latest/rp2/quickref.html).  
 
+## Upload the space station code to Pico         
+**Tools:**     
+1. PC(Win10 or uper)     
+2. Micro USB cable 
+
 **Download code:**    
 Please download the code on Github: <https://github.com/Mosiwi/Mosiwi-space-station-kit-for-pico>     
 ![Img](../../../_static/raspberry/R1K0000_space_station_kit/2img.png)       
 Unzip the file downloaded above, and the file in the "**MicroPython**" folder is the code.       
 ![Img](../../../_static/raspberry/R1K0000_space_station_kit/micropython/1img.png)   
-
-## Upload the space station program to Pico         
-**Tools:**     
-1. PC(Win10 or uper)     
-2. Micro USB cable        
 
 **Upload module:**    
 Make sure your Raspberry PI Pico's USB is plugged into your computer's USB via a usb cable, then click on **"Python"** and the version number in the bottom right corner of the Thonny window, then select "**MicroPython(Raspberry PI Pico)". COMx** ".     
@@ -42,8 +42,8 @@ Follow the same method to upload the **"main\.py"** file to Pico:
 Run the code offline:         
 <span style="color: rgb(255, 76, 65);">If you save a file to the Pico and give it the special name **main\.py**, then MicroPython starts running that script as soon as power is supplied to Raspberry Pi Pico in the future.</span>     
 
-## Install space station       
-Refer to: [Link]()
+## Installation steps        
+Please refer to: [Link]()    
 
 ## Control space station       
 The [previous steps](./microPython_tutorial.md#upload-the-space-station-program-to-pico) have uploaded the code of the space station to Pico. After the space station is installed, the space station can be controlled by the infrared remote control, as follows:       
@@ -56,9 +56,9 @@ Function of the key:
 | ▲ | ▼ | ◀ | ▶ | OK |  |
 | Solar panels turn backwards | Solar panels turn forward | Space station turns left | Space station turns right | Mode switch |  |
 
-Remote mode: The space station is controlled by infrared remote control.    
+**Remote mode:** The space station is controlled by infrared remote control.       
 
-Auto mode: The space station automatically tracks the direction of the light and uses the brightness of the light to control the LED.     
+**Auto mode:** The space station automatically tracks the direction of the light and uses the brightness of the light to control the LED.     
   
 
 **End!**    
