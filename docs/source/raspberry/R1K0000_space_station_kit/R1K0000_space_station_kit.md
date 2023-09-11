@@ -5,7 +5,7 @@ This kit provides rich and detailed tutorial materials, very simple installation
 | 1: [Raspberry pi pico](../../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md) | 2: [Solar charging shield for pico](../../raspberry/R1E0000_solar_charging_shield_for_pico/R1E0000_solar_charging_shield_for_pico.md)  | 3: [Light_sensor](../../common_product/C1S0000_Light_sensor/C1S0000_Light_sensor.md) |
 | :--: | :--: | :--: |
 | ![Img](../../_static/raspberry/R1K0000_space_station_kit/20img.png) | ![Img](../../_static/raspberry/R1K0000_space_station_kit/21img.png) | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/0img.png) |  
-| 4: [Servo](../../outsourcing/sg90_servo/sg90_servo.md) | 5: [Stepper motor](../../outsourcing/28byj-48/28byj-48.md) | 6: [IR receiver](../../common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial.md#chapter13-ir-receiver) |
+| 4: [Servo](../../outsourcing/sg90_servo/sg90_servo.md) | 5: [Stepper motor](../../outsourcing/28byj-48/28byj-48.md) | 6: [IR receiver](../../common_product/C1S0001_ir_receiver/C1S0001_ir_receiver.md) |
 | ![Img](../../_static/raspberry/R1K0000_space_station_kit/19img.png) | ![Img](../../_static/raspberry/R1K0000_space_station_kit/18img.png) | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/0img.png) |
 | 7: [IR remote control](../../outsourcing/nec_ir_remote_control/nec_ir_remote_control.md) | 8: Laser | 9: Solar panel |
 | ![Img](../../_static/raspberry/R1K0000_space_station_kit/15img.png) | ![Img](../../_static/raspberry/R1K0000_space_station_kit/5img.png) | ![Img](../../_static/raspberry/R1K0000_space_station_kit/3img.png) |  
