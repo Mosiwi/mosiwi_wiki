@@ -50,11 +50,15 @@ The [previous steps](./microPython_tutorial.md#upload-the-space-station-program-
 ![Img]()     
 
 Function of the key:    
-| 1 | 2 | 3 | 5 | 8 | 0 |    
-| :--: | :--: | :--: | :--: | :--: | :--: |     
-| LED switch | Buzzer switch | Laser switch | door switch | Displays battery power | Display light value |     
-| ▲ | ▼ | ◀ | ▶ | OK |  |
-| Solar panels turn backwards | Solar panels turn forward | Space station turns left | Space station turns right | Mode switch |  |
+| 1 | 2 | 3 |    
+| :--: | :--: | :--: |    
+| LED switch | Buzzer switch | Laser switch |      
+| 5 | 8 | 0 |     
+|door switch | Displays battery power | Display light value |   
+| ▲ | ▼ | ◀ |     
+| Solar panels turn backwards | Solar panels turn forward | Space station turns left |    
+| ▶ | OK |  |    
+| Space station turns right | Mode switch |  |    
 
 **Remote mode:** The space station is controlled by infrared remote control.       
 
