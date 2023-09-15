@@ -1,7 +1,7 @@
 # C1S0000_Light_sensor
 
 ## Overview
-![Img](../../_static/common_product/C1S0000_light_sensor/1img.png)
+![Img](../../_static/common_product/C1S0000_light_sensor/1img.png)     
 This sensor detects the intensity of the light and the relative angle of the light source.      
 
 ## Specification    
@@ -16,7 +16,7 @@ This sensor detects the intensity of the light and the relative angle of the lig
 
 ## IIC communication   
 Protocol:    
-![Img](../../_static/common_product/C1S0000_light_sensor/2img.png)
+![Img](../../_static/common_product/C1S0000_light_sensor/2img.png)        
 <span style="color: rgb(255, 76, 65);">Maximum clock speed: 100K</span> 
 
 | Slave address | 1: 0 | ... | 8: 315 | 9: Centre | 10: H_Angle | 11: L_Angle |    
