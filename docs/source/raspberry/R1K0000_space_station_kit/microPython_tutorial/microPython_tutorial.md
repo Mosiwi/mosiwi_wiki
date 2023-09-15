@@ -26,7 +26,7 @@ Please download the code on Github: <https://github.com/Mosiwi/Mosiwi-space-stat
 Unzip the file downloaded above, and the file in the "**MicroPython**" folder is the code.       
 ![Img](../../../_static/raspberry/R1K0000_space_station_kit/micropython/1img.png)   
 
-**Upload module:**    
+**Upload module and main code:**    
 Make sure your Raspberry PI Pico's USB is plugged into your computer's USB via a usb cable, then click on **"Python"** and the version number in the bottom right corner of the Thonny window, then select "**MicroPython(Raspberry PI Pico)". COMx** ".     
 ![Img](../../../_static/raspberry/R1K0000_space_station_kit/micropython/5img.png)   
 
@@ -47,7 +47,6 @@ Please refer to: [Link]()
 
 ## Control space station       
 The [previous steps](./microPython_tutorial.md#upload-the-space-station-program-to-pico) have uploaded the code of the space station to Pico. After the space station is installed, the space station can be controlled by the infrared remote control, as follows:       
-![Img]()     
 
 Function of the key:    
 | 1 | 2 | 3 |    
@@ -61,9 +60,10 @@ Function of the key:
 | Space station turns right | Mode switch |  |    
 
 **Remote mode:** The space station is controlled by infrared remote control.       
+![Img](../../../_static/raspberry/R1K0000_space_station_kit/micropython/6img.png)      
 
 **Auto mode:** The space station automatically tracks the direction of the light and uses the brightness of the light to control the LED.     
-  
+![Img](../../../_static/raspberry/R1K0000_space_station_kit/micropython/7img.png)       
 
 **End!**    
 

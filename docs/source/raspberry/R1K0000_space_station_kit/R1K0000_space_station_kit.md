@@ -1,4 +1,5 @@
 # R1K0000_space_station_kit
+![Img](../../_static/raspberry/R1K0000_space_station_kit/25img.png)    
 This kit provides rich and detailed tutorial materials, very simple installation, many functions, and many interfaces reserved for users to expand by themselves, which is very suitable for DIY or electronics enthusiasts to learn and use.     
 
 ## Detailed list
