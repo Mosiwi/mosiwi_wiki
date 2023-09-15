@@ -18,6 +18,9 @@ Because the booster circuit of the module can only provide a maximum current of 
 ## Dimension figure   
 ![Img](../../_static/common_product/C1M0000_8x16dot_matrix/2img.png)
 
+## Sample code     
+For Pico: [MicroPython](https://github.com/Mosiwi/Mosiwi-space-station-kit-for-pico/blob/main/MicroPython/Mosiwi_lib_examples/Mosiwi_dotmatrix.py)
+
 ## Application example    
 [R1K0000_space_station_kit_for_pico](../../raspberry/R1K0000_space_station_kit/R1K0000_space_station_kit.md)     
 

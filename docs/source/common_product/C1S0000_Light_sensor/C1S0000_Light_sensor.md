@@ -1,6 +1,7 @@
 # C1S0000_Light_sensor
 
 ## Overview
+![Img](../../_static/common_product/C1S0000_light_sensor/1img.png)
 This sensor detects the intensity of the light and the relative angle of the light source.      
 
 ## Specification    
@@ -26,7 +27,7 @@ Light angle value: H_angle*256 + L_angle, if it is 0xffff, the light source is d
 The standard I2C communication protocol can be referred to: [Link](../../_static/pdf/communication_protocol/UM10204%28I2C_Bus_Specification_and_User_Manual_%29.pdf)  
 
 
-## Function diagram   
+## Sample code     
 For [Raspberry pi Pico](../../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md) (MicroPython)     
 ```microPython
 # https://docs.micropython.org/en/latest/rp2/quickref.html
