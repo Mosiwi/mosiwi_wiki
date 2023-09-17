@@ -14,10 +14,11 @@ This is a very interesting light cube that can be used for learning programming 
 6. Dimensions: ?*?*?mm  
 
 ## List
-|      |      |      |      |
+| cube |      |      |      |
 | :--: | :--: | :--: | :--: |
-|      |      |      |      |
-
+| ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/29img.png) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/30img.png) |      | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/28img.png) |    
+| | M3\*8mm flat-head screw | M3 nuts |  |    
+| ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/27img.png) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/25img.png) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/26img.png) |  |   
 
 ## Installation steps        
 Please refer to: [Link]()  
