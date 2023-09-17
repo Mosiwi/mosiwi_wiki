@@ -14,5 +14,5 @@
 | [O1M0000_ultrasonic_module](../../outsourcing/O1M0000_ultrasonic_module/O1M0000_ultrasonic_module.md) | [O1M0001_fan_module](../../outsourcing/O1M0001_fan_module/O1M0001_fan_module.md) | [C1M0000_8x16dot_matrix](../C1M0000_8x16dot_matrix/C1M0000_8x16dot_matrix.md) |     
 | :--: | :--: | :--: |    
 | ![Img](../../_static/outsourcing/O1M0000_ultrasonic_module/1img.png) | ![Img](../../_static/outsourcing/O1M0001_fan_module/1img.png) | ![Img](../../_static/common_product/C1M0000_8x16dot_matrix/3img.png) |    
-| [C1S0001_ir_receiver](../C1S0001_ir_receiver/C1S0001_ir_receiver.md) | [C1S0000_light_sensor](../C1S0000_light_sensor/C1S0000_Light_sensor.md) | updating ... | 
-| ![Img](../../_static/common_product/C1S0001_ir_receiver/3img.png) | ![Img](../../_static/common_product/C1S0000_light_sensor/1img.png) | updating ... | 
+| [C1S0001_ir_receiver](../C1S0001_ir_receiver/C1S0001_ir_receiver.md) | [C1S0000_light_sensor]() | updating ... | 
+| ![Img](../../_static/common_product/C1S0001_ir_receiver/3img.png) | ![Img](../../_static/common_product/C1S0000/1img.png) | updating ... | 
