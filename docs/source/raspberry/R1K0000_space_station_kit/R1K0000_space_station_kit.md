@@ -3,7 +3,7 @@
 This kit provides rich and detailed tutorial materials, very simple installation, many functions, and many interfaces reserved for users to expand by themselves, which is very suitable for DIY or electronics enthusiasts to learn and use.     
 
 ## Detailed list
-| [Raspberry pi pico](../../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md) | [Solar charging shield for pico](../../raspberry/R1E0000_solar_charging_shield_for_pico/R1E0000_solar_charging_shield_for_pico.md)  | 3: [Light_sensor](../../common_product/C1S0000_light_sensor/C1S0000_light_sensor.md) |
+| [Raspberry pi pico](../../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md) | [Solar charging shield for pico](../../raspberry/R1E0000_solar_charging_shield_for_pico/R1E0000_solar_charging_shield_for_pico.md)  | [Light_sensor]() |     
 | :--: | :--: | :--: |
 | ![Img](../../_static/raspberry/R1K0000_space_station_kit/20img.png) | ![Img](../../_static/raspberry/R1K0000_space_station_kit/21img.png) | ![Img](../../_static/raspberry/R1K0000_space_station_kit/23img.png) |  
 | [Dot matrix](../../common_product/C1M0000_8x16dot_matrix/C1M0000_8x16dot_matrix.md) | [Servo](../../outsourcing/sg90_servo/sg90_servo.md) | [Stepper motor](../../outsourcing/28byj-48/28byj-48.md) |  
