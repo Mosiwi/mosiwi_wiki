@@ -14,10 +14,10 @@ This is a very interesting light cube that can be used for learning programming 
 6. Dimensions: ?*?*?mm  
 
 ## List
-| cube |      |      |      |
+| PCB cube | Acrylic cube | HX-2.54 4P to male duport wire | HX-2.54 4P to female duport wire |
 | :--: | :--: | :--: | :--: |
-| ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/29img.png) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/30img.png) |      | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/28img.png) |    
-| | M3\*8mm flat-head screw | M3 nuts |  |    
+| ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/29img.png) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/30img.png) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/31img.png) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/28img.png) |    
+| HX-2.54 4P duport wire | M3\*8mm flat-head screw | M3 nuts |  |    
 | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/27img.png) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/25img.png) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/26img.png) |  |   
 
 ## Installation steps        
