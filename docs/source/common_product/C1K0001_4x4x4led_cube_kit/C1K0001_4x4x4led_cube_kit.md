@@ -108,7 +108,7 @@ Method 1.
 Use **WinSCP** to upload the downloaded library file to Raspberry Pi4: [Link](../../raspberry/R1D0000_raspberry_pi4/R1D0000_raspberry_pi4.md#transfer-files-from-your-pc-to-raspberry-pi-4)     
 
 Method 2.     
-Open the [Git](https://git-scm.com/) terminal and run the following command to download it from github.     
+Open the Raspberry pi4 or [Git](https://git-scm.com/) terminal and run the following command to download it from github.     
 ```    
  git clone https://github.com/mosiwi/Mosiwi-4x4x4cube    
 ```   
@@ -128,7 +128,7 @@ cd Mosiwi_4x4x4cube\Pi4\c\examples\spi
 sudo ./cube   
 ```   
 
-If you want to update the execution file or modify the source code, you need to recompile the code.     
+If you update the execution file or modify the source code, you need to recompile the code.     
 ```   
 sudo make    
 ```   
@@ -154,7 +154,7 @@ Open the link to create a new online project: <https://makecode.microbit.org>
 **Load extension library:** 
 ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/15img.png)  
 
-Fill in the link to the right of the chain and search for: <https://github.com/Mosiwi/Mosiwi-4x4x4Cube-for-microbit>     
+Fill in the link on the right in the search field to search for extension packs: <https://github.com/Mosiwi/Mosiwi-4x4x4Cube-for-microbit>     
 ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/16img.png)    
 Wait for the loading of the library. After the loading is successful, the following figure is shown:   
 ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/17img.png)    
@@ -186,7 +186,8 @@ Usage:
 4. Light an LED in the cube through the coordinates.   
 ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/24img.png)      
 Cube: Select a cube in all concatenations. The value can be 0 to 3.        
-X, Y, Z: 0 to 3.   
+X, Y, Z: 0 to 3. 
+LED: 0 or 1, 0: OFF, 1: ON.  
  
 
 
