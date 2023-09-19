@@ -39,5 +39,5 @@ Based on the [Raspberry pi Pico](../R1D0001_raspberry_pico/R1D0001_raspberry_pic
 
 ## Resource
 [SCH](../../_static/pdf/R1E0000_solar_charging_shield_for_pico/Sch.PDF)  
-[Sample code]()
+[Sample code](https://github.com/Mosiwi/Mosiwi-space-station-kit-for-pico)
 
