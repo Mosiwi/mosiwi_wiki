@@ -21,7 +21,8 @@ Protocol:
 
 | Slave address | 1: 0 | ... | 8: 315 | 9: Centre | 10: H_Angle | 11: L_Angle |    
 | :--: | :--: | :--: | :--: | :--: | :--: | :--: |    
-| 0x2c | 0-255 | ... | 0-255 | 0-255 | 0-255 | 0-255 |    
+| 0x2c | 0-255 | ... | 0-255 | 0-255 | 0-255 | 0-255 |           
+   
 Light angle value: H_angle*256 + L_angle, if it is 0xffff, the light source is directly above.   
 
 The standard I2C communication protocol can be referred to: [Link](../../_static/pdf/communication_protocol/UM10204%28I2C_Bus_Specification_and_User_Manual_%29.pdf)  
