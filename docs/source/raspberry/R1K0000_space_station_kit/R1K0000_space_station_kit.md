@@ -11,7 +11,7 @@ This kit provides rich and detailed tutorial materials, very simple installation
 | [IR receiver](../../common_product/C1S0001_ir_receiver/C1S0001_ir_receiver.md) | [IR remote control](../../outsourcing/nec_ir_remote_control/nec_ir_remote_control.md) | Laser |              
 | ![Img](../../_static/raspberry/R1K0000_space_station_kit/24img.png) | ![Img](../../_static/raspberry/R1K0000_space_station_kit/15img.png) | ![Img](../../_static/raspberry/R1K0000_space_station_kit/5img.png) |    
 | Solar panel | USB cable | Wooden boards |  
-| ![Img](../../_static/raspberry/R1K0000_space_station_kit/3img.png) | ![Img](../../_static/raspberry/R1K0000_space_station_kit/6img.png) | ![Img](../../_static/raspberry/R1K0000_space_station_kit/0img.png) |  
+| ![Img](../../_static/raspberry/R1K0000_space_station_kit/3img.png) | ![Img](../../_static/raspberry/R1K0000_space_station_kit/6img.png) | ![Img](../../_static/raspberry/R1K0000_space_station_kit/26img.png) |  
 | 3P XH2.54 cable | 4P XH2.54 cable | 5P XH2.54 cable |      
 | ![Img](../../_static/raspberry/R1K0000_space_station_kit/7img.png) | ![Img](../../_static/raspberry/R1K0000_space_station_kit/8img.png) | ![Img](../../_static/raspberry/R1K0000_space_station_kit/9img.png) |     
 | M3 nuts | M3\*10mm flat-head screw | M2 nuts |     
