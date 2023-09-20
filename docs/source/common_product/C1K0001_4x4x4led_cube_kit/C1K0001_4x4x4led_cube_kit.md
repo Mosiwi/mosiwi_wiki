@@ -37,7 +37,7 @@ For Raspberry pi4: C_language
 For Raspberry pi pico: Python    
 
 ## For Arduino    
-**Arduino basics:**  
+**Arduino basics  (Important):**  
 If you don't have Arduino basics, you can follow the link to learn the basics: [Click Me](../../arduino/A1D0000_uno_r3/A1D0000_uno_r3.md)  
 
 **Wiring diagram:**  
@@ -63,8 +63,8 @@ If you have successfully loaded the library file, you can open the sample code i
 After opening the sample, select the "Arduino UNO" or "Arduino nano" development board, then select the COMx port, and then upload the code to the development board.  
 
 ## For Raspberry pi pico    
-**Pico basics:**     
-If you don't have Pico basics, you can follow the link to learn the basics: [Click Me](../../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md)  
+**Pico and Thonny basics (Important):**        
+If you don't have Pico and Thonny basics, you can follow the link to learn the basics: [Click Me](../../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md)  
  
 **Wiring diagram:**   
 |      pico     |   Cube   |  
@@ -91,7 +91,7 @@ Run the code offline. (The code is stored in pico, and the code in pico is autom
 
 
 ## For Raspberry pi4    
-**Pi4 basics:**   
+**Pi4 basics (Important):**   
 If you don't have Pi4 basics, you can follow the link to learn the basics: [Click Me](../../raspberry/R1D0000_raspberry_pi4/R1D0000_raspberry_pi4.md)  
  
 **Wiring diagram:**   

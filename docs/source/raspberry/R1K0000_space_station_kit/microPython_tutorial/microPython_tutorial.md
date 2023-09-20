@@ -3,17 +3,17 @@
 ## What is MicroPython?
 MicroPython is a full implementation of the Python 3 programming language that runs directly on embedded hardware like Raspberry Pi Pico. You get an interactive prompt (the REPL) to execute commands immediately via USB Serial, and a built-in filesystem. The Pico port of MicroPython includes modules for accessing low-level chip-specific hardware.      
 
-Resources:     
+Resources (Option):     
 1. The [MicroPython Wiki](https://github.com/micropython/micropython/wiki)
 2. The [MicroPython Forums](https://forum.micropython.org/)   
 3. Basic tutorial kit for MicroPython: [Link](../../../common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/microPython_tutorial.md)
 
 ## Prepared knowledge    
-**Pico and Thonny basics:**     
+**Pico and Thonny basics (Important):**     
 If you don't have Pico and Thonny basics, you can follow the link to learn the basics: [Click Me](../../../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md)    
 
-**Learn about:**      
-[**MicroPython for Pico**](https://docs.micropython.org/en/latest/rp2/quickref.html).  
+**Learn about (Option):**      
+[**MicroPython for Pico**](https://docs.micropython.org/en/latest/rp2/quickref.html).    
 
 ## Upload the space station code to Pico         
 **Tools:**     
