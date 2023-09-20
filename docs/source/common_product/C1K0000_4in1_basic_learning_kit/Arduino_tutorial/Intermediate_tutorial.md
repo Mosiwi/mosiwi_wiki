@@ -242,7 +242,7 @@ Each digit of A hexadecimal number ranges from 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, 
 
 The relationship between hexadecimal numbers and decimal numbers is as follows:    
 | Bit | 3 | 2 | 1 | 0 |   
-| :--: | :--: | :--: | :--: | :--: | :--: | :--: |   
+| :--: | :--: | :--: | :--: | :--: | :--: |         
 | Hexadecimal numbers | 0 ot F | 0 ot F | 0 ot F | 0 ot F |       
 | Decimal numbers | 16\*16\*16（0 to 15） | 16\*16（0 to 15） | 16（0 to 15） | 0 to 15 |  
 
