@@ -40,7 +40,8 @@ The 3in1 basic learing shield is integrated with an IO expansion chip, which is 
 
 |  Slave address  |  IO address  |  Data  |
 | :--: | :--: | :--: |
-| 0x5a | 0x00, 0x02, 0x04 | IO data read by the expansion chip |
+| 0x5a | 0x00, 0x02, 0x04 | IO data read by the expansion chip |      
+
 The standard I2C communication protocol can be referred to: [Link](../../_static/pdf/communication_protocol/UM10204%28I2C_Bus_Specification_and_User_Manual_%29.pdf)  
 
 **Analog input:**  

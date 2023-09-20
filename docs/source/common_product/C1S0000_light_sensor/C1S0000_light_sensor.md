@@ -5,14 +5,14 @@
 This sensor detects the intensity of the light and the relative angle of the light source.      
 
 ## Specification    
-• Operating voltage: 3.0V-5.0V   
-• Operating current: < 15mA 
-• Light angle value: 0°-337.5°, 0xffff(Directly above)   
-• Light angle accuracy: +/- 22.5°
-• Light intensity value: Just the relative analog voltage value of the light intensity.
-• Communication: IIC 
-• Connector: XH2.54-4P  
-• Size: 64\*64\*10mm    
+• Operating voltage: 3.0V-5.0V        
+• Operating current: < 15mA        
+• Light angle value: 0°-337.5°, 0xffff(Directly above)        
+• Light angle accuracy: +/- 22.5°        
+• Light intensity value: Just the relative analog voltage value of the light intensity.       
+• Communication: IIC        
+• Connector: XH2.54-4P         
+• Size: 64\*64\*10mm         
 
 ## IIC communication   
 Protocol:    

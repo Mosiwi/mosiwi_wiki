@@ -4,10 +4,10 @@
 Based on the [Raspberry pi Pico](../R1D0001_raspberry_pico/R1D0001_raspberry_pico.md) design, this expansion board is very convenient for external connection of various sensors, integrated solar energy, USB charging function and 28BYJ-48 stepper motor drive function, and the power output is more powerful.         
 
 ## Specification    
-• Output voltage and current: 3.3V/Max 0.8A and 5.0V/Max 1.5A   
-• Solar panel input voltage and current: 2-6V/Max 1A (Sum of port charging current of two solar panels)    
-• Micro-USB B port input voltage and current: 5V/Max 1A 
-• Size: 84\*72.5\*23.14mm   
+• Output voltage and current: 3.3V/Max 0.8A and 5.0V/Max 1.5A        
+• Solar panel input voltage and current: 2-6V/Max 1A (Sum of port charging current of two solar panels)       
+• Micro-USB B port input voltage and current: 5V/Max 1A       
+• Size: 84\*72.5\*23.14mm       
 
 ## Recommended battery specifications     
 • Model: 18650 lithium battery    

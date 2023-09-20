@@ -2,15 +2,15 @@
 ![Img](../../_static/common_product/C1S0001_ir_receiver/3img.png)       
 
 ## Specification    
-• Operating voltage: 3.0V-5.0V   
-• Operating current: < 15mA 
-• Light angle value: 0°-337.5°, 0xffff(Directly above)   
-• Light angle accuracy: +/- 22.5°
-• Light intensity value: Just the relative analog voltage value of the light intensity.
-• Communication: IIC 
-• Connector: XH2.54-4P  
-• Size: 30\*23.2mm     
-• Hole distance: 16mm
+• Operating voltage: 3.0V-5.0V       
+• Operating current: < 15mA      
+• Light angle value: 0°-337.5°, 0xffff(Directly above)       
+• Light angle accuracy: +/- 22.5°       
+• Light intensity value: Just the relative analog voltage value of the light intensity.        
+• Communication: IIC      
+• Connector: XH2.54-4P      
+• Size: 30\*23.2mm       
+• Hole distance: 16mm       
 
 ## How the module works    
 An [IR remote control](../../outsourcing/nec_ir_remote_control/nec_ir_remote_control.md) and receiver communicate with each other by transmitting and decoding a signal in the form of pulsed IR radiation.       
