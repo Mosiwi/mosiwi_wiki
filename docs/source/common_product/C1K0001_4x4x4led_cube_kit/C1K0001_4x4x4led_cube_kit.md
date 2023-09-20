@@ -112,18 +112,30 @@ Open the Raspberry pi4 or [Git](https://git-scm.com/) terminal and run the follo
 ```    
  git clone https://github.com/mosiwi/Mosiwi-4x4x4cube    
 ```   
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/32img.png)           
+(Terminal of Raspberry pi4)
+
+**Add execute permissions for the files:**     
+```
+ cd ~/Mosiwi-4x4x4cube/Pi4/c/examples/3wire/
+ sudo chmod 777 cube Makefile
+
+ cd ~/Mosiwi-4x4x4cube/Pi4/c/examples/spi/
+ sudo chmod 777 cube Makefile
+```
+
 
 **Run code:**     
-Example 1.      
+3wire example.      
 ```   
-cd Mosiwi_4x4x4cube\Pi4\c\examples\3wire    
+cd ~/Mosiwi_4x4x4cube\Pi4\c\examples\3wire    
 
 sudo ./cube   
 ```   
 
-Example 2.     
+SPI example.     
 ```   
-cd Mosiwi_4x4x4cube\Pi4\c\examples\spi   
+cd ~/Mosiwi_4x4x4cube\Pi4\c\examples\spi   
 
 sudo ./cube   
 ```   

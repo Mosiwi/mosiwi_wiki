@@ -22,7 +22,7 @@ git clone https://github.com/Mosiwi/Mosiwi-basic-learning-kit
 
 The file in the "**Mosiwi-basic-learning-kit-for-arduino -> pi4 -> c**" folder is the sample code：           
 ```
-cd Mosiwi-basic-learning-kit/pi4/c
+cd ~/Mosiwi-basic-learning-kit/pi4/c
 
 ls
 ```
@@ -45,7 +45,7 @@ sudo ./xxx
 
 Resource: [GNU Make](https://www.gnu.org/software/make/)(Makefile) 
 
-## Basic Example: Terminal    
+## Basic Example <span style="color: rgb(255, 76, 65);">(Important)</span>: Terminal    
 **Objective:**       
 1. Run the sample code.   
 2. Recompile the sample code. 
