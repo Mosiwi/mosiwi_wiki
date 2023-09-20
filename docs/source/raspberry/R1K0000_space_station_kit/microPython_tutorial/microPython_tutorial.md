@@ -6,7 +6,7 @@ MicroPython is a full implementation of the Python 3 programming language that r
 Resources:     
 1. The [MicroPython Wiki](https://github.com/micropython/micropython/wiki)
 2. The [MicroPython Forums](https://forum.micropython.org/)   
-3. Basic tutorial kit for MicroPython: [Link](../../../common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/python_tutorial.md)
+3. Basic tutorial kit for MicroPython: [Link](../../../common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/microPython_tutorial.md)
 
 ## Prepared knowledge    
 **Pico and Thonny basics:**     
