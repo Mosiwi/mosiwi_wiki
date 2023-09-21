@@ -1,7 +1,7 @@
 # C-language for Raspberry pi4    
-This tutorial is based on the [C1K0001 4in1 basic learning kit](../../C1K0000_4in1_basic_learning_kit/C1K0000_4in1_basic_learning_kit.md).     
+This tutorial is based on [C1K0001 4in1 basic learning kit](../C1K0000_4in1_basic_learning_kit.md) and C language, if you do not have knowledge of the C language, it is recommended to learn the [Arduino tutorial](../../C1K0000_4in1_basic_learning_kit/C1K0000_4in1_basic_learning_kit.md) first.     
 
-## Prepared knowledge     
+## Prepared knowledge <span style="color: rgb(255, 76, 65);">(Important)</span>     
 **Learn about** [**Basic learning shield**](../../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md).  
 
 **Learn about** [**3in1 basic learning shield**](../../../common_product/C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md).  

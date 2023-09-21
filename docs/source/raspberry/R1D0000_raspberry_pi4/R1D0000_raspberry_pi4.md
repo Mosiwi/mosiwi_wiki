@@ -73,13 +73,13 @@ Insert the MicroSD card into the MicroSD card reader and insert the MicroSD card
 | :--: | :--: | :--: |        
 | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/22img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/23img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/24img.png) |    
 
-## Remote access to Raspberry Pi terminals (SSH)      
+## Remote access to Raspberry Pi terminal (SSH)      
 If you don't have a spare display, mouse and keyboard for your RPi, you can use a remote terminal to share a display, keyboard, and mouse with your PC.     
 
 Download [Putty.exe](https://www.putty.be/latest.html).  
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/25img.png)  
 
-Use Putty to remotely access raspberry pi 4. ([Find the IP of raspberry pi](#Find-the-IP-address-of-raspberry-pi-4))            
+Use Putty to remotely access raspberry pi 4. ([Find the IP of raspberry pi](#find-the-ip-address-of-raspberry-pi-4))            
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/26img.png)  
 ```
 raspberrypi.local  
@@ -163,14 +163,61 @@ If your Raspberry Pi is headless (i.e. not plugged into a monitor) or controllin
 VNC Server can create a **virtual desktop** for you, giving you graphical remote access on demand. This virtual desktop exists only in your Raspberry Pi’s memory.  
 
 To create and connect to a virtual desktop:  
-----On your Raspberry Pi (using Terminal or via SSH), run **vncserver**. Make note of the IP address/display number that VNC Server will print to your Terminal (e.g. 192.167.5.149:1).  
-----On the device you’ll use to take control, enter this information into [VNC Viewer](https://www.realvnc.com/download/viewer/).  
+----On your Raspberry Pi (using Terminal or via SSH), run **vncserver**. Make note of the **IP address/display number** that VNC Server will print to your Terminal (e.g. 192.167.5.149:1).  
+```command line
+vncserver   
+```     
+![Img](../../_static/raspberry/R1D0000_raspberry_pi4/35img.png)
+
+----Install [VNC Viewer](https://www.realvnc.com/download/viewer/), [find the IP of the Raspberry Pi](#find-the-ip-address-of-raspberry-pi-4), and then run VNC Viewer:            
+![Img](../../_static/raspberry/R1D0000_raspberry_pi4/36img.png)      
+
+On the VNC Viewer panel, double-click new connection you just created, and the following dialog box pops up.    
+![Img](../../_static/raspberry/R1D0000_raspberry_pi4/37img.png)      
+![Img](../../_static/raspberry/R1D0000_raspberry_pi4/38img.png)     
+
+Succeed!
+![Img](../../_static/raspberry/R1D0000_raspberry_pi4/39img.png)     
 
 To destroy a virtual desktop, run the following command:  
 ```command line
 vncserver -kill :<display-number>  
 ```
+![Img](../../_static/raspberry/R1D0000_raspberry_pi4/40img.png)    
+
 This will also stop any existing connections to this virtual desktop.  
+
+## Linux command    
+Raspberry Pi OS is based on the Linux Operation System. Now we will introduce you to some frequently used Linux commands and rules.
+First, open the Terminal. All commands are executed in Terminal.   
+![Img](../../_static/raspberry/R1D0000_raspberry_pi4/41img.png)       
+<span style="color: rgb(255, 76, 65);"> **Note: Linux commands are case sensitive.** </span>        
+
+First, type “ls” into the Terminal and press the “Enter” key. The result is shown below:     
+![Img](../../_static/raspberry/R1D0000_raspberry_pi4/42img.png)       
+The ”ls” command lists information about the files (the current directory by default).      
+
+Content between “\$” and ”pi\@raspberrypi:” is the current working path. “~” represents the user directory, which refers to “/home/pi” here.       
+![Img](../../_static/raspberry/R1D0000_raspberry_pi4/43img.png)     
+
+“cd” is used to change directory. “/” represents the root directory.      
+![Img](../../_static/raspberry/R1D0000_raspberry_pi4/44img.png)     
+
+Many frequently used commands and instructions can be found in the following reference table.     
+![Img](../../_static/raspberry/R1D0000_raspberry_pi4/45img.png)    
+
+There are many commands, which will come later. For more details about commands. You can refer to:   
+<http://www.linux-commands-examples.com>
+
+**Shortcut Key:**   
+Now, we will introduce several commonly used shortcuts that are very useful in Terminal.     
+
+1. Up and Down Arrow Keys: Pressing “↑” (the Up key) will go backwards through the command history and pressing “↓” (the Down Key) will go forwards through the command history.      
+
+2. Tab Key: The Tab key can automatically complete the command/path you want to type. When there is only one eligible option, the command/path will be completely typed as soon as you press the Tab key even you only type one character of the command/path.       
+
+As shown below, under the '~' directory, you enter the Documents directory with the “cd” command. After typing “cd D”, pressing the Tab key (there is no response), pressing the Tab key again then all the files/folders that begin with “D” will be listed. Continue to type the letters "oc" and then pressing the Tab key, the “Documents” is typed automatically.
+![Img](../../_static/raspberry/R1D0000_raspberry_pi4/46img.png)    
 
 ## Resource
 [Raspberry Pi 4 Model B product brief](https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-product-brief.pdf)  
