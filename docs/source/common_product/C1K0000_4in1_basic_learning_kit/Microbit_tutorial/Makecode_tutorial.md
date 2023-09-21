@@ -30,7 +30,7 @@ Because the P11 is also mapped to the microbit Buttom B, the keyboard value of t
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/9img.png)       
 
 
-▶ 2: ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/10img.png)
+▶ 2: ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/10img.png)      
 Read the keyboard values on the expansion board.     
 Usage:   
 Press any key on the expansion board, and the microbit dot matrix displays the key value.       

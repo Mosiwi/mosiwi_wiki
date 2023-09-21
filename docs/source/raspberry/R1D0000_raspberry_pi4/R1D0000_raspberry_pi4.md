@@ -58,30 +58,35 @@ Download [Raspberry Pi Imager](https://www.raspberrypi.com/software/) and instal
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/10img.png)  
 
 Insert the MicroSD card into the MicroSD card reader and insert the MicroSD card reader into the USB port on your computer, then run Raspberry Pi Imager to install raspberry pi OS.  
-| 1 | 2 | 3 | 4 |
-|:---:|:---:|:---:|:---:|
-| ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/11img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/12img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/13img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/14img.png) |
-| 5 | 6 | 7 | 8 |
-| ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/15img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/16img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/17img.png )| ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/18img.png) |
-| 9 | 10 | 11 | 12 |
-| ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/19img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/20img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/21img.png )| Succeed & End! |
+| 1 | 2 | 3 |  
+|:---:|:---:|:---:|      
+| ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/11img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/12img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/13img.png) |       
+| 4 | 5 | 6 |   
+| ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/14img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/15img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/16img.png) |    
+| 7 | 8 | 9 |   
+| ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/17img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/18img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/19img.png) |    
+| 10 | 11 | 12 |     
+| ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/20img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/21img.png) | Succeed & End! |      
 
 **Step2**: Setting up the hardware  
-| 1: Connecting the microSD card | 2: Connecting a network cable | 3: Connecting a power supply | 4 |
-| :--: | :--: | :--: | :--: |
-| ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/22img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/23img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/24img.png) | Wait for the system to start successfully! |
+| 1: Connecting the microSD card | 2: Connecting a network cable | 3: Connecting a power supply |    
+| :--: | :--: | :--: |        
+| ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/22img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/23img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/24img.png) |    
 
-## Remote Access      
+## Remote access to Raspberry Pi terminals (SSH)      
+If you don't have a spare display, mouse and keyboard for your RPi, you can use a remote terminal to share a display, keyboard, and mouse with your PC.     
+
 Download [Putty.exe](https://www.putty.be/latest.html).  
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/25img.png)  
 
-Use Putty to remotely access raspberry pi 4.  
+Use Putty to remotely access raspberry pi 4. ([Find the IP of raspberry pi](#Find-the-IP-address-of-raspberry-pi-4))            
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/26img.png)  
 ```
 raspberrypi.local  
 ```
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/27img.png)  
 <span style="color: rgb(255, 76, 65);">Note: The above operations must be on the same LAN.</span>  
+
 
 ## Find the IP address of raspberry pi 4
 On Raspberry Pi OS, multicast DNS is supported out-of-the-box by the Avahi service.  
@@ -124,7 +129,7 @@ Log in to raspberry pi 4 using WinSCP.
 Drag and drop a file on your PC to raspberry pi 4.  
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/34img.png)  
 
-## Installing VNC on Raspberry Pi --> (Option)
+## Remote desktop (VNC) --> (Option)
 VNC is already installed on the full Raspberry Pi OS image, and can be installed via **Recommended Software** from the **Preferences** menu on other versions.  
 If you are not using a desktop you can install it from the command line as follows:  
 ```command line
