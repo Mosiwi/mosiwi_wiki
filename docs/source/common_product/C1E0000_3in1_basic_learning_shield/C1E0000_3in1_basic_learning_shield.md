@@ -21,7 +21,7 @@ The 3in1 Basic learning shield enables the [arduino Basic Learning shield](../..
 | 5. 3.3V regulated power supply. |
 | 6. DC jack input power. |
 | 7. IO expand chip. |
-| 8. Arduino Basic Learning shield slot. |
+| 8. [Arduino Basic Learning shield](../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md) slot. |
 
 ## Schematic diagram
 ![Img](../../_static/common_product/C1E0000_3in1_basic_learning_shield/3img.png)  

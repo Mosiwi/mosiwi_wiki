@@ -34,8 +34,8 @@ More: <https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf>
 Note: all dimensions in mm  
 
 ## Programming platform
-**C/C++:** [Link](https://www.raspberrypi.com/documentation/microcontrollers/c_sdk.html)  
-**MicroPython:** [Link](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html)  
+**C/C++:** <https://www.raspberrypi.com/documentation/microcontrollers/c_sdk.html>  
+**MicroPython:** <https://docs.micropython.org/en/latest/rp2/quickref.html>     
 
 ## Using MicroPython in Thonny
 **Burning micropython firmware**    
@@ -101,6 +101,8 @@ Exiting Running Online:
 ![Img](../../_static/raspberry/R1D0001_raspberry_pico/25img.png)     
 
 Run the code offline: (The code is stored in pico, and the code in pico is automatically executed after being powered on.)     
+![Img](../../_static/raspberry/R1D0001_raspberry_pico/27img.png)     
+
 Enter the code in the main panel, then click on the "**Save**" or "**File->Save as ...**" menu. Thonny will present you with a popup, click on "**Raspberry Pi Pico**" and enter "**main\.py**" to save the code to the **Raspberry Pi Pico**.  
 ![Img](../../_static/raspberry/R1D0001_raspberry_pico/12img.png)  
 ![Img](../../_static/raspberry/R1D0001_raspberry_pico/13img.png) 

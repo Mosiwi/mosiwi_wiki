@@ -7,6 +7,8 @@ This tutorial only focuses on practical operation, without the need to understan
 3. Basic operation of the [**Arduino UNO R3**](../../../arduino/A1D0000_uno_r3/A1D0000_uno_r3.md) motherboard.    
 
 ## Chapter1 RGB LED    
+Connect control board to your computer with USB cable：    
+![Img](../../../_static/common_product//C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Zero-based_tutorial/43img.jpg)
 
 1. Open "2.0.0 RGB led" Example:    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Zero-based_tutorial/1img.png)    

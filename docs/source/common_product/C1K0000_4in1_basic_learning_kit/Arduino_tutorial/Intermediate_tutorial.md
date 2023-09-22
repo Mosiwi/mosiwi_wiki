@@ -17,7 +17,10 @@ Learn common programming syntax based on "UNO board + expansion board + peripher
 **Program flow diagram:** 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/1img.png)    
 
-**Open the example code: "2.0.0_RGB_led"**   
+**Connect control board to your computer with USB cable:**          
+![Img](../../../_static/common_product//C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/71img.jpg)   
+
+**Open the example code: "2.0.0_RGB_led"**      
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/2img.png)    
 Upload the code to the UNO board.     
 <span style="color: rgb(255, 76, 65);">Note: All the sample code in the following sections is opened in the same way as in the figure above.</span>     
@@ -1038,6 +1041,8 @@ Serial.println(IR.value, HEX);
 Use the infrared remote control to repeatedly press the "OK" key in front of the infrared receiver on the expansion board to turn on and off the red LED light on the expansion board.     
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/50img.png)    
 <span style="color: rgb(255, 76, 65);">Note: Button batteries must be installed when using the infrared remote control. If the infrared remote control has been allocated with button batteries, the separator at the bottom of the remote control must be pulled out.</span>      
+
+See: [Ir-receiver module](../../../common_product/C1S0001_ir_receiver/C1S0001_ir_receiver.md)       
 
 **FAQ:**          
 (1) How to realize infrared remote control?    

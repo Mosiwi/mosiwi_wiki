@@ -74,7 +74,8 @@ After uploads the code, the green RGB led on the expansion board is always off, 
 See: [Pins and GPIO](https://docs.micropython.org/en/latest/rp2/quickref.html#pins-and-gpio)      
 
 (2) What is a button?   
-See: [Button](../Arduino_tutorial/Basic_tutorial.md#Chapter-2-button)     
+The key is A press switch, as shown in the following figure, A and B, C and D are directly connected inside, when no press, AB and CD are not connected, when the key is pressed, AB and CD are connected.    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/28img.png)    
 
 ## Example_2 Buzzer   
 **Objective:**     
@@ -93,9 +94,13 @@ After uploading the code, the buzzer on the expansion board will keep beeping wi
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/10img.png)    
 
 **FQA:**   
-(1) What is PWM output?       
-See: [What is PWM?](../Arduino_tutorial/Basic_tutorial.md#chapter-6-pwm)     
-See: [PWM for Pico](https://docs.micropython.org/en/latest/rp2/quickref.html#pwm-pulse-width-modulation)     
+(1) What is PWM output?      
+PWM, called pulse width modulation signal, is a square wave signal with fixed frequency and variable duty cycle time. In the figure below, T is the cycle time, which is fixed; A is high level (Pico high level is 3.3V); B is low level (Pico high level is 0V); The level width of A and B in the period T time is changeable, the longer the pulse time of the high level, the larger the average voltage value, and the smaller the vice versa.          
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/29img.png)    
+Note: T = A + B     
+
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/30img.png)         
+See more: [PWM for Pico](https://docs.micropython.org/en/latest/rp2/quickref.html#pwm-pulse-width-modulation)     
 
 (2) What is buzzer?    
 See: [Buzzer](../Arduino_tutorial/Intermediate_tutorial.md#chapter5-buzzer)    
@@ -119,8 +124,12 @@ The RGB LED light cycle emits red, green and blue lights.
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/11img.png)    
 
 **FQA:**   
-(1) What is RGB LED?       
-See: [RGB LED](../Arduino_tutorial/Intermediate_tutorial.md#chapter1-rgb-led)     
+(1) What is RGB LED?         
+RGB LED is a combination of red, green and blue LEDs. By controlling the intensity of the light emitted by the LEDs of 3 colors and fusing the 3 lights together, various light sources can be produced.       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/35img.png)    
+
+RGB led is a combination of red, green and blue leds. It also has a positive and negative electrode, only when the positive current is switched on, the LED lamp will light up, generally requiring its current to be about 5-15ma, so it often uses a resistor in series with the LED to achieve current limiting.     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/36img.png)    
 
 
 ## Example_4 Fan   
@@ -169,7 +178,7 @@ Sliding potentiometer is a resistance element with adjustable resistance value a
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/16img.png)    
 
 (2) What is ADC? 
-See: [ADC](https://docs.micropython.org/en/latest/rp2/quickref.html#adc-analog-to-digital-conversion)       
+See: [ADC for Pico](https://docs.micropython.org/en/latest/rp2/quickref.html#adc-analog-to-digital-conversion)       
 
 
 ## Example_6 Microphone   
@@ -189,8 +198,12 @@ After running the code, the terminal prints the analog value of the amplified so
 
 **FQA:**   
 (1) What is microphone?    
-See: [Microphone](../Arduino_tutorial/Intermediate_tutorial.md#chapter9-microphone)       
-<span style="color: rgb(255, 76, 65);">Note: When the microphone on the expansion board is used with the Pico board, the operating voltage is 3.3V instead of 5V.</span>      
+Microphone is an energy conversion device that converts sound signals into electrical signals. It is classified as capacitive and electret. An electret microphone is used on the expansion board and a preamplifier circuit is integrated. The Pin27 of Pico is used to receive the analog signal from the microphone.      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/31img.png)    
+
+The microphone on the expansion board integrates a preamplifier circuit, which reads the analog voltage value of Pin27 as 1.65V when there is no sound, and fluctuates the voltage value on Pin27 up and down at 1.65V when there is sound.      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/32img.png)    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/33img.png)    
 
 
 ## Example_7 Ultrasonic       
@@ -258,9 +271,13 @@ The red LED on the expansion board shines once every 1 seconds.
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/11img.png)    
 
 **FQA:**   
-(1) What is timer?  
-See: [Timer](../Arduino_tutorial/Basic_tutorial.md#chapter-6-timer1)  
-See: [Timer of Pico](https://docs.micropython.org/en/latest/rp2/quickref.html#timers)       
+(1) What is timer?     
+A timer is equivalent to an alarm clock, which can set a time, generate a signal (equivalent to an interrupt) at every set time, and perform another thing when the signal is generated.      
+
+When the timer count reaches the set time, an interrupt signal is generated for the processor to execute a short program.      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/34img.png)    
+
+See: [Timer for Pico](https://docs.micropython.org/en/latest/rp2/quickref.html#timers)       
 
 
 ## Example_10 keyboard       
@@ -287,10 +304,11 @@ Press the keyboard on the expansion board, and the terminal will print the value
 | 16 | 8 | 4 | 2 | 1 |
 
 **FQA:**   
-(1) What is Keyboard and SPI communication?    
-See: [Keyboard](../Arduino_tutorial/Basic_tutorial.md#chapter-9-digital-tube-button-spi)       
+(1) What is Keyboard and SPI communication?  
+The "Basic learning shield" is integrated with a 4-bit 8-segment display digital tube and five keys. They are controlled by the BC7278 chip, which has a slave SPI interface and a key trigger signal output.       
+          
 See: [SPI communication protocol](../Arduino_tutorial/Advanced_tutorial.md#chapter5-spi-communication-protocol)       
-See: [Pico use SPI](https://docs.micropython.org/en/latest/rp2/quickref.html#hardware-spi-bus)    
+See: [SPI for Pico](https://docs.micropython.org/en/latest/rp2/quickref.html#hardware-spi-bus)    
 
 
 ## Example_11 4-bit 8-segment digital tube       
@@ -339,6 +357,7 @@ Pico will get 2 bytes of data, the first byte is the inverse code of the address
 **FQA:**   
 (1) What is Ir-receiver?    
 See: [Ir-receiver](../Arduino_tutorial/Intermediate_tutorial.md#chapter13-ir-receiver)       
+See: [Ir-receiver module](../../../common_product/C1S0001_ir_receiver/C1S0001_ir_receiver.md)       
 
 (2) What is NEC infrared communication protocol?       
 See: [NEC infrared communication protocol](../../../common_resource/nec_communication_protocol/nec_communication_protocol.md)
@@ -367,7 +386,12 @@ The terminal will print the temperature and humidity values of the current envir
 
 **FQA:**   
 (1) What is Thermohygrometer?    
-See: [Thermohygrometer](../Arduino_tutorial/Intermediate_tutorial.md#chapter12-thermohygrometer)    
+A thermohygrometer is a tool that can accurately measure the current ambient temperature and humidity. In the example we used AHT20 temperature and humidity sensor and 4 digital control made a temperature and humidity meter, 4 digital tube can display temperature and humidity values.     
+specification parameter: 
+| Name | Measuring range | Resolution | Error range |   
+| :-- | :-- | :-- | :-- |     
+| Temperature | 0 to 85℃ | 0.01℃ | +/-3% |     
+| Humidity | 0% to 100% | 0.024% | +/-2% |      
 
 
 ## Example_14 Uart       
@@ -381,6 +405,7 @@ See: [Thermohygrometer](../Arduino_tutorial/Intermediate_tutorial.md#chapter12-t
 **Wiring diagram:** 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/25img.png)    
 Connect these two pins through a jumper wire or a metal wire.     
+<span style="color: rgb(255, 76, 65);">Note: This wiring is equivalent to Pico's RX pin sending data to Pico's TX pin.</span>           
 
 **Open the example code: "uart\.py"**     
 1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
@@ -393,7 +418,7 @@ Pico's serial port TX pin keeps sending data to Pico's RX pin, and the terminal 
 **FQA:**   
 (1) What is uart?    
 See: [Uart](../Arduino_tutorial/Advanced_tutorial.md#chapter3-serial-port)    
-See: [Pico use uart](https://docs.micropython.org/en/latest/rp2/quickref.html#uart-serial-bus)       
+See: [Uart for Pico](https://docs.micropython.org/en/latest/rp2/quickref.html#uart-serial-bus)       
 
 
 ## Example_15 Watchdog      
@@ -412,7 +437,7 @@ At the beginning of the program, let the LED on the Pico board blink once, and t
 **FQA:**   
 (1) What is Watchdog?    
 The watchdog is also a timer, and the set time must be refreshed within the set time, otherwise it will cause the chip to reset. Use this function to prevent the program from running incorrectly or out of control.      
-See: [Pico use WDT](https://docs.micropython.org/en/latest/rp2/quickref.html#wdt-watchdog-timer)           
+See: [WDT for Pico](https://docs.micropython.org/en/latest/rp2/quickref.html#wdt-watchdog-timer)           
 
 
 **End!**    

@@ -20,6 +20,9 @@ Learn simple programming syntax based on the UNO board, and learn the most compr
 **Program flow diagram:**   
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/2img.png)     
 
+**Connect control board to your computer with USB cable:**       
+![Img](../../../_static/common_product//C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/61img.jpg)
+
 **Open the example code: "1.0.0_Blink"**     
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/1img.png)    
 Upload the code to the UNO board.       
@@ -33,6 +36,7 @@ The RGB LED on the expansion board emits a red light every 1 second.
 (1) What is LED light?    
 Leds are also known as light-emitting diodes. It has positive and negative poles, generally the shorter pin or the pin near the gap is the negative pole, and the other end is the positive pole. Only when the forward current is connected, the LED light will be lit. Its current is generally required to be about 5-15ma, so resistors are often used in series with leds to achieve current limiting.     
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/3img.png)     
+<span style="color: rgb(255, 76, 65);">Note: RGB led is a combination of red, green and blue leds.</span>      
 
 (2)What are functions and function parameters?
 When we want to program to achieve a function, we need to use a variety of programming language statements, variables, functions, etc., in order to facilitate the maintenance and reading of the code, we need to wrap them together, and then use a name to represent this function, call this name that calls these statements, variables, functions, etc., this is the concept of function.      
@@ -747,6 +751,7 @@ The brightness of the red LED on the expansion board is also from small to large
 (1) What is PWM output?     
 PWM, called pulse width modulation signal, is a square wave signal with fixed frequency and variable duty cycle time. In the figure below, T is the cycle time, which is fixed; A is high level (UNO high level is 5V); B is low level (UNO high level is 0V); The level width of A and B in the period T time is changeable, the longer the pulse time of the high level, the larger the average voltage value, and the smaller the vice versa.        
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/37img.png)     
+Note: T = A + B     
 
 There are 6 PWM output pins on the UNO board, which are 3, 5, 6, 9, 10 and 11 pins:    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/38img.png)     
@@ -928,6 +933,9 @@ In the sample code:
 
 (2) What is a timer?       
 A timer is equivalent to an alarm clock, which can set a time, generate a signal (equivalent to an interrupt) at every set time, and perform another thing when the signal is generated.     
+
+When the timer count reaches the set time, an interrupt signal is generated for the processor to execute a short program.       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/62img.png)     
 
 Initialize timer1:   
 ```
