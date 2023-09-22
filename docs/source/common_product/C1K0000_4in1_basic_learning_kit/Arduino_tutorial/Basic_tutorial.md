@@ -309,6 +309,13 @@ More information please refer to: <https://www.arduino.cc/reference/en/language/
 The Arduino IDE has a serial monitor. The UNO can send data to the monitor through the USB-to-serial chip, and the monitor can also send data to the UNO.       
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/16img.png)     
 
+Open the serial monitor:       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/63img.png)     
+
+Serial monitor:      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/64img.png)     
+
+
 (3) How to output information to the serial port monitor?   
 When using the Arduino serial port, you must first initialize the serial port and set the baud rate. Generally, the serial port is initialized in the setup() function.   
 ```
