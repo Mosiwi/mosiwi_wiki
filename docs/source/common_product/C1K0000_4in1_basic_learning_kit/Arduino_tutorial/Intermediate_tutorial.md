@@ -14,6 +14,9 @@ Learn common programming syntax based on "UNO board + expansion board + peripher
 2. How to control R, G, B LED?    
 3. What is a preprocessing directive: #define     
 
+**Schematic diagram:**           
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/72img.png)            
+
 **Program flow diagram:** 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/1img.png)    
 
@@ -82,6 +85,9 @@ More information: <https://www.arduino.cc/reference/en/language/structure/furthe
 **Curriculum question:** 
 1. How to control the LED strip of the expansion board?      
 
+**Schematic diagram:**           
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/73img.png)            
+
 **Program flow diagram:** 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/5img.png)    
 
@@ -133,6 +139,9 @@ delay(500);
 3. How is the switch statement used?  
 4. What are binary numbers, decimal numbers, and hexadecimal numbers?     
 5. How to control all leds of the LED strip at the same time?   
+
+**Schematic diagram:**           
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/74img.png)            
 
 **Program flow diagram:** 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/8img.png)    
@@ -283,6 +292,9 @@ Relationship between the LED state and the value of "**num**":
 **Curriculum question:** 
 1. How to use the bit operations: &, |, ~, ^, < <, > >        
 
+**Schematic diagram:**           
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/75img.png)            
+
 **Program flow diagram:** 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/12img.png)    
 
@@ -375,6 +387,9 @@ Examples:
 2. What is MOS transistor?    
 3. How do you use the tone() and notone() functions?       
 
+**Schematic diagram:**           
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/76img.png)            
+
 **Program flow diagram:** 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/14img.png)    
 
@@ -456,6 +471,13 @@ More info: <https://www.arduino.cc/reference/en/language/functions/advanced-io/n
 **Curriculum question:** 
 1. What is the relationship between the frequency and the tone of the buzzer?        
 
+**Schematic diagram:**           
+Buzzer and Slider resistor
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/76img.png)            
+
+4-bit digital tube
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/77img.png)            
+
 **Program flow diagram:** 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/22img.png)    
 
@@ -478,6 +500,9 @@ Various tones are produced by sounds of different frequencies. Because buzzers c
 1. What is music?    
 2. How do you use sizeof()?    
 3. How to use the store statements: PROGMEM, pgm_read_word_near(), pgm_read_float_near()       
+
+**Schematic diagram:**           
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/78img.png)            
 
 **Program flow diagram:** 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/25img.png)    
@@ -552,6 +577,9 @@ More info: <https://www.arduino.cc/reference/en/language/variables/utilities/pro
 **Curriculum question:** 
 1. How do you use a timer to make a buzzer sound?       
 
+**Schematic diagram:**           
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/78img.png)            
+
 **Program flow diagram:** 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/28img.png)    
 
@@ -596,6 +624,9 @@ void loop() {
 **Curriculum question:** 
 1. What is a microphone?   
 
+**Schematic diagram:**           
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/79img.png)            
+
 **Program flow diagram:** 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/30img.png)    
 
@@ -628,6 +659,13 @@ voiceAnalogValue = analogRead(A6);
 2. What is a jump statement: goto   
 3. How do you use the max() and min() functions?    
 
+**Schematic diagram:**           
+Microphone    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/79img.png)            
+
+LED strip    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/73img.png)            
+
 **Program flow diagram:** 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/35img.png)    
 
@@ -636,7 +674,7 @@ voiceAnalogValue = analogRead(A6);
 2. Upload the code to the UNO board.
 
 **Example code phenomena:**  
-Speaking into the microphone on the extension or playing music (at a higher volume), eight yellow leds on the extension board will light up a different number of leds depending on the volume of the sound.     
+Speaking into the microphone on the extension or playing music (at a higher volume), eight leds on the extension board will light up a different number of leds depending on the volume of the sound.     
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/36img.png)    
 
 **FAQ:**          
@@ -722,6 +760,9 @@ More info: <https://www.arduino.cc/reference/en/language/functions/math/min/>
 2. 1-Wire protocol
 3. variable: word
 4. class   
+
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/80img.png)            
 
 **Program flow diagram:**          
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/38img.png)    
@@ -834,6 +875,13 @@ int Power = BMW.power;
 3. How to use the functions: millis(), abs()   
 4. What are function arguments?    
 
+**Schematic diagram:**       
+AHT20
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/81img.png)            
+
+4-bit digital tube
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/77img.png)            
+
 **Program flow diagram:**         
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/42img.png)    
 
@@ -935,6 +983,9 @@ void displayHumidity(float H){
 
 **Curriculum question:** 
 1. What is an infrared receiving sensor?      
+
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/82img.png)            
 
 **Program flow diagram:**      
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/44img.png)    
@@ -1038,7 +1089,7 @@ Serial.println(IR.value, HEX);
 2. Upload the code to the UNO board.
 
 **Example code phenomena:**  
-Use the infrared remote control to repeatedly press the "OK" key in front of the infrared receiver on the expansion board to turn on and off the red LED light on the expansion board.     
+Use the [infrared remote control](../../../outsourcing/nec_ir_remote_control/nec_ir_remote_control.md) to repeatedly press the "OK" key in front of the infrared receiver on the expansion board to turn on and off the red LED light on the expansion board.     
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/50img.png)    
 <span style="color: rgb(255, 76, 65);">Note: Button batteries must be installed when using the infrared remote control. If the infrared remote control has been allocated with button batteries, the separator at the bottom of the remote control must be pulled out.</span>      
 
@@ -1055,6 +1106,9 @@ For example, we can program the UNO board to turn on the LED when it receives th
 1. What is Ultrasonic module?    
 2. What is pulse?     
 3. How do you use the pulseIn() function?     
+
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/83img.png)            
 
 **Wiring diagram**
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/51img.png)    
@@ -1108,6 +1162,13 @@ More info: <https://www.arduino.cc/reference/en/language/functions/advanced-io/p
 **Curriculum question:**      
 1. What is a function that returns a value?      
 2. how to use the logic statements: ||       
+
+**Schematic diagram:**         
+Ultrasonic
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/83img.png)            
+
+4-bit digital tube
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/77img.png)            
 
 **Wiring diagram:**      
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/51img.png)    
@@ -1177,7 +1238,10 @@ More info: <https://www.arduino.cc/reference/en/language/structure/boolean-opera
 ## Chapter16 Fan-PWM   
 **Curriculum question:**      
 1. What is a fan?    
-2. How to control the fan?      
+2. How to control the fan?          
+
+**Schematic diagram:**         
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/84img.png)            
 
 **Wiring diagram**      
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/62img.png)    
@@ -1291,7 +1355,7 @@ After power on, the more up push the potentiometer on the expansion board, the f
 This is an intelligent fan with temperature control mode and remote control mode.    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/69img.png)    
 
-Function of infrared remote control button:    
+Function of [infrared remote control](../../../outsourcing/nec_ir_remote_control/nec_ir_remote_control.md) button:    
 1. 2: Turn on and off temperature control mode    
 2. ▲: Fan speed plus   
 3. ▼: Fan speed minus    

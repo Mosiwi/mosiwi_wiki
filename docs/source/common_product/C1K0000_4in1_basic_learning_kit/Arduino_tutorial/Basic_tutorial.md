@@ -17,6 +17,9 @@ Learn simple programming syntax based on the UNO board, and learn the most compr
 5. How to use the delay() delay function?  
 6. How to use the comment symbols in the code: //, /* ... */    
 
+**Schematic diagram:**           
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/65img.png)            
+
 **Program flow diagram:**   
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/2img.png)     
 
@@ -106,6 +109,9 @@ Text content to be commented
 4. How to set up and use the digital input port?    
 5. How to use relational operators: ==,! =   
 6. How to use the judgment statement: if        
+
+**Schematic diagram:**           
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/66img.png)            
 
 **Program flow diagram:**   
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/5img.png)     
@@ -500,6 +506,9 @@ The result is 1.
 3. What is the analog input port?   
 4. What are variables: int and float                 
 
+**Schematic diagram:**           
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/67img.png)            
+
 **Program flow diagram:**   
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/22img.png)     
 
@@ -584,6 +593,9 @@ float voltageValue = 0;
 3. How to use variable modifiers: const and volatile   
 4. How to use the loop statement: while   
 5. How to write a function without parameters and return value?                   
+
+**Schematic diagram:**           
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/66img.png)            
 
 **Program flow diagram:**   
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/26img.png)     
@@ -739,7 +751,10 @@ digitalWrite(ledPin, LOW);
 1. What is PWM output?     
 2. How to use the for statement?   
 3. How to use operators: ++, --   
-4. How to use comparison operators: >, <, >=, <=                      
+4. How to use comparison operators: >, <, >=, <=         
+
+**Schematic diagram:**           
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/65img.png)            
 
 **Program flow diagram:**   
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/35img.png)     
@@ -909,6 +924,9 @@ More information: <https://www.arduino.cc/reference/en/language/structure/compar
 2. What is a timer?   
 3. How to use variable: bool                    
 
+**Schematic diagram:**           
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/65img.png)            
+
 **Program flow diagram:**   
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/41img.png)     
 
@@ -1052,6 +1070,9 @@ More information: <https://www.arduino.cc/reference/en/language/variables/variab
 **Curriculum question:**     
 1. What is I2C communication?      
 2. What is an array?                         
+
+**Schematic diagram:**           
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/68img.png)            
 
 **Program flow diagram:**   
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/42img.png)     
@@ -1219,6 +1240,9 @@ p2 = num;
 **Curriculum question:**     
 1. What is a 4-bit 8-segment digital tube?  
 2. What is SPI communication?
+
+**Schematic diagram:**           
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/69img.png)            
 
 **Program flow diagram:**   
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/52img.png)     
