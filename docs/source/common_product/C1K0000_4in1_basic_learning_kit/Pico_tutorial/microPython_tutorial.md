@@ -59,14 +59,17 @@ Enter the code in the main panel, then click on the "**Save**" or "**File->Save 
 
 **Pins to be used:**     
 1. Button: GP21 
-2. Red RGB LED: GP25
+2. LED: GP25
+
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/37img.png)    
 
 **Open the example code: "button\.py"**     
 1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
 2. Run the example code online.      
 
 **Example code phenomena:**         
-After uploads the code, the green RGB led on the expansion board is always off, and if the "Button" on the extension board is pressed, the LED is turned on.     
+After uploads the code, the led on the Pico is always off, and if the "Button" on the extension board is pressed, the LED is turned on.     
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/9img.png)    
 
 **FQA:**    
@@ -84,6 +87,9 @@ The key is A press switch, as shown in the following figure, A and B, C and D ar
 
 **Pins to be used:**   
 1. Buzzer: GP6  
+
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/38img.png)    
 
 **Open the example code: "buzzer\.py"**     
 1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
@@ -115,6 +121,9 @@ See: [Buzzer](../Arduino_tutorial/Intermediate_tutorial.md#chapter5-buzzer)
 2. Green RGB LED: GP9
 3. Bule REG LED: GP7
 
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/39img.png)    
+
 **Open the example code: "rgb-led_pwm\.py"**     
 1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
 2. Run the example code online. 
@@ -140,6 +149,9 @@ RGB led is a combination of red, green and blue leds. It also has a positive and
 1. S1(INB): GP8    
 2. S2(INA): GP9
 
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/40img.png)    
+
 **Wiring diagram:** 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/12img.png)    
 
@@ -163,6 +175,9 @@ See: [Fan module](../../../outsourcing/O1M0001_fan_module/O1M0001_fan_module.md)
 
 **Pins to be used:**   
 1. Potentiometer: GP28_A2    
+
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/41img.png)    
 
 **Open the example code: "potentiometer\.py"**     
 1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
@@ -188,6 +203,9 @@ See: [ADC for Pico](https://docs.micropython.org/en/latest/rp2/quickref.html#adc
 **Pins to be used:**   
 1. Microphone: GP27_A1          
 
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/32img.png)    
+
 **Open the example code: "microphone\.py"**     
 1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
 2. Run the example code online. 
@@ -198,10 +216,10 @@ After running the code, the terminal prints the analog value of the amplified so
 
 **FQA:**   
 (1) What is microphone?    
-Microphone is an energy conversion device that converts sound signals into electrical signals. It is classified as capacitive and electret. An electret microphone is used on the expansion board and a preamplifier circuit is integrated. The Pin27 of Pico is used to receive the analog signal from the microphone.      
+Microphone is an energy conversion device that converts sound signals into electrical signals. It is classified as capacitive and electret. An electret microphone is used on the expansion board and a preamplifier circuit is integrated. The GP27 of Pico is used to receive the analog signal from the microphone.      
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/31img.png)    
 
-The microphone on the expansion board integrates a preamplifier circuit, which reads the analog voltage value of Pin27 as 1.65V when there is no sound, and fluctuates the voltage value on Pin27 up and down at 1.65V when there is sound.      
+The microphone on the expansion board integrates a preamplifier circuit, which reads the analog voltage value of GP27 as 1.65V when there is no sound, and fluctuates the voltage value on Pin27 up and down at 1.65V when there is sound.      
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/32img.png)    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/33img.png)    
 
@@ -209,6 +227,9 @@ The microphone on the expansion board integrates a preamplifier circuit, which r
 ## Example_7 Ultrasonic       
 **Objective:**     
 1. What is ultrasonic module?           
+
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/42img.png)    
 
 **Pins to be used:**   
 1. S1(echo of ultrasonic): GP8    
@@ -239,6 +260,9 @@ See: [Ultrasonic module](../../../outsourcing/O1M0000_ultrasonic_module/O1M0000_
 2. SH_CP: GP14      
 3. ST_CP: GP13   
 
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/43img.png)    
+
 **Open the example code: "led-strip_tw\.py"**     
 1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
 2. Run the example code online. 
@@ -261,6 +285,9 @@ See: [74HC595](../Arduino_tutorial/Advanced_tutorial.md#chapter6-3-wire-communic
 
 **Pins to be used:**   
 1. Red RGB LED: GP8             
+
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/44img.png)    
 
 **Open the example code: "timer\.py"**     
 1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
@@ -292,6 +319,9 @@ See: [Timer for Pico](https://docs.micropython.org/en/latest/rp2/quickref.html#t
 4. KEY-INT: GP20     
 <span style="color: rgb(255, 76, 65);">Note: The 5 keys on the "Basic learning shield" occupy GP20 (key trigger signal output), GP19 (MOSI), GP16 (MISO) and GP18 (CLK) of the Pico board, and the CS control pin is not required.</span>     
 
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/45img.png)    
+
 **Open the example code: "keyboard_spi\.py"**     
 1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
 2. Run the example code online. 
@@ -321,6 +351,9 @@ See: [SPI for Pico](https://docs.micropython.org/en/latest/rp2/quickref.html#har
 3. CLK: GP18           
 <span style="color: rgb(255, 76, 65);">Note: The 4-bit 8-segment digital tube on the "Basic learning shield" occupy GP19 (MOSI), GP16 (MISO) and GP18 (CLK) of the Pico board, and the CS control pin is not required.</span>     
 
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/45img.png)    
+
 **Open the example code: "tube_spi\.py"**     
 1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
 2. Run the example code online. 
@@ -328,6 +361,10 @@ See: [SPI for Pico](https://docs.micropython.org/en/latest/rp2/quickref.html#har
 **Example code phenomena:**         
 The 4-bit 8-segment nixie shows 0-9999, then 999.9, and so on.       
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/22img.png)    
+
+| U | D | L | R | OK |    
+| :--: | :--: | :--: | :--: | :--: |    
+| 16 | 8 | 4 | 2 | 1 |     
 
 **FQA:**   
 (1) What is 4-bit 8-segment digital tube?    
@@ -342,7 +379,11 @@ See: [4-bit 8-segment digital tube](../Arduino_tutorial/Basic_tutorial.md#chapte
 
 **Pins to be used:**   
 1. SDA: GP4    
-2. SCL: GP5              
+2. SCL: GP5      
+
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/46img.png)      
+Note: The I2C slave chip is integrated on the [3in1 Basic learning shield](../../../common_product/C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md#io-expand) board to process the data of the infrared receiving sensor.      
 
 **Open the example code: "ir-receiver_iic\.py"**     
 1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
@@ -375,6 +416,9 @@ See: [Pico use I2C](https://docs.micropython.org/en/latest/rp2/quickref.html#har
 **Pins to be used:**   
 1. SDA: GP4      
 2. SCL: GP5       
+
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/47img.png)      
 
 **Open the example code: "humiture_i2c\.py"**     
 1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     

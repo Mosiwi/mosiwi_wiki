@@ -127,6 +127,9 @@ sudo ./arithmetic_operation
 **Pins to be used:**   
 1. Red RGB LED: 23(Wiringpi) or 13(BCM)  
 
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/25img.png)    
+
 **Demonstration:**       
 Run the following command on the terminal:       
 ```
@@ -142,6 +145,9 @@ The red LED lights on the expansion board are lit at one-second intervals.
 1. Red RGB LED: 23(Wiringpi) or 13(BCM) 
 2. Button: 22(Wiringpi) or 6(BCM)  
 
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/26img.png)    
+
 **Demonstration:**       
 Run the following command on the terminal:       
 ```
@@ -156,6 +162,9 @@ After uploads the code, the green RGB led on the expansion board is always off, 
 ## Example4 Buzzer   
 **Pins to be used:**   
 1. Buzzer: 1(Wiringpi) or 18(BCM) 
+
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/27img.png)    
 
 **Demonstration:**       
 Run the following command on the terminal:       
@@ -174,6 +183,9 @@ After uploading the code, the buzzer on the expansion board will keep beeping wi
 2. Green RGB LED: 24(Wiringpi) or 19(BCM)  
 3. Blue RGB LED: 26(Wiringpi) or 12(BCM)  
 
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/28img.png)    
+
 **Demonstration:**       
 Run the following command on the terminal:       
 ```
@@ -189,6 +201,9 @@ After uploading the code, the buzzer on the expansion board will keep beeping wi
 **Pins to be used:**   
 1. S1(INB): 23(Wiringpi) or 13(BCM)  
 2. S2(INA): 24(Wiringpi) or 19(BCM)  
+
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/29img.png)    
 
 **Wiring diagram:**   
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/13img.png)     
@@ -209,6 +224,10 @@ More info: [Fan module](../../../outsourcing/O1M0001_fan_module/O1M0001_fan_modu
 1. SDA: 8(Wiringpi) or 2(BCM)  
 2. SCL: 9(Wiringpi) or 3(BCM)   
 
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/30img.png)    
+Note: The I2C slave chip is integrated on the [3in1 Basic learning shield](../../../common_product/C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md#io-expand) board to process the data of the potentiometer.      
+
 **Demonstration:**       
 Run the following command on the terminal:       
 ```
@@ -224,6 +243,10 @@ Push the potentiometer up and down, and the terminal prints the corresponding an
 **Pins to be used:**   
 1. SDA: 8(Wiringpi) or 2(BCM)  
 2. SCL: 9(Wiringpi) or 3(BCM)   
+
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/31img.png)    
+Note: The I2C slave chip is integrated on the [3in1 Basic learning shield](../../../common_product/C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md#io-expand) board to process the data of the microphone.      
 
 **Demonstration:**       
 Run the following command on the terminal:       
@@ -242,6 +265,9 @@ After running the code, the terminal prints the analog value of the amplified so
 1. S1(echo of ultrasonic): 23(Wiringpi) or 13(BCM)  
 2. S2(trig of ultrasonic): 24(Wiringpi) or 19(BCM)  
 
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/32img.png)    
+
 **Wiring diagram:**   
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/17img.png)     
 
@@ -258,9 +284,24 @@ More info: [Ultrasonic sensor](../../../outsourcing/O1M0000_ultrasonic_module/O1
 
 
 ## Example10 Led-strip      
-**Pins to be used:**   
+**Pins to be used:**     
+Led-strip
+1. DS: 0(Wiringpi) or 17(BCM)    
+2. SH_CP: 2(Wiringpi) or 27(BCM)      
+3. ST_CP: 3(Wiringpi) or 22(BCM)  
+
+Microphone
 1. SDA: 8(Wiringpi) or 2(BCM)  
 2. SCL: 9(Wiringpi) or 3(BCM)   
+
+**Wiring diagram:**      
+Led-strip
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/33img.png)     
+
+Microphone
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/31img.png)    
+Note: The I2C slave chip is integrated on the [3in1 Basic learning shield](../../../common_product/C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md#io-expand) board to process the data of the microphone.      
+
 
 **Demonstration:**       
 Run the following command on the terminal:       
@@ -295,6 +336,8 @@ The red LED lights on the expansion board are lit at one-second intervals.
 3. CLK: 14(Wiringpi) or 11(BCM)  
 4. KEY-INT: 21(Wiringpi) or 5(BCM)
 
+**Wiring diagram:**      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/34img.png)     
 
 **Demonstration:**       
 Run the following command on the terminal:       
@@ -306,9 +349,9 @@ sudo ./ldigital_tube_button_spi
 The 4-bit digital display tube displays "16.0" when the "U" key is pressed; "8.0" is displayed when the "D" key is pressed; "4.0" is displayed when the "L" key is pressed; "2.0" is displayed when the "R" key is pressed. Displays "1.0" when the "OK" key is pressed.    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/20img.png)     
 
-| U | D | L | R | OK |
-| :--: | :--: | :--: | :--: | :--: |
-| 16 | 8 | 4 | 2 | 1 |      
+| U | D | L | R | OK |    
+| :--: | :--: | :--: | :--: | :--: |    
+| 16 | 8 | 4 | 2 | 1 |        
 
 <span style="color: rgb(255, 76, 65);">Note: The 4-bit 8-segment digital tube and 5 keys on the "Basic learning shield" occupy pins 5(key trigger signal output), 10(MOSI), 9(MISO) and 11(CLK) of the Pi4, and the CS control pin is not required.</span>     
 
@@ -317,6 +360,10 @@ The 4-bit digital display tube displays "16.0" when the "U" key is pressed; "8.0
 **Pins to be used:**   
 1. SDA: 8(Wiringpi) or 2(BCM)  
 2. SCL: 9(Wiringpi) or 3(BCM)   
+
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/35img.png)            
+Note: The I2C slave chip is integrated on the [3in1 Basic learning shield](../../../common_product/C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md#io-expand) board to process the data of the infrared receiving sensor.      
 
 **Demonstration:**       
 Run the following command on the terminal:       
@@ -332,9 +379,23 @@ Pi4 will get 2 bytes of data, the first byte is the inverse code of the address 
 
 
 ## Example14 Thermohygrometer      
-**Pins to be used:**   
+**Pins to be used:**      
+AHT20
 1. SDA: 8(Wiringpi) or 2(BCM)  
 2. SCL: 9(Wiringpi) or 3(BCM)   
+
+Display
+1. MISO: 13(Wiringpi) or 9(BCM)  
+2. MOSI: 12(Wiringpi) or 10(BCM)
+3. CLK: 14(Wiringpi) or 11(BCM)  
+4. KEY-INT: 21(Wiringpi) or 5(BCM)
+
+**Schematic diagram:**       
+AHT20     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/36img.png)            
+
+Display
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/34img.png)     
 
 **Demonstration:**       
 Run the following command on the terminal:       
@@ -351,6 +412,9 @@ The 4-digit digital tube displays the temperature and humidity in a cycle with a
 ## Example15 EEPROM      
 **Pins to be used:**   
 1. EEPROM: 27(Wiringpi) or 16(BCM)   
+
+**Schematic diagram:**       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/37img.png)            
 
 **Demonstration:**       
 Run the following command on the terminal:       
