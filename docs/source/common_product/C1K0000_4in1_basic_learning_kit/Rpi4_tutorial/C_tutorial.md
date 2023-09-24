@@ -374,7 +374,19 @@ sudo ./ir_recvDemo
 ```
 When the infrared remote controller presses the button, point to the infrared receiver on the expansion board, and the terminal will print the button value.        
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/21img.png)     
+
 Pi4 will get 2 bytes of data, the first byte is the inverse code of the address of the infrared remote control device, and the second byte is the command code of the infrared remote control device.      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/38img.png)    
+```   
+data: 65432 = 0xff98
+
+Device inverse code:  
+0xff = 0b11111111 = 255    
+
+Device code:    
+0x00 = 0b00000000 = 0        
+```
+
 <span style="color: rgb(255, 76, 65);">Note: Raspberry Pi4 reads the value of the Ir-receiver through the I2C expansion chip on the "3in1_basic_learning_shield".</span>        
 
 

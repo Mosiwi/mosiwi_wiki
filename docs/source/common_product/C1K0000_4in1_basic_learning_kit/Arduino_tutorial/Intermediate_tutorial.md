@@ -87,6 +87,7 @@ More information: <https://www.arduino.cc/reference/en/language/structure/furthe
 
 **Schematic diagram:**           
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/73img.png)            
+[74HC595 datasheet](../../../_static/pdf/A1E0000_basic_learing_shield/74HC595.pdf)
 
 **Program flow diagram:** 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/5img.png)    
@@ -142,6 +143,7 @@ delay(500);
 
 **Schematic diagram:**           
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/74img.png)            
+[74HC595 datasheet](../../../_static/pdf/A1E0000_basic_learing_shield/74HC595.pdf)
 
 **Program flow diagram:** 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/8img.png)    
@@ -294,6 +296,7 @@ Relationship between the LED state and the value of "**num**":
 
 **Schematic diagram:**           
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/75img.png)            
+[74HC595 datasheet](../../../_static/pdf/A1E0000_basic_learing_shield/74HC595.pdf)
 
 **Program flow diagram:** 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/12img.png)    
@@ -477,6 +480,7 @@ Buzzer and Slider resistor
 
 4-bit digital tube
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/77img.png)            
+[BC7278 datasheet](../../../_static/pdf/A1E0000_basic_learing_shield/BC7278.pdf)
 
 **Program flow diagram:** 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/22img.png)    
@@ -665,6 +669,7 @@ Microphone
 
 LED strip    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/73img.png)            
+[74HC595 datasheet](../../../_static/pdf/A1E0000_basic_learing_shield/74HC595.pdf)
 
 **Program flow diagram:** 
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/35img.png)    
@@ -878,9 +883,11 @@ int Power = BMW.power;
 **Schematic diagram:**       
 AHT20
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/81img.png)            
+[AHT20 datasheet](../../../_static/pdf/A1E0000_basic_learing_shield/AHT20.pdf)   
 
 4-bit digital tube
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/77img.png)            
+[BC7278 datasheet](../../../_static/pdf/A1E0000_basic_learing_shield/BC7278.pdf)  
 
 **Program flow diagram:**         
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/42img.png)    
@@ -996,7 +1003,7 @@ void displayHumidity(float H){
 2. Upload the code to the UNO board.
 
 **Example code phenomena:**  
-Open the serial port monitor, adjust the baud rate to 9600, press "OK" on the infrared remote control against the infrared receiver, and the serial port will print "FF38C7".     
+Open the serial port monitor, adjust the baud rate to 9600, press "OK" on the [infrared remote control](../../../outsourcing/nec_ir_remote_control/nec_ir_remote_control.md) against the infrared receiver, and the serial port will print "FF38C7".     
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/48img.png)    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/45img.png)    
 <span style="color: rgb(255, 76, 65);">Note: If you keep pressing the button, the serial port will always print "FFFFFFFF".</span>     
@@ -1172,6 +1179,7 @@ Ultrasonic
 
 **Wiring diagram:**      
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/51img.png)    
+[BC7278 datasheet](../../../_static/pdf/A1E0000_basic_learing_shield/BC7278.pdf)      
 
 **Program flow diagram:**      
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/60img.png)    

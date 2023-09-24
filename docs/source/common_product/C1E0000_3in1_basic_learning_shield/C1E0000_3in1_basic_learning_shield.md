@@ -53,6 +53,6 @@ The 2-channel analog input is a 10-bit analog-to-digital converter corresponding
 **Infrared receive sensor communication port:**  
 1\. This interface is used to connect external infrared receiving sensors and supports only the [NEC infrared communication protocol](../../common_resource/nec_communication_protocol/nec_communication_protocol.md). The IO address is **0x04**.   
 
-2\. Through the above I2C protocol, 2 bytes of data will be obtained, the first byte is the reverse code of the infrared remote control device, the second byte is the command code of the infrared remote control.  
+2\. <span style="color: rgb(255, 76, 65);">Through the above I2C protocol, 2 bytes of data will be obtained, the first byte is the inverse code of the infrared remote control device, the second byte is the command code of the infrared remote control.</span>        
 
 

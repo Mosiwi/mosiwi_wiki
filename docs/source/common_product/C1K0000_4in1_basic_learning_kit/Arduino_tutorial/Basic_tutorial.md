@@ -13,7 +13,7 @@ Learn simple programming syntax based on the UNO board, and learn the most compr
 1. What is LED light ?     
 2. What are functions and function parameters?
 3. setup() and loop() functions in Arduino program.    
-4. How to set up and use digital outlet?   
+4. How to set up and use digital outport?   
 5. How to use the delay() delay function?  
 6. How to use the comment symbols in the code: //, /* ... */    
 
@@ -126,7 +126,7 @@ When the "OK" key is pressed, the red RGB LED lights up, otherwise the RGB LED d
 
 **FAQ:**     
 (1) What is a button?   
-The key is A press switch, as shown in the following figure, A and B, C and D are directly connected inside, when no press, AB and CD are not connected, when the key is pressed, AB and CD are connected.    
+The button is a press switch, as shown in the following figure, A and B, C and D are directly connected inside, when no press, AB and CD are not connected, when the key is pressed, AB and CD are connected.    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/7img.png)     
 
 (2) What are variables, byte variables and global variables?   
@@ -1073,6 +1073,7 @@ More information: <https://www.arduino.cc/reference/en/language/variables/variab
 
 **Schematic diagram:**           
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/68img.png)            
+[AHT20 datasheet](../../../_static/pdf/A1E0000_basic_learing_shield/AHT20.pdf)      
 
 **Program flow diagram:**   
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/42img.png)     
@@ -1243,6 +1244,7 @@ p2 = num;
 
 **Schematic diagram:**           
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/69img.png)            
+[BC7278 datasheet](../../../_static/pdf/A1E0000_basic_learing_shield/BC7278.pdf)        
 
 **Program flow diagram:**   
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/52img.png)     
