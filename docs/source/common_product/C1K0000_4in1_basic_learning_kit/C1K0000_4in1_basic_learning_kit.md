@@ -16,12 +16,12 @@ This kit is suitable for teaching and learning programming, providing tutorial m
 ## Course    
 This kit provides tutorials based on 4 types of motherboards, but only pico motherboards are provided, and the others need to be purchased by yourself.    
 
-| Microbit | Raspberry pico | Arduino UNO (C and C++) | Raspberry pi 4 |
+| Microbit | Raspberry pico (MicroPython) | Arduino UNO (C and C++) | Raspberry pi 4 |
 | :--: | :--: | :--: | :--: |
-| [Makecode](./Microbit_tutorial/Makecode_tutorial.md) | [MicroPython](./Pico_tutorial/microPython_tutorial.md) | [Zero-based](./Arduino_tutorial/Zero-based_tutorial.md) | [C language](./Rpi4_tutorial/C_tutorial.md) |     
-| xxx | xxx | [Basic](./Arduino_tutorial/Basic_tutorial.md) | xxx |
-| xxx | xxx | [Intermediate](./Arduino_tutorial/Intermediate_tutorial.md) | xxx |
-| xxx | xxx | [Advanced](./Arduino_tutorial/Advanced_tutorial.md) | xxx |
+| [Makecode](./Microbit_tutorial/Makecode_tutorial.md) | [Zaeo-based](./Pico_tutorial/Zaeo-based.md) | [Zero-based](./Arduino_tutorial/Zero-based_tutorial.md) | [C language](./Rpi4_tutorial/C_tutorial.md) |     
+| xxx | [Basic](./Pico_tutorial/Basic.md) | [Basic](./Arduino_tutorial/Basic_tutorial.md) | xxx |
+| xxx | [Intermediate](./Pico_tutorial/Intermediate.md) | [Intermediate](./Arduino_tutorial/Intermediate_tutorial.md) | xxx |
+| xxx | [Advanced](./Pico_tutorial/Advanced.md) | [Advanced](./Arduino_tutorial/Advanced_tutorial.md) | xxx |
 
 
 
