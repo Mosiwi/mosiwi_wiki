@@ -1,4 +1,4 @@
-# MicroPython for Raspberry pi pico   
+# Intermediate_tutorial    
 This tutorial is based on the [C1K0001 4in1 basic learning kit](../../C1K0000_4in1_basic_learning_kit/C1K0000_4in1_basic_learning_kit.md).     
 
 ## What is MicroPython?

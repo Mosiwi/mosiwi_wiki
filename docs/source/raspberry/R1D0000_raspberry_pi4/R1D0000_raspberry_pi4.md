@@ -173,8 +173,9 @@ vncserver
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/36img.png)      
 
 On the VNC Viewer panel, double-click new connection you just created, and the following dialog box pops up.    
-![Img](../../_static/raspberry/R1D0000_raspberry_pi4/37img.png)      
-![Img](../../_static/raspberry/R1D0000_raspberry_pi4/38img.png)     
+![Img](../../_static/raspberry/R1D0000_raspberry_pi4/37img.png)        
+The password is the login password of the Raspberry Pi, and the default login password of the original system is: <span style="color: rgb(255, 76, 65);">**raspberry**</span>          
+![Img](../../_static/raspberry/R1D0000_raspberry_pi4/38img.png)        
 
 Succeed!
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/39img.png)     

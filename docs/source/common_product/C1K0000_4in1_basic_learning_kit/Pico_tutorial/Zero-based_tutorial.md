@@ -1,4 +1,4 @@
-# MicroPython for Raspberry pi pico   
+# Zero-based_tutorial         
 This tutorial is based on the [C1K0001 4in1 basic learning kit](../../C1K0000_4in1_basic_learning_kit/C1K0000_4in1_basic_learning_kit.md).     
 
 This tutorial only focuses on practical operation, without the need to understand the principles, and understands the simplest Pico programming operation, so that learners can get a sense of achievement and arouse their interest.     
@@ -15,7 +15,7 @@ Unzip the file downloaded above, and the file in the "**pico->microPython**" fol
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/2img.png)      
 
 ## Wiring diagram      
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/3img.png)      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/3img.jpg)      
 
 ## Basic_example Blink      
 **Objective:**     
@@ -31,7 +31,7 @@ Make sure your Raspberry PI Pico's USB is plugged into your computer's USB via a
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/5img.png)      
  
 After running the code, the LED on the pico board lights up every 1 second:      
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/6img.png)      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/6img.jpg)      
 
 
 ## Example_1 Button      
@@ -41,7 +41,7 @@ After running the code, the LED on the pico board lights up every 1 second:
 
 **Example code phenomena:**         
 After uploads the code, the led on the Pico is always off, and if the "Button" on the extension board is pressed, the LED is turned on.     
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/7img.png)      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/7img.jpg)      
 
 ## Example_2 Buzzer   
 **Open the example code: "buzzer\.py"**     
@@ -50,7 +50,7 @@ After uploads the code, the led on the Pico is always off, and if the "Button" o
 
 **Example code phenomena:**         
 After uploading the code, the buzzer on the expansion board will keep beeping with a fixed frequency and different volumes.       
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/8img.png)      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/8img.jpg)      
 
 ## Example_3 RGB LED   
 **Open the example code: "rgb-led_pwm\.py"**     
@@ -59,7 +59,7 @@ After uploading the code, the buzzer on the expansion board will keep beeping wi
 
 **Example code phenomena:**         
 The RGB LED light cycle emits red, green and blue lights.     
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/9img.png)      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/9img.jpg)      
 
 ## Example_4 Potentiometer   
 **Open the example code: "potentiometer\.py"**     
@@ -68,7 +68,7 @@ The RGB LED light cycle emits red, green and blue lights.
 
 **Example code phenomena:**         
 Push the potentiometer up and down, and the terminal prints the corresponding analog value and voltage value.          
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/10img.png)      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/10img.jpg)      
 
 ## Example_5 Microphone   
 **Open the example code: "microphone\.py"**     
@@ -77,7 +77,7 @@ Push the potentiometer up and down, and the terminal prints the corresponding an
 
 **Example code phenomena:**         
 After running the code, the terminal prints the analog value of the amplified sound and the voltage value.        
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/11img.png)      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/11img.jpg)      
 
 ## Example_6 Led-strip      
 **Open the example code: "led-strip_tw\.py"**     
@@ -86,7 +86,7 @@ After running the code, the terminal prints the analog value of the amplified so
 
 **Example code phenomena:**         
 The LED strip on the expansion board turns on and off in cycles.       
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/12img.png)      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/12img.jpg)      
 
 ## Example_7 Keyboard       
 **Open the example code: "keyboard_spi\.py"**     
@@ -95,7 +95,7 @@ The LED strip on the expansion board turns on and off in cycles.
 
 **Example code phenomena:**         
 Press the keyboard on the expansion board, and the terminal will print the value of the keyboard.           
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/13img.png)            
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/13img.jpg)            
 | U | D | L | R | OK |
 | :--: | :--: | :--: | :--: | :--: |
 | 16 | 8 | 4 | 2 | 1 |
@@ -107,7 +107,7 @@ Press the keyboard on the expansion board, and the terminal will print the value
 
 **Example code phenomena:**         
 The 4-bit 8-segment nixie shows 0-9999, then 999.9, and so on.       
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/14img.png)            
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/14img.jpg)            
 
 ## Example_9 Temperature and humidity sensor       
 **Open the example code: "humiture_i2c\.py"**     
@@ -116,7 +116,7 @@ The 4-bit 8-segment nixie shows 0-9999, then 999.9, and so on.
 
 **Example code phenomena:**         
 The terminal will print the temperature and humidity values of the current environment.       
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/15img.png)            
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/15img.jpg)            
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/27img.png)    
 
 **End!**    
