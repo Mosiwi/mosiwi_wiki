@@ -27,7 +27,7 @@ Unzip the file downloaded above, and the file in the "**pico->microPython**" fol
 ## Wiring diagram      
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Basic_tutorial/2img.png)    
 
-## Basic_example Blink      
+## Basic_chapter Blink      
 **Objective:**     
 1. Open the example code.     
 2. Upload and run code.   
@@ -116,7 +116,7 @@ while(1):                    # An infinite loop statement.
 
 
 
-## Example_1 Button      
+## Chapter1 Button      
 **Objective:**     
 1. What is button?     
 2. What is resistance? 
@@ -229,7 +229,7 @@ if a > 2:
 ```
 
 
-## Example_2 Buzzer   
+## Chapter2 Buzzer   
 **Objective:**     
 1. What is PWM output?      
 2. What is buzzer?    
@@ -315,7 +315,7 @@ for i in range(0, 65536):     # The loop executes the next two statements 65,536
 ```
 
 
-## Example_3 Potentiometer   
+## Chapter3 Potentiometer   
 **Objective:**    
 1. What is voltage?    
 2. What is potentiometer?         
@@ -439,7 +439,7 @@ The result is 1.
 ```
 
 
-## Example_4 Timer   
+## Chapter4 Timer   
 **Objective:**     
 1. What is timer?           
 
@@ -511,7 +511,7 @@ def mycallback(t):           # Timed interrupt function
 
 
 
-## Example_5 Watchdog      
+## Chapter5 Watchdog      
 **Objective:**     
 1. What is Watchdog?             
 

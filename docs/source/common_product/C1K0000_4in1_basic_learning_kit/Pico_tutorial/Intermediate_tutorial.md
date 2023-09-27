@@ -27,7 +27,7 @@ Unzip the file downloaded above, and the file in the "**pico->microPython**" fol
 ## Wiring diagram      
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Intermediate_tutorial/13img.png)    
 
-## Basic_example Blink      
+## Basic_chapter Blink      
 **Objective:**     
 1. Open the example code.     
 2. Upload and run code.   
@@ -56,7 +56,7 @@ Enter the code in the main panel, then click on the "**Save**" or "**File->Save 
 
 
 
-## Example_1 RGB LED   
+## Chapter1 RGB LED   
 **Objective:**     
 1. What is RGB LED?    
 2. What is MOS transistor?
@@ -95,7 +95,7 @@ A 2N7002 MOS is used on the extension board to drive the buzzer. It is an enhanc
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Intermediate_tutorial/51img.png)       
 
 
-## Example_2 Fan   
+## Chapter2 Fan   
 **Objective:**     
 1. What is fan module?         
 
@@ -122,7 +122,7 @@ The fan rotates clockwise and counterclockwise, and the speed changes from small
 See: [Fan module](../../../outsourcing/O1M0001_fan_module/O1M0001_fan_module.md)     
 
 
-## Example_3 Microphone   
+## Chapter3 Microphone   
 **Objective:**     
 1. What is microphone?           
 
@@ -150,7 +150,7 @@ The microphone on the expansion board integrates a preamplifier circuit, which r
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Intermediate_tutorial/33img.png)    
 
 
-## Example_4 Ultrasonic       
+## Chapter4 Ultrasonic       
 **Objective:**     
 1. What is ultrasonic module?           
 
@@ -240,7 +240,7 @@ y: variable or constant.
 ```
 
 
-## Example_5 Led-strip      
+## Chapter5 Led-strip      
 **Objective:**     
 1. What is led-strip?           
 2. What is 74HC595?     
@@ -365,7 +365,7 @@ Examples:
 ```
 
 
-## Example_6 keyboard       
+## Chapter6 keyboard       
 **Objective:**     
 1. What is keyboard?           
 2. What is SPI communication protocol?   
@@ -402,14 +402,15 @@ See: [SPI for Pico](https://docs.micropython.org/en/latest/rp2/quickref.html#har
 [bytearray()](https://docs.python.org/3/library/stdtypes.html?highlight=bytearray#bytearray)     
 
 
-## Example_7 4-bit 8-segment digital tube       
+## Chapter7 4-bit 8-segment digital tube       
 **Objective:**     
 1. What is 4-bit 8-segment digital tube?             
 
 **Pins to be used:**   
 1. MISO: GP16    
 2. MOSI: GP19     
-3. CLK: GP18           
+3. CLK: GP18       
+
 <span style="color: rgb(255, 76, 65);">Note: The 4-bit 8-segment digital tube on the "Basic learning shield" occupy GP19 (MOSI), GP16 (MISO) and GP18 (CLK) of the Pico board, and the CS control pin is not required.</span>     
 
 **Schematic diagram:**       
@@ -449,7 +450,7 @@ oct(x): Converts an integer to an octal string
 ```
 
 
-## Example_8 Ir-receiver       
+## Chapter8 Ir-receiver       
 **Objective:**     
 1. What is Ir-receiver?      
 2. What is NEC infrared communication protocol? 
@@ -497,7 +498,7 @@ See: [I2C](../Arduino_tutorial/Advanced_tutorial.md#chapter4-i2c-communication-p
 See: [Pico use I2C](https://docs.micropython.org/en/latest/rp2/quickref.html#hardware-i2c-bus)     
 
 
-## Example_9 Thermohygrometer       
+## Chapter9 Thermohygrometer       
 **Objective:**     
 1. What is Thermohygrometer?             
 
@@ -526,7 +527,7 @@ specification parameter:
 | Humidity | 0% to 100% | 0.024% | +/-2% |      
 
 
-## Example_10 EEPROM    
+## Chapter10 EEPROM    
 **Objective:**     
 1. EEPROM    
 2. 1-Wire protocol
@@ -559,7 +560,7 @@ It is a kind of memory chip that does not lose data after power failure.
 
 
 
-## Example_11 Uart       
+## Chapter11 Uart       
 **Objective:**     
 1. What is uart?             
 
