@@ -96,10 +96,12 @@ Edit the sample code using the [nano tool](https://www.nano-editor.org/) that co
 ```
 sudo nano terminal.c   
 ```
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/39img.png)      
+
 When the editing is complete, save the file by typing the following command on the keyboard and exit the nano editor:  
 ```terminal
-Ctrl+O
-Ctrl+C
+Ctrl+O           // save file
+Ctrl+C           // closed file
 ```
 Recompile the "terminal.c" source file:   
 ```
