@@ -117,6 +117,6 @@ The 4-bit 8-segment nixie shows 0-9999, then 999.9, and so on.
 **Example code phenomena:**         
 The terminal will print the temperature and humidity values of the current environment.       
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/15img.jpg)            
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/27img.png)    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial/16img.png)    
 
 **End!**    
