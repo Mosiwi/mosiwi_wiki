@@ -117,7 +117,7 @@ Sliding resistor
 
 ▶ 16: ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/44img.png)      
 When the fan module is connected to the fan port on the expansion board, it is used to control the steering and speed of the fan module.    
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/45img.png)     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/45img.jpg)     
 Parameter 1: CW = clockwise rotation.     
 Parameter 2: CCW = counterclockwise rotation.    
 
@@ -140,15 +140,3 @@ Usage:
 
 **End!**    
    
-
-
-
-
-
-
-
-
-
-
-
-
