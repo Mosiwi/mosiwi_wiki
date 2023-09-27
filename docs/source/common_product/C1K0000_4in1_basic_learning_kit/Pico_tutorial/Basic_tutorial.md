@@ -316,9 +316,10 @@ for i in range(0, 65536):     # The loop executes the next two statements 65,536
 
 
 ## Example_3 Potentiometer   
-**Objective:**     
-1. What is potentiometer?         
-2. What is ADC?   
+**Objective:**    
+1. What is voltage?    
+2. What is potentiometer?         
+3. What is ADC?   
 
 **Pins to be used:**   
 1. Potentiometer: GP28_A2    
@@ -334,16 +335,108 @@ for i in range(0, 65536):     # The loop executes the next two statements 65,536
 Push the potentiometer up and down, and the terminal prints the corresponding analog value and voltage value.          
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Basic_tutorial/17img.png)    
 
-**FQA:**   
-(1) What is potentiometer?    
+**FQA:**      
+(1) What is voltage?             
+The voltage is called potential difference or potential difference, the international unit is volts (V), and the commonly used units are millivolts (mV), microvolts (μV), and kilovolts (kV).     
+$$1KV = 1000V, 1V = 1000mV, 1mV = 1000uV$$    
+
+The relationship between voltage, current and resistance:   
+$$I=U/R$$   
+I: current, unit A.   
+U: voltage, unit V.   
+R: resistance, unit Ω. 
+
+(2) What is potentiometer?    
 Sliding potentiometer is a resistance element with adjustable resistance value and three leading ends. It usually consists of a resistive body and a removable brush. When the brush moves along the resistance body, the resistance value or voltage that is related to the displacement can be obtained at the output end.      
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Basic_tutorial/18img.png)    
 
-(2) What is ADC (Analog to Digital Converter)? 
+(3) What is ADC (Analog to Digital Converter)? 
 See: [ADC for Pico](https://docs.micropython.org/en/latest/rp2/quickref.html#adc-analog-to-digital-conversion)       
 
 **Code analysis:**         
 print function: [Click me](https://docs.python.org/3/library/functions.html#print)        
+
+Multiplication (*):    
+```
+Syntax:
+product = operand1 * operand2
+
+Parameters:
+product: variable (result).
+operand1: variable or constant (multiplicand).
+operand2: variable or constant (multiplier).
+
+Sample code:
+num = 2*5
+The result is 10.
+```
+
+Division operation (/):   
+```
+Syntax:
+result = numerator / denominator
+
+Parameters:
+result: variable (result).
+numerator: variable or constant (dividend).
+denominator: Variable or constant (divisor), which cannot be 0.
+
+Sample code:
+num = 2/5
+The result is 2.5.   
+```
+
+```
+In the sample code:
+print("Voltage value: %.2fV" %((3.3/65536)*adc))      #  (3.3/65536)*adc
+```
+
+Here's some additional knowledge:
+
+Addition operation (+):    
+```
+Syntax:
+sum = operand1 + operand2
+
+Parameters:
+sum: variable (result).
+operand1: variable or constant (addition).
+operand2: variable or constant (addition).
+
+Sample code:
+num = 10+1
+The result is 11.
+```
+
+Subtraction operation (-):     
+```
+Syntax:
+difference = operand1 - operand2
+
+Parameters:
+difference: variable (result).
+operand1: variable or constant (subtraction).
+operand2: variable or constant (subtract).
+
+Sample code:
+num = 10-1
+The result is 9.
+```
+
+Remainder operation (%):   
+```
+Syntax:
+remainder = dividend % divisor
+
+Parameters:
+remainder: variable (result).
+dividend: Variable or constant (dividend).
+divisor: Variable or constant (divisor) that cannot be 0.
+
+Sample code:
+num = 2%5
+The result is 1. 
+```
 
 
 ## Example_4 Timer   
@@ -397,9 +490,25 @@ loop statement:
     pass
 
 In the sample code:  
-while True:                 # Always empty loop
+while True:                  # Always empty loop
     pass
 ```
+
+Define a function:    
+```
+Syntax:   
+def functionname(parameters1, parameters2, ... ):
+    ...
+    code block
+    return [expression]      #  When this statement is omitted, the function has no return value.
+
+In the sample code:   
+def mycallback(t):           # Timed interrupt function
+    global ledstate          # Use the "global" keyword to declare that the variable is global, otherwise it is local.
+    ledstate = 1 - ledstate  # The global variable ledstate is either 0 or 1. 
+    R_LED.value(ledstate)    # Turn on or off the LED.
+```
+
 
 
 ## Example_5 Watchdog      

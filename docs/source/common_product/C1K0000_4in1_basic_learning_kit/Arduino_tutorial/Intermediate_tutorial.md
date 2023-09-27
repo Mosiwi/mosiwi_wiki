@@ -323,7 +323,7 @@ Examples:
 --------------
   0b10000000  --> result
 ```
-The bit OR operation: &    
+The bit OR operation: |    
 ```
 Description:
 Two data bits OR operations: 1|1=1，1|0=1，0|1=1，0|0=0
