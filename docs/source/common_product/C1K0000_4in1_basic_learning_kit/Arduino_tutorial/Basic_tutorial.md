@@ -133,11 +133,6 @@ The button is a press switch, as shown in the following figure, A and B, C and D
 Variables come from mathematics and are abstract concepts in computer language that can store calculation results or represent values. Variables can be accessed by variable name.    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/8img.png)     
 
-Variable naming rules:      
-1. Variable names can contain only alphanumeric characters and underscores (A-z, 0-9, and _).          
-2. Variable names must start with a letter or underscore character Variable names cannot start with numbers.         
-3. Variable names are case-sensitive ("age", "Age", and "AGE" are three different variables).            
-
 **byte** variable is a variable defined by the arduino programming language, and its value ranges from 0 to 255.   
 ```  
 Syntax:
