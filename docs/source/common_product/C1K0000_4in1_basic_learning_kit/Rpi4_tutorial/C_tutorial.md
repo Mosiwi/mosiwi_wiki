@@ -2,18 +2,19 @@
 This tutorial is based on [C1K0001 4in1 basic learning kit](../C1K0000_4in1_basic_learning_kit.md) and C language, if you do not have knowledge of the C language, it is recommended to learn the [Arduino tutorial](../../C1K0000_4in1_basic_learning_kit/C1K0000_4in1_basic_learning_kit.md) first.     
 
 ## Prepared knowledge <span style="color: rgb(255, 76, 65);">(Important)</span>     
-**Learn about** [**Basic learning shield**](../../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md).  
+**1\. Learn about** [**Basic learning shield**](../../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md).  
 
-**Learn about** [**3in1 basic learning shield**](../../../common_product/C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md).  
+**2\. Learn about** [**3in1 basic learning shield**](../../../common_product/C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md).  
 
-**Raspberry pi4 basics**     
+**3\. Raspberry pi4 basics**     
 If you don't have Raspberry pi4 basics, you can follow the link to learn the basics: [Click Me](../../../raspberry/R1D0000_raspberry_pi4/R1D0000_raspberry_pi4.md)      
 
-**Install the GPIO library**
+**4\. Install the GPIO library for Raspberry pi4**           
+
 1. Install the [Wiringpi](../../../raspberry/wiringpi/wiringpi.md)   
 2. Install the [BCM2835](../../../raspberry/bcm2835/bcm2835.md)      
 
-**Download sample code**   
+**5\. Download sample code**   
 [Login to Raspberry pi4 using PUTTY](../../../raspberry/R1D0000_raspberry_pi4/R1D0000_raspberry_pi4.md#remote-access), then use the following command to download the sample code:      
 ```   
 git clone https://github.com/Mosiwi/Mosiwi-basic-learning-kit     
@@ -96,10 +97,12 @@ Edit the sample code using the [nano tool](https://www.nano-editor.org/) that co
 ```
 sudo nano terminal.c   
 ```
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/39img.png)      
+
 When the editing is complete, save the file by typing the following command on the keyboard and exit the nano editor:  
 ```terminal
-Ctrl+O
-Ctrl+C
+Ctrl+O           // save file
+Ctrl+C           // closed file
 ```
 Recompile the "terminal.c" source file:   
 ```

@@ -15,7 +15,10 @@ Return to the listing page: `Go back`_
    :caption: Contents:
 
    Microbit_Makecode_tutorial <../../../common_product/C1K0000_4in1_basic_learning_kit/Microbit_tutorial/Makecode_tutorial.md>
-   Raspberry-Pico_python_tutorial <../../../common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/python_tutorial.md>
+   Raspberry-Pico_Zero-based_tutorial <../../../common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Zero-based_tutorial.md>
+   Raspberry-Pico_Basic_tutorial <../../../common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Basic_tutorial.md>
+   Raspberry-Pico_Intermediate_tutorial <../../../common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Intermediate_tutorial.md>
+   Raspberry-Pico_Advanced_tutorial <../../../common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Advanced_tutorial.md>
    Arduino_Zero-based_tutorial <../../../common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Zero-based_tutorial.md>
    Arduino_Basic_tutorial <../../../common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial.md>
    Arduino_Intermediate_tutorial <../../../common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial.md>

@@ -323,7 +323,7 @@ Examples:
 --------------
   0b10000000  --> result
 ```
-The bit OR operation: &    
+The bit OR operation: |    
 ```
 Description:
 Two data bits OR operations: 1|1=1，1|0=1，0|1=1，0|0=0
@@ -403,6 +403,7 @@ Examples:
 **Example code phenomena:**  
 The buzzer cycle produced 440 Hz and 880 Hz sounds.     
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/15img.png)    
+<span style="color: rgb(255, 76, 65);">Note: A passive buzzer is used on the extension board.</span>        
 
 **FAQ:**
 (1) What is buzzer?    
