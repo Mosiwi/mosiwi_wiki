@@ -50,11 +50,12 @@ If you don't have Arduino basics, you can follow the link to learn the basics: [
 |      11       |   DIN    |  
 
 **Install the Arduino library file:**  
-Load the "Mosiwi-4x4x4cube.zip" file downloaded above into the arduino IDE in the following two ways:    
-1. Importing a .zip Library  
-2. Manual Installation    
+Load the "Mosiwi-4x4x4cube.zip" file downloaded above into the arduino IDE:          
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/33img.png)       
+Select the compressed library file to load:       
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/34img.png)
 
-Please refer to the link: <https://www.arduino.cc/en/Guide/Libraries>      
+For other methods, see (Option): <https://www.arduino.cc/en/Guide/Libraries>      
 
 **Use the example code in the library file:**    
 If you have successfully loaded the library file, you can open the sample code in the library file in the arduino IDE as follows.   
@@ -75,7 +76,10 @@ If you don't have Pico and Thonny basics, you can follow the link to learn the b
 |      17       |   ST_C   |  
 |      19       |   DIN    |   
 
-**Use the pico example code in the library file:**    
+**Use the pico example code in the library file:**        
+Unzip the "Mosiwi-4x4x4cube.zip" file you downloaded above:            
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/35img.png)        
+
 Open one of the sample code as follows.  
 ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/8img.png)   
    
@@ -93,7 +97,10 @@ Run the code offline. (The code is stored in pico, and the code in pico is autom
 ## For Raspberry pi4    
 **Pi4 basics (Important):**   
 If you don't have Pi4 basics, you can follow the link to learn the basics: [Click Me](../../raspberry/R1D0000_raspberry_pi4/R1D0000_raspberry_pi4.md)  
- 
+Install the GPIO library for Raspberry pi4 (<span style="color: rgb(255, 76, 65);">Necessary condition</span>):                 
+1. Install the [Wiringpi](../../raspberry/wiringpi/wiringpi.md)   
+2. Install the [BCM2835](../../raspberry/bcm2835/bcm2835.md)     
+
 **Wiring diagram:**   
 | pi4(Wiringpi) |   pi4(BCM)    |   Cube   |  
 |     :--:      |      :--:     |   :--:   |    
@@ -146,8 +153,8 @@ sudo make
 ```   
 
 
-## For Microbit   
-**Microbit basics:**   
+## For Micro:bit   
+**Microbit basics (Important):**   
 If you don't have microbit basics, you can follow the link to learn the basics: [Click Me](../../microbit/M1D0000_microbit_mainboard/M1D0000_microbit_mainboard.md)  
 
 **Wiring diagram:**  
@@ -203,7 +210,7 @@ LED: 0 or 1, 0: OFF, 1: ON.
  
 
 
-## Internal operating principle    
+## Internal operating principle (Option)     
 **schematic diagram**      
 ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/1img.png)     
 The light cube has 4 layers (F1, F2, F3, F4), each layer has 16 leds with common cathode wiring, which are controlled by 3 74HC595 serial to parallel data chips. Use the MCU's timing interrupt function to turn on and off the leds in each layer (frequency ≥50Hz) to achieve control of all the leds in the cube.    
