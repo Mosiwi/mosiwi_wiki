@@ -21,3 +21,5 @@ python:
    install:
    - requirements: docs/requirements.txt
 
+sphinx:
+  configuration: docs/source/conf.py
