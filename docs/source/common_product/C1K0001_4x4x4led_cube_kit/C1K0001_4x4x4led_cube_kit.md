@@ -11,7 +11,7 @@ This is a very interesting light cube that can be used for learning programming 
 3. Interface: 3-Wire or SPI  
 4. Lighting frequency: ≥ 50Hz  
 5. Weight: about ?g  
-6. Dimensions: ?*?*?mm  
+6. Dimensions: 79\*79\*85.4mm  
 
 ## List
 | PCB cube | Acrylic cube | HX-2.54 4P to male duport wire | HX-2.54 4P to female duport wire |
