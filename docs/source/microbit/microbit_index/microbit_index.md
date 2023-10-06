@@ -8,17 +8,19 @@ They do this by:
 ● working with like-minded partners to deliver high-impact educational programmes across the globe.  
 
 ## Kit
-updating ...  
-
-## Motherboard
-| [M1D0000 microbit](../../microbit/M1D0000_microbit_mainboard/M1D0000_microbit_mainboard.md) | updating ... | updating ... |
+| updating | updating | updating |
 | :--: | :--: | :--: |
-| [![img](../../_static/microbit/M1D0000_microbit_mainboard/1img.png)](../../microbit/M1D0000_microbit_mainboard/M1D0000_microbit_mainboard.md) | updating ... | updating ... |
+| ![Img](../../_static/web_logo/updating.gif) | ![Img](../../_static/web_logo/updating.gif) | ![Img](../../_static/web_logo/updating.gif) |
+ 
+## Motherboard
+| [M1D0000 microbit](../../microbit/M1D0000_microbit_mainboard/M1D0000_microbit_mainboard.md) | updating | updating |
+| :--: | :--: | :--: |
+| [![img](../../_static/microbit/M1D0000_microbit_mainboard/1img.png)](../../microbit/M1D0000_microbit_mainboard/M1D0000_microbit_mainboard.md) | ![Img](../../_static/web_logo/updating.gif) | ![Img](../../_static/web_logo/updating.gif) |
 
 ## Expansion board
-| updating ... | updating ... | updating ... |
+| updating | updating | updating |
 | :--: | :--: | :--: |
-| updating ... | updating ... | updating ... |
+| ![Img](../../_static/web_logo/updating.gif) | ![Img](../../_static/web_logo/updating.gif) | ![Img](../../_static/web_logo/updating.gif) |
 
 ## Resource
 Microbit official website: [Link](https://www.microbit.org)  
