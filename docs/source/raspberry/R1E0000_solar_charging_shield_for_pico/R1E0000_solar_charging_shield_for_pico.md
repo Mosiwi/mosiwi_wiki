@@ -20,7 +20,7 @@ Based on the [Raspberry pi Pico](../R1D0001_raspberry_pico/R1D0001_raspberry_pic
 ![Img](../../_static/raspberry/R1E0000_solar_charging_shield_for_pico/1img.png)     
 
 ## Function diagram
-![Img](../../_static/raspberry/R1E0000_solar_charging_shield_for_pico/2img.png)    
+![Img](../../_static/raspberry/R1E0000_solar_charging_shield_for_pico/2img.jpg)    
 1. Single-cell 18650 lithium battery holder     
 2. Two solar panels connect ports(XH2.54-2P), they are connected in parallel.      
 3. Charging indicator, charging bright red, full charge bright green.    

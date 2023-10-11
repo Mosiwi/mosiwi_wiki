@@ -1,7 +1,7 @@
 # M1D0000_microbit_mainboard
 
 ## Overview
-<img src="../../_static/microbit/M1D0000_microbit_mainboard/1img.png" style="zoom:100%">  
+<img src="../../_static/microbit/M1D0000_microbit_mainboard/1img.jpg" style="zoom:100%">  
 
 The micro:bit is an easily programmable Single Board Computer (SBC) that contains an application processor with a variety of on-chip peripherals. Other peripherals are connected to this chip.  
 An interface processor is connected to the application processor and manages communications via the USB interface, including the drag-and-drop code flashing process. The interface processor does not connect to any of the micro:bit peripherals.  

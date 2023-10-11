@@ -25,7 +25,7 @@ Please download the sample code on Github: <https://github.com/Mosiwi/Mosiwi-bas
 Unzip the file downloaded above, and the file in the "**pico->microPython**" folder is the sample code.       
 
 ## Wiring diagram      
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Intermediate_tutorial/13img.png)    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Intermediate_tutorial/13img.jpg)    
 
 ## Basic_chapter Blink      
 **Objective:**     
@@ -107,7 +107,7 @@ A 2N7002 MOS is used on the extension board to drive the buzzer. It is an enhanc
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Intermediate_tutorial/40img.png)    
 
 **Wiring diagram:** 
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Intermediate_tutorial/12img.png)    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Intermediate_tutorial/12img.jpg)    
 
 **Open the example code: "fan_pwm\.py"**     
 1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
@@ -162,7 +162,7 @@ The microphone on the expansion board integrates a preamplifier circuit, which r
 2. S2(trig of ultrasonic): GP9         
 
 **Wiring diagram:** 
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Intermediate_tutorial/23img.png)    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Intermediate_tutorial/23img.jpg)    
 
 **Open the example code: "ultrasonic\.py"**     
 1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
@@ -470,7 +470,7 @@ Note: The I2C slave chip is integrated on the [3in1 Basic learning shield](../..
 
 **Example code phenomena:**         
 When the infrared remote controller presses the button, point to the infrared receiver on the expansion board, and the terminal will print the button value.       
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Intermediate_tutorial/24img.png)    
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Intermediate_tutorial/24img.jpg)    
 
 Pico will get 2 bytes of data, the first byte is the inverse code of the address of the infrared remote control device, and the second byte is the command code of the infrared remote control device.      
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Intermediate_tutorial/48img.png)    

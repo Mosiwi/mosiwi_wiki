@@ -1,5 +1,5 @@
 # Microbit index
-![Img](../../_static/microbit/microbit_index/1img.png)  
+![Img](../../_static/microbit/microbit_index/1img.jpg)  
 The Micro:bit Educational Foundation is a not-for-profit organisation that aims to inspire every child to create their best digital future.  
 
 They do this by:  
@@ -15,7 +15,7 @@ They do this by:
 ## Motherboard
 | [M1D0000 microbit](../../microbit/M1D0000_microbit_mainboard/M1D0000_microbit_mainboard.md) | updating | updating |
 | :--: | :--: | :--: |
-| [![img](../../_static/microbit/M1D0000_microbit_mainboard/1img.png)](../../microbit/M1D0000_microbit_mainboard/M1D0000_microbit_mainboard.md) | ![Img](../../_static/web_logo/updating.gif) | ![Img](../../_static/web_logo/updating.gif) |
+| [![img](../../_static/microbit/M1D0000_microbit_mainboard/1img.jpg)](../../microbit/M1D0000_microbit_mainboard/M1D0000_microbit_mainboard.md) | ![Img](../../_static/web_logo/updating.gif) | ![Img](../../_static/web_logo/updating.gif) |
 
 ## Expansion board
 | updating | updating | updating |

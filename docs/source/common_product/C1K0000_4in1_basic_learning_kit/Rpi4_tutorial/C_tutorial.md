@@ -114,7 +114,7 @@ ls
 
 ## Wiring diagram   
 Turn off the Raspberry PI and connect the Raspberry PI to the expansion board with a 40P color cable:    
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/0img.png)      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/0img.jpg)      
 Then restart Raspberry PI and TUTTY.     
 
 ## Example1: Arithmetic operator             
@@ -209,7 +209,7 @@ After uploading the code, the buzzer on the expansion board will keep beeping wi
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/29img.png)    
 
 **Wiring diagram:**   
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/13img.png)     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/13img.jpg)     
 
 **Demonstration:**       
 Run the following command on the terminal:       
@@ -239,7 +239,7 @@ chmod 777 analog_sr
 sudo ./analog_sr
 ```
 Push the potentiometer up and down, and the terminal prints the corresponding analog value and voltage value.          
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/15img.png)     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/15img.jpg)     
 <span style="color: rgb(255, 76, 65);">Note: Raspberry Pi4 reads the analog value of the potentiometer through the I2C expansion chip on the "3in1_basic_learning_shield".</span>         
 
 ## Example8 Microphone      
@@ -272,7 +272,7 @@ After running the code, the terminal prints the analog value of the amplified so
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/32img.png)    
 
 **Wiring diagram:**   
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/17img.png)     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/17img.jpg)     
 
 **Demonstration:**       
 Run the following command on the terminal:       
@@ -376,7 +376,7 @@ chmod 777 ir_recvDemo
 sudo ./ir_recvDemo
 ```
 When the infrared remote controller presses the button, point to the infrared receiver on the expansion board, and the terminal will print the button value.        
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/21img.png)     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/21img.jpg)     
 
 Pi4 will get 2 bytes of data, the first byte is the inverse code of the address of the infrared remote control device, and the second byte is the command code of the infrared remote control device.      
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/38img.png)    
@@ -420,7 +420,7 @@ chmod 777 thermohygrometer
 sudo ./thermohygrometer
 ```
 The 4-digit digital tube displays the temperature and humidity in a cycle with a period of 10 seconds.      
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/22img.png)     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/22img.jpg)     
 
 
 

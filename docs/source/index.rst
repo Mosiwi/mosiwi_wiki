@@ -16,7 +16,7 @@ Welcome to Mosiwi Wiki's documentation!
 `Arduino`_   `Raspberry`_ 
 ===========  ============ 
 
-.. |Arduino| image:: _static/web_logo/arduino_logo.png
+.. |Arduino| image:: _static/web_logo/arduino_logo.jpg
 .. _Arduino: arduino/arduino_index/arduino_index.html
 
 .. |Raspberry| image:: _static/web_logo/raspberry_logo.png
@@ -28,10 +28,10 @@ Welcome to Mosiwi Wiki's documentation!
 `Microbit`_  `Commom`_  
 ===========  =========  
 
-.. |Microbit| image:: _static/web_logo/microbit_logo.png
+.. |Microbit| image:: _static/web_logo/microbit_logo.jpg
 .. _Microbit: microbit/microbit_index/microbit_index.html
 
-.. |Commom| image:: _static/web_logo/common_logo.png
+.. |Commom| image:: _static/web_logo/common_logo.jpg
 .. _Commom: common_product/common_product_index/common_product_index.html
 
 .. toctree::

@@ -1,7 +1,7 @@
 # C1K0001_4x4x4led_cube_kit
 
 ## Overview
-![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/4img.png)  
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/4img.jpg)  
 This is a very interesting light cube that can be used for learning programming or as an ambient light. When used for learning programming, <span style="color: rgb(255, 76, 65);">we provide rich sample code such as Arduino, Raspberry pi 4B, Micro:bit, and Raspberry pi pico</span>. This light cube also has an excellent feature, which is that multiple light cubes can be connected together in series, and they can be controlled simultaneously or independently using the MCU.    
 <span style="color: rgb(255, 76, 65);">(No welding, can be assembled in 10 minutes.)</span>   
 
@@ -16,11 +16,11 @@ This is a very interesting light cube that can be used for learning programming 
 ## List
 | PCB cube | Acrylic cube | HX-2.54 4P to male duport wire | HX-2.54 4P to female duport wire |
 | :--: | :--: | :--: | :--: |
-| ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/29img.png) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/30img.png) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/31img.png) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/28img.png) |    
+| ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/29img.jpg) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/30img.png) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/31img.png) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/28img.png) |    
 | HX-2.54 4P duport wire | M3\*8mm flat-head screw | M3 nuts |  |    
 | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/27img.png) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/25img.png) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/26img.png) |  |   
 
-## Installation steps        
+## Assembly steps        
 Please refer to: [Link]()  
 
 ## Series method  
@@ -168,7 +168,7 @@ If you don't have microbit basics, you can follow the link to learn the basics: 
 
 **Create a new project:**    
 Open the link to create a new online project: <https://makecode.microbit.org>     
-![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/14img.png)  
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/14img.jpg)  
 
 **Load extension library:** 
 ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/15img.png)  

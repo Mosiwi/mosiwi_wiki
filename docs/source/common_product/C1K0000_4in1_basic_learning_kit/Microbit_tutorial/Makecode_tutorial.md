@@ -3,7 +3,7 @@
 If you don't have makecode and microbit basics, you can follow the link to learn the basics: [Click Me](../../../microbit/M1D0000_microbit_mainboard/M1D0000_microbit_mainboard.md)    
 
 ## Wiring diagram    
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/1img.png)   
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/1img.jpg)   
 
 The USB port of the Microbit must be connected to the usb port of the PC through a micro usb cable.   
 
@@ -22,7 +22,7 @@ Wait for the loading of the library. After the loading is successful, the follow
 ## Block code parsing     
 ▶ 1: ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/6img.png)     
 The module returns a value that is the numeric input value for P11. When the keyboard on the expansion board is clicked, a low level is returned, indicating that the keyboard value on the expansion board can be read.        
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/7img.png)     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/7img.jpg)     
 Usage:      
 Press any keyboard on the expansion board, the microbit dot matrix displays 0, otherwise displays 1.    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/8img.png)   
@@ -95,7 +95,7 @@ Usage:
 
 ▶ 14: ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/29img.png)   
 When the ultrasonic module is connected to the Sensor interface of the expansion board, the measurement distance value of the ultrasonic module can be read. The unit is centimeter.           
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/30img.png)     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/30img.jpg)     
 
 Usage:     
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/31img.png)   
@@ -106,7 +106,7 @@ The value of the infrared receiver, microphone or sliding resistor on the expans
 Usage:   
 Infrared receiver ([NEC](../../../common_resource/nec_communication_protocol/nec_communication_protocol.md))   
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/33img.png)    
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/34img.png)     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/34img.jpg)     
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/40img.png)     
 
 Microphone    
@@ -123,7 +123,7 @@ Parameter 2: CCW = counterclockwise rotation.
 
 ▶ 17: ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/37img.png)     
 Read the key value on the expansion board, return 0 when the key is pressed, otherwise return 1. This key is connected to the P5 pin of the microbit.   
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/38img.png)     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/38img.jpg)     
 
 ▶ 18: ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/41img.png)      
 Reads a byte of data from the memory of the expansion board.    

@@ -13,7 +13,7 @@
 ![Img](../../_static/outsourcing/nec_ir_remote_control/2img.png)
 
 Insert battery:   
-![Img](../../_static/outsourcing/nec_ir_remote_control/5img.png)
+![Img](../../_static/outsourcing/nec_ir_remote_control/5img.jpg)
 
 ## 3. Key value           
 ![Img](../../_static/outsourcing/nec_ir_remote_control/3img.png)

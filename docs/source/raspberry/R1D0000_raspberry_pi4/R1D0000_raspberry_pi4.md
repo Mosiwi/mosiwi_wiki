@@ -27,7 +27,7 @@ Official website: <https://www.raspberrypi.com/products/raspberry-pi-4-model-b>
 Note: A good quality 2.5A power supply can be used if downstream USB peripherals consume less than 500mA in total.  
 
 ## Meet raspberry pi4
-![Img](../../_static/raspberry/R1D0000_raspberry_pi4/5img.png)  
+![Img](../../_static/raspberry/R1D0000_raspberry_pi4/5img.jpg)  
 
 ## GPIO Diagram
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/3img.png)   
