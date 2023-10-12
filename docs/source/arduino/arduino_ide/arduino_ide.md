@@ -18,13 +18,13 @@ Follow the instructions in the installation guide. The installation may take sev
 ![Img](../../_static/arduino/arduino_ide/3img.png)  
 
 Run it. The interface of the software is as follows:    
-Startup icon
-![Img](../../_static/arduino/arduino_ide/7img.png) 
+Startup icon       
+![Img](../../_static/arduino/arduino_ide/7img.png)        
 1.x.x IDE              
 ![Img](../../_static/arduino/arduino_ide/9img.png)     
-2.x.x IDE    
+2.x.x IDE      
 ![Img](../../_static/arduino/arduino_ide/8img.png)    
-Commonly used menus
+Commonly used menus        
 ![Img](../../_static/arduino/arduino_ide/10img.png)       
 
 ## Use
@@ -39,7 +39,7 @@ Click on the menu bar **"File" --> "New Sketch"**.
 Then select the "**xxx.ino**" file in the project folder.  
 <span style="color: rgb(255, 76, 65);">Note:</span> "xxx" is the name of the project.  
 
-## Other ( In-depth study )
+## Other ( In-depth study，option )
 1. The Arduino IDE is also supported on **MAC** and **Linux** systems.  
 ![Img](../../_static/arduino/arduino_ide/6img.png)  
 

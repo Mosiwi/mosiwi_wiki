@@ -252,3 +252,15 @@ Serial.SvcDesc = "Pi Pico Serial Driver"
 ![Img](../../_static/raspberry/R1D0001_raspberry_pico/15img.png)  
 
 Refer to other sources: [Link](https://picockpit.com/raspberry-pi/raspberry-pi-pico-and-micropython-on-windows/#Windows_81)  
+
+
+<style> pre{ overflow-y: auto; max-height: 300px;} </style>   
+
+```css
+pre {
+  overflow-y: auto;
+  max-height: 300px;
+}
+```
+
+
