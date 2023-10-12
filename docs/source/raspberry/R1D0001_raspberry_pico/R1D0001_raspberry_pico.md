@@ -146,7 +146,10 @@ Reply: You need to click on Thonny's **stop/restart backend** menu to solve the 
 2\. Thonny does not automatically install USB drivers in windows7 and 8. The following error was found in the PC's Device Manager:   
 ![Img](../../_static/raspberry/R1D0001_raspberry_pico/14img.png)  
 Create a text file and add the following code file. The save file name is "**Board_CDC_RP2_pico-serial**" and the file format is "**.inf**". The file format is the driver file. Then manually add the driver to the unrecognized device in the device Manager.  
-```
+
+<style> pre{ overflow-y: auto; max-height: 300px;} </style>     
+
+```css
 ; Windows 2000, XP, Vista, 7 and 8 (x32 and x64) setup file for Atmel CDC Devices  
 ; Copyright (c) 2000-2013 ATMEL, Inc.  
 
@@ -252,15 +255,4 @@ Serial.SvcDesc = "Pi Pico Serial Driver"
 ![Img](../../_static/raspberry/R1D0001_raspberry_pico/15img.png)  
 
 Refer to other sources: [Link](https://picockpit.com/raspberry-pi/raspberry-pi-pico-and-micropython-on-windows/#Windows_81)  
-
-
-<style> pre{ overflow-y: auto; max-height: 300px;} </style>   
-
-```css
-pre {
-  overflow-y: auto;
-  max-height: 300px;
-}
-```
-
 
