@@ -1,10 +1,10 @@
-# C1S0000_light_sensor
-
-## Overview
+# C1S0000_light_sensor          
+----------------------
 ![Img](../../_static/common_product/C1S0000_light_sensor/1img.png)     
 This sensor detects the intensity of the light and the relative angle of the light source.      
 
 ## Specification    
+----------------
 • Operating voltage: 3.0V-5.0V        
 • Operating current: < 15mA        
 • Light angle value: 0°-337.5°, 0xffff(Directly above)        
@@ -14,7 +14,8 @@ This sensor detects the intensity of the light and the relative angle of the lig
 • Connector: XH2.54-4P         
 • Size: 64\*64\*10mm         
 
-## IIC communication   
+## IIC communication     
+--------------------
 Protocol:    
 ![Img](../../_static/common_product/C1S0000_light_sensor/2img.png)        
 <span style="color: rgb(255, 76, 65);">Maximum clock speed: 100K</span> 
@@ -28,9 +29,10 @@ Light angle value: H_angle*256 + L_angle, if it is 0xffff, the light source is d
 The standard I2C communication protocol can be referred to: [Link](../../_static/pdf/communication_protocol/UM10204%28I2C_Bus_Specification_and_User_Manual_%29.pdf)  
 
 
-## Sample code     
+## Sample code      
+--------------
 For [Raspberry pi Pico](../../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md) (MicroPython)     
-```microPython
+```python
 # https://docs.micropython.org/en/latest/rp2/quickref.html
 import time
 from machine import Pin, I2C 

@@ -1,5 +1,5 @@
 # R1K0000_space_station_kit_MicroPython   
-
+---------------------------------------
 ## What is MicroPython?            
 -----------------------
 MicroPython is a full implementation of the Python 3 programming language that runs directly on embedded hardware like Raspberry Pi Pico. You get an interactive prompt (the REPL) to execute commands immediately via USB Serial, and a built-in filesystem. The Pico port of MicroPython includes modules for accessing low-level chip-specific hardware.      

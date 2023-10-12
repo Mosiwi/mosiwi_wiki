@@ -1,4 +1,5 @@
-# Arduino IDE 
+# Arduino IDE
+------------- 
 The purpose of this tutorial is for beginners to quickly use the Arduino IDE, so many of the more tedious details are not shown, but links to tutorials are provided.  
 
 ## Installation steps         

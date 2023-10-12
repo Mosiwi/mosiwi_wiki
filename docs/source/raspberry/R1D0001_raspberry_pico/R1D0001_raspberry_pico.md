@@ -1,7 +1,5 @@
-# M1D0000_microbit_mainboard
-
-## Overview   
------------
+# R1D0001_raspberry_pico 
+------------------------
 <img src="../../_static/raspberry/R1D0001_raspberry_pico/1img.jpg" style="zoom:100%">  
 
 Raspberry Pi Pico is the debut microcontroller-class board from Raspberry Pi. Built around our RP2040 silicon platform, Pico brings our signature values of high performance, low cost, and ease of use to the microcontroller space.  

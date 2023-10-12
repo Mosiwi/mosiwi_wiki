@@ -1,7 +1,5 @@
-# WiringPi
-
-## About      
---------
+# WiringPi      
+----------
 [WiringPi](http://wiringpi.com/) is a PIN based GPIO access library written in C for the BCM2835, BCM2836 and BCM2837 SoC devices used in all Raspberry Pi. versions. The source code is not publicly available but may be made available to those who wish commercial support.  
 
 It is designed for use with C and RTB (BASIC) ON THE RASPBERRY PI ONLY.  

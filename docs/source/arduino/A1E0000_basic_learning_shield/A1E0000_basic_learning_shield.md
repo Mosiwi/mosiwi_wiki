@@ -1,7 +1,5 @@
-# A1E0000_basic_learning_shield
-
-## Overview          
------------
+# A1E0000_basic_learning_shield         
+-------------------------------
 ![Img](../../_static/arduino/A1E0000_basic_learning_shield/1img.jpg)  
 The arduino basic learning shield is based on Uno r3 mainboard design, board set temperature, humidity, infrared receiver and buzzer and other sensors, directly inserted with Uno r3 mainboard can be used.  And provides a wealth of examples and tutorial materials, very suitable for learning to use.  
 

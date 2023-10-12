@@ -1,7 +1,5 @@
-# C1E0000_3in1_basic_learing_shield
-
-## Overview           
------------
+# C1E0000_3in1_basic_learing_shield          
+-----------------------------------
 ![Img](../../_static/common_product/C1E0000_3in1_basic_learning_shield/1img.png)  
 The 3in1 Basic learning shield enables the [arduino Basic Learning shield](../../arduino/A1E0000_basic_learing_shield/A1E0000_basic_learing_shield.md) to be used on microbit, raspberry pico, and raspberry pi. And provides the corresponding tutorial and sample code, use is very convenient and simple.  
 

@@ -1,7 +1,5 @@
-# R1E0000_solar_charging_shield_for_pico
-
-## Overview           
------------
+# R1E0000_solar_charging_shield_for_pico          
+----------------------------------------
 Based on the [Raspberry pi Pico](../R1D0001_raspberry_pico/R1D0001_raspberry_pico.md) design, this expansion board is very convenient for external connection of various sensors, integrated solar energy, USB charging function and 28BYJ-48 stepper motor drive function, and the power output is more powerful.         
 
 ## Specification    

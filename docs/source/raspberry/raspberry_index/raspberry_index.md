@@ -1,6 +1,7 @@
-# Raspberry index
+# Raspberry index    
+-----------------
 <img src="../../_static/raspberry/raspberry_index/1img.jpg" style="zoom:100%">      
-The Raspberry Pi Foundation is a UK-based charity with the mission to enable young people to realise their full potential through the power of computing and digital technologies  
+The Raspberry Pi Foundation is a UK-based charity with the mission to enable young people to realise their full potential through the power of computing and digital technologies        
 
 ## Kit    
 ------

@@ -1,4 +1,5 @@
-# nec_ir_remote_control       
+# nec_ir_remote_control         
+-----------------------
 ![Img](../../_static/outsourcing/nec_ir_remote_control/1img.png)    
 
 ## 1. Specification     

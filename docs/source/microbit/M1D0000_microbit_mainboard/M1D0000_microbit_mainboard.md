@@ -1,13 +1,13 @@
-# M1D0000_microbit_mainboard
-
-## Overview
+# M1D0000_microbit_mainboard    
+----------------------------
 <img src="../../_static/microbit/M1D0000_microbit_mainboard/1img.jpg" style="zoom:100%">  
 
 The micro:bit is an easily programmable Single Board Computer (SBC) that contains an application processor with a variety of on-chip peripherals. Other peripherals are connected to this chip.  
 An interface processor is connected to the application processor and manages communications via the USB interface, including the drag-and-drop code flashing process. The interface processor does not connect to any of the micro:bit peripherals.  
 Official website: <https://www.microbit.org>    
 
-## Specification
+## Specification           
+----------------
 |     |     |
 | :-- | :-- |
 |Operating voltage| 1.8---3.6V|
@@ -18,22 +18,27 @@ Official website: <https://www.microbit.org>
 |RAM |128KB |
 |Speed |64MHz |
 
-## Meet microbit v2.2
+## Meet microbit v2.2          
+---------------------
 ![img](../../_static/microbit/M1D0000_microbit_mainboard/2img.png)   
 
-## Pinout Diagram
+## Pinout Diagram         
+-----------------
 ![Img](../../_static/microbit/M1D0000_microbit_mainboard/4img.png)  
 
-## More detailed information
+## More detailed information         
+----------------------------
 Please refer to the link: <https://tech.microbit.org>  
 
-## Programming platform
+## Programming platform          
+-----------------------
 It is recommended to use Microsoft Edge and Google Chrome to open programming web pages:  
 <img src="../../_static/microbit/M1D0000_microbit_mainboard/13img.png" style="zoom:30%">  
 Please refer to the link: <https://www.microbit.org/code/>  
 ![Img](../../_static/microbit/M1D0000_microbit_mainboard/5img.png)  
 
-## Makecode
+## Makecode           
+-----------
 **New makecode project**  
 1. Open link: <https://makecode.microbit.org>  
 2. Build a new project  
@@ -58,7 +63,8 @@ Official first use tutorial: <https://www.microbit.org/get-started/first-steps/s
 Please refer to the link: <https://makecode.microbit.org/docs>  
 &ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<https://www.microbit.org/get-started/user-guide/overview/>  
 
-## Common problems and solutions  
+## Common problems and solutions         
+--------------------------------
 1. The wrong operation causes the microbit firmware to be lost and the microbit cannot be recognized or the code to be uploaded.  
 Update the firmware: <https://www.microbit.org/get-started/user-guide/firmware/>  
 

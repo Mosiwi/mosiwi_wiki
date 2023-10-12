@@ -1,6 +1,5 @@
-# NEC communication protocol
-## Overview    
------------
+# NEC communication protocol   
+----------------------------
 The NEC IR transmission protocol uses pulse distance encoding of the message bits. Each pulse burst (mark – RC transmitter ON) is 562.5µs in length, at a carrier frequency of 38kHz (26.3µs).   
 
 Logical bits are transmitted as follows:   

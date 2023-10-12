@@ -1,7 +1,9 @@
-# C1S0001_ir_receiver
+# C1S0001_ir_receiver      
+---------------------
 ![Img](../../_static/common_product/C1S0001_ir_receiver/3img.png)       
 
-## Specification    
+## Specification     
+---------------- 
 • Operating voltage: 3.0V-5.0V       
 • Operating current: < 15mA      
 • Light angle value: 0°-337.5°, 0xffff(Directly above)       
@@ -12,7 +14,8 @@
 • Size: 30\*23.2mm       
 • Hole distance: 16mm       
 
-## How the module works    
+## How the module works     
+-----------------------  
 An [IR remote control](../../outsourcing/nec_ir_remote_control/nec_ir_remote_control.md) and receiver communicate with each other by transmitting and decoding a signal in the form of pulsed IR radiation.       
 ![Img](../../_static/common_product/C1S0001_ir_receiver/ir-signal-transmission.gif)      
 
@@ -35,13 +38,15 @@ The receiver is built in such a way that it only lets IR through that is coming 
 The NEC protocol is one of the most popular infrared transmission protocols, please refer to:  
 [NEC protocol](../../common_resource/nec_communication_protocol/nec_communication_protocol.md)       
 
-## Sample code     
+## Sample code       
+--------------   
 [Arduino IRremote library](https://www.arduino.cc/reference/en/libraries/irremote/)        
 
 For [Raspberry pi Pico](../../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md): [MicroPython](https://github.com/Mosiwi/Mosiwi-space-station-kit-for-pico/blob/main/MicroPython/Mosiwi_lib_examples/Mosiwi_nec_ir.py)         
 
 
-## Application example      
+## Application example    
+----------------------   
 [C1K0000_4in1_basic_learing_kit](../../common_product/C1K0000_4in1_basic_learning_kit/C1K0000_4in1_basic_learning_kit.md)     
 [R1K0000_space_station_kit_for_pico](../../raspberry/R1K0000_space_station_kit/R1K0000_space_station_kit.md)     
 

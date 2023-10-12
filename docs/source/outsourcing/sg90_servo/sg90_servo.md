@@ -1,15 +1,19 @@
-# SG90 servo    
+# SG90 servo       
+------------
 ![Img](../../_static/outsourcing/sg90_servo/1img.png)    
 The servo can be programmed to rotate at different angles, which is different from ordinary motors that can only rotate at a certain speed when powered on. The function of the servo is not to rotate in a cycle, but to rotate at a certain Angle. Through the servo axis disk can drive the external mechanical structure, we can be used to control the direction of the car, the arm control of the robot and so on.      
      
 ## 1. Wiring   
+------------
 ![Img](../../_static/outsourcing/sg90_servo/2img.png)     
 
 ## 2. Usage       
+----------- 
 The servo is controlled by a PWM signal with a period of 20ms and a pulse width of 0.5ms- 2.5ms. The pulse width is 0.5ms- 2.5ms maps to 0°- 180°, and their relationship is as follows:     
 ![Img](../../_static/outsourcing/sg90_servo/3img.png)    
 
-## 3. Sample code      
+## 3. Sample code       
+----------------- 
 [For arduino](https://reference.arduino.cc/reference/en/libraries/servo/)       
 
 For [raspberry pi 4B](../../raspberry/R1D0000_raspberry_pi4/R1D0000_raspberry_pi4.md) (C language)
@@ -46,7 +50,7 @@ int main(){
 ```
 
 For [Raspberry pi Pico](../../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md) (MicroPython)
-```microPython
+```python
 import time
 from machine import Pin, PWM
 

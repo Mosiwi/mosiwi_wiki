@@ -1,4 +1,5 @@
-# Zero-based tutorial   
+# Zero-based tutorial     
+---------------------
 This tutorial only focuses on practical operation, without the need to understand the principles, and understands the simplest Arduino programming operation, so that learners can get a sense of achievement and arouse their interest.    
 
 ## Previous preparation       
@@ -153,7 +154,7 @@ If you are using an IDE above 2.0, you can also display the data as a temperatur
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Zero-based_tutorial/38img.png)    
 <span style="color: rgb(255, 76, 65);">Note: After following steps 1 and 2, click the "OK" key on the expansion board, multiple curves will be displayed. Then, select "value 1" according to step 3.</span>    
 
-## Chapter10 jingle bells  
+## Chapter10 jingle bells     
 -------------------------
 1. Open "2.2.2_Jingle_bells" Example:    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Zero-based_tutorial/39img.png)    
