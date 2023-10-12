@@ -11,7 +11,7 @@ Resources (Option):
 
 ## Prepared knowledge       
 ---------------------   
-**Pico and Thonny basics (Important):**     
+**Pico and Thonny basics <span style="color: rgb(255, 76, 65);">(Important)</span>:**       
 If you don't have Pico and Thonny basics, you can follow the link to learn the basics: [Click Me](../../../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md)    
 
 **Learn about (Option):**      
@@ -51,7 +51,7 @@ Please refer to: [Link](../assembly/assembly.md)
 
 ## Control space station    
 ------------------------   
-The [previous steps](./microPython_tutorial.md#upload-the-space-station-program-to-pico) have uploaded the code of the space station to Pico. After the space station is installed, the space station can be controlled by the infrared remote control, as follows:       
+The [previous steps](./microPython_tutorial.md#upload-the-space-station-code-to-pico) have uploaded the code of the space station to Pico. After the space station is installed, the space station can be controlled by the infrared remote control, as follows:       
 
 Function of the key:    
 | 1 | 2 | 3 |    

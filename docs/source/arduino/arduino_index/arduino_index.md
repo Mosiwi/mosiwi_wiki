@@ -1,7 +1,7 @@
 # Arduino index
 ---------------
 ![Img](../../_static/arduino/arduino_index/1img.jpg) 
-Arduino designs, manufactures, and supports electronic devices and software, allowing people around the world to easily access advanced technologies that interact with the physical world. Our products are straightforward, simple, and powerful, ready to satisfy users’ needs from students to makers and all the way to professional developers.  
+Arduino designs, manufactures, and supports electronic devices and software, allowing people around the world to easily access advanced technologies that interact with the physical world. Our products are straightforward, simple, and powerful, ready to satisfy users’ needs from students to makers and all the way to professional developers.      
 
 ## Kit            
 ------
