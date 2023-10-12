@@ -2,16 +2,19 @@
 **Makecode and Microbit basics:**    
 If you don't have makecode and microbit basics, you can follow the link to learn the basics: [Click Me](../../../microbit/M1D0000_microbit_mainboard/M1D0000_microbit_mainboard.md)    
 
-## Wiring diagram    
+## Wiring diagram        
+-----------------
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/1img.jpg)   
 
 The USB port of the Microbit must be connected to the usb port of the PC through a micro usb cable.   
 
 ## Create a new project      
+-----------------------          
 Open the link to create a new online project: <https://makecode.microbit.org>     
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/2img.png)  
   
-## Load extension library   
+## Load extension library      
+-------------------------
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/3img.png)  
 
 Fill in the link to the right of the chain and search for: <https://github.com/Mosiwi/Mosiwi-basic-learning-kit-for-microbit>     
@@ -19,7 +22,8 @@ Fill in the link to the right of the chain and search for: <https://github.com/M
 Wait for the loading of the library. After the loading is successful, the following figure is shown:   
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/5img.png)       
 
-## Block code parsing     
+## Block code parsing        
+---------------------
 ▶ 1: ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/6img.png)     
 The module returns a value that is the numeric input value for P11. When the keyboard on the expansion board is clicked, a low level is returned, indicating that the keyboard value on the expansion board can be read.        
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Micobit_tutorial/7img.jpg)     

@@ -1,6 +1,7 @@
 # R1K0000_space_station_kit_MicroPython   
 
-## What is MicroPython?
+## What is MicroPython?            
+-----------------------
 MicroPython is a full implementation of the Python 3 programming language that runs directly on embedded hardware like Raspberry Pi Pico. You get an interactive prompt (the REPL) to execute commands immediately via USB Serial, and a built-in filesystem. The Pico port of MicroPython includes modules for accessing low-level chip-specific hardware.      
 
 Resources (Option):     
@@ -8,14 +9,16 @@ Resources (Option):
 2. The [MicroPython Forums](https://forum.micropython.org/)   
 3. Basic tutorial kit for MicroPython: [Link](../../../common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/microPython_tutorial.md)
 
-## Prepared knowledge    
+## Prepared knowledge       
+---------------------   
 **Pico and Thonny basics (Important):**     
 If you don't have Pico and Thonny basics, you can follow the link to learn the basics: [Click Me](../../../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md)    
 
 **Learn about (Option):**      
 [**MicroPython for Pico**](https://docs.micropython.org/en/latest/rp2/quickref.html).    
 
-## Upload the space station code to Pico         
+## Upload the space station code to Pico        
+----------------------------------------  
 **Tools:**     
 1. PC(Win10 or uper)     
 2. Micro USB cable 
@@ -43,9 +46,11 @@ Run the code offline:
 <span style="color: rgb(255, 76, 65);">If you save a file to the Pico and give it the special name **main\.py**, then MicroPython starts running that script as soon as power is supplied to Raspberry Pi Pico in the future.</span>     
 
 ## Assembly steps        
+-----------------
 Please refer to: [Link](../assembly/assembly.md)    
 
-## Control space station       
+## Control space station    
+------------------------   
 The [previous steps](./microPython_tutorial.md#upload-the-space-station-program-to-pico) have uploaded the code of the space station to Pico. After the space station is installed, the space station can be controlled by the infrared remote control, as follows:       
 
 Function of the key:    

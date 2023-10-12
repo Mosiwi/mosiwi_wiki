@@ -1,16 +1,19 @@
 # Common product index
 
-## Kit
+## Kit   
+------
 | [C1K0000_4in1_basic_learning_kit](../C1K0000_4in1_basic_learning_kit/C1K0000_4in1_basic_learning_kit.md) | [C1K0001_4x4x4led_cube_kit](../C1K0001_4x4x4led_cube_kit/C1K0001_4x4x4led_cube_kit.md) | updating ... updating ... |
 | :--: | :--: | :--: |
 | [![img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/9img.jpg)](../C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/4img.jpg) | ![Img](../../_static/web_logo/updating.gif) |
 
-## Expansion board
+## Expansion board   
+------------------
 | [C1E0000_3in1_basic_learning_shield](../C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md) | updating ... updating ... | updating ... updating ... |
 | :--: | :--: | :--: |
 | ![img](../../_static/common_product/C1E0000_3in1_basic_learning_shield/1img.png) | ![Img](../../_static/web_logo/updating.gif) | ![Img](../../_static/web_logo/updating.gif) |
 
-## Sensor and Module
+## Sensor and Module    
+--------------------
 | [O1M0000_ultrasonic_module](../../outsourcing/O1M0000_ultrasonic_module/O1M0000_ultrasonic_module.md) | [O1M0001_fan_module](../../outsourcing/O1M0001_fan_module/O1M0001_fan_module.md) | [C1M0000_8x16dot_matrix](../C1M0000_8x16dot_matrix/C1M0000_8x16dot_matrix.md) |     
 | :--: | :--: | :--: |    
 | ![Img](../../_static/outsourcing/O1M0000_ultrasonic_module/1img.png) | ![Img](../../_static/outsourcing/O1M0001_fan_module/1img.png) | ![Img](../../_static/common_product/C1M0000_8x16dot_matrix/3img.png) |    

@@ -1,17 +1,20 @@
 # C1E0000_3in1_basic_learing_shield
 
-## Overview
+## Overview           
+-----------
 ![Img](../../_static/common_product/C1E0000_3in1_basic_learning_shield/1img.png)  
 The 3in1 Basic learning shield enables the [arduino Basic Learning shield](../../arduino/A1E0000_basic_learing_shield/A1E0000_basic_learing_shield.md) to be used on microbit, raspberry pico, and raspberry pi. And provides the corresponding tutorial and sample code, use is very convenient and simple.  
 
-## Specification
+## Specification         
+----------------
 1. DC jack input power: 4 to 12V  
 2. Operating Voltage: 3.3V  
 2. Operating Current: Max 1000mA  
 3. Weight: about 48g  
 4. Dimensions: 127.5*61mm  
 
-## Meet 3in1 basic learing shield
+## Meet 3in1 basic learing shield              
+---------------------------------
 | ![Img](../../_static/common_product/C1E0000_3in1_basic_learning_shield/2img.png) |
 | :-- |
 | 1. Microbit motherboard slot.|
@@ -23,13 +26,16 @@ The 3in1 Basic learning shield enables the [arduino Basic Learning shield](../..
 | 7. IO expand chip. |
 | 8. [Arduino Basic Learning shield](../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md) slot. |
 
-## Schematic diagram
+## Schematic diagram             
+--------------------
 ![Img](../../_static/common_product/C1E0000_3in1_basic_learning_shield/3img.png)  
 
-## Dimensional drawing
+## Dimensional drawing            
+----------------------
 ![Img](../../_static/common_product/C1E0000_3in1_basic_learning_shield/4img.png)  
 
-## IO expand
+## IO expand              
+------------
 The 3in1 basic learing shield is integrated with an IO expansion chip, which is an I2C slave chip and the slave address is 0x5a. The microbit, raspberry pico, and raspberry pi communicate with the chip through the I2C interface, which can be expanded with 2 analog input ports, and an infrared receive sensor communication port (NEC).  
 
 ![Img](../../_static/common_product/C1E0000_3in1_basic_learning_shield/5img.png)  
@@ -71,7 +77,8 @@ The 2-channel analog input is a 10-bit analog-to-digital converter corresponding
 
 2. <span style="color: rgb(255, 76, 65);">Through the above I2C protocol, 2 bytes of data will be obtained, the first byte is the inverse code of the infrared remote control device, the second byte is the command code of the infrared remote control.</span>        
 
-## Sample code           
+## Sample code             
+--------------       
 Arduino Uno ( C & C++ ):    
 ```c & c++
 #include <Wire.h>

@@ -2,7 +2,8 @@
 
 This kit is suitable for teaching and learning programming, providing tutorial materials for four development boards, including graphical, Python, and C/C++programming languages.     
 
-## Detailed list
+## Detailed list  
+----------------
 | 1: [Raspberry pico](../../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md) | 2: [3in1_basic learing shield](../../common_product/C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md)  | 3: [Basic learning shield](../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md) |
 | :--: | :--: | :--: |
 | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/1img.png)  | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/2img.jpg) | ![Img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/3img.jpg) |  
@@ -14,6 +15,7 @@ This kit is suitable for teaching and learning programming, providing tutorial m
 <span style="color: rgb(255, 76, 65);">Note: The Arduino Uno, Microbit, and Rasoberry pi 4 motherboards are not included in this kit.</span>  
 
 ## Course    
+---------   
 This kit provides tutorials based on 4 types of motherboards, but only pico motherboards are provided, and the others need to be purchased by yourself.    
 
 | Microbit | Raspberry pico (MicroPython) | Arduino UNO (C and C++) | Raspberry pi 4 |

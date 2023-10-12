@@ -3,13 +3,15 @@ This tutorial is based on the [C1K0001 4in1 basic learning kit](../../C1K0000_4i
 
 Learn common programming syntax based on "Pico board + expansion board + peripheral module", and learn the most comprehensive MicroPython syntax and application with the lowest cost.     
 
-## What is MicroPython?
+## What is MicroPython?  
+-----------------------      
 MicroPython is a full implementation of the Python 3 programming language that runs directly on embedded hardware like Raspberry Pi Pico. You get an interactive prompt (the REPL) to execute commands immediately via USB Serial, and a built-in filesystem. The Pico port of MicroPython includes modules for accessing low-level chip-specific hardware.      
 1. The [MicroPython Wiki](https://github.com/micropython/micropython/wiki)
 2. The [MicroPython Forums](https://forum.micropython.org/)
 3. MicroPython is a language derived from Python, so it is recommended to learn [Python](https://docs.python.org/3/reference/index.html) first.   
 
 ## Prepared knowledge    
+---------------------           
 **Learn about:** [**Basic learning shield**](../../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md).  
 
 **Learn about:** [**3in1 basic learning shield**](../../../common_product/C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md).  
@@ -25,9 +27,11 @@ Please download the sample code on Github: <https://github.com/Mosiwi/Mosiwi-bas
 Unzip the file downloaded above, and the file in the "**pico->microPython**" folder is the sample code.       
 
 ## Wiring diagram      
+-----------------              
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Intermediate_tutorial/13img.jpg)    
 
-## Basic_chapter Blink      
+## Basic_chapter Blink     
+----------------------               
 **Objective:**     
 1. Open the example code.     
 2. Upload and run code.   
@@ -57,6 +61,7 @@ Enter the code in the main panel, then click on the "**Save**" or "**File->Save 
 
 
 ## Chapter1 RGB LED   
+-------------------                    
 **Objective:**     
 1. What is RGB LED?    
 2. What is MOS transistor?
@@ -96,6 +101,7 @@ A 2N7002 MOS is used on the extension board to drive the buzzer. It is an enhanc
 
 
 ## Chapter2 Fan   
+---------------                        
 **Objective:**     
 1. What is fan module?         
 
@@ -123,6 +129,7 @@ See: [Fan module](../../../outsourcing/O1M0001_fan_module/O1M0001_fan_module.md)
 
 
 ## Chapter3 Microphone   
+----------------------                        
 **Objective:**     
 1. What is microphone?           
 
@@ -150,7 +157,8 @@ The microphone on the expansion board integrates a preamplifier circuit, which r
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Intermediate_tutorial/33img.png)    
 
 
-## Chapter4 Ultrasonic       
+## Chapter4 Ultrasonic   
+----------------------                            
 **Objective:**     
 1. What is ultrasonic module?           
 
@@ -241,6 +249,7 @@ y: variable or constant.
 
 
 ## Chapter5 Led-strip      
+---------------------                    
 **Objective:**     
 1. What is led-strip?           
 2. What is 74HC595?     
@@ -366,6 +375,7 @@ Examples:
 
 
 ## Chapter6 keyboard       
+--------------------                    
 **Objective:**     
 1. What is keyboard?           
 2. What is SPI communication protocol?   
@@ -402,7 +412,8 @@ See: [SPI for Pico](https://docs.micropython.org/en/latest/rp2/quickref.html#har
 [bytearray()](https://docs.python.org/3/library/stdtypes.html?highlight=bytearray#bytearray)     
 
 
-## Chapter7 4-bit 8-segment digital tube       
+## Chapter7 4-bit 8-segment digital tube   
+----------------------------------------                
 **Objective:**     
 1. What is 4-bit 8-segment digital tube?             
 
@@ -450,7 +461,8 @@ oct(x): Converts an integer to an octal string
 ```
 
 
-## Chapter8 Ir-receiver       
+## Chapter8 Ir-receiver     
+-----------------------                
 **Objective:**     
 1. What is Ir-receiver?      
 2. What is NEC infrared communication protocol? 
@@ -498,7 +510,8 @@ See: [I2C](../Arduino_tutorial/Advanced_tutorial.md#chapter4-i2c-communication-p
 See: [Pico use I2C](https://docs.micropython.org/en/latest/rp2/quickref.html#hardware-i2c-bus)     
 
 
-## Chapter9 Thermohygrometer       
+## Chapter9 Thermohygrometer     
+----------------------------                  
 **Objective:**     
 1. What is Thermohygrometer?             
 
@@ -527,7 +540,8 @@ specification parameter:
 | Humidity | 0% to 100% | 0.024% | +/-2% |      
 
 
-## Chapter10 EEPROM    
+## Chapter10 EEPROM      
+-------------------
 **Objective:**     
 1. EEPROM    
 2. 1-Wire protocol
@@ -560,7 +574,8 @@ It is a kind of memory chip that does not lose data after power failure.
 
 
 
-## Chapter11 Uart       
+## Chapter11 Uart    
+-----------------   
 **Objective:**     
 1. What is uart?             
 

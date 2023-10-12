@@ -1,16 +1,19 @@
 # A1E0000_basic_learning_shield
 
-## Overview
+## Overview          
+-----------
 ![Img](../../_static/arduino/A1E0000_basic_learning_shield/1img.jpg)  
 The arduino basic learning shield is based on Uno r3 mainboard design, board set temperature, humidity, infrared receiver and buzzer and other sensors, directly inserted with Uno r3 mainboard can be used.  And provides a wealth of examples and tutorial materials, very suitable for learning to use.  
 
-## Specification
+## Specification          
+----------------
 1. Operating Voltage: 3 to 5V  
 2. Operating Current: Max 550mA  
 3. Weight: about 25g  
 4. Dimensions: 68.58*56.94mm  
 
-## Meet basic learing shield
+## Meet basic learing shield         
+----------------------------
 | ![Img](../../_static/arduino/A1E0000_basic_learning_shield/2img.jpg) |
 | :-- |
 | 1. RGB LED, controlled by pins 5(R), 6(G) and 9(B) of Uno r3. |
@@ -27,7 +30,8 @@ The arduino basic learning shield is based on Uno r3 mainboard design, board set
 | 12. I2C interface (A5, A4 V, G). |
 | 13. Standby interface (G, 6, 5, V, G) |
 
-## Integration library     
+## Integration library         
+----------------------   
 This library package is available for Arduino: UNO and NANO, Raspberry pi 4B, and Raspberry pi pico.  
 Download resource: <https://github.com/Mosiwi/Mosiwi-basic-learning-kit>  
 ![Img](../../_static/arduino/A1E0000_basic_learning_shield/3img.png)  
@@ -48,7 +52,8 @@ Unzip the "Mosiwi-basic-learning-kit-main.zip" file into the "C:\Users\Administr
 **Open the sample code in the library file:**    
 ![Img](../../_static/arduino/A1E0000_basic_learning_shield/7img.png)     
 
-## Download
+## Download            
+-----------
 |      |      |      |      |      |
 | :--: | :--: | :--: | :--: | :--: |
 | [Schematic.pdf](../../_static/pdf/A1E0000_basic_learning_shield/basic%20learning%20shield.PDF)|[BC7278.pdf](../../_static/pdf/A1E0000_basic_learing_shield/BC7278.pdf) |[AHT20.pdf](../../_static/pdf/A1E0000_basic_learing_shield/AHT20.pdf) |[74HC595.pdf](../../_static/pdf/A1E0000_basic_learing_shield/74HC595.pdf) | [DS2431.pdf](../../_static/pdf/A1E0000_basic_learing_shield/DS2431.pdf) |    

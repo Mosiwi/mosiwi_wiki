@@ -1,14 +1,15 @@
 # Based tutorial   
 Learn simple programming syntax based on the UNO board, and learn the most comprehensive Arduino basics in the fastest way.     
 
-## Previous preparation   
+## Previous preparation      
+----------------------- 
 1. Install the [**Arduino IDE**](../../../arduino/arduino_ide/arduino_ide.md).     
 2. Basic operation of the [**Arduino UNO R3**](../../../arduino/A1D0000_uno_r3/A1D0000_uno_r3.md) motherboard.    
 3. Learn about [**Basic learning shield**](../../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md).  
 4. Install the [**Mosiwi basic learning kit**](../../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md#integration-library) library.    
 
 ## Chapter_1 Blink    
-
+------------------
 **Curriculum question:**     
 1. What is LED light ?     
 2. What are functions and function parameters?
@@ -101,7 +102,7 @@ Text content to be commented
 ```
 
 ## Chapter_2 Button    
-
+-------------------
 **Curriculum question:**     
 1. What is a button?    
 2. What are variables, byte variables and global variables?    
@@ -289,7 +290,7 @@ In the sample code:
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/15img.png)     
 
 ## Chapter_3 Serial port monitor       
-
+--------------------------------
 **Curriculum question:**     
 1. What is a serial port?  
 2. What is a serial port monitor?   
@@ -411,7 +412,7 @@ More information: <https://www.arduino.cc/reference/en/language/variables/data-t
 
 
 ## Chapter_4 Arithmetic operation            
-
+---------------------------------
 **Curriculum question:**     
 (1) How to use arithmetic operators: +, -, *, /, %              
 
@@ -504,7 +505,7 @@ The result is 1.
 ```
 
 ## Chapter_5 Read analog value            
-
+------------------------------
 **Curriculum question:**     
 1. What is voltage?     
 2. What is a sliding potentiometer?   
@@ -591,7 +592,7 @@ float voltageValue = 0;
 ```
 
 ## Chapter_5 External interrupt            
-
+-------------------------------  
 **Curriculum question:**     
 1. What is an external interrupt?  
 2. How to use logical operators:!(not)  
@@ -751,7 +752,7 @@ digitalWrite(ledPin, LOW);
 
 
 ## Chapter_6 PWM            
-
+----------------
 **Curriculum question:**     
 1. What is PWM output?     
 2. How to use the for statement?   
@@ -923,7 +924,7 @@ More information: <https://www.arduino.cc/reference/en/language/structure/compar
 
 
 ## Chapter_6 Timer1            
-
+-------------------  
 **Curriculum question:**     
 1. How to use library files?   
 2. What is a timer?   
@@ -1071,7 +1072,7 @@ More information: <https://www.arduino.cc/reference/en/language/variables/variab
 
 
 ## Chapter_7 Humiture_I2C           
-
+-------------------------
 **Curriculum question:**     
 1. What is I2C communication?      
 2. What is an array?                         
@@ -1152,7 +1153,7 @@ More information: <https://www.arduino.cc/reference/en/language/variables/data-t
 
 
 ## Chapter_8 Pointer and Array           
-
+------------------------------
 **Curriculum question:**     
 1. What is a pointer?   
 2. How are Pointers related to arrays?                            
@@ -1242,7 +1243,7 @@ p2 = num;
 
 
 ## Chapter_9 Digital_tube-Button-SPI           
-
+------------------------------------
 **Curriculum question:**     
 1. What is a 4-bit 8-segment digital tube?  
 2. What is SPI communication?

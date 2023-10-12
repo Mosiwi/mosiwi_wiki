@@ -1,12 +1,14 @@
 # M1D0000_microbit_mainboard
 
-## Overview
+## Overview   
+-----------
 <img src="../../_static/raspberry/R1D0001_raspberry_pico/1img.jpg" style="zoom:100%">  
 
 Raspberry Pi Pico is the debut microcontroller-class board from Raspberry Pi. Built around our RP2040 silicon platform, Pico brings our signature values of high performance, low cost, and ease of use to the microcontroller space.  
 Official website: <https://www.raspberrypi.com/products/raspberry-pi-pico>  
 
-## Specification
+## Specification       
+----------------
 • [RP2040](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf) microcontroller with 2MB Flash  
 • System operating voltage  
 &emsp;&emsp;◦ 3.3V DC   
@@ -26,18 +28,22 @@ Official website: <https://www.raspberrypi.com/products/raspberry-pi-pico>
 
 More: <https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf>  
 
-## Pinout Diagram
+## Pinout Diagram      
+-----------------
 ![Img](../../_static/raspberry/R1D0001_raspberry_pico/2img.png)  
 
-## Dimensional drawing
+## Dimensional drawing         
+----------------------
 ![Img](../../_static/raspberry/R1D0001_raspberry_pico/3img.png)  
 Note: all dimensions in mm  
 
-## Programming platform
+## Programming platform           
+-----------------------
 **C/C++:** <https://www.raspberrypi.com/documentation/microcontrollers/c_sdk.html>  
 **MicroPython:** <https://docs.micropython.org/en/latest/rp2/quickref.html>     
 
-## Using MicroPython in Thonny
+## Using MicroPython in Thonny           
+------------------------------
 **Burning micropython firmware**    
 1. Raspberry Pi Pico official website: <https://www.raspberrypi.com/documentation/microcontrollers/>    
 Click "Micropython"
@@ -116,7 +122,8 @@ The program should uploaded to the Raspberry Pi Pico using the REPL, and automat
 
 
 
-## Save existing files or folders to Pico             
+## Save existing files or folders to Pico    
+-----------------------------------------          
 Make sure Thonny checked **"View -> Files"**:  
 ![Img](../../_static/raspberry/R1D0001_raspberry_pico/18img.png)    
 
@@ -131,14 +138,16 @@ Select the file and right-click to open the file in Pico.
 
 End!  
 
-## Resource
+## Resource          
+-----------
 [Raspberry Pi Pico product brief](https://datasheets.raspberrypi.com/pico/pico-product-brief.pdf)  
 [Hardware design with RP2040](https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf)  
 [Raspberry Pi Pico design files](https://datasheets.raspberrypi.com/pico/RPi-Pico-R3-PUBLIC-20200119.zip)  
 [Raspberry Pi Pico STEP file](https://datasheets.raspberrypi.com/pico/Pico-R3-step.zip)  
 [3-pin debug connector](https://datasheets.raspberrypi.com/debug/debug-connector-specification.pdf)  
 
-## Troubleshooting
+## Troubleshooting          
+------------------
 1\. Thonny's **Run** menu is unavailable after Raspberry Pi Pico is powered on again.  
 Reply: You need to click on Thonny's **stop/restart backend** menu to solve the problem.  
 ![Img](../../_static/raspberry/R1D0001_raspberry_pico/24img.png)      

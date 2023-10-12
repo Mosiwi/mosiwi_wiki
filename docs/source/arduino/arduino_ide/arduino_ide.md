@@ -1,7 +1,8 @@
 # Arduino IDE 
 The purpose of this tutorial is for beginners to quickly use the Arduino IDE, so many of the more tedious details are not shown, but links to tutorials are provided.  
 
-## Installation steps
+## Installation steps         
+---------------------
 ***Windows*** - Win 10 and newer, 64 bits  
 The following steps are performed on a windows PC. It is recommended that beginners use the same device.  
 
@@ -27,7 +28,8 @@ Startup icon
 Commonly used menus        
 ![Img](../../_static/arduino/arduino_ide/10img.png)       
 
-## Use
+## Use         
+------
 ### Build a new project
 Run the IDE and click on the menu bar **"File" --> "New Sketch"**.  
 ![Img](../../_static/arduino/arduino_ide/4img.png)  
@@ -39,7 +41,8 @@ Click on the menu bar **"File" --> "New Sketch"**.
 Then select the "**xxx.ino**" file in the project folder.  
 <span style="color: rgb(255, 76, 65);">Note:</span> "xxx" is the name of the project.  
 
-## Other ( In-depth study，option )
+## Other ( In-depth study，option )           
+-----------------------------------
 1. The Arduino IDE is also supported on **MAC** and **Linux** systems.  
 ![Img](../../_static/arduino/arduino_ide/6img.png)  
 

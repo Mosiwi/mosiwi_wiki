@@ -2,6 +2,7 @@
 This tutorial is based on [C1K0001 4in1 basic learning kit](../C1K0000_4in1_basic_learning_kit.md) and C language, if you do not have knowledge of the C language, it is recommended to learn the [Arduino tutorial](../../C1K0000_4in1_basic_learning_kit/C1K0000_4in1_basic_learning_kit.md) first.     
 
 ## Prepared knowledge <span style="color: rgb(255, 76, 65);">(Important)</span>     
+---------------------              
 **1\. Learn about** [**Basic learning shield**](../../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md).  
 
 **2\. Learn about** [**3in1 basic learning shield**](../../../common_product/C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md).  
@@ -47,6 +48,7 @@ sudo ./xxx
 Resource: [GNU Make](https://www.gnu.org/software/make/)(Makefile) 
 
 ## Basic Example <span style="color: rgb(255, 76, 65);">(Important)</span>: Terminal    
+----------------            
 **Objective:**       
 1. Run the sample code.   
 2. Recompile the sample code. 
@@ -112,12 +114,14 @@ ls
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/8img.png)      
 
 
-## Wiring diagram   
+## Wiring diagram     
+-----------------
 Turn off the Raspberry PI and connect the Raspberry PI to the expansion board with a 40P color cable:    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/0img.jpg)      
 Then restart Raspberry PI and TUTTY.     
 
-## Example1: Arithmetic operator             
+## Example1: Arithmetic operator    
+--------------------------------         
 Run the following command on the terminal:       
 ```
 cd ~/Mosiwi-basic-learning-kit/pi4/c/examples/1.0.1_Arithmetic_operation/     
@@ -126,7 +130,8 @@ sudo ./arithmetic_operation
 ```
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/9img.png)     
 
-## Example2 Blink     
+## Example2 Blink       
+----------------- 
 **Pins to be used:**   
 1. Red RGB LED: 23(Wiringpi) or 13(BCM)  
 
@@ -144,6 +149,7 @@ The red LED lights on the expansion board are lit at one-second intervals.
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/10img.png)     
 
 ## Example3 Button   
+------------------ 
 **Pins to be used:**   
 1. Red RGB LED: 23(Wiringpi) or 13(BCM) 
 2. Button: 22(Wiringpi) or 6(BCM)  
@@ -163,6 +169,7 @@ After uploads the code, the green RGB led on the expansion board is always off, 
 
 
 ## Example4 Buzzer   
+------------------
 **Pins to be used:**   
 1. Buzzer: 1(Wiringpi) or 18(BCM) 
 
@@ -181,6 +188,7 @@ After uploading the code, the buzzer on the expansion board will keep beeping wi
 
 
 ## Example5 RGB LED   
+-------------------
 **Pins to be used:**   
 1. Red RGB LED: 23(Wiringpi) or 13(BCM)  
 2. Green RGB LED: 24(Wiringpi) or 19(BCM)  
@@ -201,6 +209,7 @@ After uploading the code, the buzzer on the expansion board will keep beeping wi
 
 
 ## Example6 Fan   
+---------------
 **Pins to be used:**   
 1. S1(INB): 23(Wiringpi) or 13(BCM)  
 2. S2(INA): 24(Wiringpi) or 19(BCM)  
@@ -223,6 +232,7 @@ The fan rotates clockwise and counterclockwise, and the speed changes from small
 More info: [Fan module](../../../outsourcing/O1M0001_fan_module/O1M0001_fan_module.md)    
 
 ## Example7 Potentiometer      
+-------------------------
 **Pins to be used:**   
 1. SDA: 8(Wiringpi) or 2(BCM)  
 2. SCL: 9(Wiringpi) or 3(BCM)   
@@ -243,6 +253,7 @@ Push the potentiometer up and down, and the terminal prints the corresponding an
 <span style="color: rgb(255, 76, 65);">Note: Raspberry Pi4 reads the analog value of the potentiometer through the I2C expansion chip on the "3in1_basic_learning_shield".</span>         
 
 ## Example8 Microphone      
+----------------------
 **Pins to be used:**   
 1. SDA: 8(Wiringpi) or 2(BCM)  
 2. SCL: 9(Wiringpi) or 3(BCM)   
@@ -264,6 +275,7 @@ After running the code, the terminal prints the analog value of the amplified so
 
 
 ## Example9 Ultrasonic     
+----------------------
 **Pins to be used:**   
 1. S1(echo of ultrasonic): 23(Wiringpi) or 13(BCM)  
 2. S2(trig of ultrasonic): 24(Wiringpi) or 19(BCM)  
@@ -287,6 +299,7 @@ More info: [Ultrasonic sensor](../../../outsourcing/O1M0000_ultrasonic_module/O1
 
 
 ## Example10 Led-strip      
+----------------------
 **Pins to be used:**     
 Led-strip
 1. DS: 0(Wiringpi) or 17(BCM)    
@@ -318,6 +331,7 @@ The more you push the slide resistor up, the more LEDs are turned on; the more y
 
 
 ## Example11 Thread    
+-------------------
 **Pins to be used:**   
 1. Red RGB LED: 23(Wiringpi) or 13(BCM)    
 
@@ -332,7 +346,8 @@ The red LED lights on the expansion board are lit at one-second intervals.
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/pi4_tutorial/10img.png)     
 
 
-## Example12 Digital_tube_Keyboard       
+## Example12 Digital_tube_Keyboard     
+----------------------------------  
 **Pins to be used:**         
 1. MISO: 13(Wiringpi) or 9(BCM)  
 2. MOSI: 12(Wiringpi) or 10(BCM)
@@ -359,7 +374,8 @@ The 4-bit digital display tube displays "16.0" when the "U" key is pressed; "8.0
 <span style="color: rgb(255, 76, 65);">Note: The 4-bit 8-segment digital tube and 5 keys on the "Basic learning shield" occupy pins 5(key trigger signal output), 10(MOSI), 9(MISO) and 11(CLK) of the Pi4, and the CS control pin is not required.</span>     
 
 
-## Example13 Ir-receiver      
+## Example13 Ir-receiver  
+------------------------    
 **Pins to be used:**   
 1. SDA: 8(Wiringpi) or 2(BCM)  
 2. SCL: 9(Wiringpi) or 3(BCM)   
@@ -393,7 +409,8 @@ Device code:
 <span style="color: rgb(255, 76, 65);">Note: Raspberry Pi4 reads the value of the Ir-receiver through the I2C expansion chip on the "3in1_basic_learning_shield".</span>        
 
 
-## Example14 Thermohygrometer      
+## Example14 Thermohygrometer    
+----------------------------- 
 **Pins to be used:**      
 AHT20
 1. SDA: 8(Wiringpi) or 2(BCM)  
@@ -425,6 +442,7 @@ The 4-digit digital tube displays the temperature and humidity in a cycle with a
 
 
 ## Example15 EEPROM      
+-------------------
 **Pins to be used:**   
 1. EEPROM: 27(Wiringpi) or 16(BCM)   
 
@@ -448,6 +466,7 @@ sudo ./eeprom_ReadWriteSkip
 
 
 ## Example16 Smart fan      
+----------------------
 **Demonstration:**       
 Run the following command on the terminal:       
 ```

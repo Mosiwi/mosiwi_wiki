@@ -1,14 +1,15 @@
 # Intermediate tutorial   
 Learn common programming syntax based on "UNO board + expansion board + peripheral module", and learn the most comprehensive arduino syntax and application with the lowest cost.     
 
-## Previous preparation   
+## Previous preparation      
+-----------------------     
 1. Install the [**Arduino IDE**](../../../arduino/arduino_ide/arduino_ide.md).     
 2. Basic operation of the [**Arduino UNO R3**](../../../arduino/A1D0000_uno_r3/A1D0000_uno_r3.md) motherboard.    
 3. Learn about [**Basic learning shield**](../../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md).  
 4. Install the [**Mosiwi basic learning kit**](../../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md#integration-library) library.    
 
 ## Chapter1 RGB LED    
-
+-------------------
 **Curriculum question:** 
 1. What is resistance?     
 2. How to control R, G, B LED?    
@@ -81,7 +82,7 @@ In the sample code:
 More information: <https://www.arduino.cc/reference/en/language/structure/further-syntax/define/>    
 
 ## Chapter2 waterfall light   
-
+---------------------------
 **Curriculum question:** 
 1. How to control the LED strip of the expansion board?      
 
@@ -133,7 +134,7 @@ delay(500);
 ```
 
 ## Chapter3 LED strip   
-
+---------------------
 **Curriculum question:** 
 1. How is the map() function used?   
 2. How is the break statement used?   
@@ -290,7 +291,8 @@ Relationship between the LED state and the value of "**num**":
 | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
 | 0b | 0 or 1 | 0 or 1 | 0 or 1 | 0 or 1 | 0 or 1 | 0 or 1 | 0 or 1 | 0 or 1 |
 
-## Chapter4 bit operation  
+## Chapter4 bit operation                 
+-------------------------             
 **Curriculum question:** 
 1. How to use the bit operations: &, |, ~, ^, < <, > >        
 
@@ -384,7 +386,8 @@ Examples:
 ```
 
 
-## Chapter5 Buzzer
+## Chapter5 Buzzer             
+------------------             
 **Curriculum question:** 
 1. What is buzzer?    
 2. What is MOS transistor?    
@@ -471,7 +474,8 @@ pin: The UNO pin that needs to stop generating the tone.
 More info: <https://www.arduino.cc/reference/en/language/functions/advanced-io/notone/>    
 
 
-## Chapter6 Frequency-Tone  
+## Chapter6 Frequency-Tone          
+--------------------------         
 **Curriculum question:** 
 1. What is the relationship between the frequency and the tone of the buzzer?        
 
@@ -500,7 +504,8 @@ Various tones are produced by sounds of different frequencies. Because buzzers c
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/24img.png)    
 
 
-## Chapter7 Music   
+## Chapter7 Music       
+-----------------       
 **Curriculum question:** 
 1. What is music?    
 2. How do you use sizeof()?    
@@ -578,7 +583,7 @@ More info: <https://www.arduino.cc/reference/en/language/variables/utilities/pro
 
 
 ## Chapter8 Buzzer-Timer   
-
+------------------------         
 **Curriculum question:** 
 1. How do you use a timer to make a buzzer sound?       
 
@@ -625,7 +630,8 @@ void loop() {
 ```
 
 
-## Chapter9 Microphone   
+## Chapter9 Microphone          
+----------------------          
 **Curriculum question:** 
 1. What is a microphone?   
 
@@ -658,7 +664,8 @@ int voiceAnalogValue;
 voiceAnalogValue = analogRead(A6);
 ```
 
-## Chapter10 Music LED     
+## Chapter10 Music LED             
+----------------------            
 **Curriculum question:** 
 1. What is logical and: &&    
 2. What is a jump statement: goto   
@@ -760,7 +767,8 @@ value = min(255,200); //value equals 200
 ```
 More info: <https://www.arduino.cc/reference/en/language/functions/math/min/>    
 
-## Chapter11 EEPROM   
+## Chapter11 EEPROM            
+-------------------            
 **Curriculum question:** 
 1. EEPROM (Electrically Erasable Programmable Read-Only Memory)
 2. 1-Wire protocol
@@ -874,7 +882,7 @@ int Power = BMW.power;
 
 
 ## Chapter12 Thermohygrometer  
-
+-----------------------------
 **Curriculum question:** 
 1. What is a Thermohygrometer?   
 2. How to use variables: long, unsigned long   
@@ -988,7 +996,7 @@ void displayHumidity(float H){
 
 
 ## Chapter13 IR receiver   
-
+------------------------
 **Curriculum question:** 
 1. What is an infrared receiving sensor?      
 
@@ -1109,7 +1117,7 @@ Infrared remote control to send control data through the infrared transmitter to
 For example, we can program the UNO board to turn on the LED when it receives the value of key 1 on the remote control, and turn off the LED when the value of key 2 is received. The buzzer beeps when the value of key 3 is received, stops beeping when the value of key 4 is received, and so on. If we extend some other sensors, then we can implement more functions. For a more advanced idea, we can also make our own smart home system.    
 
 ## Chapter14 Ultrasonic   
-
+-----------------------
 **Curriculum question:** 
 1. What is Ultrasonic module?    
 2. What is pulse?     
@@ -1166,7 +1174,7 @@ The length of the pulse (in microseconds) or 0 if no pulse started before the ti
 More info: <https://www.arduino.cc/reference/en/language/functions/advanced-io/pulsein/>     
 
 ## Chapter15 Ultrasonic testing instrument  
-
+------------------------------------------
 **Curriculum question:**      
 1. What is a function that returns a value?      
 2. how to use the logic statements: ||       
@@ -1244,7 +1252,8 @@ if(keyValue == 8 || keyValue == 4 || keyValue == 2 || keyValue == 1){
 More info: <https://www.arduino.cc/reference/en/language/structure/boolean-operators/logicalor/>    
 
 
-## Chapter16 Fan-PWM   
+## Chapter16 Fan-PWM              
+-------------------- 
 **Curriculum question:**      
 1. What is a fan?    
 2. How to control the fan?          
@@ -1349,7 +1358,8 @@ After power on, the more up push the potentiometer on the expansion board, the f
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/67img.png)    
 
 
-## Chapter17 Smart fan     
+## Chapter17 Smart fan       
+----------------------
 **Curriculum question:**     
 1. How to Improve your programming skills?   
 

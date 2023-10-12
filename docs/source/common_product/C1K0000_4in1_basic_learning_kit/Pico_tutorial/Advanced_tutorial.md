@@ -1,12 +1,14 @@
 # Advanced tutorial   
 Learn the communication protocol, driver programming and MicroPyhotn module based on the "Pico board + expansion board" to learn MicroPython programming at the lowest cost.         
 
-## Previous preparation   
+## Previous preparation    
+-----------------------
 **Pico and Thonny basics:**     
 If you don't have Pico and Thonny basics, you can follow the link to learn the basics: [Click Me](../../../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md)    
 
 
 ## Chapter1 Module for Pico    
+---------------------------       
 When you have multiple xx.py files, you can put them in a single folder to form a module file.      
 1\. Create a new folder with an empty "\_\_init\_\_.py" file inside:     
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Advanced_tutorial/1img.png)       
@@ -45,6 +47,7 @@ while True:                      # Always empty loop
 
 
 ## Chapter2 Serial port      
+----------------------- 
 **1. Puzzled**    
 There are many serial port products on the market, such as RS232, RS485, TTL, which can be divided into simplex, half-duplex and full-duplex communication, but they cannot be used together, which can easily confuse everyone. This is because people don't know the difference between them. Now let's study them in detail and divide them into protocol layer, physical layer and communication to explain.       
 
@@ -158,7 +161,8 @@ The serial port we are talking about is an overview. The interface that can send
 3. Simplex, half-duplex, and full-duplex communication only stipulate the direction of data transmission at the same time, and do not involve any data transmission protocol and electrical properties.      
 
 
-## Chapter3 I2C communication protocol   
+## Chapter3 I2C communication protocol      
+--------------------------------------
 **1. Overview**      
 I2C is a communication protocol developed by Philips Semiconductor for data transfer between a host and multiple slaves on the same circuit board using two common wires.    
 This is a synchronous serial communication protocol where the data bits are transmitted one after the other according to a pulse signal set by a clock line.    
@@ -226,7 +230,8 @@ When the SDA line has transmitted the required data block, the master switches t
 More info: [I2C](../../../_static/pdf/communication_protocol/UM10204%28I2C_Bus_Specification_and_User_Manual_%29.pdf)
 
 
-## Chapter4 SPI communication protocol     
+## Chapter4 SPI communication protocol   
+--------------------------------------            
 **1. Overview**       
 The Serial Peripheral Interface (SPI), developed by MOTOROLA in the 1980s, is a master-slave synchronous serial communication protocol. The interface of this protocol enables full-duplex communication at a very high speed, providing a simple and low-cost interface between the microcontroller and peripheral devices.     
 
@@ -273,7 +278,8 @@ Daisy chain configuration:
 More info: [SPI](../../../_static/pdf/communication_protocol/SPI_Block_Guide_V03.06.pdf)    
 
 
-## Chapter5 3-wire communication
+## Chapter5 3-wire communication          
+--------------------------------             
 **1. Overview**      
 This chapter will not explain the communication protocol, is based on 74HC595 serial input parallel output chip, explain the 3-wire communication mode.   
 
@@ -291,10 +297,12 @@ The 74HC595 has one 8-bit shift register, one memory register, and one 3-state p
 
 
 ## Chapter6 Infrared NEC communication protocol     
+-----------------------------------------------            
 Please refer to: [NEC communication protocol](../../../common_resource/nec_communication_protocol/nec_communication_protocol.md)      
 
 
 ## Chapter7 OneWire communication protocol     
+------------------------------------------           
 **1. Overview**      
 1-Wire is a bidirectional, half-duplex slow serial communication standard developed by Dallas Semiconductor Corp (now Maxim Integrated) that uses a single signal data line for communication. The standard data rate is 15.4kbps. But it is possible to overdrive 1-Wire communication to up to 125kbps.    
 

@@ -1,11 +1,13 @@
 # R1D0000_raspberry_pi4
 
 ## Overview
+-----------
 <img src="../../_static/raspberry/R1D0000_raspberry_pi4/2img.png" style="zoom:100%">  
 
 Official website: <https://www.raspberrypi.com/products/raspberry-pi-4-model-b>  
 
-## Specification
+## Specification        
+----------------
 - Broadcom BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC @ 1.8GHz  
 - 1GB, 2GB, 4GB or 8GB LPDDR4-3200 SDRAM (depending on model)  
 - 2.4 GHz and 5.0 GHz IEEE 802.11ac wireless, Bluetooth 5.0, BLE  
@@ -26,10 +28,12 @@ Official website: <https://www.raspberrypi.com/products/raspberry-pi-4-model-b>
 
 Note: A good quality 2.5A power supply can be used if downstream USB peripherals consume less than 500mA in total.  
 
-## Meet raspberry pi4
+## Meet raspberry pi4      
+---------------------
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/5img.jpg)  
 
-## GPIO Diagram
+## GPIO Diagram        
+---------------
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/3img.png)   
 For more details on the advanced capabilities of the GPIO pins see gadgetoid’s [interactive pinout diagram](http://pinout.xyz/).  
 
@@ -39,11 +43,13 @@ Use [WiringPi](../wiringpi/wiringpi.md) or [BCM2835](../bcm2835/bcm2835.md) libr
 **GPIO in Python**  
 Using the [GPIO Zero](https://gpiozero.readthedocs.io/) library makes it easy to get started with controlling GPIO devices with Python. The library is comprehensively documented at [gpiozero.readthedocs.io](https://gpiozero.readthedocs.io/).  
 
-## Dimensional drawing
+## Dimensional drawing       
+----------------------
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/4img.png)  
 Note: all dimensions in mm  
 
-## Set up raspberry pi4
+## Set up raspberry pi4        
+-----------------------
 Accessories to be prepared in advance:  
 | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/6img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/7img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/8img.png) |
 | :--: | :--: | :--: |
@@ -74,6 +80,7 @@ Insert the MicroSD card into the MicroSD card reader and insert the MicroSD card
 | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/22img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/23img.png) | ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/24img.png) |    
 
 ## Remote access to Raspberry Pi terminal (SSH)      
+-----------------------------------------------
 If you don't have a spare display, mouse and keyboard for your RPi, you can use a remote terminal to share a display, keyboard, and mouse with your PC.     
 
 Download [Putty.exe](https://www.putty.be/latest.html).  
@@ -88,7 +95,8 @@ raspberrypi.local
 <span style="color: rgb(255, 76, 65);">Note: The above operations must be on the same LAN.</span>  
 
 
-## Find the IP address of raspberry pi 4
+## Find the IP address of raspberry pi4          
+---------------------------------------  
 On Raspberry Pi OS, multicast DNS is supported out-of-the-box by the Avahi service.  
 If your PC supports mDNS, you can reach your Raspberry Pi by using its hostname and the .local suffix. The default hostname on a fresh Raspberry Pi OS install is raspberrypi, so by default any Raspberry Pi running Raspberry Pi OS responds to:  
 
@@ -119,7 +127,8 @@ Fill in the range of IP addresses to scan, and then scan.
 
 <span style="color: rgb(255, 76, 65);">Note: The above operations must be on the same LAN.</span>  
 
-## Transfer files from your PC to Raspberry pi 4.
+## Transfer files from your PC to Raspberry pi4           
+-----------------------------------------------
 Download [WinSCP](https://winscp.net/eng/index.php) and install it.  
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/32img.png)  
 
@@ -129,7 +138,8 @@ Log in to raspberry pi 4 using WinSCP.
 Drag and drop a file on your PC to raspberry pi 4.  
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/34img.png)  
 
-## Remote desktop (VNC) --> (Option)
+## Remote desktop (VNC) --> (Option)         
+------------------------------------
 VNC is already installed on the full Raspberry Pi OS image, and can be installed via **Recommended Software** from the **Preferences** menu on other versions.  
 If you are not using a desktop you can install it from the command line as follows:  
 ```command line
@@ -188,7 +198,8 @@ vncserver -kill :<display-number>
 
 This will also stop any existing connections to this virtual desktop.  
 
-## Linux command    
+## Linux command              
+----------------
 Raspberry Pi OS is based on the Linux Operation System. Now we will introduce you to some frequently used Linux commands and rules.
 First, open the Terminal. All commands are executed in Terminal.   
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/41img.png)       
@@ -198,7 +209,7 @@ First, type “ls” into the Terminal and press the “Enter” key. The result
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/42img.png)       
 The ”ls” command lists information about the files (the current directory by default).      
 
-Content between “\$” and ”pi\@raspberrypi:” is the current working path. “~” represents the user directory, which refers to “/home/pi” here.       
+Content between “\$” and ”pi@raspberrypi:” is the current working path. “~” represents the user directory, which refers to “/home/pi” here.       
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/43img.png)     
 
 “cd” is used to change directory. “/” represents the root directory.      
@@ -226,6 +237,7 @@ As shown below, under the '~' directory, you enter the Documents directory with 
 [Raspberry Pi 4 Model B mechanical drawing](https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-mechanical-drawing.pdf)  
 [Documentation including hardware and configuration](https://www.raspberrypi.com/documentation/)  
 
-## Troubleshooting
+## Troubleshooting    
+------------------
 Forums: <https://forums.raspberrypi.com/>  
 

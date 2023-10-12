@@ -1,15 +1,18 @@
 # R1E0000_solar_charging_shield_for_pico
 
-## Overview
+## Overview           
+-----------
 Based on the [Raspberry pi Pico](../R1D0001_raspberry_pico/R1D0001_raspberry_pico.md) design, this expansion board is very convenient for external connection of various sensors, integrated solar energy, USB charging function and 28BYJ-48 stepper motor drive function, and the power output is more powerful.         
 
 ## Specification    
+----------------
 • Output voltage and current: 3.3V/Max 0.8A and 5.0V/Max 1.5A        
 • Solar panel input voltage and current: 2-6V/Max 1A (Sum of port charging current of two solar panels)       
 • Micro-USB B port input voltage and current: 5V/Max 1A       
 • Size: 84\*72.5\*23.14mm       
 
-## Recommended battery specifications     
+## Recommended battery specifications      
+-------------------------------------
 • Model: 18650 lithium battery    
 • Capacity: >1000mAh, recommended 2000mAh    
 • Maximum charging voltage: 4.2V    
@@ -19,7 +22,8 @@ Based on the [Raspberry pi Pico](../R1D0001_raspberry_pico/R1D0001_raspberry_pic
 • Minimum discharge current: >4A     
 ![Img](../../_static/raspberry/R1E0000_solar_charging_shield_for_pico/1img.png)     
 
-## Function diagram
+## Function diagram           
+-------------------
 ![Img](../../_static/raspberry/R1E0000_solar_charging_shield_for_pico/2img.jpg)    
 1. Single-cell 18650 lithium battery holder     
 2. Two solar panels connect ports(XH2.54-2P), they are connected in parallel.      
@@ -37,7 +41,8 @@ Based on the [Raspberry pi Pico](../R1D0001_raspberry_pico/R1D0001_raspberry_pic
 14. XH2.54-3P IO ports(GND-3V3-GP2 and GND-3V3-GP3).     
 15. (Not identified) Battery voltage read pin: GP28, the analog value of the voltage read by the pin is 1/2 of the battery.     
 
-## Resource
+## Resource          
+-----------
 [SCH](../../_static/pdf/R1E0000_solar_charging_shield_for_pico/Sch.PDF)  
 [Sample code](https://github.com/Mosiwi/Mosiwi-space-station-kit-for-pico)
 

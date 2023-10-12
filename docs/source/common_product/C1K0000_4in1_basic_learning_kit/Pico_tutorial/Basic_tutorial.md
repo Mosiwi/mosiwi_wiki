@@ -3,13 +3,15 @@ This tutorial is based on the [C1K0001 4in1 basic learning kit](../../C1K0000_4i
 
 Learn simple programming syntax based on the Pico board, and learn the most comprehensive Python basics in the fastest way.     
 
-## What is MicroPython?
+## What is MicroPython?      
+-----------------------
 MicroPython is a full implementation of the Python 3 programming language that runs directly on embedded hardware like Raspberry Pi Pico. You get an interactive prompt (the REPL) to execute commands immediately via USB Serial, and a built-in filesystem. The Pico port of MicroPython includes modules for accessing low-level chip-specific hardware.      
 1. The [MicroPython](https://micropython.org/)
 2. The [MicroPython Forums](https://forum.micropython.org/)  
 3. MicroPython is a language derived from Python, so it is recommended to learn [Python](https://docs.python.org/3/reference/index.html) first.   
 
-## Prepared knowledge    
+## Prepared knowledge     
+---------------------         
 **Learn about:** [**Basic learning shield**](../../../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md).  
 
 **Learn about:** [**3in1 basic learning shield**](../../../common_product/C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md).  
@@ -25,9 +27,11 @@ Please download the sample code on Github: <https://github.com/Mosiwi/Mosiwi-bas
 Unzip the file downloaded above, and the file in the "**pico->microPython**" folder is the sample code.       
 
 ## Wiring diagram      
+-----------------        
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Basic_tutorial/2img.jpg)    
 
 ## Basic_chapter Blink      
+----------------------            
 **Objective:**     
 1. Open the example code.     
 2. Upload and run code.   
@@ -116,7 +120,8 @@ while(1):                    # An infinite loop statement.
 
 
 
-## Chapter1 Button      
+## Chapter1 Button    
+------------------               
 **Objective:**     
 1. What is button?     
 2. What is resistance? 
@@ -230,6 +235,7 @@ if a > 2:
 
 
 ## Chapter2 Buzzer   
+------------------             
 **Objective:**     
 1. What is PWM output?      
 2. What is buzzer?    
@@ -315,7 +321,8 @@ for i in range(0, 65536):     # The loop executes the next two statements 65,536
 ```
 
 
-## Chapter3 Potentiometer   
+## Chapter3 Potentiometer    
+-------------------------          
 **Objective:**    
 1. What is voltage?    
 2. What is potentiometer?         
@@ -439,7 +446,8 @@ The result is 1.
 ```
 
 
-## Chapter4 Timer   
+## Chapter4 Timer        
+-----------------           
 **Objective:**     
 1. What is timer?           
 
@@ -511,7 +519,8 @@ def mycallback(t):           # Timed interrupt function
 
 
 
-## Chapter5 Watchdog      
+## Chapter5 Watchdog       
+--------------------              
 **Objective:**     
 1. What is Watchdog?             
 

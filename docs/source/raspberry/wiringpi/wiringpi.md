@@ -1,13 +1,15 @@
 # WiringPi
 
-## About
+## About      
+--------
 [WiringPi](http://wiringpi.com/) is a PIN based GPIO access library written in C for the BCM2835, BCM2836 and BCM2837 SoC devices used in all Raspberry Pi. versions. The source code is not publicly available but may be made available to those who wish commercial support.  
 
 It is designed for use with C and RTB (BASIC) ON THE RASPBERRY PI ONLY.  
 
 It’s designed to be familiar to people who have used the Arduino “wiring” system1 and is intended for use by experienced C/C++ programmers.  
 
-## Install  
+## Install      
+----------
 To update or install on a Raspbian-Lite system:  
 ```terminal
 sudo apt-get install wiringpi
@@ -25,7 +27,8 @@ gpio readall
 ```
 ![Img](../../_static/raspberry/wiringpi/2img.png)  
 
-## WiringPi updated to 2.52 for the Raspberry Pi 4B
+## WiringPi updated to 2.52 for the Raspberry Pi 4B       
+---------------------------------------------------
 Just a quick post to let you know that you’ll need a new wiringPi for the Raspberry Pi 4B.  
 
 To upgrade:  
@@ -35,7 +38,8 @@ wget https://project-downloads.drogon.net/wiringpi-latest.deb
 sudo dpkg -i wiringpi-latest.deb
 ```
 
-## Example
+## Example          
+----------
 Use the [nano tool](https://www.nano-editor.org) that comes with the Raspberry PI system to create a new **"blick.c"** file:     
 ```terminal
 sudo nano blink.c

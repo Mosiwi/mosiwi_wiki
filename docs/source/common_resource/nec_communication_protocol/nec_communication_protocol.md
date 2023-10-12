@@ -1,5 +1,6 @@
 # NEC communication protocol
-## Overview
+## Overview    
+-----------
 The NEC IR transmission protocol uses pulse distance encoding of the message bits. Each pulse burst (mark – RC transmitter ON) is 562.5µs in length, at a carrier frequency of 38kHz (26.3µs).   
 
 Logical bits are transmitted as follows:   
@@ -29,7 +30,8 @@ Notice from Figure 1 that it takes:
 ■ 67.5ms to fully transmit the message frame (discounting the final 562.5µs pulse burst that signifies the end of message).  
 
 
-## REPEAT CODES
+## REPEAT CODES    
+---------------
 If the key on the remote controller is kept depressed, a repeat code will be issued, typically around 40ms after the pulse burst that signified the end of the message. A repeat code will continue to be sent out at 108ms intervals, until the key is finally released. The repeat code consists of the following, in order:  
 ■ a 9ms leading pulse burst  
 ■ a 2.25ms space  
