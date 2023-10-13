@@ -37,10 +37,24 @@ RGB LED lights flash red, green, blue, yellow, cyan, mauve and white.
 **FAQ:** 
 (1) What is resistance?   
 The resistance of a conductor to the current is called its resistance. The greater the resistance of the conductor, the greater the obstruction effect of the conductor on the current. The resistance of a conductor is usually represented by the R symbol, the unit of resistance is ohms, and the symbol is Ω.     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/85img.png)
 
 Resistance is defined by the ratio of the voltage U at the two ends of the conductor to the current I passing through the conductor:      
 $$R=U/I$$     
 
+3-bit digital SMD resistor:(5%): 
+Its resistance value can be obtained by calculating the code of the surface.      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/86img.jpg)
+
+4-bit digital SMD resistor:(1%): 
+Its resistance value can be obtained by calculating the code of the surface.      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/87img.jpg)
+
+Code precision SMD resistors(1%):    
+Read the code on its surface and look up the table to get its resistance value.       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/88img.jpg)
+
+Plug-in resistors:     
 Color ring resistor uses different colors to show the resistance and accuracy, as shown below:    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/4img.png)    
 
@@ -390,9 +404,8 @@ Examples:
 ## Chapter5 Buzzer             
 ------------------             
 **Curriculum question:** 
-1. What is buzzer?    
-2. What is MOS transistor?    
-3. How do you use the tone() and notone() functions?       
+1. What is buzzer?       
+2. How do you use the tone() and notone() functions?       
 
 **Schematic diagram:**           
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/76img.png)            
@@ -422,18 +435,7 @@ As for the passive buzzer, additional drive circuits are required. The frequency
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/18img.png)    
 The extension board integrates a patch passive buzzer that is controlled by the 9 pins of the UNO board when the extension board is directly inserted into the UNO board.    
 
-(2) What is MOS transistor?    
-MOS, is MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) abbreviation.      
-Mosfets are four-terminal devices with source (S), gate (G), drain (D), and body (B) terminals. Typically, the B terminal is connected to the S terminal, resulting in a three-terminal device. MOS transistors can be divided into enhanced MOS transistors and depletion MOS transistors, which can be subdivided into N-channel MOS transistors and p-channel MOS transistors. The enhanced MOS transistors are more widely used in the two types.     
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/19img.png)    
-
-MOS transistors are commonly used as switches. If the voltage between the drain and the source reaches the threshold voltage, the G and S poles are conducted, otherwise they are not conducted. Common circuits are as follows:   
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/20img.png)    
-
-A 2N7002 MOS is used on the extension board to drive the buzzer. It is an enhanced N-channel MOS. When a voltage greater than 2.5V is applied to its gate, the MOS drain and source electrodes are on, and therefore, the buzzer is on. Otherwise the buzzer is open.   
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/21img.png)    
-
-(3) How do you use the tone() and notone() functions?   
+(2) How do you use the tone() and notone() functions?   
 The tone() and notone() functions are built-in libraries in the Arduino IDE that you can call directly.    
 
 The tone() function:     

@@ -13,11 +13,12 @@ Learn simple programming syntax based on the UNO board, and learn the most compr
 ------------------
 **Curriculum question:**     
 1. What is LED light ?     
-2. What are functions and function parameters?
-3. setup() and loop() functions in Arduino program.    
-4. How to set up and use digital outport?   
-5. How to use the delay() delay function?  
-6. How to use the comment symbols in the code: //, /* ... */    
+2. What is MOS transistor?
+3. What are functions and function parameters?
+4. setup() and loop() functions in Arduino program.    
+5. How to set up and use digital outport?   
+6. How to use the delay() delay function?  
+7. How to use the comment symbols in the code: //, /* ... */    
 
 **Schematic diagram:**           
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/65img.png)            
@@ -40,17 +41,36 @@ The RGB LED on the expansion board emits a red light every 1 second.
 **FAQ:**      
 (1) What is LED light?    
 Leds are also known as light-emitting diodes. It has positive and negative poles, generally the shorter pin or the pin near the gap is the negative pole, and the other end is the positive pole. Only when the forward current is connected, the LED light will be lit. Its current is generally required to be about 5-15ma, so resistors are often used in series with leds to achieve current limiting.     
-![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/3img.png)     
-<span style="color: rgb(255, 76, 65);">Note: RGB led is a combination of red, green and blue leds.</span>      
 
-(2)What are functions and function parameters?
+Plug-in LED:      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/3img.png)     
+
+SMD LED:      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/74img.png)     
+
+RGB LED:     
+It is a combination of red, green and blue LEDs. By controlling the intensity of the light emitted by the LEDs of 3 colors and fusing the 3 lights together, various light sources can be produced.          
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/70img.png)     
+
+(2) What is MOS transistor?
+MOS, is MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) abbreviation.      
+Mosfets are four-terminal devices with source (S), gate (G), drain (D), and body (B) terminals. Typically, the B terminal is connected to the S terminal, resulting in a three-terminal device. MOS transistors can be divided into enhanced MOS transistors and depletion MOS transistors, which can be subdivided into N-channel MOS transistors and p-channel MOS transistors. The enhanced MOS transistors are more widely used in the two types.     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/71img.png)    
+
+MOS transistors are commonly used as switches. If the voltage between the drain and the source reaches the threshold voltage, the G and S poles are conducted, otherwise they are not conducted. Common circuits are as follows:   
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/72img.png)    
+
+A 2N7002DW1T1G MOS is used to drive the buzzer on the extension board. It is a dual-body enhanced n-channel MOS transistor that uses one of the MOS to drive the buzzer. When a voltage greater than 2V is applied to its gate, the MOS drain and source are energized and therefore the buzzer is energized. Otherwise the buzzer is on.       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/73img.png)     
+
+(3)What are functions and function parameters?
 When we want to program to achieve a function, we need to use a variety of programming language statements, variables, functions, etc., in order to facilitate the maintenance and reading of the code, we need to wrap them together, and then use a name to represent this function, call this name that calls these statements, variables, functions, etc., this is the concept of function.      
 The inside of the function is shielded from the outside, when we need to transfer some data to the inside of the function, at this time we need to use the parameters of the function, the function parameters are the bridge between the outside and the inside of the function, and it is one-way, that is, from the outside to the inside of the function.      
 
-(3) "setup()" and "loop()" functions in Arduino program.
+(4) "setup()" and "loop()" functions in Arduino program.
 "setup()" and "loop()" are two functions defined by Arduino. All Arduino programs have and only have one "setup()" and "loop()" functions. When the arduino program is running, the code inside "setup()" is executed first, and then the code inside "loop()" is looped.     
 
-(4) How to set the I/O port to digital output mode?     
+(5) How to set the I/O port to digital output mode?     
 Pins 2-13，A0-A5 on the UNO board can be set to digital output mode to output logic "0" (low level, 0V) and logic "1" (high level, 5V) on the pin.     
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Basic_tutorial/10img.png)      
 ```
@@ -78,7 +98,7 @@ value: HIGH or LOW.
 "HIGH" : High level, digital value is 1, voltage value is 5V.
 LOW: Low level, digital value is 0, voltage value is 0V.   
 ```
-(5) How to use the delay() function?    
+(6) How to use the delay() function?    
 The delay() function is used to pause the program for a period of time, which can be customized.    
 ```
 Syntax:
@@ -88,7 +108,7 @@ Parameters:
 ms: The value ranges from 0 to 4294967295, in milliseconds.
 ```
 
-(6) How to use the comment symbols in the code: //, /\*...\*/
+(7) How to use the comment symbols in the code: //, /\*...\*/
 When we want to parse the function and function of the code with text, we need to use the single-line comment (//) and block comment symbols(/\*...\*/). The text after the comment does not participate in the code running, but is only used to parse the code.     
 ```
 Syntax:

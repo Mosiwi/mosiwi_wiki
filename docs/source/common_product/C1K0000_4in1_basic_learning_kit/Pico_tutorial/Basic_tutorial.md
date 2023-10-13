@@ -135,7 +135,7 @@ while(1):                    # An infinite loop statement.
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Basic_tutorial/9img.png)    
 
 **Open the example code: "button\.py"**     
-1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
+1. Open the sample code using the methods in **"[Basic_example](./Basic_tutorial.md#basic-chapter-blink)"**.     
 2. Run the example code online.      
 
 **Example code phenomena:**         
@@ -149,10 +149,24 @@ The key is A press switch, as shown in the following figure, A and B, C and D ar
 
 (2) What is resistance?
 The resistance of a conductor to the current is called its resistance. The greater the resistance of the conductor, the greater the obstruction effect of the conductor on the current. The resistance of a conductor is usually represented by the R symbol, the unit of resistance is ohms, and the symbol is Ω.     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Basic_tutorial/35img.png)
 
 Resistance is defined by the ratio of the voltage U at the two ends of the conductor to the current I passing through the conductor:      
 $$R=U/I$$     
 
+3-bit digital SMD resistor:(5%): 
+Its resistance value can be obtained by calculating the code of the surface.      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Basic_tutorial/32img.jpg)
+
+4-bit digital SMD resistor:(1%): 
+Its resistance value can be obtained by calculating the code of the surface.      
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Basic_tutorial/33img.jpg)
+
+Code precision SMD resistors(1%):    
+Read the code on its surface and look up the table to get its resistance value.       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Basic_tutorial/34img.jpg)
+
+Plug-in resistors:     
 Color ring resistor uses different colors to show the resistance and accuracy, as shown below:    
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Basic_tutorial/23img.png)    
 
@@ -216,9 +230,9 @@ else:
 
 In the sample code: 
 if button_value == 1:          # Check whether the value of the key is 1, if so, turn off the LED.
-    G_LED.off()                # Set pin to "off" (low) level
+    G_LED.off()                # Set pin to "off" (low: 0V) level
 else:                          # If the value of the key is not 1, the LED is turned on.
-    G_LED.on()                 # Set pin to "on" (high) level
+    G_LED.on()                 # Set pin to "on" (high: 3.3V) level
 ```
 
 Additional knowledge: if    
@@ -239,7 +253,8 @@ if a > 2:
 ------------------             
 **Objective:**     
 1. What is PWM output?      
-2. What is buzzer?    
+2. What is buzzer?   
+3. What is MOS transistor?      
 
 **Pins to be used:**   
 1. Buzzer: GP6  
@@ -248,7 +263,7 @@ if a > 2:
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Basic_tutorial/12img.png)    
 
 **Open the example code: "buzzer\.py"**     
-1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
+1. Open the sample code using the methods in **"[Basic_example](./Basic_tutorial.md#basic-chapter-blink)"**.     
 2. Run the example code online. 
 
 **Example code phenomena:**         
@@ -267,6 +282,18 @@ See more: [PWM for Pico](https://docs.micropython.org/en/latest/rp2/quickref.htm
 
 (2) What is buzzer?    
 See: [Buzzer](../Arduino_tutorial/Intermediate_tutorial.md#chapter5-buzzer)    
+
+(3) What is MOS transistor?
+MOS, is MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) abbreviation.      
+Mosfets are four-terminal devices with source (S), gate (G), drain (D), and body (B) terminals. Typically, the B terminal is connected to the S terminal, resulting in a three-terminal device. MOS transistors can be divided into enhanced MOS transistors and depletion MOS transistors, which can be subdivided into N-channel MOS transistors and p-channel MOS transistors. The enhanced MOS transistors are more widely used in the two types.     
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Basic_tutorial/29img.png)    
+
+MOS transistors are commonly used as switches. If the voltage between the drain and the source reaches the threshold voltage, the G and S poles are conducted, otherwise they are not conducted. Common circuits are as follows:   
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Basic_tutorial/30img.png)    
+
+A 2N7002DW1T1G MOS is used to drive the buzzer on the extension board. It is a dual-body enhanced n-channel MOS transistor that uses one of the MOS to drive the buzzer. When a voltage greater than 2V is applied to its gate, the MOS drain and source are energized and therefore the buzzer is energized. Otherwise the buzzer is on.       
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Basic_tutorial/31img.png)    
+
 
 **Code analysis:**          
 range() function:   
@@ -336,7 +363,7 @@ for i in range(0, 65536):     # The loop executes the next two statements 65,536
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Basic_tutorial/16img.png)    
 
 **Open the example code: "potentiometer\.py"**     
-1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
+1. Open the sample code using the methods in **"[Basic_example](./Basic_tutorial.md#basic-chapter-blink)"**.     
 2. Run the example code online. 
 
 **Example code phenomena:**         
@@ -459,7 +486,7 @@ The result is 1.
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Pico_tutorial/Basic_tutorial/19img.png)    
 
 **Open the example code: "timer\.py"**     
-1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
+1. Open the sample code using the methods in **"[Basic_example](./Basic_tutorial.md#basic-chapter-blink)"**.     
 2. Run the example code online. 
 
 **Example code phenomena:**            
@@ -526,7 +553,7 @@ def mycallback(t):           # Timed interrupt function
 1. What is Watchdog?             
 
 **Open the example code: "wdt\.py"**     
-1. Open the sample code using the methods in **"[Basic_example](./python_tutorial.md#basic-example-blink)"**.     
+1. Open the sample code using the methods in **"[Basic_example](./Basic_tutorial.md#basic-chapter-blink)"**.     
 2. Run the example code online. 
 
 **Example code phenomena:**         
