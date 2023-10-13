@@ -53,6 +53,7 @@ Its resistance value can be obtained by calculating the code of the surface.
 Code precision SMD resistors(1%):    
 Read the code on its surface and look up the table to get its resistance value.       
 ![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/88img.jpg)
+![Img](../../../_static/common_product/C1K0000_4in1_basic_learning_kit/Arduino_tutorial/Intermediate_tutorial/89img.jpg)
 
 Plug-in resistors:     
 Color ring resistor uses different colors to show the resistance and accuracy, as shown below:    

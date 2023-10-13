@@ -15,10 +15,10 @@ This is a very interesting light cube that can be used for learning programming 
 
 ## List    
 -------
-| PCB cube | Acrylic cube | HX-2.54 4P to male duport wire | HX-2.54 4P to female duport wire |
+| PCB cube | Acrylic cube | HX-2.54 4P to M-duport wire | HX-2.54 4P to F-duport wire |
 | :--: | :--: | :--: | :--: |
 | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/29img.jpg) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/30img.png) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/31img.png) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/28img.png) |    
-| HX-2.54 4P duport wire | M3\*8mm flat-head screw | M3 nuts |  |    
+| HX-2.54 4P M-M wire | M3\*8mm flat-head screw | M3 nuts |  |    
 | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/27img.png) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/25img.png) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/26img.png) |  |   
 
 ## Assembly steps      
@@ -29,7 +29,7 @@ Please refer to: [Link]()
 ----------------
 If you have multiple cubes, you can string them together as follows.    
 ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/3img.png)    
-![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/6img.png)
+![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/6img.jpg)
 
 ## Download library file     
 ------------------------
@@ -104,6 +104,7 @@ Run the code offline. (The code is stored in pico, and the code in pico is autom
 --------------------
 **Pi4 basics (Important):**   
 If you don't have Pi4 basics, you can follow the link to learn the basics: [Click Me](../../raspberry/R1D0000_raspberry_pi4/R1D0000_raspberry_pi4.md)  
+
 Install the GPIO library for Raspberry pi4 (<span style="color: rgb(255, 76, 65);">Necessary condition</span>):                 
 1. Install the [Wiringpi](../../raspberry/wiringpi/wiringpi.md)   
 2. Install the [BCM2835](../../raspberry/bcm2835/bcm2835.md)     

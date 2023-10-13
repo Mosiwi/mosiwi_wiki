@@ -22,7 +22,7 @@ The electric fan is a device that electrically drives the motor to generate air 
 ----------------
 |Input Pin|Input Pin|Output Pin|Output Pin| Motor |
 |  :--:   |  :--:   |   :--:   |   :--:   |  :--: |
-|   IBA   |   INB   |    OA    |    OB    | State |
+|   INA   |   INB   |    OA    |    OB    | State |
 |    L    |    L    |    L     |    L     | Brake |
 |    L    |    H    |    L     |    H     | Positive/reverse turn |
 |    H    |    L    |    H     |    L     | Reverse/positive turn |
