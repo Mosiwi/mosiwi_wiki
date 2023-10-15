@@ -41,7 +41,7 @@ Welcome to Mosiwi Wiki's documentation!
    Arduino <arduino/arduino_index/arduino_index.md>
    Raspberry <raspberry/raspberry_index/raspberry_index.md>
    Micro:bit <microbit/microbit_index/microbit_index.md>  
-   Common <common_product/common_product_index/common_product_index.md>        
+   Common <common/common_index/common_index.md>        
    
    Resources <index_rst/all_index.rst>          
    

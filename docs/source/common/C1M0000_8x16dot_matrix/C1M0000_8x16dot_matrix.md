@@ -1,6 +1,6 @@
 # C1M0000_8x16dot_matrix        
 ------------------------
-![Img](../../_static/common_product/C1M0000_8x16dot_matrix/3img.png)    
+![Img](../../_static/common/C1M0000_8x16dot_matrix/3img.png)    
 
 ## Specification    
 ----------------  
@@ -13,11 +13,11 @@
 • Size: 64.54\*29.0mm       
 • Driver chip: [HT16K33](../../_static/pdf/chip/ht16k33.PDF)          
 Because the booster circuit of the module can only provide a maximum current of 400mA, the maximum drive brightness of the HT16K33 can only be less than 10/16 duty, as shown below:         
-![Img](../../_static/common_product/C1M0000_8x16dot_matrix/1img.png)        
+![Img](../../_static/common/C1M0000_8x16dot_matrix/1img.png)        
 
 ## Dimension figure      
 -------------------  
-![Img](../../_static/common_product/C1M0000_8x16dot_matrix/2img.png)      
+![Img](../../_static/common/C1M0000_8x16dot_matrix/2img.png)      
 
 ## Sample code     
 -------------- 

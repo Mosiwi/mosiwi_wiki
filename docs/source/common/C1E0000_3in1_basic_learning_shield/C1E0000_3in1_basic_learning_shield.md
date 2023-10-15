@@ -1,6 +1,6 @@
 # C1E0000_3in1_basic_learing_shield          
 -----------------------------------
-![Img](../../_static/common_product/C1E0000_3in1_basic_learning_shield/1img.png)  
+![Img](../../_static/common/C1E0000_3in1_basic_learning_shield/1img.png)  
 The 3in1 Basic learning shield enables the [arduino Basic Learning shield](../../arduino/A1E0000_basic_learing_shield/A1E0000_basic_learing_shield.md) to be used on microbit, raspberry pico, and raspberry pi. And provides the corresponding tutorial and sample code, use is very convenient and simple.  
 
 ## Specification         
@@ -13,7 +13,7 @@ The 3in1 Basic learning shield enables the [arduino Basic Learning shield](../..
 
 ## Meet 3in1 basic learing shield              
 ---------------------------------
-| ![Img](../../_static/common_product/C1E0000_3in1_basic_learning_shield/2img.png) |
+| ![Img](../../_static/common/C1E0000_3in1_basic_learning_shield/2img.png) |
 | :-- |
 | 1. Microbit motherboard slot.|
 | 2. Raspberry PICO motherboard slot. |
@@ -26,20 +26,20 @@ The 3in1 Basic learning shield enables the [arduino Basic Learning shield](../..
 
 ## Schematic diagram             
 --------------------
-![Img](../../_static/common_product/C1E0000_3in1_basic_learning_shield/3img.png)  
+![Img](../../_static/common/C1E0000_3in1_basic_learning_shield/3img.png)  
 
 ## Dimensional drawing            
 ----------------------
-![Img](../../_static/common_product/C1E0000_3in1_basic_learning_shield/4img.png)  
+![Img](../../_static/common/C1E0000_3in1_basic_learning_shield/4img.png)  
 
 ## IO expand              
 ------------
 The 3in1 basic learing shield is integrated with an IO expansion chip, which is an I2C slave chip and the slave address is 0x5a. The microbit, raspberry pico, and raspberry pi communicate with the chip through the I2C interface, which can be expanded with 2 analog input ports, and an infrared receive sensor communication port (NEC).  
 
-![Img](../../_static/common_product/C1E0000_3in1_basic_learning_shield/5img.png)  
+![Img](../../_static/common/C1E0000_3in1_basic_learning_shield/5img.png)  
 
 **I2C Communication protocol:**  
-![Img](../../_static/common_product/C1E0000_3in1_basic_learning_shield/6img.png)  
+![Img](../../_static/common/C1E0000_3in1_basic_learning_shield/6img.png)  
 <span style="color: rgb(255, 76, 65);">Maximum clock speed: 100K</span> 
 
 |  Slave address  |  IO address  |  2 bytes of data  |
