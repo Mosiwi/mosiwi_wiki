@@ -2,7 +2,7 @@
 
 ## Kit   
 ------
-| [C1K0000_4in1_basic_learning_kit](https://docs.mosiwi.com/projects/c1k0000/en/latest/&target=_blank){:target="_blank"} | [C1K0001_4x4x4led_cube_kit](https://docs.mosiwi.com/projects/c1k0001/en/latest/) | updating ... updating ... |
+| <a href="https://docs.mosiwi.com/projects/c1k0000/en/latest/" target="_blank">C1K0000_4in1_basic_learning_kit</a> | <a href="https://docs.mosiwi.com/projects/c1k0001/en/latest/" target="_blank">C1K0001_4x4x4led_cube_kit</a> | updating ... updating ... |
 | :--: | :--: | :--: |
 | ![img](../../_static/common/C1K0000_4in1_basic_learning_kit/1img.jpg) | ![Img](../../_static/common/C1K0001_4x4x4led_cube_kit/1img.jpg) | ![Img](../../_static/web_logo/updating.gif) |
 
@@ -19,3 +19,5 @@
 | ![Img](../../_static/outsourcing/O1M0000_ultrasonic_module/1img.png) | ![Img](../../_static/outsourcing/O1M0001_fan_module/1img.png) | ![Img](../../_static/common/C1M0000_8x16dot_matrix/3img.png) |    
 | [C1S0001_ir_receiver](../C1S0001_ir_receiver/C1S0001_ir_receiver.md) | [C1S0000_light_sensor](../C1S0000_light_sensor/C1S0000_light_sensor.md) | updating | 
 | ![Img](../../_static/common/C1S0001_ir_receiver/3img.png) | ![Img](../../_static/common/C1S0000_light_sensor/1img.png) | ![Img](../../_static/web_logo/updating.gif) | 
+
+<a href="www.squarespace.com" target="_blank">Squarespace</a>
