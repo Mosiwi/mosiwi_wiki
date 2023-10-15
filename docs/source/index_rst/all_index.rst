@@ -34,7 +34,9 @@ Resources
    ◆R1E0000_solar_charging_shield_for_pico <../raspberry/R1E0000_solar_charging_shield_for_pico/R1E0000_solar_charging_shield_for_pico.md>
    
    ◆C1E0000_3in1_basic_learning_shield <../common/C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md>
-    
+   ◆C1M0000_8x16dot_matrix <../common/C1M0000_8x16dot_matrix/C1M0000_8x16dot_matrix.md>
+   ◆C1S0000_light_sensor <../common/C1S0000_light_sensor/C1S0000_light_sensor.md>
+   ◆C1S0001_ir_receiver <../common/C1S0001_ir_receiver/C1S0001_ir_receiver.md>
    
    
    
