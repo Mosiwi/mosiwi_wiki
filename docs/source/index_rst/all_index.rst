@@ -3,14 +3,23 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-All
-===
 
 .. toctree::
    :maxdepth: 1
-   :caption: Contents:
+   :caption: Resources:
 	
    ◆Arduino_IDE <../arduino/arduino_ide/arduino_ide.md>
+   
+   ◆Ch340_driver <../common_resource/ch340_driver/ch340_driver.md>
+   ◆NEC_communication_protocol <../common_resource/nec_communication_protocol/nec_communication_protocol.md>
+   
+   ◆28BJY-48 <../outsourcing/28byj-48/28byj-48.md>
+   ◆NEC_ir_remote_control <../outsourcing/nec_ir_remote_control/nec_ir_remote_control.md>
+   ◆SG90_servo <../outsourcing/sg90_servo/sg90_servo.md>
+
+   ◆O1M0000_ultrasonic_module <../outsourcing/O1M0000_ultrasonic_module/O1M0000_ultrasonic_module.md>
+   ◆O1M0001_fan_module <../outsourcing/O1M0001_fan_module/O1M0001_fan_module.md>
+   
    ◆A1D0000_uno_r3 <../arduino/A1D0000_uno_r3/A1D0000_uno_r3.md>
    ◆A1D0001_m328_pro <../arduino/A1D0001_m328_pro/A1D0001_m328_pro.md>
    ◆A1E0000_basic_learning_shield <../arduino/A1E0000_basic_learning_shield/A1E0000_basic_learning_shield.md>
