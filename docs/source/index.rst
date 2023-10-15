@@ -43,5 +43,5 @@ Welcome to Mosiwi Wiki's documentation!
    Micro:bit <microbit/microbit_index/microbit_index.md>
    Common <common_product/common_product_index/common_product_index.md>
    
-   All <index_rst/all_index.rst>
+   Resources <index_rst/all_index.rst>
 
