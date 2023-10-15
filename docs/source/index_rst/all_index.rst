@@ -3,15 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+Resources
+=========
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Resources:
 	
    ◆Arduino_IDE <../arduino/arduino_ide/arduino_ide.md>
    
-   ◆Ch340_driver <../common_resource/ch340_driver/ch340_driver.md>
-   ◆NEC_communication_protocol <../common_resource/nec_communication_protocol/nec_communication_protocol.md>
+   ◆Ch340_driver <../resource/ch340_driver/ch340_driver.md>
+   ◆NEC_communication_protocol <../resource/nec_communication_protocol/nec_communication_protocol.md>
    
    ◆28BJY-48 <../outsourcing/28byj-48/28byj-48.md>
    ◆NEC_ir_remote_control <../outsourcing/nec_ir_remote_control/nec_ir_remote_control.md>
@@ -29,7 +31,7 @@
    ◆R1D0000_raspberry_pi4 <../raspberry/R1D0000_raspberry_pi4/R1D0000_raspberry_pi4.md>
    ◆R1D0001_raspberry_pico <../raspberry/R1D0001_raspberry_pico/R1D0001_raspberry_pico.md>
    
-   ◆C1E0000_3in1_basic_learning_shield <../common_product/C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md>
+   ◆C1E0000_3in1_basic_learning_shield <../common/C1E0000_3in1_basic_learning_shield/C1E0000_3in1_basic_learning_shield.md>
     
    
    
