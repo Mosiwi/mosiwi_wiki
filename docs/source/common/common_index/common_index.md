@@ -2,7 +2,7 @@
 
 ## Kit   
 ------
-| [C1K0000_4in1_basic_learning_kit](https://docs.mosiwi.com/projects/c1k0000/en/latest/?blank){:target="_blank"} | [C1K0001_4x4x4led_cube_kit](https://docs.mosiwi.com/projects/c1k0001/en/latest/?blank) | updating ... updating ... |
+| [C1K0000_4in1_basic_learning_kit](https://docs.mosiwi.com/projects/c1k0000/en/latest/?_blank){:target="_blank"} | [C1K0001_4x4x4led_cube_kit](https://docs.mosiwi.com/projects/c1k0001/en/latest/?_blank) | updating ... updating ... |
 | :--: | :--: | :--: |
 | ![img](../../_static/common/C1K0000_4in1_basic_learning_kit/1img.jpg) | ![Img](../../_static/common/C1K0001_4x4x4led_cube_kit/1img.jpg) | ![Img](../../_static/web_logo/updating.gif) |
 
