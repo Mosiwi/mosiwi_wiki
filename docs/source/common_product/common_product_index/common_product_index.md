@@ -2,9 +2,9 @@
 
 ## Kit   
 ------
-| [C1K0000_4in1_basic_learning_kit](https://docs.mosiwi.com/projects/c1k0000/en/latest) | [C1K0001_4x4x4led_cube_kit](../C1K0001_4x4x4led_cube_kit/C1K0001_4x4x4led_cube_kit.md) | updating ... updating ... |
+| [C1K0000_4in1_basic_learning_kit](https://docs.mosiwi.com/projects/c1k0000/en/latest) | [C1K0001_4x4x4led_cube_kit](https://docs.mosiwi.com/projects/c1k0001/en/latest) | updating ... updating ... |
 | :--: | :--: | :--: |
-| [![img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/1img.jpg)](https://docs.mosiwi.com/projects/c1k0000/en/latest) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/4img.jpg) | ![Img](../../_static/web_logo/updating.gif) |
+| [![img](../../_static/common_product/C1K0000_4in1_basic_learning_kit/1img.jpg)](https://docs.mosiwi.com/projects/c1k0000/en/latest) | ![Img](../../_static/common_product/C1K0001_4x4x4led_cube_kit/1img.jpg) | ![Img](../../_static/web_logo/updating.gif) |
 
 ## Expansion board   
 ------------------

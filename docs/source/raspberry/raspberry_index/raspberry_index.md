@@ -6,9 +6,9 @@ The Raspberry Pi Foundation is a UK-based charity with the mission to enable you
 
 ## Kit    
 ------
-| [R1K0000_space_station_kit](../R1K0000_space_station_kit/R1K0000_space_station_kit.md) | updating | updating |
+| [R1K0000_space_station_kit](https://docs.mosiwi.com/projects/r1k0000/en/latest/) | updating | updating |
 | :--: | :--: | :--: |
-| [![Img](../../_static/raspberry/R1K0000_space_station_kit/25img.png)](../R1K0000_space_station_kit/R1K0000_space_station_kit.md) | ![Img](../../_static/web_logo/updating.gif) | ![Img](../../_static/web_logo/updating.gif) |
+| [![Img](../../_static/raspberry/R1K0000_space_station_kit/1img.png)](https://docs.mosiwi.com/projects/r1k0000/en/latest/) | ![Img](../../_static/web_logo/updating.gif) | ![Img](../../_static/web_logo/updating.gif) |
 
 ## Motherboard    
 --------------
