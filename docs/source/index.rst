@@ -32,7 +32,7 @@ Welcome to Mosiwi Wiki's documentation!
 .. _Microbit: microbit/microbit_index/microbit_index.html
 
 .. |Commom| image:: _static/web_logo/common_logo.jpg
-.. _Commom: common_product/common_product_index/common_product_index.html
+.. _Commom: common/common_index/common_index.html
 
 .. toctree::
    :maxdepth: 2
