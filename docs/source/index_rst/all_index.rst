@@ -3,12 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Resources
-=========
+Resources index
+===============
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Resources:
+   :maxdepth: 1
+   :caption: Contents:
    
    ◆Ch340_driver <../resource/ch340_driver/ch340_driver.md>
    ◆NEC_communication_protocol <../resource/nec_communication_protocol/nec_communication_protocol.md>

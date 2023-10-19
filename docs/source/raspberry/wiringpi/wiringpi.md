@@ -9,18 +9,18 @@ It’s designed to be familiar to people who have used the Arduino “wiring” 
 ## Install      
 ----------
 To update or install on a Raspbian-Lite system:  
-```terminal
+```bash
 sudo apt-get install wiringpi
 ```
 
 Check with:
-```terminal
+```bash
 gpio -v
 ```
 ![Img](../../_static/raspberry/wiringpi/1img.png)  
 Pins definition of WiringPi GPIO Library:  
 
-```terminal
+```bash
 gpio readall
 ```
 ![Img](../../_static/raspberry/wiringpi/2img.png)  
@@ -30,7 +30,7 @@ gpio readall
 Just a quick post to let you know that you’ll need a new wiringPi for the Raspberry Pi 4B.  
 
 To upgrade:  
-```terminal
+```bash
 cd /tmp
 wget https://project-downloads.drogon.net/wiringpi-latest.deb
 sudo dpkg -i wiringpi-latest.deb
@@ -39,7 +39,7 @@ sudo dpkg -i wiringpi-latest.deb
 ## Example          
 ----------
 Use the [nano tool](https://www.nano-editor.org) that comes with the Raspberry PI system to create a new **"blick.c"** file:     
-```terminal
+```bash
 sudo nano blink.c
 ```
 Enter the following code in the file:  
@@ -60,15 +60,17 @@ int main (void)
 }
 ```
 When the editing is complete, save the file by typing the following command on the keyboard and exit the nano editor:  
-```terminal
+```bash
 Ctrl+O
 Ctrl+C
 ```
+
 then to compile and run, you would enter:  
-```terminal
+```bash
 gcc -Wall -o blink blink.c -lwiringPi
 sudo ./blink
 ```
+
 To see the output of this, you would need to connect a single LED to the GPIO connector of the Raspberry Pi as follows:   
 ![Img](../../_static/raspberry/wiringpi/3img.png)
 

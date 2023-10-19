@@ -99,11 +99,11 @@ On Raspberry Pi OS, multicast DNS is supported out-of-the-box by the Avahi servi
 If your PC supports mDNS, you can reach your Raspberry Pi by using its hostname and the .local suffix. The default hostname on a fresh Raspberry Pi OS install is raspberrypi, so by default any Raspberry Pi running Raspberry Pi OS responds to:  
 
 Open the **command prompt** on your PC and run the following command:  
-```command line
+```bash
 ping -4 raspberrypi.local
 ```
 or  
-```command line
+```bash
 ping -6 raspberrypi.local
 ```
 | ipv4 | ipv6 |
@@ -140,7 +140,7 @@ Drag and drop a file on your PC to raspberry pi 4.
 ------------------------------------
 VNC is already installed on the full Raspberry Pi OS image, and can be installed via **Recommended Software** from the **Preferences** menu on other versions.  
 If you are not using a desktop you can install it from the command line as follows:  
-```command line
+```bash
 sudo apt update
 sudo apt install realvnc-vnc-server realvnc-vnc-viewer
 ```
@@ -157,9 +157,10 @@ You can do this graphically or at the command line.
 <span style="color: rgb(255, 76, 65);">Enabling VNC Server at the command line</span>   
 
 You can enable VNC Server at the command line using raspi-config:  
-```command line
+```bash
 sudo raspi-config
 ```
+
 Now, enable VNC Server by doing the following:  
 ----Navigate to **Interfacing Options**.  
 ----Scroll down and select **VNC › Yes**.  
@@ -172,9 +173,10 @@ VNC Server can create a **virtual desktop** for you, giving you graphical remote
 
 To create and connect to a virtual desktop:  
 ----On your Raspberry Pi (using Terminal or via SSH), run **vncserver**. Make note of the **IP address/display number** that VNC Server will print to your Terminal (e.g. 192.167.5.149:1).  
-```command line
+```bash
 vncserver   
 ```     
+
 ![Img](../../_static/raspberry/R1D0000_raspberry_pi4/35img.png)
 
 ----Install [VNC Viewer](https://www.realvnc.com/download/viewer/), [find the IP of the Raspberry Pi](#find-the-ip-address-of-raspberry-pi-4), and then run VNC Viewer:            

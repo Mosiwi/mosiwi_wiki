@@ -75,8 +75,9 @@ When opening Thonny for the first time select "Standard Mode." For some versions
 ![Img](../../_static/raspberry/R1D0001_raspberry_pico/10img.png)  
 <span style="color: rgb(255, 76, 65);">Note: If there is no port selection, see the troubleshooting section below.</span>   
 3. You can now access the REPL from the Shell panel.  
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/11img.png)  
-```MicroPython  
+![Img](../../_static/raspberry/R1D0001_raspberry_pico/11img.png)   
+
+```python  
 >>> print('Hello Pico!')  
 Hello Pico!
 >>>
@@ -87,7 +88,8 @@ Create a new file:
 ![Img](../../_static/raspberry/R1D0001_raspberry_pico/17img.png)      
 
 Fill the file with the following code:      
-```MicroPython
+
+```python
 from machine import Pin, Timer
 
 led = Pin("LED", Pin.OUT)

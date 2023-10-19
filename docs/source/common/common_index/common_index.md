@@ -1,4 +1,4 @@
-# Common product index
+# Common index
 
 ## Kit   
 ------
