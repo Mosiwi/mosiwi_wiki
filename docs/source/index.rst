@@ -48,7 +48,7 @@ Welcome to Mosiwi Wiki's documentation!
    :maxdepth: 2
    :hidden:
    :caption: 📚 Resources:
-   Common <common/common_index/common_index.md>  
+ 
    Resources_index <index_rst/all_index.rst>          
    
 
