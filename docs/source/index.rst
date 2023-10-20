@@ -37,13 +37,17 @@ Welcome to Mosiwi Wiki's documentation!
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Contents:
+   :caption: 🚀 Products:
    
    Arduino <arduino/arduino_index/arduino_index.md>
    Raspberry <raspberry/raspberry_index/raspberry_index.md>
    Micro:bit <microbit/microbit_index/microbit_index.md>  
    Common <common/common_index/common_index.md>        
    
-   Resources <index_rst/all_index.rst>          
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: 📚 Resources:
+   Resources_index <index_rst/all_index.rst>          
    
 
