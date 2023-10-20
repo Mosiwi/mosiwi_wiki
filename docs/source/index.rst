@@ -49,6 +49,6 @@ Welcome to Mosiwi Wiki's documentation!
    :hidden:
    :caption: 📚 Resources:
  
-   Resources_index <index_rst/all_index.rst>          
+   Resources index <index_rst/all_index.rst>          
    
 
