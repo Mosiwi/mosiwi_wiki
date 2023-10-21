@@ -25,5 +25,6 @@ The Raspberry Pi Foundation is a UK-based charity with the mission to enable you
 
 ## Resource    
 -----------
-Official website: <https://www.raspberrypi.org>  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <https://www.raspberrypi.com>  
+Official website: 
+1. <https://www.raspberrypi.org>  
+2. <https://www.raspberrypi.com>  
