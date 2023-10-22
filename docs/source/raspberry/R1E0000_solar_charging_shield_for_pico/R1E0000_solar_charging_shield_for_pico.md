@@ -18,11 +18,11 @@ Based on the [Raspberry pi Pico](../R1D0001_raspberry_pico/R1D0001_raspberry_pic
 • End-off voltage: 2.75V    
 • Minimum charging current: >1A     
 • Minimum discharge current: >4A     
-![Img](../../_static/raspberry/R1E0000_solar_charging_shield_for_pico/1img.png)     
+![Img](./img/1img.png)     
 
 ## Function diagram           
 -------------------
-![Img](../../_static/raspberry/R1E0000_solar_charging_shield_for_pico/2img.jpg)    
+![Img](./img/2img.jpg)    
 1. Single-cell 18650 lithium battery holder     
 2. Two solar panels connect ports(XH2.54-2P), they are connected in parallel.      
 3. Charging indicator, charging bright red, full charge bright green.    
@@ -41,6 +41,8 @@ Based on the [Raspberry pi Pico](../R1D0001_raspberry_pico/R1D0001_raspberry_pic
 
 ## Resource          
 -----------
-[SCH](../../_static/pdf/R1E0000_solar_charging_shield_for_pico/Sch.PDF)  
+[SCH.pdf](./pdf/Sch.PDF)  
 [Sample code](https://github.com/Mosiwi/Mosiwi-space-station-kit-for-pico)
 
+--------
+**End!**

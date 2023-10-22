@@ -5,7 +5,7 @@ The NEC IR transmission protocol uses pulse distance encoding of the message bit
 Logical bits are transmitted as follows:   
 Logical ‘0’ – a 562.5µs pulse burst followed by a 562.5µs space, with a total transmit time of 1.125ms  
 Logical ‘1’ – a 562.5µs pulse burst followed by a 1.6875ms space, with a total transmit time of 2.25ms  
-![Img](../../_static/resource/nec_communication_protocol/1img.png)  
+![Img](./img/1img.png)  
 <p align="center">Figure 1</p>  
 
 When transmitting or receiving remote control codes using the NEC IR transmission protocol, the WB_IRRC performs optimally when the carrier frequency (used for modulation/demodulation) is set to 38.222kHz.  
@@ -20,7 +20,7 @@ When a key is pressed on the remote controller, the message transmitted consists
 ■ a final 562.5µs pulse burst to signify the end of message transmission.  
 
 The four bytes of data bits are each sent least significant bit first. Figure 1 illustrates the format of an NEC IR transmission frame, for an address of 00h (00000000b) and a command of ADh (10101101b).  
-![Img](../../_static/resource/nec_communication_protocol/2img.png)  
+![Img](./img/2img.png)  
 <p align="center">Figure 2</p>  
 
 Figure 2. Example message frame using the NEC IR transmission protocol.  
@@ -36,11 +36,13 @@ If the key on the remote controller is kept depressed, a repeat code will be iss
 ■ a 2.25ms space  
 ■ a 562.5µs pulse burst to mark the end of the space (and hence end of the transmitted repeat code).  
 
-![Img](../../_static/resource/nec_communication_protocol/3img.png)  
+![Img](./img/3img.png)  
 <p align="center">Figure 3</p>  
 Figure 3 illustrates the transmission of two repeat codes after an initial message frame is sent.  
 
-![Img](../../_static/resource/nec_communication_protocol/4img.png)  
+![Img](./img/4img.png)  
 <p align="center">Figure 4</p>  
 Figure 4. Example repeat codes sent for a key held down on the transmitting remote controller.  
 
+--------
+**End!**

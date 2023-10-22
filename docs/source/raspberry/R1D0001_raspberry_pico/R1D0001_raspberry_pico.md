@@ -1,6 +1,6 @@
 # R1D0001_raspberry_pico 
 ------------------------
-<img src="../../_static/raspberry/R1D0001_raspberry_pico/1img.jpg" style="zoom:100%">  
+<img src="./img/1img.jpg" style="zoom:100%">  
 
 Raspberry Pi Pico is the debut microcontroller-class board from Raspberry Pi. Built around our RP2040 silicon platform, Pico brings our signature values of high performance, low cost, and ease of use to the microcontroller space.  
 Official website: <https://www.raspberrypi.com/products/raspberry-pi-pico>  
@@ -28,11 +28,11 @@ More: <https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf>
 
 ## Pinout Diagram      
 -----------------
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/2img.png)  
+![Img](./img/2img.png)  
 
 ## Dimensional drawing         
 ----------------------
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/3img.png)  
+![Img](./img/3img.png)  
 Note: all dimensions in mm  
 
 ## Programming platform           
@@ -45,37 +45,37 @@ Note: all dimensions in mm
 **Burning micropython firmware**    
 1. Raspberry Pi Pico official website: <https://www.raspberrypi.com/documentation/microcontrollers/>    
 Click "Micropython"
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/21img.png)
+![Img](./img/21img.png)
 
 2. Download the correct MicroPython [UF2](https://micropython.org/download/rp2-pico/rp2-pico-latest.uf2) file for Raspberry Pi Pico.  
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/22img.png)    
-<img src="../../_static/raspberry/R1D0001_raspberry_pico/4img.png" style="zoom:100%">  
+![Img](./img/22img.png)    
+<img src="./img/4img.png" style="zoom:100%">  
 
 3. Push and hold the BOOTSEL button and plug your Pico into the USB port of your computer. Release the BOOTSEL button after your Pico is connected.  
-<img src="../../_static/raspberry/R1D0001_raspberry_pico/5img.png" style="zoom:100%">  
+<img src="./img/5img.png" style="zoom:100%">  
 
 4. It will mount as a Mass Storage Device called RPI-RP2.  
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/6img.png)    
+![Img](./img/6img.png)    
 
 5. Drag and drop the MicroPython UF2 file onto the RPI-RP2 volume. Your Pico will reboot. You are now running MicroPython.  
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/7img.png)    
+![Img](./img/7img.png)    
 
 6. You can access the REPL via USB Serial.  
 
 **Install Thonny**  
 [Download](https://thonny.org/) the Thonny installation package and install it.  
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/8img.png)      
+![Img](./img/8img.png)      
 <span style="color: rgb(255, 76, 65);"> Note: Please select the appropriate software version according to your computer model. </span>    
 
 **Use Thonny**  
 1. Launch the Thonny  
 When opening Thonny for the first time select "Standard Mode." For some versions this choice will be made via a popup when you first open Thonny.  
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/9img.png)  
+![Img](./img/9img.png)  
 2. Make sure your Raspberry PI Pico's USB is plugged into your computer's USB via a usb cable, then click on "Python" and the version number in the bottom right corner of the Thonny window, then select "**MicroPython(Raspberry PI Pico)". COMx** ".       
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/10img.png)  
+![Img](./img/10img.png)  
 <span style="color: rgb(255, 76, 65);">Note: If there is no port selection, see the troubleshooting section below.</span>   
 3. You can now access the REPL from the Shell panel.  
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/11img.png)   
+![Img](./img/11img.png)   
 
 ```python  
 >>> print('Hello Pico!')  
@@ -85,7 +85,7 @@ Hello Pico!
 
 **Blinking the LED from Thonny**    
 Create a new file:   
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/17img.png)      
+![Img](./img/17img.png)      
 
 Fill the file with the following code:      
 
@@ -101,40 +101,40 @@ def tick(timer):
 tim.init(freq=2.5, mode=Timer.PERIODIC, callback=tick)  
 ```
 Run the code online: (The code is not saved in pico and is not executed after repowering.)      
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/16img.png)
+![Img](./img/16img.png)
 
 Exiting Running Online:    
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/25img.png)     
+![Img](./img/25img.png)     
 
 Run the code offline: (The code is stored in pico, and the code in pico is automatically executed after being powered on.)     
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/27img.png)     
+![Img](./img/27img.png)     
 
 Enter the code in the main panel, then click on the "**Save**" or "**File->Save as ...**" menu. Thonny will present you with a popup, click on "**Raspberry Pi Pico**" and enter "**main\.py**" to save the code to the **Raspberry Pi Pico**.  
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/12img.png)  
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/13img.png) 
+![Img](./img/12img.png)  
+![Img](./img/13img.png) 
 
 <span style="color: rgb(255, 76, 65);">Note: </span>      
 
 If you save a file to the Pico and give it the special name **main\.py**, then MicroPython starts running that script as soon as power is supplied to Raspberry Pi Pico in the future.                          
 
 The program should uploaded to the Raspberry Pi Pico using the REPL, and automatically start running. You should see the on-board LED start blinking.  
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/23img.png)          
+![Img](./img/23img.png)          
 
 
 
 ## Save existing files or folders to Pico    
 -----------------------------------------          
 Make sure Thonny checked **"View -> Files"**:  
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/18img.png)    
+![Img](./img/18img.png)    
 
 Select any python folder or file, then right-click and select the **"Upload to/"** menu to upload the code to Pico:    
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/19img.png)   
+![Img](./img/19img.png)   
 
 Follow the same method to upload the **"main\.py"** file to Pico:    
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/20img.png)   
+![Img](./img/20img.png)   
 
 Select the file and right-click to open the file in Pico.       
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/26img.png)      
+![Img](./img/26img.png)      
 
 End!  
 
@@ -150,10 +150,10 @@ End!
 ------------------
 1\. Thonny's **Run** menu is unavailable after Raspberry Pi Pico is powered on again.  
 Reply: You need to click on Thonny's **stop/restart backend** menu to solve the problem.  
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/24img.png)      
+![Img](./img/24img.png)      
 
 2\. Thonny does not automatically install USB drivers in windows7 and 8. The following error was found in the PC's Device Manager:   
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/14img.png)  
+![Img](./img/14img.png)  
 Create a text file and add the following code file. The save file name is "**Board_CDC_RP2_pico-serial**" and the file format is "**.inf**". The file format is the driver file. Then manually add the driver to the unrecognized device in the device Manager.  
 
 <style> pre{ overflow-y: auto; max-height: 300px;} </style>     
@@ -260,8 +260,12 @@ Manufacturer = "ATMEL, Inc."
 PI_CDC_PICO = "Pi Pico Serial Port"
 
 Serial.SvcDesc = "Pi Pico Serial Driver"
-```
-![Img](../../_static/raspberry/R1D0001_raspberry_pico/15img.png)  
+```  
+
+![Img](./img/15img.png)  
 
 Refer to other sources: [Link](https://picockpit.com/raspberry-pi/raspberry-pi-pico-and-micropython-on-windows/#Windows_81)  
 
+
+--------
+**End!**

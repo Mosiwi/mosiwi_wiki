@@ -1,6 +1,6 @@
 # A1E0000_basic_learning_shield         
 -------------------------------
-![Img](../../_static/arduino/A1E0000_basic_learning_shield/1img.jpg)  
+![Img](./img/1img.jpg)  
 The arduino basic learning shield is based on Uno r3 mainboard design, board set temperature, humidity, infrared receiver and buzzer and other sensors, directly inserted with Uno r3 mainboard can be used.  And provides a wealth of examples and tutorial materials, very suitable for learning to use.  
 
 ## Specification          
@@ -12,7 +12,7 @@ The arduino basic learning shield is based on Uno r3 mainboard design, board set
 
 ## Meet basic learing shield         
 ----------------------------
-| ![Img](../../_static/arduino/A1E0000_basic_learning_shield/2img.jpg) |
+| ![Img](./img/2img.jpg) |
 | :-- |
 | 1. RGB LED, controlled by pins 5(R), 6(G) and 9(B) of Uno r3. |
 | 2. Up, down, left, right and center(OK) buttons, controlled by Uno r3 SPI pin (via BC7278). |
@@ -32,27 +32,27 @@ The arduino basic learning shield is based on Uno r3 mainboard design, board set
 ----------------------   
 This library package is available for Arduino: UNO and NANO, Raspberry pi 4B, and Raspberry pi pico.  
 Download resource: <https://github.com/Mosiwi/Mosiwi-basic-learning-kit>  
-![Img](../../_static/arduino/A1E0000_basic_learning_shield/3img.png)  
+![Img](./img/3img.png)  
 For Arduino UNO and NANO: C++ && C_language  
 For Raspberry pi4: C_language    
 For Raspberry pi pico: MicroPython 
 
 Load the "Mosiwi-basic-learning-kit-main.zip" file downloaded above into the arduino IDE in the following two ways:   
 **(1) Importing a .zip Library**  
-![Img](../../_static/arduino/A1E0000_basic_learning_shield/4img.png)     
+![Img](./img/4img.png)     
 Select the compressed library file to load:    
-![Img](../../_static/arduino/A1E0000_basic_learning_shield/5img.png)    
+![Img](./img/5img.png)    
 
 **(2) Manual Installation**    
 Unzip the "Mosiwi-basic-learning-kit-main.zip" file into the "C:\Users\Administrator\Documents\Arduino\libraries" folder on your PC:     
-![Img](../../_static/arduino/A1E0000_basic_learning_shield/6img.png)      
+![Img](./img/6img.png)      
 
 **Open the sample code in the library file:**    
-![Img](../../_static/arduino/A1E0000_basic_learning_shield/7img.png)     
+![Img](./img/7img.png)     
 
 ## Download            
 -----------
 |      |      |      |      |      |
 | :--: | :--: | :--: | :--: | :--: |
-| [Schematic.pdf](../../_static/pdf/A1E0000_basic_learning_shield/basic%20learning%20shield.PDF)|[BC7278.pdf](../../_static/pdf/A1E0000_basic_learing_shield/BC7278.pdf) |[AHT20.pdf](../../_static/pdf/A1E0000_basic_learing_shield/AHT20.pdf) |[74HC595.pdf](../../_static/pdf/A1E0000_basic_learing_shield/74HC595.pdf) | [DS2431.pdf](../../_static/pdf/A1E0000_basic_learing_shield/DS2431.pdf) |    
+| [Schematic.pdf](./pdf/basic_learning_shield.pdf)|[BC7278.pdf](./pdf/BC7278.pdf) |[AHT20.pdf](./pdf/AHT20.pdf) |[74HC595.pdf](./pdf/74HC595.pdf) | [DS2431.pdf](./pdf/DS2431.pdf) |    
 
