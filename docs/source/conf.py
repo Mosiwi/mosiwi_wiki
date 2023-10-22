@@ -55,7 +55,8 @@ html_search_language = 'en'
 html_theme = 'sphinx_rtd_theme'
 # html_theme = "sphinx_book_theme"     # Another nice theme
 
-html_static_path = ['_static']
+#html_static_path = ['_static']
+html_static_path = ['./']
 
 # set font
 html_css_files = [
