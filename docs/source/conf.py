@@ -23,7 +23,7 @@ extensions = [
     "myst_parser",         
     "sphinx_design",
     "sphinx_copybutton",   # Add a copy button to your code blocks
-    "sphinx_tippy",      # Add tooltips to your documentation
+    # "sphinx_tippy",      # Add tooltips to your documentation
 ]
 
 source_suffix = {
