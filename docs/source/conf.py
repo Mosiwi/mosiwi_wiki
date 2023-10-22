@@ -30,7 +30,7 @@ source_suffix = {
     '.rst': 'restructuredtext',
     '.md': 'markdown',
 }
-source_parsers = {'.md': 'recommonmark.parser.CommonMarkParser'}
+# source_parsers = {'.md': 'recommonmark.parser.CommonMarkParser'}
 
 # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#syntax-extensions
 myst_enable_extensions = [
