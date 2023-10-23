@@ -7,5 +7,3 @@ Temperature and humidity sensor: [AHT20.pdf](../_static/arduino/A1E0000/pdf/AHT2
 16 keys and 4 digits digital display chip: [BC7278.pdf](../_static/arduino/A1E0000/pdf/BC7278.pdf)      
 1-wire EEPROM chip: [DS2431.pdf](../_static/arduino/A1E0000/pdf/DS2431.pdf)     
 16x8 LED Controller: [HT16k33.pdf](../_static/common/C1M0000/pdf/ht16k33.PDF)        
-SPI protocol: [SPI_Block_Guide.pdf](../_static/resource/spi/pdf/SPI_Block_Guide.pdf)       
-IIC protocol: [UM10204.pdf](../_static/resource/iic/pdf/UM10204.pdf) 
