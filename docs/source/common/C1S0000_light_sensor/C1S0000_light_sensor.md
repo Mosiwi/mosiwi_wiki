@@ -1,6 +1,6 @@
 # C1S0000_light_sensor          
 ----------------------
-![Img](../../_static/common/C1S0000_light_sensor/1img.png)     
+![Img](../../_static/common/C1S0000/img/1img.png)       
 This sensor detects the intensity of the light and the relative angle of the light source.      
 
 ## Specification    
@@ -17,7 +17,7 @@ This sensor detects the intensity of the light and the relative angle of the lig
 ## IIC communication     
 --------------------
 Protocol:    
-![Img](../../_static/common/C1S0000_light_sensor/2img.png)        
+![Img](../../_static/common/C1S0000/img//2img.png)        
 <span style="color: rgb(255, 76, 65);">Maximum clock speed: 100K</span> 
 
 | Slave address | 1: 0 | ... | 8: 315 | 9: Centre | 10: H_Angle | 11: L_Angle |    
@@ -26,7 +26,7 @@ Protocol:
    
 Light angle value: H_angle*256 + L_angle, if it is 0xffff, the light source is directly above.   
 
-The standard I2C communication protocol can be referred to: [Link](../../_static/pdf/communication_protocol/UM10204%28I2C_Bus_Specification_and_User_Manual_%29.pdf)  
+The standard I2C communication protocol can be referred to: [UM10204.pdf](../../_static/resource/iic/pdf/UM10204.pdf)  
 
 
 ## Sample code      
@@ -82,7 +82,5 @@ if __name__ == '__main__':
         time.sleep_ms(200)
 ```
 
-
-## Application example    
-[R1K0000_space_station_kit_for_pico](../../raspberry/R1K0000_space_station_kit/R1K0000_space_station_kit.md)     
-
+----
+End!

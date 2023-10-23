@@ -1,6 +1,8 @@
 # M1D0000_microbit_mainboard    
-----------------------------
-<img src="../../_static/microbit/M1D0000_microbit_mainboard/1img.jpg" style="zoom:100%">  
+----------------------------   
+<center>    
+<img src="../../_static/microbit/M1D0000/img/1img.jpg" style="zoom:50%">     
+</center>     
 
 The micro:bit is an easily programmable Single Board Computer (SBC) that contains an application processor with a variety of on-chip peripherals. Other peripherals are connected to this chip.  
 An interface processor is connected to the application processor and manages communications via the USB interface, including the drag-and-drop code flashing process. The interface processor does not connect to any of the micro:bit peripherals.  
@@ -20,11 +22,11 @@ Official website: <https://www.microbit.org>
 
 ## Meet microbit v2.2          
 ---------------------
-![img](../../_static/microbit/M1D0000_microbit_mainboard/2img.png)   
+![img](../../_static/microbit/M1D0000/img/2img.png)   
 
 ## Pinout Diagram         
 -----------------
-![Img](../../_static/microbit/M1D0000_microbit_mainboard/4img.png)  
+![Img](../../_static/microbit/M1D0000/img/4img.png)  
 
 ## More detailed information         
 ----------------------------
@@ -33,29 +35,29 @@ Please refer to the link: <https://tech.microbit.org>
 ## Programming platform          
 -----------------------
 It is recommended to use Microsoft Edge and Google Chrome to open programming web pages:  
-<img src="../../_static/microbit/M1D0000_microbit_mainboard/13img.png" style="zoom:30%">  
+<img src="../../_static/microbit/M1D0000/img/13img.png" style="zoom:30%">  
 Please refer to the link: <https://www.microbit.org/code/>  
-![Img](../../_static/microbit/M1D0000_microbit_mainboard/5img.png)  
+![Img](../../_static/microbit/M1D0000/img/5img.png)  
 
 ## Makecode           
 -----------
 **New makecode project**  
 1. Open link: <https://makecode.microbit.org>  
 2. Build a new project  
-![Img](../../_static/microbit/M1D0000_microbit_mainboard/6img.png)  
+![Img](../../_static/microbit/M1D0000/img/6img.png)  
 3. programming  
-![Img](../../_static/microbit/M1D0000_microbit_mainboard/7img.png)  
+![Img](../../_static/microbit/M1D0000/img/7img.png)  
 4. Connect the Micro:bit to your computer via a Micro USB cable.  
 When you plug the micro:bit into your computer's USB socket, it will appear on your computer like a USB memory stick called <span style="color: rgb(255, 76, 65);">**MICROBIT**</span>.  
-![Img](../../_static/microbit/M1D0000_microbit_mainboard/8img.png)    
-![Img](../../_static/microbit/M1D0000_microbit_mainboard/12img.png)   
+![Img](../../_static/microbit/M1D0000/img/8img.png)    
+![Img](../../_static/microbit/M1D0000/img/12img.png)   
 5. Transfer from a computer  
 Download your program as a <span style="color: rgb(255, 76, 65);">**.hex**</span> file from the code editor to your computer, usually to your downloads folder. Then drag and drop the <span style="color: rgb(255, 76, 65);">**.hex**</span> file on to the <span style="color: rgb(255, 76, 65);">**MICROBIT**</span> drive.  
 After you transfer your .hex file, the MICROBIT drive will disconnect and reconnect as the micro:bit resets. The .hex file will not be listed on the MICROBIT drive after this. This is expected. Your micro:bit is not a flash storage device, but your computer shows it as one to make it easy to transfer .hex files.  
-![Img](../../_static/microbit/M1D0000_microbit_mainboard/9img.png)    
-![Img](../../_static/microbit/M1D0000_microbit_mainboard/10img.png)   
+![Img](../../_static/microbit/M1D0000/img/9img.png)    
+![Img](../../_static/microbit/M1D0000/img/10img.png)   
 <span style="color: rgb(255, 76, 65);">**or**</span>  
-![Img](../../_static/microbit/M1D0000_microbit_mainboard/11img.png)   
+![Img](../../_static/microbit/M1D0000/img/11img.png)   
 End!  
 Official first use tutorial: <https://www.microbit.org/get-started/first-steps/set-up/>  
 
@@ -69,7 +71,7 @@ Please refer to the link: <https://makecode.microbit.org/docs>
 Update the firmware: <https://www.microbit.org/get-started/user-guide/firmware/>  
 
 2. During normal use, do not hold down the reset button while powering on the microbit. Otherwise, micorbit enters the firmware update mode, resulting in failure to upload code.  
-<img src="../../_static/microbit/M1D0000_microbit_mainboard/14img.png" style="zoom:50%">  
+<img src="../../_static/microbit/M1D0000/img/14img.png" style="zoom:50%">  
 
 3. Micro:bit does not connect in Windows  
 When connecting the micro:bit to a computer, it will automatically install a driver to your machine that enables it to communicate as a serial device via USB. There are some cases in which the driver being missing (Windows 7) or a legacy driver being present (Windows 8.1+) could cause an issue with the serial function or with WebUSB.  
@@ -84,9 +86,11 @@ To check if you have this driver already:
 ----find the mbed Composite Device entry, right click on it and select Uninstall device.    
 ----A new window will open, mark the Delete the driver software for this device box and click Uninstall.  
 ----Unplug and replug your micro:bit and it should appear under USB devices.  
-<img src="../../_static/microbit/M1D0000_microbit_mainboard/15img.png" style="zoom:50%">  
+<img src="../../_static/microbit/M1D0000/img/15img.png" style="zoom:50%">  
 
 4. Mciro:bit Help & Support  
 Link：<https://support.microbit.org/support/home>  
 
 
+----
+End!
