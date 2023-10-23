@@ -12,8 +12,10 @@ Resources_index
    
    All_pdf <../pdf/pdf_index.md>
    Ch340_driver <../resource/ch340_driver/ch340_driver.md>
-   NEC_communication_protocol <../resource/nec_communication_protocol/nec_communication_protocol.md>
-   
+   NEC_communication_protocol <../resource/nec/nec.md>  
+   I2C_communication_protocol <../resource/iic/iic.md>
+   SPI_communication_protocol <../resource/spi/spi.md>
+
    28BJY-48 <../outsourcing/28byj-48/28byj-48.md>
    NEC_ir_remote_control <../outsourcing/nec_ir_remote_control/nec_ir_remote_control.md>
    SG90_servo <../outsourcing/sg90_servo/sg90_servo.md>

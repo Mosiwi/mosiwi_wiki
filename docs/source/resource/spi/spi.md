@@ -104,7 +104,8 @@ void BC7278_spi_write_data(unsigned char addr, unsigned char data){
 
 ## Other
 --------
-More: [SPI_Block_Guide.pdf](../_static/resource/spi/pdf/SPI_Block_Guide.pdf)
+More: [SPI_Block_Guide.pdf](../_static/resource/spi/pdf/SPI_Block_Guide.pdf)      
+Standard SPI communication protocol: <https://en.wikipedia.org/wiki/Serial_Peripheral_Interface>    
 
 --------
 **End!**

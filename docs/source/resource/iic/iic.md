@@ -284,7 +284,8 @@ void Stop_I2C(void){
 
 ## Other
 --------
-More: [UM10204.pdf](../_static/resource/iic/pdf/UM10204.pdf)
+More: [UM10204.pdf](../_static/resource/iic/pdf/UM10204.pdf)    
+Standard I2C communication protocol: <https://en.wikipedia.org/wiki/I%C2%B2C>  
 
 --------
 **End!**
