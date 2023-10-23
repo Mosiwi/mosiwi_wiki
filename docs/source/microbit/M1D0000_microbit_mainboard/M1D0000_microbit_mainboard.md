@@ -1,7 +1,5 @@
 # M1D0000_microbit_mainboard    
 ----------------------------   
-<center><img src="../../_static/microbit/M1D0000/img/1img.jpg" style="zoom:50%"></center>    
-
 <center>  
 <img src="../../_static/microbit/M1D0000/img/1img.jpg" width=55% height=55%>   
 </center>  
@@ -37,7 +35,8 @@ Please refer to the link: <https://tech.microbit.org>
 ## Programming platform          
 -----------------------
 It is recommended to use Microsoft Edge and Google Chrome to open programming web pages:  
-<img src="../../_static/microbit/M1D0000/img/13img.png" style="zoom:30%">  
+<img src="../../_static/microbit/M1D0000/img/13img.png" width=50% height=50%> 
+
 Please refer to the link: <https://www.microbit.org/code/>  
 ![Img](../../_static/microbit/M1D0000/img/5img.png)  
 
@@ -73,9 +72,9 @@ Please refer to the link: <https://makecode.microbit.org/docs>
 Update the firmware: <https://www.microbit.org/get-started/user-guide/firmware/>  
 
 2. During normal use, do not hold down the reset button while powering on the microbit. Otherwise, micorbit enters the firmware update mode, resulting in failure to upload code.  
-<img src="../../_static/microbit/M1D0000/img/14img.png" style="zoom:50%">  
+<img src="../../_static/microbit/M1D0000/img/14img.png" width=50% height=50%>  
 
-3. Micro:bit does not connect in Windows  
+1. Micro:bit does not connect in Windows  
 When connecting the micro:bit to a computer, it will automatically install a driver to your machine that enables it to communicate as a serial device via USB. There are some cases in which the driver being missing (Windows 7) or a legacy driver being present (Windows 8.1+) could cause an issue with the serial function or with WebUSB.  
 You should always start with our [article on fault finding](https://support.microbit.org/en/support/solutions/articles/19000024000-fault-finding-with-a-micro-bit) that covers common issues like USB cables not working.  
 **Windows 7 (serial not working)**  
@@ -88,9 +87,9 @@ To check if you have this driver already:
 ----find the mbed Composite Device entry, right click on it and select Uninstall device.    
 ----A new window will open, mark the Delete the driver software for this device box and click Uninstall.  
 ----Unplug and replug your micro:bit and it should appear under USB devices.  
-<img src="../../_static/microbit/M1D0000/img/15img.png" style="zoom:50%">  
+<img src="../../_static/microbit/M1D0000/img/15img.png" width=50% height=50%>  
 
-4. Mciro:bit Help & Support  
+1. Mciro:bit Help & Support  
 Link：<https://support.microbit.org/support/home>  
 
 

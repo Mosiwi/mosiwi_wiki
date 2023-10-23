@@ -72,7 +72,7 @@ void IIC_Write_Bit(char Bit){
 **Starting condition:**     
 Whenever the master starts communication, it switches the SDA line from high to low before switching the SCL line from high to low. Once the master sends the start condition, all slave devices are activated even if they are in sleep mode and wait to receive the address bit.             
 <center>
-<img src="../../_static/resource/iic/img/5img.png" style="zoom:50%">    
+<img src="../../_static/resource/iic/img/5img.png" width=35% height=35%>    
 </center>    
 
 Example code:    
@@ -133,7 +133,7 @@ There are five cases in which the bit is NACK set by the receiving device:
 
 Master sends an ACK signal:
 <center>
-<img src="../../_static/resource/iic/img/8img.png" style="zoom:100%">    
+<img src="../../_static/resource/iic/img/8img.png" width=50% height=50%>    
 </center> 
 
 Example code: 
@@ -155,7 +155,7 @@ void IIC_Master_ACK(void){
 
 Master sends a NACK signal:    
 <center>
-<img src="../../_static/resource/iic/img/9img.png" style="zoom:100%">    
+<img src="../../_static/resource/iic/img/9img.png" width=50% height=50%>    
 </center> 
 
 Example code:   
@@ -177,7 +177,7 @@ void IIC_Master_NACK(void){
 
 Master reads ACK/NACK signal:
 <center>
-<img src="../../_static/resource/iic/img/10img.png" style="zoom:100%">    
+<img src="../../_static/resource/iic/img/10img.png" width=50% height=50%>    
 </center> 
 
 Example code:   
@@ -259,7 +259,7 @@ void IIC_Master_Write_Byte(unsigned Byte){
 **Stop condition:**    
 When the SDA line has transmitted the required data block, the master switches the SCL line from low to high level, and then the SDA line from low to high level. At this point, the master is disconnected from the slave.              
 <center>
-<img src="../../_static/resource/iic/img/11img.png" style="zoom:60%">    
+<img src="../../_static/resource/iic/img/11img.png" width=40% height=40%>    
 </center>    
 
 Example code:      

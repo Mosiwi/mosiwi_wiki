@@ -1,6 +1,8 @@
 # R1D0001_raspberry_pico 
-------------------------        
-<img src="../../_static/raspberry/R1D0001/img/1img.jpg" style="zoom:100%">      
+------------------------   
+<center>     
+<img src="../../_static/raspberry/R1D0001/img/1img.jpg" width=80% height=80%>      
+</center>   
 
 Raspberry Pi Pico is the debut microcontroller-class board from Raspberry Pi. Built around our RP2040 silicon platform, Pico brings our signature values of high performance, low cost, and ease of use to the microcontroller space.  
 Official website: <https://www.raspberrypi.com/products/raspberry-pi-pico>  
@@ -31,8 +33,9 @@ More: <https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf>
 ![Img](../../_static/raspberry/R1D0001/img/2img.png)  
 
 ## Dimensional drawing         
-----------------------
-![Img](../../_static/raspberry/R1D0001/img/3img.png)  
+---------------------- 
+<img src="../../_static/raspberry/R1D0001/img/3img.png" width=60% height=60%>      
+
 Note: all dimensions in mm  
 
 ## Programming platform           
@@ -48,11 +51,11 @@ Click "Micropython"
 ![Img](../../_static/raspberry/R1D0001/img/21img.png)
 
 2. Download the correct MicroPython [UF2](https://micropython.org/download/rp2-pico/rp2-pico-latest.uf2) file for Raspberry Pi Pico.  
-![Img](../../_static/raspberry/R1D0001/img/22img.png)    
-<img src="../../_static/raspberry/R1D0001/img/4img.png" style="zoom:100%">  
+![Img](../../_static/raspberry/R1D0001/img/22img.png)     
+![Img](../../_static/raspberry/R1D0001/img/4img.png)    
 
 3. Push and hold the BOOTSEL button and plug your Pico into the USB port of your computer. Release the BOOTSEL button after your Pico is connected.  
-<img src="../../_static/raspberry/R1D0001/img/5img.png" style="zoom:100%">  
+<img src="../../_static/raspberry/R1D0001/img/5img.png" width=60% height=60%>  
 
 4. It will mount as a Mass Storage Device called RPI-RP2.  
 ![Img](../../_static/raspberry/R1D0001/img/6img.png)    
