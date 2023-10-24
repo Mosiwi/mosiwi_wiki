@@ -12,6 +12,7 @@ Resources_index
    
    All_pdf <../pdf/pdf_index.md>
    Ch340_driver <../resource/ch340_driver/ch340_driver.md>
+   Serial_port <../resource/serial_port/serial_port.md> 
    NEC_communication_protocol <../resource/nec/nec.md>  
    I2C_communication_protocol <../resource/iic/iic.md>
    SPI_communication_protocol <../resource/spi/spi.md>

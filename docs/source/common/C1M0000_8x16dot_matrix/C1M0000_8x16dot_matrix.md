@@ -1,6 +1,9 @@
 # C1M0000_8x16dot_matrix        
-------------------------
-![Img](../../_static/common/C1M0000/img/3img.jpg)    
+------------------------ 
+<center>    
+<img src="../../_static/common/C1M0000/img/3img.jpg" width=60% height=60%>     
+</center> 
+
 ## Specification    
 ----------------  
 • Operating voltage: 3.0V-5.0V      
@@ -10,7 +13,8 @@
 • Communication: IIC     
 • Connector: XH2.54-4P      
 • Size: 64.54\*29.0mm       
-• Driver chip: [HT16K33.pdf](../../_static/common/C1M0000/pdf/ht16k33.PDF)          
+• Driver chip: [HT16K33.pdf](../../_static/common/C1M0000/pdf/ht16k33.PDF)    
+       
 Because the booster circuit of the module can only provide a maximum current of 400mA, the maximum drive brightness of the HT16K33 can only be less than 10/16 duty, as shown below:         
 ![Img](../../_static/common/C1M0000/img/1img.png)        
 

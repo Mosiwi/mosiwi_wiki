@@ -1,6 +1,9 @@
 # C1S0001_ir_receiver      
----------------------
-![Img](../../_static/common/C1S0001/img/3img.jpg)          
+---------------------       
+<center>    
+<img src="../../_static/common/C1S0001/img/3img.jpg" width=50% height=50%>     
+</center> 
+
 ## Specification     
 ---------------- 
 • Operating voltage: 3.0V-5.0V       

@@ -1,6 +1,8 @@
 # NEC_ir_remote_control         
------------------------
-![Img](../../_static/outsourcing/nec_ir_remote_control/img/1img.jpg)    
+-----------------------   
+<center>    
+<img src="../../_static/outsourcing/nec_ir_remote_control/img/1img.jpg" width=60% height=60%>     
+</center> 
 
 ## 1. Specification     
 1. Remote control range: 8-10 meters (the quality of the infrared receiver itself, whether there are obstacles in the middle and other factors will affect the remote control distance)       
@@ -21,10 +23,11 @@ Insert battery:
 [Arduino IRremote library](https://www.arduino.cc/reference/en/libraries/irremote/)        
 
 ## 4. Notes           
-1. Before use, you need to pull out the insulating plastic sheet at the bottom.      
-![Img](../../_static/outsourcing/nec_ir_remote_control/img/4img.jpg)     
-2. Before use, ensure that the CR2025 3V lithium-manganese battery is installed in the remote control.     
-3. Before use, ensure that the CR2025 3V lithium manganese battery has sufficient power.      
+1. Before use, you need to pull out the insulating plastic sheet at the bottom.          
+<img src="../../_static/outsourcing/nec_ir_remote_control/img/4img.jpg" width=50% height=50%>     
+
+1. Before use, ensure that the CR2025 3V lithium-manganese battery is installed in the remote control.     
+2. Before use, ensure that the CR2025 3V lithium manganese battery has sufficient power.      
 
 
 ----

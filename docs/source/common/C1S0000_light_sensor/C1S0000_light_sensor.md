@@ -1,6 +1,9 @@
 # C1S0000_light_sensor          
-----------------------
-![Img](../../_static/common/C1S0000/img/1img.png)       
+---------------------- 
+<center>    
+<img src="../../_static/common/C1S0000/img/1img.png" width=60% height=60%>     
+</center>      
+
 This sensor detects the intensity of the light and the relative angle of the light source.      
 
 ## Specification    

@@ -1,6 +1,8 @@
 # O1M0001_fan_module   
---------------------
-![Img](../../_static/outsourcing/O1M0001/img/1img.png)    
+--------------------    
+<center>    
+<img src="../../_static/outsourcing/O1M0001/img/1img.png" width=60% height=60%>     
+</center> 
 
 The electric fan is a device that electrically drives the motor to generate air flow. After the internal motor is energized, it drives the blade to rotate and converts the electric energy into wind energy.     
 
@@ -13,7 +15,7 @@ The electric fan is a device that electrically drives the motor to generate air 
 
 ## Dimensional drawing            
 ----------------------
-![Img](../../_static/outsourcing/O1M0001/img/2img.png)  
+<img src="../../_static/outsourcing/O1M0001/img/2img.png" width=80% height=80%> 
 
 ## Schematic diagram          
 --------------------
@@ -40,9 +42,9 @@ Control fan speed:
 **Arduino IDE:**  
 Please refer to the link to use Arduino IDE: [Link](../../arduino/arduino_ide/arduino_ide.md)  
 
-**wiring diagram**  
-![Img](../../_static/outsourcing/O1M0001/img/4img.jpg)  
-
+**wiring diagram**    
+<img src="../../_static/outsourcing/O1M0001/img/4img.jpg" width=80% height=80%> 
+ 
 **Digital pin code:**  
 ```c++
 const int ina = 9;            
