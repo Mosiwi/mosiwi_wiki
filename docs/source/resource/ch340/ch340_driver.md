@@ -15,7 +15,7 @@ Unzip the file and double-click **"SETUP"** to run the installer
 ![Img](../../_static/resource/ch340/img/3img.png)  
 
 If the driver is successfully installed, when the mainboard is connected to the computer through the USB cable, under the path **"Computer" -> "Properties" -> "Device manager"**, you can find **"USB-SERIAL CH340 (COM3)"**, as shown below:  
-![Img](../../_static/resource/ch340/img/4img.png)  
+![Img](../../_static/resource/ch340/img/4img.jpg)  
 <span style="color: rgb(255, 76, 65);">**Note:**</span> Driver display symbol is "USB-SERIAL CH340 (COMx)", "x" can be any number, different computer display may be different.  
 
 ## 3. Install the driver on your MAC system  

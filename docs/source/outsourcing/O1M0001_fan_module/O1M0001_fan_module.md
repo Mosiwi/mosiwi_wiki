@@ -41,7 +41,7 @@ Control fan speed:
 Please refer to the link to use Arduino IDE: [Link](../../arduino/arduino_ide/arduino_ide.md)  
 
 **wiring diagram**  
-![Img](../../_static/outsourcing/O1M0001/img/4img.png)  
+![Img](../../_static/outsourcing/O1M0001/img/4img.jpg)  
 
 **Digital pin code:**  
 ```c++

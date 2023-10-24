@@ -10,11 +10,11 @@ The SPI bus has four signal lines:
 4. Chip Select (CS) or Slave Select (SS)
 
 The following diagram depicts how the SPI bus master (processor) is connected to the slave (peripheral):     
-![Img](../../_static/resource/spi/img/1img.png)        
+![Img](../../_static/resource/spi/img/1img.jpg)        
 
 **3. Internal principle**       
 The hardware requirements for implementing SPI are very simple. For example, a master device and a slave device are connected using the SPI bus. The following figure shows the minimum configuration requirements for both devices.     
-![Img](../../_static/resource/spi/img/2img.png) 
+![Img](../../_static/resource/spi/img/2img.jpg) 
 
 As can be seen from the figure above, the master device consists of a shift register, a data latch, and a clock generator. Slave devices consist of similar hardware: shift registers and data latches. Two shift registers are connected to form a loop. It takes 8 clock cycles for the device to transmit one byte of data.       
 During each SPI clock cycle, a full-duplex data transfer occurs. The master sends a bit on the MOSI line and the slave reads it, while the slave sends a bit on the MISO line and the master reads it. This ordering is maintained even if only one-way data transfer is intended.       
@@ -33,7 +33,7 @@ The master and slave must also agree on certain synchronization protocols. Thus,
 | 2 | 1 | 0 | High level | The first edge |  
 | 3 | 1 | 1 | High level | The second edge |   
 
-![Img](../../_static/resource/spi/img/3img.png)            
+![Img](../../_static/resource/spi/img/3img.jpg)            
 <span style="color: rgb(255, 76, 65);">Note: The master and slave need to work in the same mode to communicate normally.</span>      
 
 **5. Connection mode**     
@@ -51,13 +51,25 @@ Daisy chain configuration:
 // Define the SIP communication clock period.
 int T = 100; 
 
+// Initialize the IO ports
+void SPI_init(void){
+    pinMode(miso, INPUT);
+    pinMode(mosi, OUTPUT);
+
+    pinMode(cs, OUTPUT);
+    digitalWrite(cs, HIGH);
+
+    pinMode(sck, OUTPUT);
+    digitalWrite(sck, HIGH);
+}
+
 // The master reads the slave data.
-unsigned int BC7278_spi_read_data(unsigned char addr, unsigned char data){
+unsigned int SPI_read_data(unsigned char addr, unsigned char data){
     unsigned int returnData = 0;
     unsigned int sendData = addr;
     sendData = (sendData << 8) + data; 
 
-    digitalWrite(mosi, LOW);
+    digitalWrite(cs, LOW);
     for(byte i=0; i<16; i++){
         if((sendData & 0x8000) == 0x8000){
             digitalWrite(mosi, HIGH);
@@ -76,15 +88,16 @@ unsigned int BC7278_spi_read_data(unsigned char addr, unsigned char data){
         }
         sendData = sendData << 1;	
     } 
-    digitalWrite(mosi, HIGH);
+    digitalWrite(cs, HIGH);
     return returnData;
 }
 
 // The master writes data to the slave.
-void BC7278_spi_write_data(unsigned char addr, unsigned char data){
+void SPI_write_data(unsigned char addr, unsigned char data){
     unsigned int sendData = addr;
     sendData = (sendData << 8) + data;
-    delayMicroseconds(T/2);
+
+    digitalWrite(cs, LOW);
     for(byte i=0; i<16; i++){
         if((sendData & 0x8000) == 0x8000){
             digitalWrite(mosi, HIGH);
@@ -98,6 +111,7 @@ void BC7278_spi_write_data(unsigned char addr, unsigned char data){
         delayMicroseconds(T/2);
         sendData = sendData << 1;
     }
+    digitalWrite(cs, HIGH);
 }
 ```
 

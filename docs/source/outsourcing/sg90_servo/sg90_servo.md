@@ -1,6 +1,6 @@
 # SG90 servo       
 ------------
-![Img](../../_static/outsourcing/sg90_servo/img/1img.png)     
+![Img](../../_static/outsourcing/sg90_servo/img/1img.jpg)     
  
 The servo can be programmed to rotate at different angles, which is different from ordinary motors that can only rotate at a certain speed when powered on. The function of the servo is not to rotate in a cycle, but to rotate at a certain Angle. Through the servo axis disk can drive the external mechanical structure, we can be used to control the direction of the car, the arm control of the robot and so on.      
      

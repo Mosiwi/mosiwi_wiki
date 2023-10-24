@@ -4,7 +4,7 @@ Ultrasonic wave is a part of sound wave, it is a kind of human ear can not hear,
 ![Img](../../_static/outsourcing/O1M0000/img/12img.png) 
 
 The ultrasonic distance measurement module is developed using the above principles:         
-![Img](../../_static/outsourcing/O1M0000/img/1img.png)
+![Img](../../_static/outsourcing/O1M0000/img/1img.jpg)
 
 ## Specification     
 ----------------
@@ -20,7 +20,7 @@ The ultrasonic distance measurement module is developed using the above principl
 
 ## Meet ultrasonic module    
 -------------------------
-| ![Img](../../_static/outsourcing/O1M0000/img/3img.png) |
+| ![Img](../../_static/outsourcing/O1M0000/img/3img.jpg) |
 | :-- |
 | 1. VCC: 3-5V, input the positive terminal of the power supply. |
 | 2. Trig: Trigger pulse input pin, 10 microsecond pulse signal will trigger the module to work. |
@@ -63,7 +63,7 @@ In the worst case, the measured object is beyond the measurement range of the ul
 Please refer to the link to use Arduino IDE: [Link](../../arduino_ide/arduino_ide.md)  
 
 **wiring diagram:**  
-![Img](../../_static/outsourcing/O1M0000/img/10img.png)  
+![Img](../../_static/outsourcing/O1M0000/img/10img.jpg)  
 
 **Code:**
 ```c++

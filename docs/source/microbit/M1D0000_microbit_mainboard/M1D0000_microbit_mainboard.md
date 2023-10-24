@@ -22,11 +22,11 @@ Official website: <https://www.microbit.org>
 
 ## Meet microbit v2.2          
 ---------------------
-![img](../../_static/microbit/M1D0000/img/2img.png)   
+![img](../../_static/microbit/M1D0000/img/2img.jpg)   
 
 ## Pinout Diagram         
 -----------------
-![Img](../../_static/microbit/M1D0000/img/4img.png)  
+![Img](../../_static/microbit/M1D0000/img/4img.jpg)  
 
 ## More detailed information         
 ----------------------------
@@ -45,7 +45,7 @@ Please refer to the link: <https://www.microbit.org/code/>
 **New makecode project**  
 1. Open link: <https://makecode.microbit.org>  
 2. Build a new project  
-![Img](../../_static/microbit/M1D0000/img/6img.png)  
+![Img](../../_static/microbit/M1D0000/img/6img.jpg)  
 3. programming  
 ![Img](../../_static/microbit/M1D0000/img/7img.png)  
 4. Connect the Micro:bit to your computer via a Micro USB cable.  
@@ -55,7 +55,7 @@ When you plug the micro:bit into your computer's USB socket, it will appear on y
 5. Transfer from a computer  
 Download your program as a <span style="color: rgb(255, 76, 65);">**.hex**</span> file from the code editor to your computer, usually to your downloads folder. Then drag and drop the <span style="color: rgb(255, 76, 65);">**.hex**</span> file on to the <span style="color: rgb(255, 76, 65);">**MICROBIT**</span> drive.  
 After you transfer your .hex file, the MICROBIT drive will disconnect and reconnect as the micro:bit resets. The .hex file will not be listed on the MICROBIT drive after this. This is expected. Your micro:bit is not a flash storage device, but your computer shows it as one to make it easy to transfer .hex files.  
-![Img](../../_static/microbit/M1D0000/img/9img.png)    
+![Img](../../_static/microbit/M1D0000/img/9img.jpg)    
 ![Img](../../_static/microbit/M1D0000/img/10img.png)   
 <span style="color: rgb(255, 76, 65);">**or**</span>  
 ![Img](../../_static/microbit/M1D0000/img/11img.png)   

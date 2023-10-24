@@ -72,7 +72,7 @@ void IIC_Write_Bit(char Bit){
 **Starting condition:**     
 Whenever the master starts communication, it switches the SDA line from high to low before switching the SCL line from high to low. Once the master sends the start condition, all slave devices are activated even if they are in sleep mode and wait to receive the address bit.             
 <center>
-<img src="../../_static/resource/iic/img/5img.png" width=35% height=35%>    
+<img src="../../_static/resource/iic/img/5img.png" width=40% height=40%>    
 </center>    
 
 Example code:    
