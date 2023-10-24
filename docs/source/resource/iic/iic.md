@@ -114,7 +114,7 @@ IIC_Master_Write_Byte((IIC_slave_address << 1)+1);
 ...
 ```
 
-```(tip)
+```{tip}
 See the "Data frames" section below for details on the IIC_Master_Write_Byte function!
 ```
 
