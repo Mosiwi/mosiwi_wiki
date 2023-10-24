@@ -24,5 +24,5 @@ Arduino designs, manufactures, and supports electronic devices and software, all
 ## Resource           
 -----------
 Arduino IDE: [Link](../arduino_ide/arduino_ide.md)   
-Ch340 driver: [Link](../../resource/ch340_driver/ch340_driver.md)   
+Ch340 driver: [Link](../../resource/ch340/ch340_driver.md)   
 

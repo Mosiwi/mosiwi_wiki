@@ -46,7 +46,7 @@ The 3in1 basic learing shield is integrated with an IO expansion chip, which is 
 | :--: | :--: | :--: |
 | 0x2d | 0x00, 0x02, 0x04 | IO data read by the expansion chip |      
 
-The standard I2C communication protocol can be referred to: [UM10204.pdf](../../_static/resource/iic/pdf/UM10204.pdf)  
+The I2C communication protocol can be referred to: [Click me](../../resource/iic/iic.md)  
 
 **Analog input:**  
 The 2-channel analog input is a 10-bit analog-to-digital converter corresponding to the 5pin and 6pin of the IO expansion chip, and the IO addresses are as follows:  
