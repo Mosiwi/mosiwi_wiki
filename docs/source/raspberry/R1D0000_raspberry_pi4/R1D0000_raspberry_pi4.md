@@ -46,36 +46,107 @@ Using the [GPIO Zero](https://gpiozero.readthedocs.io/) library makes it easy to
 ![Img](../../_static/raspberry/R1D0000/img/4img.png)  
 Note: all dimensions in mm  
 
-## Set up raspberry pi4        
------------------------
-Accessories to be prepared in advance:  
-| ![Img](../../_static/raspberry/R1D0000/img/6img.png) | ![Img](../../_static/raspberry/R1D0000/img/7img.png) | ![Img](../../_static/raspberry/R1D0000/img/8img.png) |
+## Install Raspberry pi OS     
+--------------------------
+**Accessories to be prepared in advance:**  
+| ![Img](../../_static/raspberry/R1D0000/img/47img.png) | ![Img](../../_static/raspberry/R1D0000/img/7img.png) | ![Img](../../_static/raspberry/R1D0000/img/8img.png) |
 | :--: | :--: | :--: |
 | 1 | 2 | 3 |
-1. **USB power supply** – A 5 V power supply rated at 3 amps (3 A) and with a USB Type-C connector.  
+1. **PC** – Windows or MacOS operating system (Access to the Internet).          
 2. **MicroSD card** – The microSD card acts as Raspberry Pi's permanent storage.  An 8GB card will get you started, though a 16GB one offers more room to grow.  
 3. **MicroSD card reader** - It connects the MicroSD card to the USB port of your computer, and then installs the raspberry image system into the MicroSD using other tools.  
 
 
-**Step1**: Install Raspberry pi OS
-Download [Raspberry Pi Imager](https://www.raspberrypi.com/software/) and install it.  
+```{tip}  
+Here are two ways to install the Raspberry PI system, choose the one that suits you!   
+```
+### Method 1: Install Raspberry Pi OS using Raspberry Pi Imager      
+Download [Raspberry Pi Imager](https://www.raspberrypi.com/software/) and install it.           
 ![Img](../../_static/raspberry/R1D0000/img/10img.png)  
 
 Insert the MicroSD card into the MicroSD card reader and insert the MicroSD card reader into the USB port on your computer, then run Raspberry Pi Imager to install raspberry pi OS.  
-| 1 | 2 | 3 |  
-|:---:|:---:|:---:|      
-| ![Img](../../_static/raspberry/R1D0000/img/11img.png) | ![Img](../../_static/raspberry/R1D0000/img/12img.png) | ![Img](../../_static/raspberry/R1D0000/img/13img.png) |       
-| 4 | 5 | 6 |   
-| ![Img](../../_static/raspberry/R1D0000/img/14img.png) | ![Img](../../_static/raspberry/R1D0000/img/15img.png) | ![Img](../../_static/raspberry/R1D0000/img/16img.png) |    
-| 7 | 8 | 9 |   
-| ![Img](../../_static/raspberry/R1D0000/img/17img.png) | ![Img](../../_static/raspberry/R1D0000/img/18img.png) | ![Img](../../_static/raspberry/R1D0000/img/19img.png) |    
-| 10 | 11 | 12 |     
-| ![Img](../../_static/raspberry/R1D0000/img/20img.png) | ![Img](../../_static/raspberry/R1D0000/img/21img.png) | Succeed & End! |      
+| 1 | 2 | 
+|:---:|:---:|      
+| ![Img](../../_static/raspberry/R1D0000/img/11img.png) | ![Img](../../_static/raspberry/R1D0000/img/12img.png) |       
+| 3 | 4 |   
+| ![Img](../../_static/raspberry/R1D0000/img/13img.png) | ![Img](../../_static/raspberry/R1D0000/img/14img.png) |    
+| 5 | 6 |  
+| ![Img](../../_static/raspberry/R1D0000/img/15img.png) | ![Img](../../_static/raspberry/R1D0000/img/16img.png) |   
+| 7 | 8 |     
+| ![Img](../../_static/raspberry/R1D0000/img/17img.png) | ![Img](../../_static/raspberry/R1D0000/img/18img.png) |      
+| 9 | 10 |
+| ![Img](../../_static/raspberry/R1D0000/img/19img.png) | ![Img](../../_static/raspberry/R1D0000/img/20img.png) |
+| 11 | 12 |
+| ![Img](../../_static/raspberry/R1D0000/img/21img.png) | Succeed & End! |    
 
-**Step2**: Setting up the hardware  
-| 1: Connecting the microSD card | 2: Connecting a network cable | 3: Connecting a power supply |    
+### Method 2: Manually install an operating system image          
+Download [Raspberry Pi Imager](https://www.raspberrypi.com/software/) and install it:           
+![Img](../../_static/raspberry/R1D0000/img/10img.png)  
+
+Download the [Raspberry PI OS image](https://www.raspberrypi.com/software/):     
+![img](../../_static/raspberry/R1D0000/img/48img.jpg)        
+
+[Select](https://www.raspberrypi.com/software/operating-systems/) the operating system image you need:           
+![img](../../_static/raspberry/R1D0000/img/49img.jpg)      
+
+Insert the MicroSD card into the MicroSD card reader and insert the MicroSD card reader into the USB port on your computer, then run Raspberry Pi Imager to install raspberry pi OS.  
+| 1 | 2 | 
+|:---:|:---:|      
+| ![Img](../../_static/raspberry/R1D0000/img/11img.png) | ![Img](../../_static/raspberry/R1D0000/img/12img.png) |       
+| 3: Select the Raspberry PI OS image. | 4 |   
+| ![Img](../../_static/raspberry/R1D0000/img/50img.jpg) | ![Img](../../_static/raspberry/R1D0000/img/14img.png) |    
+| 5 | 6 |  
+| ![Img](../../_static/raspberry/R1D0000/img/15img.png) | ![Img](../../_static/raspberry/R1D0000/img/16img.png) |   
+| 7 | 8 |     
+| ![Img](../../_static/raspberry/R1D0000/img/17img.png) | ![Img](../../_static/raspberry/R1D0000/img/18img.png) |      
+| 9 | 10 |
+| ![Img](../../_static/raspberry/R1D0000/img/19img.png) | ![Img](../../_static/raspberry/R1D0000/img/20img.png) |
+| 11 | 12 |
+| ![Img](../../_static/raspberry/R1D0000/img/21img.png) | Succeed & End! | 
+
+
+## Set up raspberry pi4        
+-----------------------   
+```{tip}  
+Here are two ways to install the Raspberry PI system, choose the one that suits you!   
+```
+
+### Method 1: Start Raspberry PI with monitor
+Accessories to be prepared in advance:  
+| ![Img](../../_static/raspberry/R1D0000/img/6img.png) | ![Img](../../_static/raspberry/R1D0000/img/51img.jpg) | ![Img](../../_static/raspberry/R1D0000/img/52img.jpg) | ![Img](../../_static/raspberry/R1D0000/img/53img.jpg) |
+| :--: | :--: | :--: | :--: |
+| 1 | 2 | 3 | 4 |
+1. **USB power supply** – A 5 V power supply rated at 3 amps (3 A) and with a USB Type-C interface.     
+2. **Mouse** – USB interface.        
+3. **Keyboard** - USB interface.       
+4. **Monitor** - Micro hdmi interface.    
+
+First, unplug your Raspberry Pi’s power supply to ensure that the Raspberry Pi is powered down while you connect peripherals. If you installed the operating system on a microSD card, you can plug it into your Raspberry Pi’s card slot now.    
+![Img](../../_static/raspberry/R1D0000/img/54img.jpg)     
+
+Then, plug in any other peripherals, such as your mouse, keyboard, and monitor.     
+![Img](../../_static/raspberry/R1D0000/img/55img.jpg)    
+
+Finally, connect the power supply to your Raspberry Pi. You should see the status LED light up when your Pi powers on. You should see the boot screen within minutes.   
+
+### Method 2: Start Raspberry PI without monitor  
+Accessories to be prepared in advance:  
+| ![Img](../../_static/raspberry/R1D0000/img/6img.png) | ![Img](../../_static/raspberry/R1D0000/img/47img.png) |
+| :--: | :--: |
+| 1 | 2 |
+1. **USB power supply** – A 5 V power supply rated at 3 amps (3 A) and with a USB Type-C interface.     
+2. **PC** – Windows or MacOS operating system (Access to the Internet).       
+
+Setting up the hardware:      
+| 1: Insert SD card | 2: Plug in the network cable | 3: Plug in power |    
 | :--: | :--: | :--: |        
 | ![Img](../../_static/raspberry/R1D0000/img/22img.png) | ![Img](../../_static/raspberry/R1D0000/img/23img.png) | ![Img](../../_static/raspberry/R1D0000/img/24img.png) |    
+
+Finally, connect the power supply to your Raspberry Pi. You should see the status LED light up when your Pi powers on.      
+
+```{tip}
+After the Raspberry PI is started, through the next section (Remote access to Raspberry Pi terminal (SSH)), you can control your Raspberry PI on your PC!
+```
 
 ## Remote access to Raspberry Pi terminal (SSH)      
 -----------------------------------------------
@@ -93,7 +164,7 @@ raspberrypi.local
 <span style="color: rgb(255, 76, 65);">Note: The above operations must be on the same LAN.</span>  
 
 
-## Find the IP address of raspberry pi4          
+## Find the IP address of raspberry pi          
 ---------------------------------------  
 On Raspberry Pi OS, multicast DNS is supported out-of-the-box by the Avahi service.  
 If your PC supports mDNS, you can reach your Raspberry Pi by using its hostname and the .local suffix. The default hostname on a fresh Raspberry Pi OS install is raspberrypi, so by default any Raspberry Pi running Raspberry Pi OS responds to:  
@@ -125,7 +196,7 @@ Fill in the range of IP addresses to scan, and then scan.
 
 <span style="color: rgb(255, 76, 65);">Note: The above operations must be on the same LAN.</span>  
 
-## Transfer files from your PC to Raspberry pi4           
+## Transfer files from your PC to Raspberry pi           
 -----------------------------------------------
 Download [WinSCP](https://winscp.net/eng/index.php) and install it.  
 ![Img](../../_static/raspberry/R1D0000/img/32img.png)  
