@@ -29,8 +29,8 @@ Startup icon
 Commonly used menus        
 ![Img](../../../_static/arduino/arduino_ide/img/10img.png)       
 
-## Use         
-------
+## Simple Usage Example         
+-----------------------
 ### Build a new project
 Run the IDE and click on the menu bar **"File" --> "New Sketch"**.  
 ![Img](../../../_static/arduino/arduino_ide/img/4img.png)  

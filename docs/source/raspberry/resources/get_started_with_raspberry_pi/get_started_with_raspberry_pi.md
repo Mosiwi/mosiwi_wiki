@@ -37,6 +37,7 @@ Insert the MicroSD card into the MicroSD card reader and insert the MicroSD card
 | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/2img.jpg) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/3img.jpg) |  
 | 13 | 14 |
 | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/4img.jpg) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/5img.jpg) | 
+| ------------------------------------- | ------------------------------------- |    
 
 ### Method 2: Manually install an operating system image          
 Download [Raspberry Pi Imager](https://www.raspberrypi.com/software/) and install it:           
@@ -66,6 +67,7 @@ Insert the MicroSD card into the MicroSD card reader and insert the MicroSD card
 | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/2img.jpg) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/3img.jpg) |  
 | 13 | 14 |
 | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/4img.jpg) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/5img.jpg) | 
+| ------------------------------------- | ------------------------------------- |    
 
 
 ## Start the Raspberry pi        

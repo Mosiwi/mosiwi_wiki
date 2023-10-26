@@ -14,7 +14,7 @@ The Raspberry Pi Foundation is a UK-based charity with the mission to enable you
 --------------
 | [Raspberry pi4](../R1D0000_raspberry_pi4/R1D0000_raspberry_pi4.md) | [Rapberry pico](../R1D0001_raspberry_pico/R1D0001_raspberry_pico.md) | [Raspberry pi5](../R1D0002_raspberry_pi5/R1D0002_raspberry_pi5.md) |
 | :--: | :--: | :--: |
-| ![img](../../_static/raspberry/R1D0000/img/1img.jpg) | ![img](../../_static/raspberry/R1D0001/img/1img.jpg) | ![Img](../../_static/web_logo/updating.gif) |
+| ![img](../../_static/raspberry/R1D0000/img/1img.jpg) | ![img](../../_static/raspberry/R1D0001/img/1img.jpg) | ![Img](../../_static/raspberry/R1D0002/img/5img.jpg) |
 
 
 ## Expansion board          
