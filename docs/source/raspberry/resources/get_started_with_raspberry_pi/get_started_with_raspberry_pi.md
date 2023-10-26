@@ -23,7 +23,7 @@ Insert the MicroSD card into the MicroSD card reader and insert the MicroSD card
 
 | 1 | 2 | 
 |:---:|:---:|      
-| ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/11img.jpg) | <img src="../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/12img.jpg" width=1050px> |       
+| ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/11img.jpg) | <img src="../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/12img.jpg" width=1100px> |       
 | 3 (Choose the right system) | 4 |   
 | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/13img.jpg) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/14img.jpg) |    
 | 5 | 6 |  
@@ -53,7 +53,7 @@ Insert the MicroSD card into the MicroSD card reader and insert the MicroSD card
 
 | 1 | 2 | 
 |:---:|:---:|      
-| ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/11img.jpg) | <img src="../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/12img.jpg" width=1050px> |       
+| ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/11img.jpg) | <img src="../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/12img.jpg" width=1100px> |       
 | 3 (Choose the right system) | 4 |   
 | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/13img.jpg) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/14img.jpg) |    
 | 5 (<span style="color: rgb(255, 76, 65);">Select the image file</span>) | 6 |  
