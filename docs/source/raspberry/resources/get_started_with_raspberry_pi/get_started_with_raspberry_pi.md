@@ -23,7 +23,7 @@ Insert the MicroSD card into the MicroSD card reader and insert the MicroSD card
 
 | 1 | 2 | 
 |:---:|:---:|      
-| ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/11img.png) | <img src="../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/12img.jpg" width=1200px> |       
+| ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/11img.jpg) | <img src="../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/12img.jpg" width=1200px> |       
 | 3 (Choose the right system) | 4 |   
 | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/13img.jpg) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/14img.jpg) |    
 | 5 | 6 |  
@@ -52,7 +52,7 @@ Download the [Raspberry PI OS image](https://www.raspberrypi.com/software/):
 Insert the MicroSD card into the MicroSD card reader and insert the MicroSD card reader into the USB port on your computer, then run Raspberry Pi Imager to install raspberry pi OS.  
 | 1 | 2 | 
 |:---:|:---:|      
-| ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/11img.png) | <img src="../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/12img.jpg" width=1200px> |       
+| ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/11img.jpg) | <img src="../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/12img.jpg" width=1200px> |       
 | 3 (Choose the right system) | 4 |   
 | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/13img.jpg) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/14img.jpg) |    
 | 5 | 6 |  
@@ -105,7 +105,7 @@ Accessories to be prepared in advance:
 Setting up the hardware:      
 | 1: Insert SD card | 2: Plug in the network cable | 3: Plug in power |    
 | :--: | :--: | :--: |        
-| ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/22img.png) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/23img.png) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/24img.png) |    
+| ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/22img.png) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/23img.jpg) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/24img.jpg) |    
 
 Finally, connect the power supply to your Raspberry Pi. You should see the status LED light up when your Pi powers on.      
 
