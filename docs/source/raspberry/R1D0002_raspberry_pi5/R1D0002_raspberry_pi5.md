@@ -1,6 +1,6 @@
 # R1D0002_raspberry_pi5
 -----------------------
-<img src="../../_static/raspberry/R1D0002/img/1img.jpg" style="zoom:100%">       
+<img src="../../_static/raspberry/R1D0002/img/1img.jpg" width=100%>       
 
 Official website: <https://www.raspberrypi.com/products/raspberry-pi-5/>  
 

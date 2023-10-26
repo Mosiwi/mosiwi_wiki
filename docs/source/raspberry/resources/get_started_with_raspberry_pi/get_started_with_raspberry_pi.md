@@ -20,9 +20,10 @@ Download [Raspberry Pi Imager](https://www.raspberrypi.com/software/) and instal
 ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/10img.png)  
 
 Insert the MicroSD card into the MicroSD card reader and insert the MicroSD card reader into the USB port on your computer, then run Raspberry Pi Imager to install raspberry pi OS.  
+
 | 1 | 2 | 
 |:---:|:---:|      
-| ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/11img.png) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/12img.jpg) |       
+| <img src="../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/11img.png" width=680px> | <img src="../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/12img.jpg" width=680px> |       
 | 3 (Choose the right system) | 4 |   
 | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/13img.jpg) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/14img.jpg) |    
 | 5 | 6 |  
@@ -36,8 +37,7 @@ Insert the MicroSD card into the MicroSD card reader and insert the MicroSD card
 | 13 | 14 |
 | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/2img.jpg) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/3img.jpg) |  
 | 13 | 14 |
-| ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/4img.jpg) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/5img.jpg) | 
-| ------------------------------------- | ------------------------------------- |    
+| ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/4img.jpg) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/5img.jpg) |    
 
 ### Method 2: Manually install an operating system image          
 Download [Raspberry Pi Imager](https://www.raspberrypi.com/software/) and install it:           
@@ -52,7 +52,7 @@ Download the [Raspberry PI OS image](https://www.raspberrypi.com/software/):
 Insert the MicroSD card into the MicroSD card reader and insert the MicroSD card reader into the USB port on your computer, then run Raspberry Pi Imager to install raspberry pi OS.  
 | 1 | 2 | 
 |:---:|:---:|      
-| ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/11img.png) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/12img.jpg) |       
+| <img src="../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/11img.png" width=680px> | <img src="../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/12img.jpg" width=680px> |       
 | 3 (Choose the right system) | 4 |   
 | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/13img.jpg) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/14img.jpg) |    
 | 5 | 6 |  
@@ -67,8 +67,7 @@ Insert the MicroSD card into the MicroSD card reader and insert the MicroSD card
 | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/2img.jpg) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/3img.jpg) |  
 | 13 | 14 |
 | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/4img.jpg) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/5img.jpg) | 
-| ------------------------------------- | ------------------------------------- |    
-
+    
 
 ## Start the Raspberry pi        
 -------------------------   

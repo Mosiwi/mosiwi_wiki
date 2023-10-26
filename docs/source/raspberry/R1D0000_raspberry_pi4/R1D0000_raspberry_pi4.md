@@ -1,6 +1,6 @@
 # R1D0000_raspberry_pi4
 -----------------------
-<img src="../../_static/raspberry/R1D0000/img/2img.png" style="zoom:100%">       
+<img src="../../_static/raspberry/R1D0000/img/2img.png" width=100%>       
 
 Official website: <https://www.raspberrypi.com/products/raspberry-pi-4-model-b>  
 
