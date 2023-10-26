@@ -49,7 +49,7 @@ Welcome to Mosiwi Wiki's documentation!
    :hidden:
    :caption: 📚 Product indexes:
  
-   Resources indexex <all_indexes/product_indexes.rst> 
+   Product indexes <all_indexes/product_indexes.rst> 
 
 .. toctree::
    :maxdepth: 2
