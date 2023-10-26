@@ -1,5 +1,6 @@
-# PDF_index
------------
+# PDF_indexes
+-------------
+
 Stepper motor: [28byj-48.pdf](../_static/outsourcing/28byj-48/pdf/28byj-48.pdf)          
 Stepper motor driver chip: [ULN2003A.pdf](../_static/outsourcing/28byj-48/pdf/ULN2003A.PDF)    
 8-bit serial input and 8-bit serial or parallel output chip: [74hc595.pdf](../_static/arduino/A1E0000/pdf/74HC595.pdf)      

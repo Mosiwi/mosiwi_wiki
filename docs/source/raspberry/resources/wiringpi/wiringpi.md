@@ -17,13 +17,13 @@ Check with:
 ```bash
 gpio -v
 ```
-![Img](../../_static/raspberry/wiringpi/img/1img.png)       
+![Img](../../../_static/raspberry/resources/wiringpi/img/1img.png)       
 Pins definition of WiringPi GPIO Library:  
 
 ```bash
 gpio readall
 ```
-![Img](../../_static/raspberry/wiringpi/img/2img.png)  
+![Img](../../../_static/raspberry/resources/wiringpi/img/2img.png)  
 
 ## WiringPi updated to 2.52 for the Raspberry Pi 4B       
 ---------------------------------------------------
@@ -72,7 +72,7 @@ sudo ./blink
 ```
 
 To see the output of this, you would need to connect a single LED to the GPIO connector of the Raspberry Pi as follows:   
-![Img](../../_static/raspberry/wiringpi/img/3img.png)
+![Img](../../../_static/raspberry/resources/wiringpi/img/3img.png)
 
 and if all goes well, you should see the LED flashing once a second.
 

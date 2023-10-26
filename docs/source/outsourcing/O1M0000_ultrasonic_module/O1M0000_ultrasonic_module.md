@@ -60,7 +60,7 @@ In the worst case, the measured object is beyond the measurement range of the ul
 ## Example Code            
 ---------------
 **Arduino IDE:**  
-Please refer to the link to use Arduino IDE: [Link](../../arduino_ide/arduino_ide.md)  
+Please refer to the link to use Arduino IDE: [Link](../../arduino/resources/arduino_ide/arduino_ide.md)  
 
 **wiring diagram:**  
 ![Img](../../_static/outsourcing/O1M0000/img/10img.jpg)  

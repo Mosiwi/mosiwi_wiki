@@ -46,7 +46,7 @@ The 3in1 basic learing shield is integrated with an IO expansion chip, which is 
 | :--: | :--: | :--: |
 | 0x2d | 0x00, 0x02, 0x04 | IO data read by the expansion chip |      
 
-The I2C communication protocol can be referred to: [Click me](../../resource/iic/iic.md)  
+The I2C communication protocol can be referred to: [Click me](../../various_resources/iic/iic.md)  
 
 **Analog input:**  
 The 2-channel analog input is a 10-bit analog-to-digital converter corresponding to the 5pin and 6pin of the IO expansion chip, and the IO addresses are as follows:  
@@ -71,7 +71,7 @@ The 2-channel analog input is a 10-bit analog-to-digital converter corresponding
 | :--: | :--: | :--: | :--: |   
 | 0x2d | 0x04 | H_byte | L_byte |         
 
-1. This interface is used to connect external infrared receiving sensors and supports only the [NEC infrared communication protocol](../../resource/nec/nec.md).         
+1. This interface is used to connect external infrared receiving sensors and supports only the [NEC infrared communication protocol](../../various_resources/nec/nec.md).         
 
 2. <span style="color: rgb(255, 76, 65);">Through the above I2C protocol, 2 bytes of data will be obtained, the first byte is the inverse code of the infrared remote control device, the second byte is the command code of the infrared remote control.</span>        
 

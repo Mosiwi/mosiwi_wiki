@@ -26,7 +26,7 @@ Because the booster circuit of the module can only provide a maximum current of 
 -------------- 
 For Pico: [MicroPython](https://github.com/Mosiwi/Mosiwi-space-station-kit-for-pico/blob/main/MicroPython/Mosiwi_lib_examples/Mosiwi_dotmatrix.py)    
 
-I2C communication protocol: [Click me](../../resource/iic/iic.md) 
+I2C communication protocol: [Click me](../../various_resources/iic/iic.md) 
 
 ----
 End!     

@@ -7,7 +7,7 @@
 ## 1. Specification     
 1. Remote control range: 8-10 meters (the quality of the infrared receiver itself, whether there are obstacles in the middle and other factors will affect the remote control distance)       
 2. Type of battery used: CR2025 3V lithium-manganese battery 
-3. Communication protocol: [NEC infrared communication protocol](../../resource/nec/nec.md)      
+3. Communication protocol: [NEC infrared communication protocol](../../various_resources/nec/nec.md)      
 4. Infrared carrier frequency: 38KHz  
 5. Effective launching Angle: 60°    
 6. Size: 86\*40\*6.0mm 

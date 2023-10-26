@@ -40,7 +40,7 @@ Control fan speed:
 ## Example Code           
 ---------------
 **Arduino IDE:**  
-Please refer to the link to use Arduino IDE: [Link](../../arduino/arduino_ide/arduino_ide.md)  
+Please refer to the link to use Arduino IDE: [Link](../../arduino/resources/arduino_ide/arduino_ide.md)  
 
 **wiring diagram**    
 <img src="../../_static/outsourcing/O1M0001/img/4img.jpg" width=80% height=80%> 

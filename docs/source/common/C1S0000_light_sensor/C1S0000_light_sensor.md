@@ -29,7 +29,7 @@ Protocol:
    
 Light angle value: H_angle*256 + L_angle, if it is 0xffff, the light source is directly above.   
 
-The I2C communication protocol can be referred to: [Click me](../../resource/iic/iic.md)  
+The I2C communication protocol can be referred to: [Click me](../../various_resources/iic/iic.md)  
 
 
 ## Sample code      

@@ -43,12 +43,19 @@ Welcome to Mosiwi Wiki's documentation!
    Raspberry <raspberry/raspberry_index/raspberry_index.md>
    Micro:bit <microbit/microbit_index/microbit_index.md>  
    Common <common/common_index/common_index.md>        
-   
+
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: 📚 Resources:
+   :caption: 📚 Product indexes:
  
-   Resources index <index_rst/all_index.rst>          
+   Resources indexex <all_indexes/product_indexes.rst> 
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: 📚 Resource indexes:
+ 
+   Resources indexes <all_indexes/resource_indexes.rst>          
    
 
