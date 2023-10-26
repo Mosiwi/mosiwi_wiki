@@ -58,7 +58,7 @@ Insert the MicroSD card into the MicroSD card reader and insert the MicroSD card
 | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/13img.jpg) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/14img.jpg) |    
 | 5 | 6 |  
 | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/15img.jpg) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/16img.jpg) |   
-| 7 (<span style="color: rgb(255, 76, 65);">Select the image file downloaded above</span>) | 8 |     
+| 7 (<span style="color: rgb(255, 76, 65);">Select the image file</span>) | 8 |     
 | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/50img.jpg) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/18img.jpg) |      
 | 9 | 10 |
 | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/19img.jpg) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/20img.jpg) |
