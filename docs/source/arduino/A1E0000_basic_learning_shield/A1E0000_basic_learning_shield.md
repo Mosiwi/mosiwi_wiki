@@ -40,18 +40,11 @@ For Arduino UNO and NANO: C++ && C_language
 For Raspberry pi4: C_language    
 For Raspberry pi pico: MicroPython 
 
-Load the "Mosiwi-basic-learning-kit-main.zip" file downloaded above into the arduino IDE in the following two ways:   
-**(1) Importing a .zip Library**  
+Load the "Mosiwi-basic-learning-kit-main.zip" file downloaded above into the arduino IDE in the following ways:     
+[Add libraries to Arduino IDE (Click me)](../resources/arduino_libraries/arduino_libraries.md)   
+
+**Open the example codes in the library file:**    
 ![Img](../../_static/arduino/A1E0000/img/4img.png)     
-Select the compressed library file to load:    
-![Img](../../_static/arduino/A1E0000/img/5img.png)    
-
-**(2) Manual Installation**    
-Unzip the "Mosiwi-basic-learning-kit-main.zip" file into the "C:\Users\Administrator\Documents\Arduino\libraries" folder on your PC:     
-![Img](../../_static/arduino/A1E0000/img/6img.png)      
-
-**Open the sample code in the library file:**    
-![Img](../../_static/arduino/A1E0000/img/7img.png)     
 
 ## Download            
 -----------

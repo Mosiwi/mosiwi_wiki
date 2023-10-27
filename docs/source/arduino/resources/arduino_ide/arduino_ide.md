@@ -9,12 +9,12 @@ The following steps are performed on a windows PC. It is recommended that beginn
 
 ### Download the installation file
 Download link：<https://www.arduino.cc/en/software>  
-![Img](../../../_static/arduino/arduino_ide/img/1img.png)    
+![Img](../../../_static/arduino/resources/arduino_ide/img/1img.png)    
 <span style="color: rgb(255, 76, 65);"> Note: Please select the appropriate software version according to your computer model. </span>    
 
 ### Installation
 To install the Arduino IDE 2.x.x on a Windows computer, simply run the file downloaded from the software page.  
-![Img](../../../../_static/arduino/arduino_ide/img/2img.png)  
+![Img](../../../_static/arduino/resources/arduino_ide/img/2img.png)  
 
 Follow the instructions in the installation guide. The installation may take several minutes.  
 ![Img](../../../_static/arduino/arduino_ide/img/3img.png)  

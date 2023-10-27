@@ -7,6 +7,7 @@
 Raspberry Pi Pico is the debut microcontroller-class board from Raspberry Pi. Built around our RP2040 silicon platform, Pico brings our signature values of high performance, low cost, and ease of use to the microcontroller space.  
 Official website: <https://www.raspberrypi.com/products/raspberry-pi-pico>  
 
+
 ## Specification       
 ----------------
 • [RP2040](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf) microcontroller with 2MB Flash  
