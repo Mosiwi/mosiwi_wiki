@@ -17,35 +17,35 @@ To install the Arduino IDE 2.x.x on a Windows computer, simply run the file down
 ![Img](../../../_static/arduino/resources/arduino_ide/img/2img.png)  
 
 Follow the instructions in the installation guide. The installation may take several minutes.  
-![Img](../../../_static/arduino/arduino_ide/img/3img.png)  
+![Img](../../../_static/arduino/resources/arduino_ide/img/3img.png)  
 
 Run it. The interface of the software is as follows:    
 Startup icon       
-![Img](../../../_static/arduino/arduino_ide/img/7img.png)        
+![Img](../../../_static/arduino/resources/arduino_ide/img/7img.png)        
 1.x.x IDE              
-![Img](../../../_static/arduino/arduino_ide/img/9img.png)     
+![Img](../../../_static/arduino/resources/arduino_ide/img/9img.png)     
 2.x.x IDE      
-![Img](../../../_static/arduino/arduino_ide/img/8img.png)    
+![Img](../../../_static/arduino/resources/arduino_ide/img/8img.png)    
 Commonly used menus        
-![Img](../../../_static/arduino/arduino_ide/img/10img.png)       
+![Img](../../../_static/arduino/resources/arduino_ide/img/10img.png)       
 
 ## Simple Usage Example         
 -----------------------
 ### Build a new project
 Run the IDE and click on the menu bar **"File" --> "New Sketch"**.  
-![Img](../../../_static/arduino/arduino_ide/img/4img.png)  
+![Img](../../../_static/arduino/resources/arduino_ide/img/4img.png)  
 Click **"File"-"save"** on the menu bar to save the project.  
 
 ### Open an existing project
 Click on the menu bar **"File" --> "New Sketch"**.  
-![Img](../../../_static/arduino/arduino_ide/img/5img.png)  
+![Img](../../../_static/arduino/resources/arduino_ide/img/5img.png)  
 Then select the "**xxx.ino**" file in the project folder.  
 <span style="color: rgb(255, 76, 65);">Note:</span> "xxx" is the name of the project.  
 
 ## Other ( In-depth study，option )           
 -----------------------------------
 1. The Arduino IDE is also supported on **MAC** and **Linux** systems.  
-![Img](../../../_static/arduino/arduino_ide/img/6img.png)  
+![Img](../../../_static/arduino/resources/arduino_ide/img/6img.png)  
 
 2. The official website download links have a variety of old IDEs and downloads, just scroll down to find them.  
 Download link：<https://www.arduino.cc/en/software>    
