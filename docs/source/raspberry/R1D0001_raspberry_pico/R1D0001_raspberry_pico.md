@@ -130,8 +130,9 @@ The program should uploaded to the Raspberry Pi Pico using the REPL, and automat
 Make sure Thonny checked **"View -> Files"**:  
 ![Img](../../_static/raspberry/R1D0001/img/18img.png)    
 
-Select any python folder or file, then right-click and select the **"Upload to/"** menu to upload the code to Pico:    
-![Img](../../_static/raspberry/R1D0001/img/19img.png)   
+Select any python folder or file, then right-click and select the **"Upload to/"** menu to upload the code to Pico:      
+![Img](../../_static/raspberry/R1D0001/img/28img.jpg)      
+![Img](../../_static/raspberry/R1D0001/img/19img.png)      
 
 Follow the same method to upload the **"main\.py"** file to Pico:    
 ![Img](../../_static/raspberry/R1D0001/img/20img.png)   
