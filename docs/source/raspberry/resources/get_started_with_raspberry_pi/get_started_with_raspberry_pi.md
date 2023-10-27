@@ -111,7 +111,7 @@ Setting up the hardware:
 Finally, connect the power supply to your Raspberry Pi. You should see the status LED light up when your Pi powers on.      
 
 ```{tip}
-After the Raspberry PI is started, through the next section (Remote access to Raspberry Pi), you can control your Raspberry PI on your PC!
+After the Raspberry PI is started, through the next section ([Remote terminal (SSH)](#remote-terminal-ssh)), you can control your Raspberry PI on your PC!
 ```
 
 ## Remote access to the Raspberry pi    
@@ -136,7 +136,11 @@ raspberrypi.local
 
 
 ### Remote desktop (VNC)       
-VNC Server can create a **virtual desktop** for you, giving you graphical remote access on demand. This virtual desktop exists only in your Raspberry Pi’s memory. 
+VNC Server can create a **virtual desktop** for you, giving you graphical remote access on demand. This virtual desktop exists only in your Raspberry Pi’s memory.     
+
+```{note}
+This method only works when you can manipulate the Raspberry Pi terminal!   
+```   
 
 VNC is already installed on the full Raspberry Pi OS image, and can be installed via **Recommended Software** from the **Preferences** menu on other versions.  
 If you are not using a desktop you can install it from the command line as follows:  
