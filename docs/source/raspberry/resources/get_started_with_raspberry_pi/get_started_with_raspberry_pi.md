@@ -111,7 +111,7 @@ Setting up the hardware:
 Finally, connect the power supply to your Raspberry Pi. You should see the status LED light up when your Pi powers on.      
 
 ```{tip}
-After the Raspberry PI is started, through the next section ([Remote terminal (SSH)](#remote-terminal-ssh)), you can control your Raspberry PI on your PC!
+After the Raspberry Pi is started, through the next section ([Remote terminal (SSH)](#remote-terminal-ssh)), you can control your Raspberry PI on your PC!
 ```
 
 ## Remote access to the Raspberry pi    
@@ -222,7 +222,7 @@ ping -6 raspberrypi.local
 <span style="color: rgb(255, 76, 65);">Note: The above method only applies to windows10 or later.</span>  
 
 ### Method 2:       
-If you are using windows7 or have multiple raspberry pi 4 devices on your LAN, you can use the following method to get the IP address of raspberry pi 4.  
+If you are using windows7 or have multiple raspberry pi devices on your LAN, you can use the following method to get the IP address of raspberry pi.  
 
 Download [Advanced IP Scanner](https://www.advanced-ip-scanner.com/) and install it.  
 ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/30img.png)  
@@ -237,10 +237,10 @@ Fill in the range of IP addresses to scan, and then scan.
 Download [WinSCP](https://winscp.net/eng/index.php) and install it.  
 ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/32img.png)  
 
-Log in to raspberry pi 4 using WinSCP.  
+Log in to raspberry pi using WinSCP.  
 ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/33img.png)  
 
-Drag and drop a file on your PC to raspberry pi 4.  
+Drag and drop a file on your PC to raspberry pi.  
 ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/34img.png)  
 
 
