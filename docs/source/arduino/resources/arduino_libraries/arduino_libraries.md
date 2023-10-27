@@ -40,3 +40,6 @@ Uninstalling an Arduino Library is simpler than installing it. Find the sketchbo
 Libraries don’t take much space and most of the time there is no reason to remove them. If you don’t intend to use them again, though, and want to declutter the list, you can safely delete them. You can always install any Arduino Library again if you need to use it in the future.  
 
 
+## Other
+--------
+For other methods, see (Option): <https://www.arduino.cc/en/Guide/Libraries>    
