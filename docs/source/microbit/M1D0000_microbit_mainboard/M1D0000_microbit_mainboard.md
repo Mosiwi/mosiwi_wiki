@@ -42,7 +42,7 @@ Please refer to the link: <https://www.microbit.org/code/>
 
 ## Makecode           
 -----------
-**New makecode project**  
+### New makecode project  
 1. Open link: <https://makecode.microbit.org>  
 2. Build a new project  
 ![Img](../../_static/microbit/M1D0000/img/6img.jpg)  
@@ -53,16 +53,15 @@ When you plug the micro:bit into your computer's USB socket, it will appear on y
 ![Img](../../_static/microbit/M1D0000/img/8img.png)    
 ![Img](../../_static/microbit/M1D0000/img/12img.png)   
 5. Transfer from a computer  
-Download your program as a <span style="color: rgb(255, 76, 65);">**.hex**</span> file from the code editor to your computer, usually to your downloads folder. Then drag and drop the <span style="color: rgb(255, 76, 65);">**.hex**</span> file on to the <span style="color: rgb(255, 76, 65);">**MICROBIT**</span> drive.  
-After you transfer your .hex file, the MICROBIT drive will disconnect and reconnect as the micro:bit resets. The .hex file will not be listed on the MICROBIT drive after this. This is expected. Your micro:bit is not a flash storage device, but your computer shows it as one to make it easy to transfer .hex files.  
+Download your program as a <span style="color: rgb(255, 76, 65);">**".hex"**</span> file from the code editor to your computer, usually to your downloads folder. Then drag and drop the <span style="color: rgb(255, 76, 65);">**".hex"**</span> file on to the <span style="color: rgb(255, 76, 65);">**"MICROBIT"**</span> drive.      
 ![Img](../../_static/microbit/M1D0000/img/9img.jpg)    
 ![Img](../../_static/microbit/M1D0000/img/10img.png)   
 <span style="color: rgb(255, 76, 65);">**or**</span>  
-![Img](../../_static/microbit/M1D0000/img/11img.png)   
-End!  
-Official first use tutorial: <https://www.microbit.org/get-started/first-steps/set-up/>  
-
-**makecode programming learning**  
+![Img](../../_static/microbit/M1D0000/img/11img.png)    
+After you transfer your **".hex"** file, the MICROBIT drive will disconnect and reconnect as the micro:bit resets. The **".hex"** file will not be listed on the **"MICROBIT"** drive after this. This is expected. Your micro:bit is not a flash storage device, but your computer shows it as one to make it easy to transfer .hex files.
+ 
+### makecode programming learning    
+Official first use tutorial: <https://www.microbit.org/get-started/first-steps/set-up/>         
 Please refer to the link: <https://makecode.microbit.org/docs>  
 &ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<https://www.microbit.org/get-started/user-guide/overview/>  
 
@@ -77,7 +76,7 @@ Update the firmware: <https://www.microbit.org/get-started/user-guide/firmware/>
 1. Micro:bit does not connect in Windows  
 When connecting the micro:bit to a computer, it will automatically install a driver to your machine that enables it to communicate as a serial device via USB. There are some cases in which the driver being missing (Windows 7) or a legacy driver being present (Windows 8.1+) could cause an issue with the serial function or with WebUSB.  
 You should always start with our [article on fault finding](https://support.microbit.org/en/support/solutions/articles/19000024000-fault-finding-with-a-micro-bit) that covers common issues like USB cables not working.  
-**Windows 7 (serial not working)**  
+**Windows 7 (serial port not working)**  
 In Windows 7, you had to manually install the Mbed serial driver to enable the serial port. [The legacy mBed driver is still available](https://os.mbed.com/docs/mbed-os/v6.8/program-setup/windows-serial-driver.html), but as [Windows 7 reaches end of life](https://www.microsoft.com/en-gb/windows/windows-7-end-of-life-support-information) you should upgrade your operating system accordingly.  
 **Windows 8.1/10 (WebUSB not working)**  
 If the Mbed Serial driver has been manually installed it might interfere with the Windows 8.1/10 automatic installation of the WebUSB driver.   

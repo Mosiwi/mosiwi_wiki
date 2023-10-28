@@ -68,16 +68,23 @@ Click "Micropython"
 
 **Install Thonny**  
 [Download](https://thonny.org/) the Thonny installation package and install it.  
-![Img](../../_static/raspberry/R1D0001/img/8img.png)      
-<span style="color: rgb(255, 76, 65);"> Note: Please select the appropriate software version according to your computer model. </span>    
+![Img](../../_static/raspberry/R1D0001/img/8img.png)  
+
+```{tip}
+Please select the appropriate software version according to your computer model!    
+``` 
 
 **Use Thonny**  
 1. Launch the Thonny  
 When opening Thonny for the first time select "Standard Mode." For some versions this choice will be made via a popup when you first open Thonny.  
 ![Img](../../_static/raspberry/R1D0001/img/9img.png)  
 2. Make sure your Raspberry PI Pico's USB is plugged into your computer's USB via a usb cable, then click on "Python" and the version number in the bottom right corner of the Thonny window, then select "**MicroPython(Raspberry PI Pico)". COMx** ".       
-![Img](../../_static/raspberry/R1D0001/img/10img.png)  
-<span style="color: rgb(255, 76, 65);">Note: If there is no port selection, see the troubleshooting section below.</span>   
+![Img](../../_static/raspberry/R1D0001/img/10img.png)    
+
+```{tip} 
+If there is no port selection, see the troubleshooting section below!     
+```
+
 3. You can now access the REPL from the Shell panel.  
 ![Img](../../_static/raspberry/R1D0001/img/11img.png)   
 
@@ -117,9 +124,9 @@ Enter the code in the main panel, then click on the "**Save**" or "**File->Save 
 ![Img](../../_static/raspberry/R1D0001/img/12img.png)  
 ![Img](../../_static/raspberry/R1D0001/img/13img.png) 
 
-<span style="color: rgb(255, 76, 65);">Note: </span>      
-
-If you save a file to the Pico and give it the special name **main\.py**, then MicroPython starts running that script as soon as power is supplied to Raspberry Pi Pico in the future.                          
+```{note}
+If you save a file to the Pico and give it the special name **main\.py**, then MicroPython starts running that script as soon as power is supplied to Raspberry Pi Pico in the future!    
+```                        
 
 The program should uploaded to the Raspberry Pi Pico using the REPL, and automatically start running. You should see the on-board LED start blinking.  
 ![Img](../../_static/raspberry/R1D0001/img/23img.png)          
@@ -140,8 +147,7 @@ Follow the same method to upload the **"main\.py"** file to Pico:
 
 Select the file and right-click to open the file in Pico.       
 ![Img](../../_static/raspberry/R1D0001/img/26img.png)      
-
-End!  
+  
 
 ## Resource          
 -----------
