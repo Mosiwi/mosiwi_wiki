@@ -31,7 +31,7 @@ In order to make the code clearer, we let the main file is used to control the m
 
 ### Use files with no suffix   
 
-```(tip)
+```{tip}
 In fact, the suffix is also **".ino"**, but the suffix will not be displayed in the IDE, but **".ino"** will be displayed in the resource manager of the computer, hereinafter referred to as no suffix.
 ```     
 
@@ -196,7 +196,7 @@ Then copy the written **"LED.cpp"** and **"LED.h"** files into the src file.
 Create a new folder named **"LED_blink"** in the examples folder, and copy the **"LED_blink.ino"** file into it, as follows: 
 ![Img](../../../_static/arduino/resources/make_an_arduino_library/img/15img.png) 
 
-In this way, our main file becomes a example program in the library file. In the sample, we need to use **"#include<xxx.h>"** to include standard files, as follows:        
+In this way, our main file becomes a example program in the library file. In the example, we need to use **"#include<xxx.h>"** to include standard files, as follows:        
 **LED_blink.ino**   
 ![Img](../../../_static/arduino/resources/make_an_arduino_library/img/18img.png) 
 ```c++
@@ -226,7 +226,7 @@ void loop() {
 ```
 
 ```{note}
-Since the LED control module is already a standard library, use angle brackets **"#include<xxx.h>"** to include library files!
+Since the LED control module is already a standard library, use **"#include<xxx.h>"** to include library files!
 ``` 
 
 There is a **"keywords.txt"** file in the LED folder, which is used to configure syntax highlighting for custom libraries. If not configured, the Arduino IDE cannot render highlighted colors.      
@@ -246,7 +246,7 @@ KEYWORD3 --> highlight library file name
 LITERAL1 --> highlight constant name
 ```
    
-Copy the following code into the **"keywords.txt"** file:            
+Copy the following text into the **"keywords.txt"** file:            
 ```
 # Library (KEYWORD3)
 LED  KEYWORD3
@@ -262,7 +262,7 @@ disattach  KEYWORD2
 The beginning of "#" is a comment and can be omitted!
 ```
 
-There is also a **"library.properties"** file in the "LED" folder, which is a configuration library that can display the library name in the Arduino IDE. Copy the following code into the **"library.properties"** file:              
+There is also a **"library.properties"** file in the "LED" folder, which is a configuration library that can display the library name in the Arduino IDE. Copy the following text into the **"library.properties"** file:              
 ```
 name=LED
 version=*
@@ -276,7 +276,7 @@ architectures=*
 depends=*
 ```
 
-You can change the * symbol to the required content according to your personal needs, please refer to the following link settings:     
+You can change the **"*"** symbol to the required content according to your personal needs, please refer to the following link settings:     
 <https://arduino.github.io/arduino-cli/0.24/library-specification/#library-metadata>   
 
 After configuration, you can find the standard library named "LED" and the example code of the library in the Arduino IDE menu **"File"** --> **"examples"**.     
