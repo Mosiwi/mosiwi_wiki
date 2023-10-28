@@ -69,14 +69,12 @@ I do not recommend using this method. This is for noobs who have no C/C++ progra
 ### Use traditional C/C++ separate files      
 In this way, for a code module, we need a pair of files: source file and header file, ie: **"xxx.c"** and **"xxx.h"** or **"xxx.cpp"** and **"xxx.h"** . The former is C language style, and the latter is C++ style. The official seems to recommend that we use C++ to write Arduino code. Whether it is the Arduino standard library or the tutorial, there is a strong C++ atmosphere. So I will use C++ style as an example below.    
 
-For example, we want to package the LED control into a module. We need to create 2 files: LED.h, LED.cpp   
-![Img](../../../_static/arduino/resources/make_an_arduino_library/img/9img.png)   
+First we think about how to control the LED, then we first write the content of the header file, then write the function implementation in the source file, and finally use this module in the main file.
 
-![Img](../../../_static/arduino/resources/make_an_arduino_library/img/10img.png) 
-
-![Img](../../../_static/arduino/resources/make_an_arduino_library/img/11img.png)        
-
-First we think about how to control the LED, then we first write the content of the header file, then write the function implementation in the source file, and finally use this module in the main file. Include the header file using the **#include "LED.h"** preprocessing directive in the main file.       
+For example, we want to package the LED control into a module. We need to create 2 files:    
+**1. LED.h**            
+![Img](../../../_static/arduino/resources/make_an_arduino_library/img/9img.png)    
+After creating a new file, write the following code:     
 ```c++
 /*******************
 LED.h
@@ -101,6 +99,10 @@ class LED {
 
 #endif
 ```
+
+**2. LED.cpp**       
+![Img](../../../_static/arduino/resources/make_an_arduino_library/img/10img.png)     
+After creating a new file, write the following code:   
 ```c++
 /*****************
 LED.cpp
@@ -129,6 +131,10 @@ void LED::disattach() {
     pinMode(pin,INPUT);
 }
 ```
+
+Include the header file using the **#include "LED.h"** preprocessing directive in the main file.     
+**LED_blink.ino**  
+![Img](../../../_static/arduino/resources/make_an_arduino_library/img/11img.png)        
 ```c++
 /**********************
 LED_blink：
@@ -162,8 +168,8 @@ void loop() {
 }
 ```
 
-```(note)
-Note: If the header file and the main file are in the same folder, use double quotation marks **"xx.h"** to include the library file into the main file, as follows:
+```{note}
+If the header file and the main file are in the same folder, use double quotation marks **"xxx.h"** to include the library file into the main file, as follows:
 ```
 
 ```c++
