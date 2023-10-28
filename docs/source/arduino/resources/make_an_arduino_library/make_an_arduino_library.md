@@ -43,6 +43,7 @@ Click the button marked in the figure below, select the first option **\[New Tab
 So our project has 2 files, a **"LED_blink"** main file and a file named **"LED"**. Then write the program in the file, which is the simplest multi-file method. as follows:   
 
 ```c++
+// LED.ino
 void ledBlink(byte pin){
   digitalWrite(pin, HIGH);
   delay(500);
@@ -52,7 +53,8 @@ void ledBlink(byte pin){
 ```
 ![Img](../../../_static/arduino/resources/make_an_arduino_library/img/7img.png)            
 
-```c++
+```c++   
+// LED_blink.ino
 void setup() {
   pinMode(13, OUTPUT);
 }
@@ -74,7 +76,7 @@ First we think about how to control the LED, then we first write the content of 
 For example, we want to package the LED control into a module. We need to create 2 files:    
 **1. LED.h**            
 ![Img](../../../_static/arduino/resources/make_an_arduino_library/img/9img.png)    
-After creating a new file, write the following code:     
+After creating a new file, copy the following code into the file:               
 ```c++
 /*******************
 LED.h
@@ -102,7 +104,7 @@ class LED {
 
 **2. LED.cpp**       
 ![Img](../../../_static/arduino/resources/make_an_arduino_library/img/10img.png)     
-After creating a new file, write the following code:   
+After creating a new file, copy the following code into the file:            
 ```c++
 /*****************
 LED.cpp
@@ -134,7 +136,9 @@ void LED::disattach() {
 
 Include the header file using the **#include "LED.h"** preprocessing directive in the main file.     
 **LED_blink.ino**  
-![Img](../../../_static/arduino/resources/make_an_arduino_library/img/11img.png)        
+![Img](../../../_static/arduino/resources/make_an_arduino_library/img/11img.png)   
+
+Copy the following code into the "LED_blink.ino" file:
 ```c++
 /**********************
 LED_blink：
@@ -143,14 +147,14 @@ and print its status in the serial port, release and recover the pin after 10 ti
 **********************/
 #include"LED.h"
 
-LED led(10);
+LED led(13);
 byte count =0;
 void setup() {
    Serial.begin(9600);
 }
 
 void loop() {
-   if(count<10){
+   if(count<13){
      led.on();
      delay(300);
      Serial.print("LED state:");
@@ -162,7 +166,7 @@ void loop() {
      Serial.println(led.getState(),DEC);
      
      ++count;
-     if(count==10)
+     if(count==13)
         led.disattach();
    }
 }
@@ -192,10 +196,12 @@ Then copy the written **"LED.cpp"** and **"LED.h"** files into the src file.
 Create a new folder named **"LED_blink"** in the examples folder, and copy the **"LED_blink.ino"** file into it, as follows: 
 ![Img](../../../_static/arduino/resources/make_an_arduino_library/img/15img.png) 
 
-In this way, our main file becomes a example program in the library file. In the sample, we need to use angle brackets **"#include<xxx.h>"** to include standard files, as follows:       
+In this way, our main file becomes a example program in the library file. In the sample, we need to use **"#include<xxx.h>"** to include standard files, as follows:        
+**LED_blink.ino**   
+![Img](../../../_static/arduino/resources/make_an_arduino_library/img/18img.png) 
 ```c++
 #include<LED.h>    
-LED led(10);
+LED led(13);
 byte count =0;
 
 void setup() {
@@ -203,7 +209,7 @@ void setup() {
 }
 
 void loop() {
-    if(count<10){
+    if(count<13){
         led.on();
         delay(300);
         Serial.println(led.getState(),DEC);
@@ -213,19 +219,15 @@ void loop() {
         Serial.println(led.getState(),DEC);
      
         ++count;
-        if(count==10)
+        if(count==13)
             led.disattach();
     }
 }
 ```
 
 ```{note}
-Since the LED control module is already a standard library, use angle brackets **"#include<xxx.h>"** to include library files, as follows: 
+Since the LED control module is already a standard library, use angle brackets **"#include<xxx.h>"** to include library files!
 ``` 
-
-```c++
-#include<LED.h>
-```
 
 There is a **"keywords.txt"** file in the LED folder, which is used to configure syntax highlighting for custom libraries. If not configured, the Arduino IDE cannot render highlighted colors.      
 ![Img](../../../_static/arduino/resources/make_an_arduino_library/img/16img.png)          
@@ -243,8 +245,8 @@ KEYWORD2 --> Highlight method name
 KEYWORD3 --> highlight library file name
 LITERAL1 --> highlight constant name
 ```
-
-The beginning of "#" is a comment and can be omitted.     
+   
+Copy the following code into the **"keywords.txt"** file:            
 ```
 # Library (KEYWORD3)
 LED  KEYWORD3
@@ -256,7 +258,11 @@ getState  KEYWORD2
 disattach  KEYWORD2
 ```
 
-There is also a **"library.properties"** file in the "LED" folder, which is a configuration library that can display the library name in the Arduino IDE. The contents are as follows:     
+```{tip}
+The beginning of "#" is a comment and can be omitted!
+```
+
+There is also a **"library.properties"** file in the "LED" folder, which is a configuration library that can display the library name in the Arduino IDE. Copy the following code into the **"library.properties"** file:              
 ```
 name=LED
 version=*
