@@ -11,7 +11,8 @@ Resource_indexes
    :caption: Arduino:
    
    Arduino_IDE <../arduino/resources/arduino_ide/arduino_ide.md> 
-   Arduino_libraries <../arduino/resources/arduino_libraries/arduino_libraries.md>       
+   Arduino_libraries <../arduino/resources/arduino_libraries/arduino_libraries.md>     
+   Make_an_arduino_library  <../arduino/resources/make_an_arduino_library/make_an_arduino_library.md> 
 
 .. toctree::
    :maxdepth: 1

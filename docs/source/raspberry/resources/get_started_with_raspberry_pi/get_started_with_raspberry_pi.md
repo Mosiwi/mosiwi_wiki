@@ -13,7 +13,7 @@
 
 
 ```{tip}  
-Here are two ways to install the Raspberry PI system, choose the one that suits you!   
+Here are two ways to install the Raspberry Pi system, choose the one that suits you!   
 ```
 ### Method 1: Install Raspberry Pi OS using Raspberry Pi Imager      
 Download [Raspberry Pi Imager](https://www.raspberrypi.com/software/) and install it.           
