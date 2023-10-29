@@ -81,7 +81,8 @@ Accessories to be prepared in advance:
 | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/6img.png) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/51img.jpg) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/52img.jpg) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/53img.jpg) |
 | :--: | :--: | :--: | :--: |
 | 1 | 2 | 3 | 4 |
-1. **USB power supply** – A 5 V power supply rated at 3 amps (3 A) and with a USB Type-C interface.     
+1. **USB power supply：**         
+   ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/56img.jpg)           
 2. **Mouse** – USB interface.        
 3. **Keyboard** - USB interface.       
 4. **Monitor** - Micro hdmi interface.    
@@ -95,12 +96,15 @@ Then, plug in any other peripherals, such as your mouse, keyboard, and monitor.
 Finally, connect the power supply to your Raspberry Pi. You should see the status LED light up when your Pi powers on. You should see the boot screen within minutes.   
 ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/39img.jpg)
 
+<img src="../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/57img.jpg" width=60% height=60%>        
+
 ### Method 2: Start the Raspberry pi without monitor  
 Accessories to be prepared in advance:  
 | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/6img.png) | ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/47img.png) |
 | :--: | :--: |
 | 1 | 2 |
-1. **USB power supply** – A 5 V power supply rated at 3 amps (3 A) and with a USB Type-C interface.     
+1. **USB power supply：**     
+   ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/56img.jpg)     
 2. **PC** – Windows or MacOS operating system (Access to the Internet).       
 
 Setting up the hardware:      
@@ -188,6 +192,8 @@ The password is the login password of the Raspberry Pi, and the default login pa
 Succeed!
 
 ![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/39img.jpg)     
+
+<img src="../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/57img.jpg" width=60% height=60%>        
 
 To destroy a virtual desktop, run the following command:  
 ```command line
