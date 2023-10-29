@@ -46,8 +46,9 @@ Note: all dimensions in mm
 
 ## Using MicroPython in Thonny           
 ------------------------------
-**Burning micropython firmware**    
-1. Raspberry Pi Pico official website: <https://www.raspberrypi.com/documentation/microcontrollers/>    
+### Burning micropython firmware      
+1. Raspberry Pi Pico official website:         
+   <https://www.raspberrypi.com/documentation/microcontrollers/>       
 Click "Micropython"
 ![Img](../../_static/raspberry/R1D0001/img/21img.png)
 
@@ -66,7 +67,7 @@ Click "Micropython"
 
 6. You can access the REPL via USB Serial.  
 
-**Install Thonny**  
+### Install Thonny      
 [Download](https://thonny.org/) the Thonny installation package and install it.  
 ![Img](../../_static/raspberry/R1D0001/img/8img.png)  
 
@@ -74,7 +75,7 @@ Click "Micropython"
 Please select the appropriate software version according to your computer model!    
 ``` 
 
-**Use Thonny**  
+### Use Thonny      
 1. Launch the Thonny  
 When opening Thonny for the first time select "Standard Mode." For some versions this choice will be made via a popup when you first open Thonny.  
 ![Img](../../_static/raspberry/R1D0001/img/9img.png)  
@@ -94,7 +95,7 @@ Hello Pico!
 >>>
 ```
 
-**Blinking the LED from Thonny**    
+### Blinking the LED from Thonny         
 Create a new file:   
 ![Img](../../_static/raspberry/R1D0001/img/17img.png)      
 
@@ -138,8 +139,14 @@ The program should uploaded to the Raspberry Pi Pico using the REPL, and automat
 Make sure Thonny checked **"View -> Files"**:  
 ![Img](../../_static/raspberry/R1D0001/img/18img.png)    
 
-Select any python folder or file, then right-click and select the **"Upload to/"** menu to upload the code to Pico:      
-![Img](../../_static/raspberry/R1D0001/img/28img.jpg)      
+To open a folder or file in Thonny, follow this method:             
+![Img](../../_static/raspberry/R1D0001/img/28img.jpg)
+
+```{note}
+Only when the Pico is connected to Thonny will a window pop up allowing you to select "This computer" and "Raspberry Pi Pico"!      
+```
+
+Select any python folder or file, then right-click and select the **"Upload to/"** menu to upload the code to Pico:            
 ![Img](../../_static/raspberry/R1D0001/img/19img.png)      
 
 Follow the same method to upload the **"main\.py"** file to Pico:    
