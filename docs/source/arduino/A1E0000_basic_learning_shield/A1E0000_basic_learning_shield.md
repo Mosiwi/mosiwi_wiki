@@ -33,7 +33,17 @@ The arduino basic learning shield is based on Uno r3 mainboard design, board set
 
 ## Integration library         
 ----------------------   
-This library package is available for Arduino: UNO and NANO, Raspberry pi 4B, and Raspberry pi pico.  
+This library package is available for Arduino: UNO and NANO, Raspberry pi 4B, and Raspberry pi pico.       
+
+```{tip}  
+Installing the latest version of the library is recommended!     
+``` 
+
+### Method_1:       
+This library is already in the library manager of Arduino IDE and can be quickly installed through the library manager of Arduino IDE.         
+![Img](../../_static/arduino/A1E0000/img/5img.jpg)        
+
+### Method_2:          
 Download resource: <https://github.com/Mosiwi/Mosiwi-basic-learning-kit>  
 ![Img](../../_static/arduino/A1E0000/img/3img.png)  
 For Arduino UNO and NANO: C++ && C_language  
@@ -43,7 +53,7 @@ For Raspberry pi pico: MicroPython
 Load the "Mosiwi-basic-learning-kit-main.zip" file downloaded above into the arduino IDE in the following ways:     
 [Add libraries to Arduino IDE (Click me)](../resources/arduino_libraries/arduino_libraries.md)   
 
-**Open the example codes in the library file:**    
+**Open the example codes in the library file:**      
 ![Img](../../_static/arduino/A1E0000/img/4img.png)     
 
 ## Download            
