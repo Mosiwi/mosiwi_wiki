@@ -51,7 +51,7 @@ Please refer to: [Click me](../resources/get_started_with_raspberry_pi/get_start
 For more details on the advanced capabilities of the GPIO pins see gadgetoid’s [interactive pinout diagram](http://pinout.xyz/).  
 
 **GPIO in C**  
-Use [WiringPi](../resources/wiringpi/wiringpi.md) or [BCM2835](../resources/bcm2835/bcm2835.md) library to control Raspberry PI GPIO.  
+Use [WiringPi](../resources/wiringpi/wiringpi.md) or [BCM2835](../resources/bcm2835/bcm2835.md) library to control Raspberry PI GPIO. (Note: Not yet supported!!!)  
 
 **GPIO in Python**  
 Using the [GPIO Zero](https://gpiozero.readthedocs.io/) library makes it easy to get started with controlling GPIO devices with Python. The library is comprehensively documented at [gpiozero.readthedocs.io](https://gpiozero.readthedocs.io/).  

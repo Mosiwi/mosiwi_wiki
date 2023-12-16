@@ -135,7 +135,9 @@ Use Putty to remotely access raspberry pi. ([Find the IP of raspberry pi](#find-
 ```
 raspberrypi.local  
 ```
-![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/27img.png)  
+![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/27img.png)     
+![Img](../../../_static/raspberry/resources/get_started_with_raspberry_pi/img/58img.jpg) 
+
 <span style="color: rgb(255, 76, 65);">Note: The above operations must be on the same LAN.</span>  
 
 
