@@ -20,7 +20,7 @@ Welcome to Mosiwi Wiki's documentation!
 .. _Arduino: arduino/arduino_index/arduino_index.html
 
 .. |ESP wifi| image:: _static/web_logo/esp_logo.jpg
-.. _ESP wifi: esp_wifi/esp_wifi_index/esp_wifi_index.html
+.. _ESP wifi: esp_wifi/esp_wifi_index/esp_wifi_index.html 
 
 ============  ===========  
 |Raspberry|_  |Microbit|_ 
@@ -28,17 +28,17 @@ Welcome to Mosiwi Wiki's documentation!
 `Raspberry`_  `Microbit`_   
 ============  ===========   
 
-.. |Raspberry| image:: _static/web_logo/raspberry_logo.png
-.. _Raspberry: raspberry/raspberry_index/raspberry_index.html
+.. |Raspberry| image:: _static/web_logo/raspberry_logo.png  
+.. _Raspberry: raspberry/raspberry_index/raspberry_index.html 
 
-.. |Microbit| image:: _static/web_logo/microbit_logo.jpg
-.. _Microbit: microbit/microbit_index/microbit_index.html
+.. |Microbit| image:: _static/web_logo/microbit_logo.jpg  
+.. _Microbit: microbit/microbit_index/microbit_index.html   
 
-=========       
-|Commom|_   
----------   
-`Commom`_  
-=========    
+=========  =========        
+|Commom|_  |Commom|_  
+---------  ---------   
+`Commom`_  `Commom`_ 
+=========  =========     
 
 .. |Commom| image:: _static/web_logo/common_logo.jpg
 .. _Commom: common/common_index/common_index.html
