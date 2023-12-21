@@ -34,11 +34,11 @@ Welcome to Mosiwi Wiki's documentation!
 .. |Microbit| image:: _static/web_logo/microbit_logo.jpg
 .. _Microbit: microbit/microbit_index/microbit_index.html
 
-=========
-|Commom|_ 
---------- 
+=========       
+|Commom|_   
+---------   
 `Commom`_  
-=========  
+=========    
 
 .. |Commom| image:: _static/web_logo/common_logo.jpg
 .. _Commom: common/common_index/common_index.html
