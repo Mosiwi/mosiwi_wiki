@@ -1,4 +1,6 @@
 # ESP wifi index
+![img](../../_static/esp_wifi/esp_wifi_index/img/1img.jpg)           
+Provides more powerful wireless network application solutions at a more affordable price. The development materials are very complete and can also be used in smart home and AI fields!                    
 
 ## Kit   
 ------
