@@ -6,7 +6,7 @@ Provides more powerful wireless network application solutions at a more affordab
 ------
 | <a href="https://docs.mosiwi.com/projects/e1k0000/en/latest/" target="_blank">E1K0000_eCar_kit</a> | updating | updating |
 | :--: | :--: | :--: |
-| ![Img](../../_static/web_logo/updating.gif) | ![Img](../../_static/web_logo/updating.gif) | ![Img](../../_static/web_logo/updating.gif) |    
+| ![Img](../../_static/esp_wifi/esp_wifi_index/img/2img.png) | ![Img](../../_static/web_logo/updating.gif) | ![Img](../../_static/web_logo/updating.gif) |    
 
 ## Resources for arduino   
 ------------------------
