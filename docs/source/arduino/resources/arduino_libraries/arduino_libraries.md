@@ -45,10 +45,19 @@ Select the "xxx.zip" library file to load into the Arduino IDE:
 ### Manual installation             
 When you want to add a library manually, you need to download it as a ZIP file, Unzip it and put it in the libraries folder of your sketchbook by yourself.
 
-You can find or change the location of your sketchbook folder at **"File > Preferences > Sketchbook > Settings"** location:
+1. You can find or change the location of your sketchbook folder at **"File > Preferences > Sketchbook > Settings"** location:
 ![Img](../../../_static/arduino/resources/arduino_libraries/img/3img.jpg)    
 
-Go to the directory where you have downloaded the ZIP file of the library Unzip the ZIP file and copy it into the "libraries" folder inside your sketchbook.
+```{tip}   
+The vast majority of custom libraries (also known as contribution libraries) are stored in files under this path!            
+```    
+
+(Optional) other library file storage paths(Windows system):        
+```
+C:\Users\Administrator\AppData\Local\Arduino15       
+```
+
+2. Go to the directory where you have downloaded the ZIP file of the library Unzip the ZIP file and copy it into the "libraries" folder inside your sketchbook.
 ![Img](../../../_static/arduino/resources/arduino_libraries/img/4img.jpg)        
 
 ```{tip}   
@@ -64,10 +73,9 @@ Start the Arduino Software (IDE), go to **"Sketch > Include Library"**. Verify t
 "xxx" is the name of the library file!   
 ```
 
-
 ## Uninstalling an arduino Library     
 ----------------------------------
-Uninstalling an Arduino Library is simpler than installing it. Find the sketchbook folder on your computer (same as in the **“Manual Installation”** chapter). Go to the location and open the **“libraries”** folder. Select the folder containing the library you want to delete, and then simply delete it. Next time you open your Arduino IDE, there won’t be the deleted library under the Sketch > Include Library menu.    
+Uninstalling an Arduino Library is simpler than installing it. Find the sketchbook folder on your computer (same as in the **“[Manual installation](#manual-installation)”** chapter). Go to the location and open the **“libraries”** folder. Select the folder containing the library you want to delete, and then simply delete it. Next time you open your Arduino IDE, there won’t be the deleted library under the "Sketch" > "Include Library" menu.    
 
 Libraries don’t take much space and most of the time there is no reason to remove them. If you don’t intend to use them again, though, and want to declutter the list, you can safely delete them. You can always install any Arduino Library again if you need to use it in the future.  
 
